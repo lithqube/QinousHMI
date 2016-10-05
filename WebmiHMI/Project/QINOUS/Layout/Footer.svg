@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="1024" version="1.2" xmlns="http://www.w3.org/2000/svg" height="50" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="5" enabled="true" height="5" gridstyle="lines"/>
+  <atv:snapconfig width="5" enabled="true" height="5"/>
+ </metadata>
+ <g atv:insensitive="true" id="id_4" atv:refpx="0" atv:refpy="0" transform="matrix(1,0,0,1.5626,0,0)">
+  <rect width="1024.00" x="0" y="0" fill="#74889B" height="32.00" id="id_5" atv:refpx="512" atv:refpy="16"/>
+ </g>
+ <text x="9" y="31.5" fill="#FFFFFF" font-family="Open Sans Semibold" id="txt_footerItem" atv:refpx="5.003" atv:refpy="27" font-size="17"/>
+ <svg width="20" x="656.667" y="6.667" height="20" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.Alert" id="id_alarmstatus" atv:refpx="1000" atv:refpy="25" transform="matrix(1.5,0,0,1.5,0,0)"/>
+ <svg width="100" x="1950" y="0" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="click_alarm" atv:refpx="1000" atv:refpy="24.998" transform="matrix(0.5,0,0,1.6129,0,0)">
+  <atv:overwrite width="49" height="49" id="button_clickarea" transform="matrix(2,0,0,0.62,0,0)"/>
+  <atv:overwrite width="49" height="49" id="button_stroke_focus" transform="matrix(2,0,0,0.62,0,0)"/>
+ </svg>
+ <script type="text/ecmascript"><![CDATA[webMI.trigger.connect("SetFooterConfig", function(e){
+
+	var line = document.getElementById("txt_footerItem");
+	var appendString = "";
+	var configArray = e.value;
+
+	var title = [];
+	var datapoint = [];
+	var unit =  [];
+
+
+	for (var i=0; i<configArray.length; i++){
+		title[i] = configArray[i].title;
+		datapoint[i] = configArray[i].dp;
+		unit[i] =  configArray[i].unit;
+	}
+
+	// Subscribe 
+	// Title & Unit make webMI.data.reawebMI.data.subscribe
+	webMI.data.subscribeBlock(datapoint, function(a){
+		var appendString = '';
+		for (var i=0; i<a.length; i++){
+			if (a[i].value == undefined)
+			;
+			else
+			appendString += title[i]+": "+a[i].value.toFixed(1)+" "+unit[i]+"  |   ";	
+		}	
+		webMI.gfx.setText(line, appendString);
+		
+	});
+
+
+});
+
+/*
+var configArray = 6;
+var appendString = "";
+for (var i=0; i<configArray; i++){
+		appendString += "string "+i+ " | ";
+		webMI.gfx.setText("txt_footerItem", appendString);
+		console.log("##### FOOTER #####");		
+		console.log (appendString)
+}*/
+
+webMI.trigger.connect("UpdateAllAlarms", function(e){
+	var alarmList = e.value;
+	var highest_level = ALARM_LEVEL_NONE;
+	for (var i=0; i<alarmList.length; i++){
+		if (alarmList[i].level > highest_level) {
+			highest_level = alarmList[i].level;
+		}
+	}
+	// set color of triangle
+	var id1 = "id_alarmstatus_id_outer_triangle"
+	var id2 = "id_alarmstatus_id_inner_triangle"
+	//console.log("Updating alarm icon, highest level is "+highest_level);
+	switch (highest_level){
+		case ALARM_LEVEL_INFO:
+			webMI.gfx.setFill(id1, "#00ffff");
+			webMI.gfx.setFill(id2, "#00ffff");
+			break;
+		case ALARM_LEVEL_WARNING:
+		case ALARM_LEVEL_LIMIT:
+			//console.log("Change color!");
+			webMI.gfx.setFill(id1, "#eaea00");
+			webMI.gfx.setFill(id2, "#eaea00");
+			break;
+		case ALARM_LEVEL_ERROR:
+		case ALARM_LEVEL_INHIBIT:
+		case ALARM_LEVEL_LIMIT_INHIBIT:
+		case ALARM_LEVEL_TRIP:
+			webMI.gfx.setFill(id1, "#cc0000");
+			webMI.gfx.setFill(id2, "#cc0000");
+			break;
+		default:
+			webMI.gfx.setFill(id1, "#647a8f");
+			webMI.gfx.setFill(id2, "#647a8f");
+	}
+});
+
+webMI.addEvent("id_alarmstatus", "click", function(e) {
+	webMI.trigger.fire("SetCurrentView", VIEW_ALARMS);
+	webMI.trigger.fire("SetCurrentNode", -1);
+});
+
+webMI.addEvent("click_alarm", ["mouseover","touchstart"], function(e){
+		document.getElementById("click_alarm").setAttribute('style', "cursor: pointer;");		
+	});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_footerItem", "key":"FontFamily", "property":""});
+
+
+webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Open PopUp", {"PopUp":"GUI.DISPLAYS.ActiveAlarmTable", "extern":"true", "height":"585", "id":"click_alarm", "menubar":"false", "modal":"true", "moveable":"true", "onEvent":"click", "passParameters":"true", "resizeable":"true", "scrollbars":"false", "status":"false", "title":"ALARMS ", "toolbar":"false", "width":"780"});
+
+]]></script>
+</svg>

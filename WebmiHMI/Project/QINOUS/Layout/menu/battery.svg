@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="85" version="1.2" xmlns="http://www.w3.org/2000/svg" height="55" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="5" enabled="true" height="5" gridstyle="lines"/>
+  <atv:snapconfig width="5" enabled="true" height="5"/>
+ </metadata>
+ <g atv:insensitive="true" id="id_0" atv:refpx="0" atv:refpy="0" transform="matrix(0.0664,0,0,0.0716,0,0)"/>
+ <rect width="83" x="1" y="1" fill="none" height="53" stroke="#647a8f" stroke-linejoin="round" id="brdr_battery" atv:refpx="42.572" stroke-width="1" atv:refpy="27.485"/>
+ <svg width="512" x="42.397" y="91.466" fill="#647A8F" height="243" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2Fbattery.svg" id="icon_battery" atv:refpx="42.411" atv:refpy="30.269" transform="matrix(0.1421,0,0,0.1421,0,0)"/>
+ <svg width="100" x="0" y="0" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="clck_battery" atv:refpx="42.65" atv:refpy="27.724" transform="matrix(0.85,0,0,1.7742,0,0)">
+  <atv:overwrite width="84" height="54" id="button_clickarea" transform="matrix(1.1765,0,0,0.5636,0,0)"/>
+  <atv:overwrite width="84" height="54" id="button_stroke_focus" transform="matrix(1.1765,0,0,0.5636,0,0)"/>
+ </svg>
+ <script type="text/ecmascript"><![CDATA[// Change Color on mouse over
+// line
+webMI.addEvent("clck_battery", ["mouseover","touchstart"], function(e) {
+var idln = "brdr_battery";
+var id = "icon_battery";
+var value = true;
+if (value == true)
+	webMI.gfx.setStroke(idln, "#00abe1");
+	webMI.gfx.setFillOpacity(id, "0.5");
+});
+
+webMI.addEvent("clck_battery", ["mouseout","touchend"], function(e) {
+var idln = "brdr_battery";
+var id = "icon_battery";
+var value = true;
+if (value == true)
+	webMI.gfx.setStroke(idln, "#647a8f");
+	webMI.gfx.setFillOpacity(id, "1");
+});
+
+
+
+]]></script>
+</svg>

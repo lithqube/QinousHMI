@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="1280" version="1.2" xmlns="http://www.w3.org/2000/svg" height="680" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="20" enabled="false" height="20" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="false" height="10"/>
+ </metadata>
+ <rect width="600" x="340" y="0" fill="#000000" height="680" stroke="yellow" id="table" atv:refpx="640.001" atv:refpy="340" stroke-width="0"/>
+ <script type="text/ecmascript"><![CDATA[webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Table2", {
+	id: 'table', //ID from SVG-rectangle!!!!
+	columns: [ // define which values you want to see in the table
+		{ id: 'id'			, type: 'number', label: 'location'	, width: 600, order: 'asc' }, // ID of line and width of clickarea: 600 Pixel!
+		{ id: 'firstName'	, type: 'number', label: 'location'	, width: 0, order: 'asc' }, // Error Location
+		{ id: 'lastName'	, type: 'number', label: 'location'	, width: 0, order: 'asc' }, // Error Text
+		{ id: 'registered'	, type: 'number', label: 'location'	, width: 0, order: 'asc' }, // Time and Date
+	],
+//	showFooter: true,
+	fillColorEven: "#ff0000",
+	fillColorOdd: "#b40000",
+	showScrollbar: true,
+	textColor: "white",
+	data: [
+    {
+        "firstName": "Maggie",
+//        "gender": "female",
+        "lastName": "Harrison",
+        "id": 0,
+        "registered": "Sat Apr 12 2015 12:59:53 GMT+0200 (Mitteleuropäische Sommerzeit)",
+//        "lastVisit": "Sun Feb 15 2015 14:56:24 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Church",
+        "gender": "male",
+        "lastName": "Gross",
+        "id": 1,
+        "registered": "Wed May 06 2015 23:40:20 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Wed Apr 08 2015 07:50:14 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Soto",
+        "gender": "male",
+        "lastName": "Wilson",
+        "id": 2,
+        "registered": "Thu Sep 18 2014 13:54:32 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Mon May 18 2015 01:48:53 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Cassie",
+        "gender": "female",
+        "lastName": "Dillard",
+        "id": 3,
+        "registered": "Mon Feb 02 2015 19:40:20 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Fri Feb 20 2015 16:49:47 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Marguerite",
+        "gender": "female",
+        "lastName": "Noble",
+        "id": 4,
+        "registered": "Sat Aug 15 2015 11:59:25 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Thu May 28 2015 04:00:20 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Verna",
+        "gender": "female",
+        "lastName": "Davidson",
+        "id": 5,
+        "registered": "Mon Feb 24 2014 16:08:08 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Tue Apr 14 2015 06:14:36 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Leonor",
+        "gender": "female",
+        "lastName": "Valencia",
+        "id": 6,
+        "registered": "Sun Mar 22 2015 10:19:50 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Fri Mar 20 2015 15:13:30 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Adams",
+        "gender": "male",
+        "lastName": "Nichols",
+        "id": 7,
+        "registered": "Thu Feb 20 2014 23:31:29 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Sun Mar 15 2015 13:33:46 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Nell",
+        "gender": "female",
+        "lastName": "Hooper",
+        "id": 8,
+        "registered": "Sat Jul 12 2014 02:38:13 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Thu May 14 2015 09:45:39 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Katy",
+        "gender": "female",
+        "lastName": "Hardin",
+        "id": 9,
+        "registered": "Wed Jul 02 2014 17:45:03 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Tue Aug 04 2015 07:28:15 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Clay",
+        "gender": "male",
+        "lastName": "White",
+        "id": 10,
+        "registered": "Sun Apr 13 2014 19:46:43 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Wed Mar 25 2015 06:59:04 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Shelley",
+        "gender": "female",
+        "lastName": "Vasquez",
+        "id": 11,
+        "registered": "Thu May 28 2015 22:05:41 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Mon Aug 03 2015 06:13:25 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Copeland",
+        "gender": "male",
+        "lastName": "Morgan",
+        "id": 12,
+        "registered": "Fri Apr 10 2015 04:34:03 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Mon Feb 23 2015 15:34:22 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Ava",
+        "gender": "female",
+        "lastName": "Riggs",
+        "id": 13,
+        "registered": "Thu May 01 2014 19:34:13 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Wed Mar 25 2015 14:50:00 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Herminia",
+        "gender": "female",
+        "lastName": "Forbes",
+        "id": 14,
+        "registered": "Sun Jul 19 2015 12:22:07 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Sat May 09 2015 20:51:05 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Claudia",
+        "gender": "female",
+        "lastName": "Vega",
+        "id": 15,
+        "registered": "Mon Jul 27 2015 05:19:47 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Sun Jan 25 2015 14:43:54 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Katheryn",
+        "gender": "female",
+        "lastName": "Durham",
+        "id": 16,
+        "registered": "Mon Jun 30 2014 13:25:40 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Fri Apr 17 2015 04:30:50 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Anita",
+        "gender": "female",
+        "lastName": "Newman",
+        "id": 17,
+        "registered": "Thu Jan 22 2015 11:17:54 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Tue Feb 10 2015 15:50:54 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Mae",
+        "gender": "female",
+        "lastName": "Wise",
+        "id": 18,
+        "registered": "Thu May 22 2014 10:36:47 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Thu Apr 30 2015 04:44:43 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Jacqueline",
+        "gender": "female",
+        "lastName": "Torres",
+        "id": 19,
+        "registered": "Sun Feb 23 2014 13:42:33 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Thu Aug 27 2015 18:46:49 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Diane",
+        "gender": "female",
+        "lastName": "Mullen",
+        "id": 20,
+        "registered": "Tue Oct 07 2014 19:42:53 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Tue Jul 14 2015 06:51:05 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Lola",
+        "gender": "female",
+        "lastName": "Acevedo",
+        "id": 21,
+        "registered": "Tue May 13 2014 13:23:29 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Thu Jan 15 2015 19:42:08 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Serena",
+        "gender": "female",
+        "lastName": "Richardson",
+        "id": 22,
+        "registered": "Mon Mar 23 2015 09:37:38 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Fri Aug 21 2015 07:42:42 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Carla",
+        "gender": "female",
+        "lastName": "Berg",
+        "id": 23,
+        "registered": "Thu Mar 13 2014 07:07:41 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Sun Feb 22 2015 01:48:17 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Gilda",
+        "gender": "female",
+        "lastName": "Barlow",
+        "id": 24,
+        "registered": "Fri Sep 05 2014 15:37:47 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Mon Jul 27 2015 11:38:52 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Hopper",
+        "gender": "male",
+        "lastName": "Maldonado",
+        "id": 25,
+        "registered": "Sat May 02 2015 10:42:36 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Thu Apr 09 2015 10:06:34 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Claire",
+        "gender": "female",
+        "lastName": "Houston",
+        "id": 26,
+        "registered": "Sun Mar 02 2014 21:43:47 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Sat Apr 25 2015 01:57:32 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Holmes",
+        "gender": "male",
+        "lastName": "Jenkins",
+        "id": 27,
+        "registered": "Thu May 21 2015 18:55:41 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Wed May 20 2015 18:05:12 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Steele",
+        "gender": "male",
+        "lastName": "Dalton",
+        "id": 28,
+        "registered": "Mon Apr 07 2014 19:58:13 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Mon Mar 30 2015 05:09:12 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Holder",
+        "gender": "male",
+        "lastName": "Chen",
+        "id": 29,
+        "registered": "Mon Jul 14 2014 09:30:07 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Tue Mar 24 2015 23:22:12 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Cook",
+        "gender": "male",
+        "lastName": "Mcmahon",
+        "id": 30,
+        "registered": "Fri Mar 14 2014 18:14:59 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Tue Jun 09 2015 17:51:19 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Marsha",
+        "gender": "female",
+        "lastName": "Santana",
+        "id": 31,
+        "registered": "Wed Apr 02 2014 17:27:20 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Sun Apr 26 2015 18:45:42 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Haley",
+        "gender": "male",
+        "lastName": "Workman",
+        "id": 32,
+        "registered": "Sat Feb 14 2015 13:22:33 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Fri Aug 28 2015 03:09:47 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Donovan",
+        "gender": "male",
+        "lastName": "Ford",
+        "id": 33,
+        "registered": "Sun Apr 20 2014 17:06:56 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Wed Jun 10 2015 14:29:58 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Felicia",
+        "gender": "female",
+        "lastName": "Lynch",
+        "id": 34,
+        "registered": "Sat Sep 20 2014 17:45:06 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Tue Mar 17 2015 00:54:05 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Cheri",
+        "gender": "female",
+        "lastName": "Holder",
+        "id": 35,
+        "registered": "Mon Jul 07 2014 20:32:00 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Fri Feb 06 2015 17:42:51 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Kay",
+        "gender": "female",
+        "lastName": "Hood",
+        "id": 36,
+        "registered": "Mon May 25 2015 21:31:50 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Sat Jul 18 2015 21:27:15 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Salazar",
+        "gender": "male",
+        "lastName": "Rich",
+        "id": 37,
+        "registered": "Thu Jan 29 2015 06:57:32 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Sat Jun 20 2015 04:12:01 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Juliette",
+        "gender": "female",
+        "lastName": "Newton",
+        "id": 38,
+        "registered": "Tue Apr 01 2014 11:59:14 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Thu Feb 12 2015 20:32:31 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Adeline",
+        "gender": "female",
+        "lastName": "Parsons",
+        "id": 39,
+        "registered": "Sun May 04 2014 06:51:02 GMT+0200 (Mitteleuropäische Sommerzeit)",
+        "lastVisit": "Tue Mar 17 2015 12:07:05 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Virginia",
+        "gender": "female",
+        "lastName": "Schwartz",
+        "id": 40,
+        "registered": "Sun Feb 01 2015 19:02:59 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Sun Jan 04 2015 15:54:51 GMT+0100 (Mitteleuropäische Zeit)"
+    },
+    {
+        "firstName": "Campbell",
+        "gender": "male",
+        "lastName": "Hinton",
+        "id": 41,
+        "registered": "Sat Dec 20 2014 11:48:39 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Thu Jun 25 2015 21:22:02 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    },
+    {
+        "firstName": "Rollins",
+        "gender": "male",
+        "lastName": "Garcia",
+        "id": 42,
+        "registered": "Fri Mar 27 2015 04:45:07 GMT+0100 (Mitteleuropäische Zeit)",
+        "lastVisit": "Thu Apr 02 2015 22:33:08 GMT+0200 (Mitteleuropäische Sommerzeit)"
+    }
+]
+});
+
+
+webMI.trigger.connect('com.bachmann.tableclickrow', function(e) {
+	console.log('row clicked. data:', e.value);
+	alert('data:' + JSON.stringify(e.value));
+});
+]]></script>
+</svg>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="964" version="1.2" xmlns="http://www.w3.org/2000/svg" height="600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="10" enabled="true" height="10" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="true" height="10"/>
+ </metadata>
+ <script type="text/ecmascript" xlink:href="/q/TableFunctions.js"/>
+ <script type="text/ecmascript"><![CDATA[var boxActive = document.getElementById("box_active");
+	txtActive = document.getElementById("txt_active");
+	boxHistory = document.getElementById("box_history");
+	txtHistory = document.getElementById("txt_history");
+
+webMI.addEvent("tab_active", ["mouseover","touchstart"], function(e){
+	document.getElementById("tab_active").setAttribute('style', "cursor: pointer;");		
+});
+
+
+// Microinteractions
+webMI.addEvent("tab_active", ["click","touchend"], function(e) {
+setActive();
+});
+
+webMI.addEvent("tab_history", ["click","touchend"], function(e) {
+setHistoy();
+});
+
+function setActive(){
+			boxActive.setAttribute("fill","#4A5055");
+			txtActive.setAttribute("fill","#FFFFFF");
+			boxHistory.setAttribute("fill","#FAFAFA");		
+			txtHistory.setAttribute("fill","#E3E5E5");
+}	
+
+function setHistoy(){
+			boxHistory.setAttribute("fill","#4A5055");		
+			txtActive.setAttribute("fill","#E3E5E5");
+			boxActive.setAttribute("fill","#FAFAFA");
+			txtHistory.setAttribute("fill","#FFFFFF");
+}
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_history", "key":"FontFamily", "property":""});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_active", "key":"FontFamily", "property":""});
+
+
+]]></script>
+ <g id="tab_active" atv:refpx="184.242" atv:refpy="35.882" transform="matrix(0.9207,0,0,0.9207,-111.5829,-10.0846)">
+  <rect width="120" x="175.5" y="35.5" fill="#4A5055" rx="3.069" ry="3.136" height="34.5" id="box_active" atv:refpx="259.312" stroke-width="1" atv:refpy="52.485"/>
+  <text x="184.5" y="58" fill="#ffffff" font-family="Varela Round" id="txt_active" atv:refpx="184.996" atv:refpy="53.5" font-size="16" transform="matrix(0.988,0,0,1,2.16,0)">T{Active}</text>
+ </g>
+ <g id="tab_history" atv:refpx="304.241" atv:refpy="35.882" transform="matrix(0.9207,0,0,0.9207,-106.6704,-10.0846)">
+  <rect width="120" x="300.5" y="35.5" fill="#ffffff" rx="2.671" ry="3.136" height="34.5" id="box_history" atv:refpx="360.5" stroke-width="1" atv:refpy="52.75"/>
+  <text x="309.506" y="58.5" fill="#dbdcdd" font-family="Varela Round" id="txt_history" atv:refpx="310.521" atv:refpy="54" font-size="16" transform="matrix(0.988,0,0,1,3.6601,0)">T{History}</text>
+ </g>
+ <svg width="780" x="54.307" y="57.131" height="570" xlink:href="GUI.DISPLAYS.ActiveAlarmTable" id="id_1" atv:refpx="489.072" atv:refpy="335.416" transform="matrix(0.9207,0,0,0.9207,0,0)"/>
+</svg>

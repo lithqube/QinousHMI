@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="290" version="1.2" xmlns="http://www.w3.org/2000/svg" height="400" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:parameter valuetype="number" behavior="mandatory" name="height" defaultvalue=""/>
+  <atv:gridconfig width="10" enabled="true" height="10" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="true" height="10"/>
+ </metadata>
+ <g atv:insensitive="true" id="id_0" atv:refpx="0" atv:refpy="0">
+  <rect width="290.00" x="0" y="0" fill="#fafaff" height="400.00" fill-opacity="0.9803921568627451" id="id_1" atv:refpx="145" atv:refpy="200"/>
+ </g>
+ <text x="4.5" y="17" fill="#42c2ec" font-family="Bryant Regular" id="txt_groupname" atv:refpx="53.331" atv:refpy="12.5" font-size="15">$GroupName1$</text>
+ <g id="gp_paramline" atv:refpx="130.75" atv:refpy="41.5" transform="matrix(1,0,0,1,-0.5,0)">
+  <text x="15" y="46" fill="#000088" font-family="Arial" id="id_paramname" atv:refpx="37" atv:refpy="41.5" font-size="12">$name$</text>
+  <text x="105" y="46" fill="#000088" font-family="Arial" id="id_valuefield" atv:refpx="137" atv:refpy="41.5" font-size="12">$valuefield$</text>
+  <text x="214.5" y="46" fill="#000088" font-family="Arial" id="id_unit" atv:refpx="225.5" atv:refpy="41.5" font-size="12">$unit$</text>
+ </g>
+ <script type="text/ecmascript"><![CDATA[webMI.addOnload(function e(){
+var G = document.getElementById("gp_paramline");
+var Root = G.parentElement;
+var newG;
+var docprefix = "id_0_id_0_";
+var txt_paramname = document.getElementById("id_paramname");
+var fld_dp_value = document.getElementById("id_valuefield");
+
+//Loop for clonation
+for (var i = 1; i<=6; i++)
+{
+	console.log("-Clone "+i);
+// Translate Move Factor
+	var factorY = 30 * i;
+	var factorX = 0;
+	var move = "translate("+ factorX +","+ factorY +")";
+
+// Clone
+	newG = G.cloneNode(true);
+	var newname = "gp_paramline"+i;
+	newG.id = docprefix + newname;
+	Root.appendChild(newG);
+	newG.setAttributeNS(null, "transform", move);
+	webMI.gfx.setVisible(newname, true);
+
+// Parameter name
+	var parameter_name = "Parameter "+i;
+	webMI.gfx.setText(txt_paramname, parameter_name);
+	txt_paramname.id = "id_paramname"+i;
+
+// Paramenter Value
+	var dp = "GUI/DP_TEST/.Value_"+i;
+	var new_fieldid = "fld_dp_value"+i;
+	fld_dp_value.id = docprefix + new_fieldid;
+	console.log("this is my DP:  "+dp);
+
+	myCallBack = function(field_id){
+		var my_id = field_id;
+//		console.log("Created callback with "+my_id+" for element");
+		return function(f){
+//			console.log("Callback called for: "+my_id);
+
+		if (f.value === undefined) {
+				parameter_value = "datapoint undefined";
+			console.log("dp undefined");
+			} else {
+				parameter_value = f.value;
+			}
+
+			var value_field = document.getElementById(my_id);
+			console.log("Document found for "+my_id+" | the element "+value_field+ " | the value: "+parameter_value);
+			webMI.gfx.setText(value_field, parameter_value);
+
+		}
+	}
+	webMI.data.subscribe(dp, myCallBack(new_fieldid));
+
+/*	var paramData = ["Parameter "+i, "GUI/DP_TEST/.Value_"+i];
+	webMI.trigger.fire("SetParamData",paramData, "id_paramline");
+*/
+}// END For
+//Root.removeChild(G);
+/*
+var elem = document.getElementById("id_paramline"+i);
+elem.parentElement.removeChild(elem);
+*/
+
+});// END OnLoad
+]]></script>
+</svg>

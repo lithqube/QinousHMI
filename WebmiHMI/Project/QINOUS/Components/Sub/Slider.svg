@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="964" version="1.2" xmlns="http://www.w3.org/2000/svg" height="399" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="10" enabled="true" height="10" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="true" height="10"/>
+ </metadata>
+ <foreignObject width="964" x="0" y="0" height="400" id="container">
+  <div xmlns="http://www.w3.org/1999/xhtml" id="slider_container"/>
+ </foreignObject>
+ <svg width="345" x="0" y="400" height="285" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Components.Focus.FocusComponent" id="proto" atv:refpx="178.367" atv:refpy="530.799">
+  <atv:argument value="1" name="subComp"/>
+ </svg>
+ <script type="text/ecmascript" xlink:href="/js/jquery.min.js"/>
+ <script type="text/ecmascript" xlink:href="/js/slick/slick.min.js"/>
+ <script type="text/ecmascript" xlink:href="/q/StdConstantsFunctions.js"/>
+ <script type="text/ecmascript" xlink:href="/q/MonitoringFunctions.js"/>
+ <script type="text/ecmascript"><![CDATA[var $ = top.$;
+var prototype_element = document.getElementById("proto");
+var slider = document.getElementById("slider_container"); 
+var container = document.getElementById("container"); 
+	container.style.minWidth="964px"; 
+	container.style.minHeight="400px"; 
+	container.style.left="30px"; 
+//	container.style.overflow="visible"; 
+webMI.trigger.connect("AppendSubcomponents", function(e){
+//	slider.style.position = "absolute";
+	slider.style.minWidth="964px"; 
+	slider.style.minHeight="400px"; 	
+	slider.style.left="0px"; 
+
+//	console.log("======>>>>>>>>>>>>SLIDER: ", slider);
+//	console.log("trigger data is : ", e);
+	for (var i=0, subcomponentsToClone = e.value.length ; i < subcomponentsToClone; i++){
+		var last = subcomponentsToClone - 1;
+		var cloned_id =	"subcomp"+i;
+		var fully_qualified_original_id = $(prototype_element).attr("id");
+		var cloned_element = $(prototype_element).clone();
+
+//		console.log("Elements to clone: "+subcomponentsToClone+" last one to clone "+last);			
+
+		recursiveIDUpdate(cloned_element, fully_qualified_original_id.replace("proto", cloned_id));
+		$(cloned_element).appendTo(slider).wrapAll('<div></div>');
+		$(cloned_element).attr("visibility","visible");
+		
+		
+		switch (i) {
+		  case 0:
+			webMI.gfx.setVisible(cloned_id+"_"+"Node", true);
+			webMI.gfx.setVisible(cloned_id+"_"+"lineNode_right", true);
+			webMI.gfx.setVisible(cloned_id+"_"+"lineNode", true);
+			break;
+		  case last:
+			webMI.gfx.setVisible(cloned_id+"_"+"lineNode_left", true);
+			webMI.gfx.setVisible(cloned_id+"_"+"Node", true);
+			webMI.gfx.setVisible(cloned_id+"_"+"lineNode", true); 
+			break;
+		  default:
+			webMI.gfx.setVisible(cloned_id+"_"+"lineNode_left", true);
+			webMI.gfx.setVisible(cloned_id+"_"+"Node", true);
+			webMI.gfx.setVisible(cloned_id+"_"+"lineNode_right", true);
+			webMI.gfx.setVisible(cloned_id+"_"+"lineNode", true);
+		}
+
+		setupBasicData(cloned_id, getBasicData(e.value[i]), false);
+		webMI.addEvent(cloned_id+"_clickarea", "click", createClickEvent(i));	
+	}	
+$(slider).slick({
+	autoplay: false,
+	dots: false,
+	accessibility: true,
+	adaptiveHeight: true,
+	variableWidth: true,
+	infinite: false,
+	lazyLoad: 'ondemand',
+	slidesToShow: 3,
+	slidesToScroll: 1
+});
+
+});
+
+webMI.addOnload(function(e) {
+//	console.log("Loading Slider");
+	webMI.trigger.fire("RequestSubcomponents");
+});
+
+]]></script>
+</svg>

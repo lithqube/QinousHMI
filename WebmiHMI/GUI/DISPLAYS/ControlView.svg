@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="964" version="1.2" xmlns="http://www.w3.org/2000/svg" height="339" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="5" enabled="true" height="5" gridstyle="lines"/>
+  <atv:snapconfig width="5" enabled="true" height="5"/>
+ </metadata>
+ <rect width="315" x="635" y="5" fill="#4a5055" rx="5.833" ry="5.337" height="58.707" stroke="none" stroke-linejoin="round" id="box_performance" atv:refpx="779.138" stroke-width="1.988" atv:refpy="35.242"/>
+ <text x="739.825" y="25.709" fill="#ffffff" font-family="Varela Round" id="performance" atv:refpx="740.762" atv:refpy="19.902" font-size="16" transform="matrix(0.9581,0,0,0.9032,30.8101,0.7462)">Performance</text>
+ <g atv:table-height="335" id="monitoring" atv:refpx="2042.309" atv:table-width="295" atv:refpy="262.494" transform="matrix(1,0,0,1,635,52)">
+  <rect width="315" fll="#647A8F" x="0" y="3" height="280" id="id_6" atv:refpx="400" atv:refpy="300"/>
+ </g>
+ <script type="text/ecmascript" xlink:href="/js/jquery.min.js"/>
+ <script type="text/ecmascript" xlink:href="/q/TableFunctions.js"/>
+ <script type="text/ecmascript" xlink:href="/q/StdConstantsFunctions.js"/>
+ <script type="text/ecmascript" xlink:href="/q/ControlDatasets.js"/>
+ <rect width="175" x="260" y="5" fill="#ffffff" rx="4.475" ry="5" height="55" stroke="none" id="box_manual" atv:refpx="342.79" stroke-width="1.988" atv:refpy="44.679"/>
+ <svg width="273" x="344.423" y="16.425" height="93" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.Toggle" id="toogleSwitch" atv:refpx="92.424" atv:refpy="27.199" transform="matrix(0.3119,0,0,0.294,0,0)"/>
+ <text x="325.631" y="25.709" fill="#8b98a5" font-family="Varela Round" id="title_manual" atv:refpx="323.546" atv:refpy="22.709" font-size="16" transform="matrix(0.9581,0,0,0.9032,13.4764,0.7462)">Direct</text>
+ <rect width="180" x="440" y="5" fill="#ffffff" rx="4.006" ry="5" height="55" stroke="none" id="box_remote" atv:refpx="529.064" stroke-width="1.988" atv:refpy="44.679"/>
+ <g atv:table-height="260" id="commands" atv:refpx="310.829" atv:table-width="640" atv:refpy="236.333" transform="matrix(1,0,0,1,20,55)">
+  <rect width="600" fll="#647A8F" x="0" y="0" height="280" id="rect1" atv:refpx="400" atv:refpy="300"/>
+ </g>
+ <g id="dropdown_remote" atv:refpx="530" atv:refpy="20.128">
+  <rect width="108.637" x="473.786" y="10" fill="none" rx="6.035" ry="4.88" height="18.59" stroke="#8b98a5" id="bckgrnd_dropdown" atv:refpx="-30.169" stroke-width="1.405" atv:refpy="53.453"/>
+  <text x="478.525" y="26.515" fill="#8b98a5" font-family="Varela Round" id="txt_dropdown" atv:refpx="47.614" atv:refpy="24.601" font-size="16" transform="matrix(1.0267,0,0,0.8602,-12.6652,1.1904)">T{Command}</text>
+  <polyline atv:bindtl="1,1" points="580.772,16.589 564.55,16.589 572.659,23.385 580.772,16.589" fill="#8b98a5" stroke="none" atv:bindbr="1,1" id="icon_dropdown" atv:refpx="81.772" stroke-width="0" atv:refpy="95.028"/>
+ </g>
+ <script type="text/ecmascript"><![CDATA[var $ = top.$;
+var commandHeaders = [];
+var monitoringHeaders = [];
+
+var	RowHeight = 30,
+	linefill = "#FFFFFF",
+	columnfill = "#FFFFFF"; 
+var remoteCommand = document.getElementById("dropdown_remote"),
+	boxManual = document.getElementById("box_manual"),
+	boxRemote = document.getElementById("box_remote"),
+	titleManual = document.getElementById("title_manual"),
+
+	textDropdown = document.getElementById("txt_dropdown"),
+	bckgrndDropdown = document.getElementById("bckgrnd_dropdown"),
+	iconDropdown = document.getElementById("icon_dropdown"),
+	AppyControls = webMI.hasRight(APPLY_CONTROLS);
+
+
+// setup blank tables
+console.log("Setting up empty tables...");
+var commandsTable = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Table", { "gElement": document.getElementById("commands"),"sortedByColumn":0, "autoResize":true, "height":280, "width":600});
+commandsTable.setConfiguration({rowHeight:RowHeight, sortingUp:false, drawStatusBar:false});
+commandHeaders.push({name: "Parameter ", width: 180, fontSize: fontSize});
+commandHeaders.push({name: "Unit", width: 60, fontSize: fontSize});
+commandHeaders.push({name: "Value", width: 140, fontSize: fontSize});
+commandHeaders.push({name: "Set", width: 35, fontSize: fontSize});
+commandHeaders.push({name: "", width: 5,   fill:columnfill, fontSize: fontSize});
+commandHeaders.push({name: "Value", width: 180, fontSize: fontSize});
+commandsTable.setHeaders(commandHeaders);
+
+var monitoringTable = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Table", { "gElement": document.getElementById("monitoring"),"sortedByColumn":0, "autoResize":true, "height":280, "width":315});
+monitoringTable.setConfiguration({rowHeight:RowHeight,sortingUp:false, drawStatusBar:false});
+monitoringHeaders.push({name: "Monitor", width: 130, fontSize: fontSize});
+monitoringHeaders.push({name: "Value", width: 100, fontSize: fontSize});
+monitoringHeaders.push({name: "Unit", width: 85, fontSize: fontSize});
+monitoringTable.setHeaders(monitoringHeaders);
+
+
+var selectedRemoteControl = 3;
+
+var manualCommandsList;
+var remoteCommandsList;
+var monitorValuesList;
+var nodeOfControlledComponent;
+
+var controlModeDPRead;
+var controlModeDPWrite;
+
+
+getRowFunction = function(col, table){
+
+	return function(dp) {
+
+		var curData = table.dataProvider().source.data;
+		for (var i=0; i<curData.length; i++) {	
+			if(curData[i][col].dp == dp) {
+				//console.log("Updating row ", i, " for dp ", dp);
+				return i +1;
+			}
+		};
+	}
+}
+
+// Microinteractions 
+
+if (AppyControls){	
+//	console.log("appl controls allowed");	
+	webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Open Context Menu", {"fontSize":"16", "id":"dropdown_remote", "itemsCount":"0", "key1":"Qinous", "key2":"Modbus", "key3":"IEC", "key4":"", "key5":"", "minWidth":"90", "onEvent":"click", "outputNode":"", "trigger":"remoteSelection", "value1":"3", "value2":"4", "value3":"5", "value4":"", "value5":"", "x":"455", "y":"30"});
+}else{
+//	console.log("no control allowed");	
+	webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Open PopUp", {"PopUp":"GUI.DISPLAYS.LoginError", "extern":"true", "height":"70", "id":"dropdown_remote", "menubar":"false", "modal":"true", "moveable":"true", "onEvent":"click", "passParameters":"true", "resizeable":"true", "scrollbars":"false", "status":"false", "title":" ERROR", "toolbar":"false", "width":"700"});
+}
+
+webMI.trigger.connect("SetMonitoringNode", function(e) {
+
+	nodeOfControlledComponent	= e.value;
+
+	commandsList				= getCommandsList(nodeOfControlledComponent.Type);
+	monitorValuesList			= getMonitoringList(nodeOfControlledComponent.Type);
+
+//	console.log("have some lists for the control view ", commandsList, monitorValuesList);
+	UpdateTables(nodeOfControlledComponent);
+
+	controlModeDPRead = activeControlPlaceDP(nodeOfControlledComponent);
+	controlModeDPWrite = setControlPlaceDP(nodeOfControlledComponent);
+//	console.log("have the read and write DPS ", controlModeDPRead, controlModeDPWrite);
+
+// control place switching 
+	webMI.data.subscribe(controlModeDPRead, function(e) {
+
+		currentControlMode = parseInt(e.value);
+
+//		console.log("Control place updated....", currentControlMode);
+		webMI.trigger.fire("setToggleStatus", currentControlMode, "toogleSwitch");
+
+		switch (currentControlMode) {
+		  case CONTROL_BLOCKED: 
+			controlBlockedActive ();
+			break;
+		  case CONTROL_GUI: //GUI
+			controlGUIActive();
+			break;
+		  default:
+			selectedRemoteControl = currentControlMode;
+			controlExternalActive();
+		}					
+		UpdateTables(nodeOfControlledComponent);
+	});	
+	
+	webMI.trigger.connect("RequestRemoteControl", function(e) {
+//		console.log("Remote control requested, writing....");
+		webMI.data.write(controlModeDPWrite,selectedRemoteControl);
+	
+	});
+	
+	webMI.trigger.connect("RequestGUIControl", function(e) {
+//		console.log("GUI control requested, writing...");
+		webMI.data.write(controlModeDPWrite,CONTROL_GUI);
+	
+	});
+	
+	
+	webMI.trigger.connect("remoteSelection", function(e){
+//		console.log("remote selected?");
+		selectedRemoteControl = parseInt(e.value);
+	
+		if (currentControlMode != CONTROL_GUI) {
+	
+			webMI.data.write(controlModeDPWrite,selectedRemoteControl);
+	
+		}
+		UpdateTables(nodeOfControlledComponent);
+	
+	});
+});
+
+
+//console.log("requesting the current node");
+webMI.trigger.fire("MonitoringNodeRequest");
+
+function initializeCommandsTable(manualRoot, remoteRoot, valueList, table){
+
+// Security control
+	var hasWriteAccess = webMI.hasRight(APPLY_CONTROLS);
+
+//initialize table
+	var nodearray = [];
+	for (var i=0; i<valueList.length; i++) {	
+//		//console.log("=====================================Looking at : ", valueList[i]);
+		var datarow = [];
+	
+		datarow[0] = {text: valueList[i].ParamName, fill:linefill, fontSize: fontcolumn};
+		datarow[1] = {text: valueList[i].Unit, fill:linefill, fontSize: fontcolumn};
+		datarow[2] = {text: "...", fill:linefill, dp:manualRoot + valueList[i].DP};
+		// to do add conditional to manage the array text of the array
+		if (hasWriteAccess) {
+			var eventList = [{name: "click", fn: getWriteFunction(manualRoot + valueList[i].DP, valueList[i].Type)}];
+			datarow[3] = {text: "SET", fill:linefill, eventList: eventList};	
+		} else {
+			datarow[3] = {text: "", fill:linefill}; 
+		}
+		datarow[4] = {text: "", fill:columnfill, fontSize: fontcolumn};
+		datarow[5] = {text: "...", fill:linefill, fontSize: fontcolumn, dp:remoteRoot + valueList[i].DP};
+		nodearray[i] = datarow;	
+	}
+	table.setDataProvider({data: nodearray});
+
+	//Set Update Function
+	// Error try to debug error on the click down table update this for loop 1/2 sec
+	for (var i=0; i<valueList.length; i++) {
+		addSubscribe(3, getRowFunction(2, table), manualRoot + valueList[i].DP, valueList[i].Type, table);
+		addSubscribe(6, getRowFunction(5, table), remoteRoot + valueList[i].DP, valueList[i].Type, table);
+	}
+}
+
+
+function initializeMonitoringTable(monitoringRoot, valueList, table){
+
+	//initialize table
+	var nodearray = [];
+	for (var i=0; i<valueList.length; i++) {	
+//		//console.log("=====================================Looking at : ", valueList[i]);
+		var datarow = [];
+	
+		datarow[0] = {text: valueList[i].ParamName, fill:linefill, fontSize: fontcolumn};
+		datarow[1] = {text: "...", fill:linefill, fontSize: fontcolumn, dp:monitoringRoot + valueList[i].DP};
+		datarow[2] = {text: valueList[i].Unit, fill:linefill, fontSize: fontcolumn};
+		nodearray[i] = datarow;	
+	}
+	table.setDataProvider({data: nodearray});
+
+	//Set Update Function
+	for (var i=0; i<valueList.length; i++) {
+		addSubscribe(2, getRowFunction(1, table), monitoringRoot + valueList[i].DP, valueList[i].Type, table);
+	}
+}
+
+//initializeCommandsTable(manualRoot, remoteRoot, BCUCommands, commandsTable);
+//initializeMonitoringTable(monitoringRoot, BCUMonitoringValues, monitoringTable);
+
+
+function getControlsDP(node, place){
+
+	var svi = "/"+node.TaskName+"/."+getComponentShortForm(node.Type)+"Control_";
+
+	switch (place) {
+		case CONTROL_BLOCKED:
+			svi = svi+"Blocked";
+			break;
+		case CONTROL_GUI:
+			svi = svi+"GUI";
+			break;
+		case CONTROL_QINOUS:
+			svi = svi+"Qinous";
+			break;
+		case CONTROL_MODBUS:
+			svi = svi+"Modbus";
+			break;
+		case CONTROL_IEC_104:
+			svi = svi+"IEC60870";
+			break;
+	}
+
+	svi = svi+"["+node.Index+"]";
+
+	return svi;
+}
+
+
+function setControlPlaceDP(node){
+	var svi = "/"+node.TaskName+"/." + getComponentShortForm(node.Type) + "_SetControlPlace[" + node.Index + "]";
+
+	return svi;
+}
+
+
+function activeControlPlaceDP(node){
+	return monitoringRoot+".ControlStatus.ControlPlace";
+}
+
+function UpdateTables(node){
+
+	manualRoot = getControlsDP(node, CONTROL_GUI);
+	remoteRoot = getControlsDP(node, selectedRemoteControl);
+	monitoringRoot = node.DataDP;
+
+//	console.log("main data for tables ", manualRoot, "===",remoteRoot,  "===",monitoringRoot,  "===",node);
+
+	// update drop down box in tables
+	switch (selectedRemoteControl) {
+	  case CONTROL_QINOUS:
+		textDropdown.textContent = "Qinous";
+		break;
+	  case CONTROL_MODBUS:
+		textDropdown.textContent = "Modbus";
+		break;
+	  case CONTROL_IEC_104:
+		textDropdown.textContent = "IEC";			
+		break;
+	  default:
+		textDropdown.textContent = "Unknown ("+selectedRemoteControl+")";			
+	
+	}
+
+	// clear tables first!
+//	console.log("removing all rows");
+	commandsTable.removeAllRows();
+	monitoringTable.removeAllRows();
+	//initialize table
+//	console.log("filling tables");
+	initializeCommandsTable(manualRoot, remoteRoot, commandsList, commandsTable);
+	initializeMonitoringTable(monitoringRoot, monitorValuesList, monitoringTable);
+
+}
+
+function getComponentShortForm(type){
+
+	switch (type){
+	case TYPE_BATTERY:
+		return "BCU";
+	case TYPE_PV:
+		return "PV";
+	case TYPE_DIESEL:
+		return "Diesel";
+	case TYPE_SYSTEM:
+		return "System";
+	//TYPE_PV_GROUP = 101;
+	//TYPE_CONSUMER_GROUP = 102;
+	//TYPE_BATTERY_GROUP = 104;
+	//TYPE_DIESEL_GROUP = 105;
+	}
+}
+
+function controlBlockedActive (){
+	boxManual.setAttribute("fill","#FAFAFA");
+	boxRemote.setAttribute("fill","#FAFAFA");		
+	titleManual.setAttribute("fill","#EBE8E5");
+	remoteCommand.setAttribute("visibility","visible");
+//	remoteCommand.setAttribute('style', "cursor: not-allowed;");		
+	bckgrndDropdown.setAttribute("stroke","#EBE8E5");
+	iconDropdown.setAttribute("fill","#EBE8E5");
+	textDropdown.setAttribute("fill","#EBE8E5");
+}
+
+function controlGUIActive(){
+	remoteCommand.setAttribute("visibility","visible");
+	boxManual.setAttribute("fill","#4A5055");
+	boxRemote.setAttribute("fill","#FAFAFA");		
+	bckgrndDropdown.setAttribute("stroke","#E3E5E5");
+	iconDropdown.setAttribute("fill","#E3E5E5");
+	textDropdown.setAttribute("fill","#E3E5E5");
+
+	titleManual.setAttribute("fill","#FFFFFF");
+	bckgrndDropdown.setAttribute("stroke","#EBE8E5");
+	iconDropdown.setAttribute("fill","#EBE8E5");
+	textDropdown.setAttribute("fill","#EBE8E5");
+}	
+
+function controlExternalActive(){
+	remoteCommand.setAttribute("visibility","visible");
+
+	titleManual.setAttribute("fill","#E3E5E5");
+	boxRemote.setAttribute("fill","#4A5055");		
+	boxManual.setAttribute("fill","#FAFAFA");
+	bckgrndDropdown.setAttribute("stroke","#FFFFFF");
+	iconDropdown.setAttribute("fill","#FFFFFF");
+	textDropdown.setAttribute("fill","#FFFFFF");
+
+}
+
+
+
+webMI.addEvent("icon_dropdown", ["mouseover","touchstart"], function(e){
+	document.getElementById("icon_dropdown").setAttribute('style', "cursor: pointer;");		
+});
+
+
+// Fonts
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"commands", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"monitoring", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"monitoring", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"performance", "key":"FontFamily", "property":""});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"title_manual", "key":"FontFamily", "property":""});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_dropdown", "key":"FontFamily", "property":""});
+
+
+
+]]></script>
+</svg>

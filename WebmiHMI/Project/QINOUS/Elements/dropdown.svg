@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="85" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="1.2" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns="http://www.w3.org/2000/svg" height="21" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atvise="http://www.atvise.com/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="10" enabled="true" height="10" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="true" height="10"/>
+ </metadata>
+ <rect width="85" x="0" y="0.5" fill="#00ade1" rx="5.06" height="20" stroke="none" id="dropdown" atv:refpx="42.5" stroke-width="1" atv:refpy="95"/>
+ <polyline atv:bindtl="1,1" points="81.8,6.549 66,6.549 73.899,14.45 81.8,6.549" fill="#ffffff" stroke="none" atv:bindbr="1,1" id="drop" atv:refpx="81.772" stroke-width="0" atv:refpy="95.028"/>
+ <text x="21.5" y="14" fill="#ffffff" font-family="Bryant Regular" id="rack_txt" atv:refpx="34.917" atv:refpy="49" font-size="11">T{select}</text>
+ <svg width="100" x="0" y="0.775" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="click_dropdown" atv:refpx="42.5" atv:refpy="10.5" transform="matrix(0.85,0,0,0.6452,0,0)">
+  <atv:overwrite width="84" height="19" id="button_clickarea" transform="matrix(1.1765,0,0,1.55,0,0)"/>
+  <atv:overwrite width="84" height="19" id="button_stroke_focus" transform="matrix(1.1765,0,0,1.55,0,0)"/>
+ </svg>
+ <script type="text/ecmascript"><![CDATA[webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.FontFace", {"fontName":"qinous regular", "fontPath":"../../fonts/qinous/qinous_regular.woff2", "id":"rack_txt"});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"rack_txt", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Open Context Menu", {"fontSize":"16", "id":"click_dropdown", "itemsCount":"0", "key1":"", "key2":"", "key3":"", "key4":"", "key5":"", "minWidth":"85", "onEvent":"click", "outputNode":"", "trigger":"", "value1":"", "value2":"", "value3":"", "value4":"", "value5":"", "x":"0", "y":"20"});]]></script>
+</svg>

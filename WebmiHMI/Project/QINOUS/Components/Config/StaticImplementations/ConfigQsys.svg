@@ -1,0 +1,95 @@
+<svg width="1280" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svgmaker="http://www.svgmaker.com/svgns" version="1.2" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns="http://www.w3.org/2000/svg" xmlns:ns="http://web.resource.org/cc/" height="680" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atvise="http://www.atvise.com/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://web.resource.org/cc/" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="20" enabled="false" height="20" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="false" height="10"/>
+ </metadata>
+ <g atv:table-height="600" id="grid" atv:refpx="566.615" atv:table-width="800" atv:refpy="337.293" transform="matrix(1,0,0,1,165.9609,32.7972)">
+  <rect width="800" fll="#CCCCCC" height="600" id="rect1" atv:refpx="400" atv:refpy="300"/>
+ </g>
+ <script type="text/ecmascript"><![CDATA[var templateID = "AGENT.OBJECTS.int";
+var nodeids = ["GUI/DP_TEST/.Value_1","GUI/DP_TEST/.Value_2","GUI/DP_TEST/.Value_3","GUI/DP_TEST/.Value_4","GUI/DP_TEST/.Value_5","GUI/DP_TEST/.Value_6",];
+
+var headerNames = ["Nodename","Value", "Set"];
+var headers = [];
+
+var linefill = "#CCCCCC";
+var nodearray = [];
+
+var atviseTable;// = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Table", { "gElement": document.getElementById("grid"), "sortedByColumn":1, "autoResize":false});
+
+//Funktion for write
+function getWriteFunction(address) {
+		return function(e) {
+			//if(address.indexOf("/") > -1)
+			//	address = "./" + address;
+			var value = prompt("Value?");
+			console.log("trying to write "+value+" to address "+address);
+			webMI.data.write(address,value);
+		};
+	}
+
+function addSubscribe(col, nodeid)
+{
+	webMI.data.subscribe(nodeid,function(e){
+		var row=getRow(nodeid);
+		var fill = "#CCCCCC";
+		if(e.value > 70)
+			fill = "yellow";
+		if(e.value > 90)
+			fill = "red";
+		var dataObj = atviseTable.dataProvider().dataObject(row, col);
+		dataObj.text = e.value;
+		dataObj.fill = fill;
+		atviseTable.dataProvider().setDataObject(row, col, dataObj);
+	});
+}
+
+function getRow(nodeid)
+{
+	var curData = atviseTable.dataProvider().source.data;
+	for (var i=0; i<curData.length; i++) {	
+		if(curData[i][0].text == nodeid)
+			return i +1;
+	}
+}
+
+
+webMI.addOnload(function(e) {
+
+	console.log("=========clicked on config");
+
+	atviseTable = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Table", { "gElement": document.getElementById("grid"), "sortedByColumn":1, "autoResize":false});
+
+
+	atviseTable.setConfiguration({rowHeight:25,sortingUp:false,autoResize:true, drawStatusBar:false});
+	for (var i=0; i<headerNames.length; i++) {
+		headers.push({name: headerNames[i], width: 280, fontSize: 22});
+	}
+	atviseTable.setHeaders(headers);
+	
+	//initialize table
+	for (var i=0; i<nodeids.length; i++) {	
+		var datarow = [];
+		datarow[0] = {text: nodeids[i], fill:linefill};
+		datarow[1] = {text: "...", fill:linefill};
+		var eventList = [{name: "click", fn: getWriteFunction(nodeids[i])}];
+		datarow[2] = {text: "SET", fill:linefill, eventList: eventList};
+		nodearray[i] = datarow;	
+	}
+	atviseTable.setDataProvider({data: nodearray});
+
+
+	//Set Update Function
+	for (var i=0; i<nodeids.length; i++) {
+			addSubscribe(2,nodeids[i]);
+	}
+
+
+	nodeids.push("AGENT.OBJECTS.int"+nodeids.length);
+	//headerNames.push("new header");
+
+});
+
+]]></script>
+</svg>

@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="60" version="1.2" xmlns="http://www.w3.org/2000/svg" height="356" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:parameter valuetype="color" substitute="" behavior="optional" name="fill" defaultvalue="#ffffff"/>
+  <atv:gridconfig width="5" enabled="true" height="5" gridstyle="lines"/>
+  <atv:snapconfig width="5" enabled="true" height="5"/>
+ </metadata>
+ <rect width="50" x="8" y="183.001" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="bck_environment" stroke-linecap="round" atv:refpx="34" stroke-width="2" atv:refpy="208.001"/>
+ <svg width="512" x="272.008" y="3072.01" fill="#FFFFFF" height="512" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2Ftemperature.svg" id="icon_environment" atv:refpx="33.007" atv:refpy="207.908" transform="matrix(0.0625,0,0,0.0625,0,0)"/>
+ <svg width="100" x="18.3" y="113.46" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="environment" atv:refpx="33.59" atv:refpy="208.003" transform="matrix(0.4918,0,0,1.6129,0,0)">
+  <atv:argument value="#00abe1" name="focusStrokeColor"/>
+  <atv:argument value="#fff" name="fillColorInactive"/>
+  <atv:overwrite width="48.18" height="49" id="button_clickarea" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+  <atv:overwrite width="48.18" height="49" id="button_stroke_focus" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+ </svg>
+ <rect width="50" x="8" y="3" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="bck_monitoring" stroke-linecap="round" atv:refpx="33" stroke-width="2" atv:refpy="28"/>
+ <svg width="512" x="272.008" y="192" fill="#FFFFFF" height="512" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2Fcomponent.svg" id="icon_monitoring" atv:refpx="33.007" atv:refpy="27.993" transform="matrix(0.0625,0,0,0.0625,0,0)"/>
+ <svg width="100" x="18.3" y="1.86" atv:bindtl="0,1" height="31" atv:bindbr="0,1" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="monitoring" atv:refpx="34.59" atv:refpy="25.001" transform="matrix(0.4918,0,0,1.6129,0,0)">
+  <atv:argument value="#fff" name="fillColorInactive"/>
+  <atv:argument value="#00abe1" name="focusStrokeColor"/>
+  <atv:overwrite width="48.18" height="49" id="button_clickarea" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+  <atv:overwrite width="48.18" height="49" id="button_stroke_focus" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+ </svg>
+ <rect width="50" x="8" y="303.001" visibility="hidden" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="bck_configuration" stroke-linecap="round" atv:refpx="33" stroke-width="2" atv:refpy="328.001"/>
+ <svg width="314.186" x="156.949" y="3061.759" visibility="hidden" fill="#FFFFFF" height="314.186" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2Ftool.svg" id="icon_configuration" atv:refpx="32.978" atv:refpy="327.935" transform="matrix(0.1019,0,0,0.1019,0,0)"/>
+ <svg width="100" x="18.3" y="187.86" visibility="hidden" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="configuration" atv:refpx="33.59" atv:refpy="326.003" transform="matrix(0.4918,0,0,1.6129,0,0)">
+  <atv:argument value="#00abe1" name="focusStrokeColor"/>
+  <atv:argument value="#fff" name="fillColorInactive"/>
+  <atv:argument value="SYSTEM.SECURITY.RIGHTS.VISU.Advanced" name="right"/>
+  <atv:overwrite width="48.18" height="49" id="button_clickarea" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+  <atv:overwrite width="48.18" height="49" id="button_stroke_focus" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+ </svg>
+ <rect width="50" x="8" y="123" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="bck_alarms" stroke-linecap="round" atv:refpx="33" stroke-width="2" atv:refpy="148"/>
+ <svg width="512" x="272.008" y="2112.006" fill="#FFFFFF" height="512" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2Flog.svg" id="icon_alarms" atv:refpx="33.007" atv:refpy="147.958" transform="matrix(0.0625,0,0,0.0625,0,0)"/>
+ <svg width="100" x="18.3" y="76.26" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="alarms" atv:refpx="33.59" atv:refpy="144.999" transform="matrix(0.4918,0,0,1.6129,0,0)">
+  <atv:argument value="#00abe1" name="focusStrokeColor"/>
+  <atv:argument value="#fff" name="fillColorInactive"/>
+  <atv:overwrite width="48.18" height="49" id="button_clickarea" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+  <atv:overwrite width="48.18" height="49" id="button_stroke_focus" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+ </svg>
+ <rect width="50" x="8" y="63" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="bck_diagram" stroke-linecap="round" atv:refpx="35" stroke-width="2" atv:refpy="85"/>
+ <svg width="512" x="256.008" y="1200.003" fill="#FFFFFF" height="512" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2Fdiagram.svg" id="icon_diagram" atv:refpx="32.99" atv:refpy="87.976" color="#FFFFFF" transform="matrix(0.0625,0,0,0.0625,0,0)"/>
+ <svg width="100" x="18.3" y="39.06" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="diagram" atv:refpx="36.586" atv:refpy="94.704" transform="matrix(0.4918,0,0,1.6129,0,0)">
+  <atv:argument value="#00abe1" name="focusStrokeColor"/>
+  <atv:argument value="#fff" name="fillColorInactive"/>
+  <atv:overwrite width="48.18" height="49" id="button_clickarea" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+  <atv:overwrite width="48.18" height="49" id="button_stroke_focus" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+ </svg>
+ <script type="text/ecmascript" xlink:href="/q/StdConstantsFunctions.js"/>
+ <rect width="50" x="8" y="243.001" visibility="hidden" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="bck_control" stroke-linecap="round" atv:refpx="33" stroke-width="2" atv:refpy="268.003"/>
+ <svg width="305" x="120.83" y="1874.702" visibility="hidden" height="305" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2FCruise_Control.svg" id="icon_control" atv:refpx="40.47" atv:refpy="269.14" transform="matrix(0.1317,0,0,0.1317,0,0)"/>
+ <svg width="100" x="18.3" y="150.659" visibility="hidden" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="control" atv:refpx="34.59" atv:refpy="270.005" transform="matrix(0.4918,0,0,1.6129,0,0)">
+  <atv:argument value="#00abe1" name="focusStrokeColor"/>
+  <atv:argument value="#fff" name="fillColorInactive"/>
+  <atv:argument value="SYSTEM.SECURITY.RIGHTS.VISU.Advanced" name="right"/>
+  <atv:overwrite width="48.18" height="49" id="button_clickarea" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+  <atv:overwrite width="48.18" height="49" id="button_stroke_focus" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+ </svg>
+ <script type="text/ecmascript"><![CDATA[var bck_fill = "#BEC7D0", //EEF1F2
+	bck_stroke ="#647A8F",
+	bck_strokeActive ="#00abe1";
+
+var idActiveMenu,
+	activeNavMenu,
+	selectedMenu;
+
+// - - - > Security Control
+webMI.trigger.connect("userLogOn", function(e) {
+	var loggedIn = e.value,
+		viewParameters = webMI.hasRight(VIEW_PARAMETERS),
+		viewControls = webMI.hasRight(VIEW_CONTROLS);
+//		console.log("Trigger connect for user loggedIn status: "+loggedIn+ " View Parameters? "+viewParameters+ " | View Controls? "+ viewControls);
+
+		if (loggedIn == true) {
+			if(viewParameters == true){
+				showConfigurationView();	
+			}
+			if(viewControls == true){
+				showControlView();
+			}
+		}else {
+				hideConfigurationView();
+				hideControlView();
+		}
+});
+
+//Monitor View
+webMI.addEvent("monitoring", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_MONITORING;
+	idActiveMenu = "monitoring";	
+	webMI.trigger.fire("SetActiveView", VIEW_MONITORING);
+	highlight();
+});
+
+webMI.addEvent("monitoring", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_monitoring", "0.5");
+	document.getElementById("monitoring").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("monitoring", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_monitoring", "1");
+});
+
+// Diagram View
+webMI.addEvent("diagram", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_DIAGRAMS;
+	idActiveMenu = "diagram";	
+	webMI.trigger.fire("SetActiveView", VIEW_DIAGRAMS);
+	highlight();	
+});
+webMI.addEvent("diagram", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_diagram", "0.5");
+	document.getElementById("diagram").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("diagram", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_diagram", "1");
+});
+
+// Alarms View
+webMI.addEvent("alarms", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_ALARMS;
+	idActiveMenu = "alarms";	
+	webMI.trigger.fire("SetActiveView", VIEW_ALARMS);
+	highlight();
+});
+webMI.addEvent("alarms", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_alarms", "0.5");
+	document.getElementById("alarms").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("alarms", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_alarms", "1");
+});
+
+// Configuration View
+webMI.addEvent("configuration", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_CONFIGURATION;
+	idActiveMenu = "configuration";	
+	webMI.trigger.fire("SetActiveView", VIEW_CONFIGURATION);
+	highlight();
+
+});
+webMI.addEvent("configuration", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_configuration", "0.5");
+	document.getElementById("configuration").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("configuration", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_configuration", "1");
+});
+
+
+// Environment View
+webMI.addEvent("environment", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_ENVIRONMENT;
+	idActiveMenu = "environment";	
+	webMI.trigger.fire("SetActiveView", VIEW_ENVIRONMENT);
+	highlight();
+});
+
+webMI.addEvent("environment", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_environment", "0.5");
+	document.getElementById("environment").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("environment", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_environment", "1");
+});
+
+// Control View 
+webMI.addEvent("control", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_CONTROL;
+	idActiveMenu = "control";	
+	webMI.trigger.fire("SetActiveView", VIEW_CONTROL);	
+	highlight();
+});
+
+webMI.addEvent("control", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_control", "0.5");
+	document.getElementById("control").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("control", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_control", "1");
+});
+
+// Microinteractions
+function showConfigurationView(){
+	webMI.gfx.setVisible("configuration", true);
+	webMI.gfx.setVisible("icon_configuration", true);
+	webMI.gfx.setVisible("bck_configuration", true);
+}
+function showControlView(){
+	webMI.gfx.setVisible("control", true); 
+	webMI.gfx.setVisible("icon_control", true); 
+	webMI.gfx.setVisible("bck_control", true); 
+}
+function hideConfigurationView(){
+	webMI.gfx.setVisible("configuration", false);
+	webMI.gfx.setVisible("icon_configuration", false);
+	webMI.gfx.setVisible("bck_configuration", false);
+}
+function hideControlView(){
+	webMI.gfx.setVisible("control", false); 
+	webMI.gfx.setVisible("icon_control", false); 
+	webMI.gfx.setVisible("bck_control", false); 		
+}
+
+// Trigger Connect for Active Navigation Menu
+
+
+function highlight(){
+	webMI.trigger.connect("SetActiveNavMenu", function(e) {
+	activeNavMenu = e.value;
+		switch (activeNavMenu) {
+		  case 1:
+			setActive();
+			document.getElementById("bck_diagram").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_diagram").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_alarms").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_alarms").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_configuration").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_configuration").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_environment").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_environment").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_control").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_control").setAttribute("fill",bck_stroke);
+			break;
+		  case 2:
+			setActive();
+			document.getElementById("bck_monitoring").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_monitoring").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_diagram").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_diagram").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_alarms").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_alarms").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_environment").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_environment").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_control").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_control").setAttribute("fill",bck_stroke);
+			break;
+		  case 3:
+			setActive();
+			document.getElementById("bck_monitoring").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_monitoring").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_alarms").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_alarms").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_configuration").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_configuration").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_environment").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_environment").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_control").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_control").setAttribute("fill",bck_stroke);
+			break;
+		  case 4:
+			setActive();
+			document.getElementById("bck_diagram").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_diagram").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_monitoring").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_monitoring").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_configuration").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_configuration").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_environment").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_environment").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_control").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_control").setAttribute("fill",bck_stroke);
+			break;
+		  case 5:
+			setActive();
+			document.getElementById("bck_diagram").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_diagram").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_alarms").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_alarms").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_configuration").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_configuration").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_monitoring").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_monitoring").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_control").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_control").setAttribute("fill",bck_stroke);
+			break;
+		  case 6:
+			setActive();
+			document.getElementById("bck_diagram").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_diagram").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_alarms").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_alarms").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_configuration").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_configuration").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_environment").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_environment").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_monitoring").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_monitoring").setAttribute("fill",bck_stroke);
+			break;
+		  default:
+			document.getElementById("bck_"+idActiveMenu).setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_"+idActiveMenu).setAttribute("fill",bck_stroke);
+			
+		}
+	});
+} 
+
+function setActive(){
+	document.getElementById("bck_"+idActiveMenu).setAttribute("stroke",bck_strokeActive);		
+	document.getElementById("bck_"+idActiveMenu).setAttribute("fill",bck_fill);
+	webMI.gfx.setFillOpacity("icon_"+idActiveMenu, "1");
+	document.getElementById("bck_"+idActiveMenu).setAttribute("stroke-width", "2");
+}
+
+]]></script>
+</svg>

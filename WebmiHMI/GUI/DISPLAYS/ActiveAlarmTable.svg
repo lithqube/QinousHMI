@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="780" version="1.2" xmlns="http://www.w3.org/2000/svg" height="570" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="10" enabled="true" height="10" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="true" height="10"/>
+ </metadata>
+ <g atv:table-height="600" id="grid" atv:refpx="390.622" atv:table-width="800" atv:refpy="289.251">
+  <rect width="780" fll="#647A8F" height="570" id="rect1" atv:refpx="400" atv:refpy="300"/>
+ </g>
+ <script type="text/ecmascript" xlink:href="/q/AlarmInfo.js"/>
+ <script type="text/ecmascript" xlink:href="/q/StdConstantsFunctions.js"/>
+ <script type="text/ecmascript" xlink:href="/scope.js"/>
+ <script type="text/ecmascript"><![CDATA[var $ = top.$;
+var headers = [];
+var linefill = "#FFFFFF";
+var nodearray = [];
+var atviseTable;
+var alarmList;
+
+var earliestIndex;
+
+// setup blank table
+atviseTable = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Table", { "gElement": document.getElementById("grid"), "sortedByColumn":0, "autoResize":false});
+
+atviseTable.setConfiguration({rowHeight:35,sortingUp:true,autoResize:true, drawStatusBar:false});
+headers.push({name: "Owner", width: 200, fontSize: fontSize});
+headers.push({name: "Level", width: 100, fontSize: fontSize});
+headers.push({name: "Name", width: 500, fontSize: fontSize});
+
+atviseTable.setHeaders(headers);
+
+
+// - - - - - - - - - - - -
+
+webMI.addOnload(function(f){
+	webMI.trigger.fire("GetAlarmsFromCurrentNode");		
+});// END For
+
+// - - - - - - - - - - - -
+
+
+webMI.trigger.connect("UpdateAlarmsFromCurrentNode", function(e){
+
+	activeAlarmList = e.value[0];
+	var alarmHistoryInfo = e.value[1];
+
+//	console.log("Got an alarm history information structure ", alarmHistoryInfo);
+
+	//======= ACTIVE ALARMS TAB==========
+	for (var i=0; i<activeAlarmList.length; i++) {	
+
+		var datarow = [];
+		datarow[0] = {text: activeAlarmList[i].owner, fill:linefill};//, eventList: eventList};
+		datarow[1] = {text: getAlarmLevelString(activeAlarmList[i].level), fill:linefill};
+		datarow[2] = {text: activeAlarmList[i].name, fill:linefill};
+		nodearray[i] = datarow;	
+
+	}
+	atviseTable.setDataProvider({data: nodearray});
+
+	var alarmWordHistory = [];
+
+	//========= ALARM HISTORY TAB=======
+	if (alarmHistoryInfo.length > 0){
+
+
+		for (var i=0; i< alarmHistoryInfo.length; i++){
+
+//			console.log("Getting recorder contents ", alarmHistoryInfo[i]);
+			// get TOC for this recorder		
+			Scope.getContent(
+				alarmHistoryInfo[i].recorder, 
+				tocCallback(alarmHistoryInfo[i], alarmWordHistory));
+		}
+	}
+});
+
+
+tocCallback = function(alarmHistoryInfo, alarmWordHistory){
+
+	return function(e){
+
+		if (e === undefined) {
+//			console.log("No such recorder methinks");
+			return;
+		}
+		var toc = e
+		var newestIndex = 0;
+			
+		for (var i=0; i<toc.length; i++){					
+			var newestIndex = Math.max(newestIndex, toc[i].idxstart);
+		}
+
+		// request most recent lines from DB for alarmHistoryInfo[i].recorder, alarmHistoryInfo[i].alarmList. callback using alarmHistoryInfo[i].alarmMasksList
+		Scope.readIndex(
+			alarmHistoryInfo.recorder, 
+			alarmHistoryInfo.alarms, 
+			newestIndex, 
+			newestIndex + 10000, 
+			false, 
+			addScopeResultsToAlarmHistoryCallback(alarmHistoryInfo, alarmWordHistory));
+
+	}
+}]]></script>
+</svg>

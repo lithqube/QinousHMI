@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="378" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="1.2" xmlns="http://www.w3.org/2000/svg" height="328" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs>
+  <linearGradient id="linear_0" y1="1.01562" x1="-0.015625" y2="0.1875" gradientUnits="objectBoundingBox" x2="0">
+   <stop offset="0" stop-color="#ff0000"/>
+   <stop offset="1" stop-color="#00ff51"/>
+  </linearGradient>
+ </defs>
+ <svg width="34.9" x="247.684" y="117.543" height="80.6" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.Qinous" id="id_5" atv:refpx="189" atv:refpy="112.518" transform="matrix(0.7128,0,0,0.7128,0,0)"/>
+ <desc>Allows editing a numeric value by dragging or via keyboard.</desc>
+ <title>Circular Slider</title>
+ <metadata>
+  <atv:parameter desc="label" valuetype="trstring" substitute="$TEXT$" behavior="optional" name="label" defaultvalue="T{Speed setting}"/>
+  <atv:parameter desc="minimum" valuetype="number" substitute="$MIN$" group="Value" behavior="optional" name="minValue" defaultvalue="0"/>
+  <atv:parameter desc="maximum" valuetype="number" substitute="$MAX$" group="Value" behavior="optional" name="maxValue" defaultvalue="100"/>
+  <atv:parameter desc="format string" valuetype="string" group="Value" behavior="optional" name="formatString" defaultvalue="%d"/>
+  <atv:parameter desc="show value" valuetype="bool" group="Value" behavior="optional" name="showValue" defaultvalue="true"/>
+  <atv:parameter config="Times New Roman=Times New Roman,Bodoni,Garamond,Minion Web,ITC Stone Serif,MS Georgia,Bitstream Cyberbit,serif;Arial=MS Trebuchet,ITC Avant Garde Gothic,MS Arial,MS Verdana,Univers,Futura,ITC Stone Sans,Gill Sans,Akzidenz Grotesk,Helvetica,sans-serif;Courier=Courier,MS Courier New,Prestige,Everson Mono,monospace;Zapf-Chancery=Caflisch Script,Adobe Poetica,Sanvito,Ex Ponto,Snell Roundhand,Zapf-Chancery,cursive;Alpha Geometrique=Alpha Geometrique,Critter,Cottonwood,FB Reactor,Studz,fantasy" desc="family" valuetype="enum" substitute="$FONTFAMILY$" group="Font" behavior="optional" name="fontFamily" defaultvalue="Open Sans"/>
+  <atv:parameter config="6;7;8;9;10;11;12;14;16;18;20;22;24;26;28;36;48;72" desc="size" valuetype="enum" substitute="$FONTSIZE$" group="Font" behavior="optional" name="fontSize" defaultvalue="16"/>
+  <atv:parameter desc="color" valuetype="color" substitute="$COLORTEXT$" group="Font" behavior="optional" name="color" defaultvalue="#ffffff"/>
+  <atv:parameter desc="color gauge" valuetype="color" substitute="$COLORGAUGE$" group="Colors" behavior="optional" name="colorGauge" defaultvalue="#00ABE1"/>
+  <atv:parameter desc="color background" valuetype="global" substitute="$COLORBACKGROUND$" group="Colors" behavior="optional" name="colorBackground" defaultvalue="SYSTEM.GLOBALS.controlTextColor"/>
+  <atv:parameter desc="color label" valuetype="color" substitute="$COLORLABEL$" group="Colors" behavior="optional" name="colorLabel" defaultvalue="#B3B3B3"/>
+  <atv:parameter desc="limit low low (off=no limit)" valuetype="string" substitute="" group="Limit" behavior="optional" name="limitLowLow" defaultvalue="off"/>
+  <atv:parameter desc="limit low (off=no limit)" valuetype="string" substitute="" group="Limit" behavior="optional" name="limitLow" defaultvalue="off"/>
+  <atv:parameter desc="limit high (off=no limit)" valuetype="string" substitute="" group="Limit" behavior="optional" name="limitHigh" defaultvalue="off"/>
+  <atv:parameter desc="limit high (off=no limit)" valuetype="string" group="Limit" behavior="optional" name="limitHighHigh" defaultvalue="off"/>
+  <atv:parameter desc="limit low low color" valuetype="color" substitute="" group="Limit" behavior="optional" name="limitLowLowColor" defaultvalue="#ff0000"/>
+  <atv:parameter desc="limit low color" valuetype="color" group="Limit" behavior="optional" name="limitLowColor" defaultvalue="#ffff00"/>
+  <atv:parameter desc="limit high color" valuetype="color" group="Limit" behavior="optional" name="limitHighColor" defaultvalue="#ffff00"/>
+  <atv:parameter desc="limit high high color" valuetype="color" group="Limit" behavior="optional" name="limitHighHighColor" defaultvalue="#ff0000"/>
+  <atv:parameter desc="font family editing" valuetype="enum" substitute="" group="Font" behavior="optional" name="fontFamilyEditing" defaultvalue="Times New Roman=Times New Roman,Bodoni,Garamond,Minion Web,ITC Stone Serif,MS Georgia,Bitstream Cyberbit,serif;Arial=MS Trebuchet,ITC Avant Garde Gothic,MS Arial,MS Verdana,Univers,Futura,ITC Stone Sans,Gill Sans,Akzidenz Grotesk,Helvetica,sans-serif;Courier=Courier,MS Courier New,Prestige,Everson Mono,monospace;Zapf-Chancery=Caflisch Script,Adobe Poetica,Sanvito,Ex Ponto,Snell Roundhand,Zapf-Chancery,cursive;Alpha Geometrique=Alpha Geometrique,Critter,Cottonwood,FB Reactor,Studz,fantasy"/>
+  <atv:parameter desc="desired value" valuetype="address" substitute="" group="Value" behavior="optional" name="desiredValue" defaultvalue=""/>
+  <atv:parameter desc="value address" valuetype="address" substitute="$ADDRESS$" behavior="hidden" name="valueAddress" defaultvalue=""/>
+  <atv:parameter desc="color gauge inactive" valuetype="color" substitute="" group="Colors" behavior="optional" name="colorGaugeInactive" defaultvalue="#8c8c8c"/>
+  <atv:gridconfig width="20" enabled="false" height="20" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="false" height="10"/>
+ </metadata>
+ <text x="118.784" y="322.29" atv:bindtl="0,1" fill="$COLORLABEL$" font-family="$FONTFAMILY$" text-anchor="end" atv:bindbr="0,1" id="id_3" atv:refpx="113.284" atv:refpy="317.79" font-size="18">$MIN$</text>
+ <text x="189" y="13.483" fill="$COLORLABEL$" font-family="$FONTFAMILY$" text-anchor="middle" id="halfLabel" atv:refpx="187.77" atv:refpy="8.983" font-size="18">50</text>
+ <text x="259.217" y="322.29" atv:bindtl="1,1" fill="$COLORLABEL$" font-family="$FONTFAMILY$" text-anchor="start" atv:bindbr="1,1" id="id_8" atv:refpx="271.606" atv:refpy="317.79" font-size="18">$MAX$</text>
+ <text x="46.5" y="128" atv:bindtl="0,1" fill="$COLORLABEL$" font-family="$FONTFAMILY$" text-anchor="end" atv:bindbr="0,1" id="quarterLabel" atv:refpx="35.444" atv:refpy="123.5" font-size="18">25</text>
+ <text x="331.5" y="128" atv:bindtl="1,1" fill="$COLORLABEL$" font-family="$FONTFAMILY$" text-anchor="start" atv:bindbr="1,1" id="threeQuarterLabel" atv:refpx="339.444" atv:refpy="123.5" font-size="18">75</text>
+ <g id="id_4" atv:refpx="169" atv:refpy="154.318" transform="matrix(1,0,0,1,24,20)">
+  <path fill="#dedede" id="id_0" atv:refpx="165" atv:refpy="134.318" d="M165,0C85.472,0 21,64.477 21,144C21,197.23 49.89,243.714 92.842,268.635L98.856,258.248C59.483,235.403 33,192.793 33,144C33,71.105 92.102,12 165,12C237.898,12 297,71.104 297,144C297,192.793 270.518,235.403 231.144,258.249L237.159,268.636C280.11,243.714 309,197.23 309,144C309,64.477 244.528,0 165,0"/>
+ </g>
+ <rect width="290" x="44" y="19" fill="none" height="290" stroke="none" id="rect" atv:refpx="189" stroke-width="0" atv:refpy="164"/>
+ <circle fill="none" cx="189" cy="164" stroke="none" r="144" id="id_outer_circle" atv:refpx="189" stroke-width="0" atv:refpy="164"/>
+ <circle fill="$COLORGAUGE$" cx="189.736" cy="25" r="25" id="id_1" atv:refpx="156.5" atv:refpy="17.5" stroke-width="1"/>
+ <path fill="#0000fe" fill-opacity="0.00392157" id="path2996" atv:refpx="196.5" atv:refpy="171.499" stroke-width="1" d="M189,19.999C109.47,19.999 44.998,84.471 44.998,163.999C44.998,243.528 109.47,307.999 189,307.999C268.529,307.999 333,243.528 333,163.999C333,84.471 268.529,19.999 189,19.999M189,32C261.899,32 321,91.098 321,163.999C321,236.9 261.899,295.999 189,295.999C116.097,295.999 56.998,236.9 56.998,163.999C56.998,91.098 116.097,32 189,32"/>
+ <text x="179.282" y="137.857" atv:bindtl="0.5,0.5" fill="$COLORLABEL$" font-family="$FONTFAMILY$" text-anchor="middle" atv:bindbr="0.5,0.5" id="id_2" atv:refpx="189" atv:refpy="135.714" font-size="$FONTSIZE$" transform="matrix(1.1429,0,0,1.1429,-15.9022,-16.6989)">$TEXT$</text>
+ <svg width="80" x="54.5" y="79" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.EditableLabel" id="id_6" atv:refpx="189" atv:refpy="189" transform="matrix(2,0,0,2,0,0)">
+  <atv:argument value="36" name="fontSize"/>
+  <atv:argument prefix="base" name="base"/>
+  <atv:argument prefix="minValue" value="" name="min"/>
+  <atv:argument prefix="maxValue" value="" name="max"/>
+  <atv:argument prefix="desiredValue" name="outputNode"/>
+  <atv:overwrite x="80" y="44" id="input_label" transform="matrix(0.5,0,0,0.5,0,0)"/>
+  <atv:overwrite width="159" height="61" id="input_bg" transform="matrix(0.5,0,0,0.5,0,0)"/>
+  <atv:overwrite width="232.326" height="77.5" id="blinking_frame" transform="matrix(0.5,0,0,0.5,0,0)"/>
+ </svg>
+ <script type="text/ecmascript"><![CDATA[/*
+
+Issues:
+	mouseup event not handled correctly when released over input field
+
+Possible new features:
+	gauge color changes by value:
+		add low / high limits. -> done
+			ev. set default gauge color to green to show value is valid
+		Possibly done by splitting gauge into different paths the have a gradient fill (for better display)
+	enable / disable whole control
+	enable / disable value editable by boolean parameter
+
+
+*/
+
+var base = webMI.query["base"],
+	minValue = (webMI.query["minValue"] == undefined) ? "" : parseFloat(webMI.query["minValue"]),
+	maxValue = (webMI.query["maxValue"] == undefined) ? "" : parseFloat(webMI.query["maxValue"]),
+	showValue = (webMI.query["showValue"] == undefined) ? "" : webMI.query["showValue"],
+	valueAddress = webMI.query.valueAddress = (webMI.query.desiredValue != '') ? webMI.query.desiredValue : base
+
+//
+// draw gauge
+//
+function draw(pathItem, cx, cy, radiusX, radiusY, startA, endA)
+{	
+	if (isNaN(cx)) return;
+	if (isNaN(cy)) return;
+	if (isNaN(radiusX)) return;
+	if (isNaN(radiusY)) return;
+	if (isNaN(startA)) return;
+	if (isNaN(endA)) return;
+
+	var startAngle = parseFloat(startA) + 120.0;
+	var endAngle = parseFloat(endA) + 120.0;
+
+	var x1 = parseFloat(parseFloat(cx) + parseFloat(radiusX) * Math.cos(Math.PI*startAngle/180.0));
+	var y1 = parseFloat(parseFloat(cy) + parseFloat(radiusY) * Math.sin(Math.PI*startAngle/180.0));
+
+	var x2 = parseFloat(parseFloat(cx) + parseFloat(radiusX) * Math.cos(Math.PI*endAngle/180.0));
+	var y2 = parseFloat(parseFloat(cy) + parseFloat(radiusY) * Math.sin(Math.PI*endAngle/180.0));                
+
+	//var d = "M200,200  L" + x1 + "," + y1 + "  A180,180 0 0,1 " + x2 + "," + y2 + " z"; //1 means clockwise
+	if (endA-startA >= 180) {
+		// var d = "M" + cx + "," + cy + " L" + x1 + "," + y1 + "  A" + radiusX + "," + radiusY + " 0 1,1 " + x2 + "," + y2 + " z"; //1 means clockwise
+		var d = "M" + x1 + "," + y1 + "  A" + radiusX + "," + radiusY + " 0 1,1 " + x2 + "," + y2; // + " z"; //1 means clockwise
+	}
+	else {
+		// var d = "M" + cx + "," + cy + " L" + x1 + "," + y1 + "  A" + radiusX + "," + radiusY + " 0 0,1 " + x2 + "," + y2 + " z"; //1 means clockwise
+		var d = "M" + x1 + "," + y1 + "  A" + radiusX + "," + radiusY + " 0 0,1 " + x2 + "," + y2; // + " z"; //1 means clockwise
+	}
+
+	pathItem.setAttribute("d", d);
+}
+
+//
+// calculate angle 
+//
+function calculateAngle(value, min, max) {
+	var maxAngle = 300.0;
+	if (value <= min)
+		return 0.0;
+	if (value >= max)
+		return maxAngle;
+	if (min > max - 0.00001)
+		return 0.0;
+	
+	return maxAngle * (value-min) / (max-min);
+}
+
+//
+// retrieve attribute
+//
+function getWidgetAttribute(widget, attr)
+{
+	return(widget.getAttribute(attr));
+}
+
+//
+// first time
+// reads the base and displays the value
+//
+webMI.data.read(base + "", function(e) {
+	var id = "text";
+	var value = e.value;
+	if (isNaN(value))
+	{
+		webMI.gfx.setText(id, "-");
+		return;
+	}
+	
+	webMI.gfx.setText(id, webMI.sprintf(webMI.query["formatString"], value));
+	
+	if (showValue == "true") {
+		webMI.gfx.setVisible(id, true);
+	}
+	else {
+		webMI.gfx.setVisible(id, false);
+	}
+});
+
+//
+// subcribe the value
+// If a desired value is set, use it instead of base
+//
+webMI.data.subscribe(base, function(e) {
+	updateGauge(e.value);
+});
+
+//
+// update the gauge
+//
+function updateGauge(e) {
+	var pathItem = document.getElementById("gauge");
+
+	var circleItem = document.getElementById("id_outer_circle");
+	var rectItem = document.getElementById("rect");
+	var value = e;
+
+	var centerX = parseInt(getWidgetAttribute(circleItem, "cx"));
+	var centerY = parseInt(getWidgetAttribute(circleItem, "cy"));
+	var radiusX = parseInt(getWidgetAttribute(rectItem, "width") / 2 - 7);
+	var radiusY = parseInt(getWidgetAttribute(rectItem, "height") / 2 - 7);
+	var angle = calculateAngle(value, minValue, maxValue);
+
+	draw(pathItem, centerX, centerY, radiusX, radiusY, 0.0, angle);
+
+	webMI.gfx.setVisible("gauge", true);
+}
+
+
+//
+// displays currentValue
+//
+webMI.trigger.connect("rotateValue" + base, function(e)
+{
+	webMI.gfx.setText("text", e.value);
+	webMI.trigger.fire("setValue", e.value, "id_7");
+	updateGauge(e.value);
+})
+
+//
+// QD for rotate
+//
+
+
+//
+// Labels
+//
+
+(function() {
+	var valueRange = maxValue - minValue,
+		quarter = minValue + valueRange / 4,
+		half = minValue + valueRange / 2,
+		threeQuarter = minValue + valueRange / 4 * 3;
+
+	webMI.gfx.setText('quarterLabel', quarter + '');
+	webMI.gfx.setText('halfLabel', half + '');
+	webMI.gfx.setText('threeQuarterLabel', threeQuarter + '');
+})()
+
+
+//
+// Limits
+//
+
+var originalGaugeColor = window.theme.getValue('ControlTintColor');
+
+/* Implementation without color caching (less preformant)
+
+var limitLowLow = webMI.query["limitLowLow"];
+var limitLow = webMI.query["limitLow"];
+var limitHigh = webMI.query["limitHigh"];
+var limitHighHigh = webMI.query["limitHighHigh"];
+
+function limitSet(limit) { return limit && limit != "off" } 
+
+// probable save colors in variables for performance
+function applyLimit(limit, on, colorName) {
+	return (limitSet(limit) && on) ? webMI.query[colorName] : false;
+}
+
+function updateLimits(e) {
+	var result = originalGaugeColor;
+
+	// apply inner (high and low) limits first
+	result = applyLimit(limitLow, (limitLow >= e.value), "limitLowColor") || result;
+	result = applyLimit(limitHigh, (limitHigh <= e.value), "limitHighColor") || result;
+	
+	// override with outer limits
+	result = applyLimit(limitLowLow, (limitLowLow >= e.value), "limitLowLowColor") || result;
+	result = applyLimit(limitHighHigh, (limitHighHigh <= e.value), "limitHighHighColor") || result;
+
+	updateDisplay(result);
+}
+
+*/
+
+// Stores all possible limits
+var possibleLimits = [
+	{ name: "limitLow", reached: reachedSmaller },
+	{ name: "limitHigh", reached: reachedBigger },
+	{ name: "limitLowLow", reached: reachedSmaller },
+	{ name: "limitHighHigh", reached: reachedBigger }
+];
+
+// Stores the limits that are actually applied later
+var limitsToApply = [];
+
+// Stores limit value and color if set
+function limitSet(limit) {
+	var value = webMI.query[limit.name];
+
+	if (value && value != 'off') {
+		limit.value = value;
+		limit.color = webMI.query[limit.name + 'Color'];
+
+		return true;
+	}
+
+	return false;
+}
+
+// Checks if any limit is set
+function anyLimitSet() {
+	for (var i = 0; i < possibleLimits.length; i++) {
+		var test = possibleLimits[i];
+
+		if (limitSet(test)) limitsToApply.push(test);
+	}
+
+	return (limitsToApply.length > 0);
+}
+
+// Checks if limit is reached. If so, it's color is returned
+function applyLimit(limit, value) {
+	return (limit.reached(value)) ? limit.color : false;
+}
+
+// limit comparison functions
+function reachedSmaller(value) { return value <= this.value };
+function reachedBigger(value) { return value >= this.value };
+
+// subscription callback
+function updateLimits(e) {
+	var result = originalGaugeColor,
+		value = e.value;
+
+	for (var i = 0; i < limitsToApply.length; i++) {
+		result = applyLimit(limitsToApply[i], value) || result;
+	}
+
+	console.log('reached');
+	updateDisplay(result);
+}
+
+// set gauge stroke and knob fill color
+function updateDisplay(gaugeColor) {
+	webMI.gfx.setStroke('gauge', gaugeColor);
+	webMI.gfx.setFill('id_1', gaugeColor);
+}
+
+// register subscription if needed (=if any limit is set)
+if (anyLimitSet()) webMI.data.subscribe(base + "", updateLimits);
+
+// Theme
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#E3D700", "id":"id_1", "key":"ControlTintColor", "property":"colorGauge"});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "id":"id_2", "key":"ControlTextColor"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "id":"id_0", "key":"ControlIndicatorBackgroundColor"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"Open Sans", "id":"id_2", "key":"FontFamily", "property":"fontFamily"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"Open Sans", "id":"id_3", "key":"FontFamily", "property":"fontFamily"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"Open Sans", "id":"id_8", "key":"FontFamily", "property":"fontFamily"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"Open Sans", "id":"quarterLabel", "key":"FontFamily", "property":"fontFamily"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"Open Sans", "id":"halfLabel", "key":"FontFamily", "property":"fontFamily"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"Open Sans", "id":"threeQuarterLabel", "key":"FontFamily", "property":"fontFamily"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "id":"id_2", "key":"ControlLabelColor"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#B3B3B3", "id":"id_3", "key":"ControlLabelColor", "property":"colorLabel"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#B3B3B3", "id":"id_8", "key":"ControlLabelColor", "property":"colorLabel"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#B3B3B3", "id":"quarterLabel", "key":"ControlLabelColor", "property":"colorLabel"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#B3B3B3", "id":"halfLabel", "key":"ControlLabelColor", "property":"colorLabel"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#B3B3B3", "id":"threeQuarterLabel", "key":"ControlLabelColor", "property":"colorLabel"});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#00ABE1", "key":"ControlInactiveBackgroundColor", "property":"colorGaugeInactive"});
+
+// Two Hand support
+var _active = true;
+function activate(active) {
+	_active = active === undefined ? _active : active;
+	updateDisplay(_active ? webMI.query.colorGauge : webMI.query.colorGaugeInactive);
+
+	webMI.trigger.fire('com.atvise.setActive', _active, 'id_6');
+	webMI.trigger.fire('com.atvise.setActive', _active, 'toucharea');
+}
+
+webMI.trigger.connect('com.bachmann.themechange', function() { activate() });
+webMI.trigger.connect('com.atvise.setActive', function(e) {
+	activate(e.value);
+});]]></script>
+</svg>

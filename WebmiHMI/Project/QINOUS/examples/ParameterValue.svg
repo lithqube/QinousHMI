@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="232" version="1.2" xmlns="http://www.w3.org/2000/svg" height="25" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:parameter valuetype="address" behavior="mandatory" name="dp" defaultvalue=""/>
+  <atv:gridconfig width="5" enabled="true" height="5" gridstyle="lines"/>
+  <atv:snapconfig width="5" enabled="true" height="5"/>
+ </metadata>
+ <text x="40.635" y="137.286" fill="#000088" font-family="Arial" id="id_0" atv:refpx="40.635" atv:refpy="132.786" font-size="12"/>
+ <text x="4.5" y="16" fill="#000088" font-family="Arial" id="id_paramname" atv:refpx="27" atv:refpy="11.5" font-size="12">$name$</text>
+ <text x="194.5" y="16" fill="#000088" font-family="Arial" id="id_unit" atv:refpx="211" atv:refpy="11.5" font-size="12">$unit$</text>
+ <script type="text/ecmascript"><![CDATA[var parameter_name;
+var dp;
+
+webMI.trigger.connect("SetParamData", function(e){
+		console.log("Received a trigger!!");
+	// unsubscribe 
+	/*if (dp !== ""){
+		webMI.data.unsubscribe(dp);
+	}*/
+	var parameter_name = e.value[0];
+	var dp = e.value[1];
+	console.log("this is my DP value: "+dp)
+
+	webMI.gfx.setText("id_valuefield", dp)
+
+	// subscribe the textfield to the data value
+	myCallback = function(text_id, datapoint){
+		var mytext_id = text_id;
+		var mydp = datapoint;
+		return function(f){	
+			console.log("Subscribe for "+mydp+" has returned a value: "+f.value);
+			webMI.gfx.setText("id_valuefield", f.value);
+		}
+	}
+	webMI.data.subscribe(dp, myCallback("id_valuefield", dp));
+
+
+	//set parameter_name as the text in id_paramname
+	webMI.gfx.setText("id_paramname", parameter_name);
+
+});
+
+console.log("-----Received param data "+parameter_name+" with this value: "+dp);
+
+]]></script>
+ <svg width="160" x="76.8" y="0" height="30" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Standard.in_out_value" id="id_2" atv:refpx="122.5" atv:refpy="12.5" transform="matrix(0.7812,0,0,0.8333,0,0)">
+  <atv:argument value="GUI/DP_TEST/.Value_3" name="base"/>
+  <atv:overwrite x="116.5" y="16.75" id="input_label" transform="matrix(1.28,0,0,1.2,0,0)"/>
+  <atv:overwrite width="117" height="17.5" id="blinking_frame" transform="matrix(1.28,0,0,1.2,0,0)"/>
+  <atv:overwrite width="117" height="17.5" id="input_bg" transform="matrix(1.28,0,0,1.2,0,0)"/>
+  <atv:overwrite width="119.5" height="19.5" id="id_2" transform="matrix(1.28,0,0,1.2,0,0)"/>
+  <atv:overwrite width="124.5" height="24.5" id="id_0" transform="matrix(1.28,0,0,1.2,0,0)"/>
+ </svg>
+</svg>

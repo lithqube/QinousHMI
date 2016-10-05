@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="964" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svgmaker="http://www.svgmaker.com/svgns" version="1.2" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns="http://www.w3.org/2000/svg" xmlns:ns="http://web.resource.org/cc/" height="600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atvise="http://www.atvise.com/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://web.resource.org/cc/" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="10" enabled="true" height="10" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="true" height="10"/>
+ </metadata>
+ <svg width="85" x="0" y="30" visibility="hidden" height="30" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Components.Config.menu_task" id="bttn_taskmenu" atv:refpx="42.5" atv:refpy="50"/>
+ <svg width="250" x="10" y="90" height="510" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Components.Config.NavigationTree" id="nav_omponent" atv:refpx="139.991" atv:refpy="242.263"/>
+ <svg width="800" x="309.64" y="105.882" height="600" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Chrome.hmi.iframe" id="new_iframe" atv:refpx="617.5" atv:refpy="345" transform="matrix(0.8688,0,0,0.85,0,0)">
+  <atv:argument value="parameterTable" name="frameName"/>
+ </svg>
+ <foreignObject width="120" x="0" y="570" height="25" id="id_1">
+  <div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%">
+   <form xmlns="http://www.w3.org/1999/xhtml" action="">
+    <input type="file" style="display:none" id="file_input"/>
+   </form>
+  </div>
+ </foreignObject>
+ <g id="id_btn_Select" atv:refpx="840.75" atv:refpy="45.5" transform="matrix(1,0,0,1,-24,25)">
+  <rect width="60" x="830.5" y="5.5" fill="none" rx="5" ry="5" height="30" stroke="#647a8f" id="id_5" atv:refpx="860" stroke-width="1" atv:refpy="20"/>
+  <text x="839.5" y="24.5" fill="#647a8f" font-family="Bryant Regular" id="id_7" atv:refpx="863" atv:refpy="20" font-size="12">T{LOAD}</text>
+ </g>
+ <g id="id_btn_Upload" atv:refpx="926.25" atv:refpy="45.5" transform="matrix(1,0,0,1,-19.5,25.5)">
+  <rect width="60" x="905" y="5" fill="none" rx="5" ry="5" height="30" stroke="#647a8f" id="id_6" atv:refpx="935" stroke-width="1" atv:refpy="20"/>
+  <text x="910" y="24" fill="#647a8f" font-family="Bryant Regular" id="id_8" atv:refpx="942" atv:refpy="19.5" font-size="12">T{UPLOAD}</text>
+ </g>
+ <script type="text/ecmascript" xlink:href="/js/jquery.min.js"/>
+ <script type="text/ecmascript" xlink:href="/q/StdConstantsFunctions.js"/>
+ <script type="text/ecmascript"><![CDATA[var $ = top.$;
+var paramTree = [];
+var paramSelection = [];
+var selectedTask = '';
+
+
+webMI.addOnload(function(f){
+	paramTree = [];
+	paramSelection = [];
+	selectedTask = '';
+
+	var parameterViewAllowed = webMI.hasRight(VIEW_PARAMETERS);
+
+	if (parameterViewAllowed) {
+		webMI.trigger.fire("RequestTaskList");	
+		webMI.trigger.fire("RequestParameterTree");		
+		webMI.display.openDisplay("GUI.DISPLAYS.ParameterTable", webMI.query, "parameterTable");
+	} else {
+		alert("Hello! User do not have the proper rights to excute this functionality");
+		webMI.display.openDisplay("GUI.DISPLAYS.MonitoringView");
+	
+	}
+});// END For
+
+webMI.addEvent("id_btn_Select", ["mouseover","touchstart"], function(e){
+
+	document.getElementById("id_btn_Select").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("id_btn_Upload", ["mouseover","touchstart"], function(e){
+
+	document.getElementById("id_btn_Upload").setAttribute('style', "cursor: pointer;");		
+});
+
+
+// - - - - - -  Upload process
+
+webMI.addEvent("id_btn_Upload", "click", function(e) {
+var id = "id_btn_Upload";
+var value = true;
+var input = document.getElementById("file_input");
+var file = input.files[0];
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.open("PUT" , "/" + input.files[0].name);
+xmlhttp.setRequestHeader("Content-type", "application/octet-stream");
+xmlhttp.send(file);
+});
+
+webMI.addEvent("id_btn_Select", "click", function(e) {
+var id = "id_btn_Select";
+var value = true;
+return function(value) {
+var input = document.getElementById("file_input");
+if (input) {
+input.click(); 
+}
+} (value);
+});
+
+
+// Task Menu Generation
+webMI.trigger.connect("SetTaskList", function(e){
+
+	var A = document.getElementById("bttn_taskmenu");
+	var brdr_button = document.getElementById("bttn_taskmenu_brdr_button");
+	//var txt_taskname = document.getElementById("bttn_taskmenu_txt_taskname");
+
+	var Root = A.parentElement;
+	var newA;
+	
+	var tsk_array = e.value; //["SAMVAC","QD_DSE","QM_HOMB","Q_SYS"];
+//	console.log("Received task list "+tsk_array.length);
+
+	for (var i = 0; i< tsk_array.length; i++)
+	{
+		// Move Factor
+			var factorX = 20 + (100 * i);
+
+		// Clone
+			newA = A.cloneNode(true);
+			newA.setAttribute("x",factorX);
+			newA.id = "bttn_taskmenu"+i; 
+			newA.setAttribute("visibility", "visible");
+			Root.appendChild(newA);
+		// Task name
+
+			var txt_taskname = document.getElementById(newA.id).getElementsByTagName("text") ;
+
+//			console.log("Creating button for "+tsk_array[i].task+", "+txt_taskname);
+			txt_taskname[0].innerHTML = tsk_array[i].task;
+
+			if (tsk_array[i].selected) {
+				// todo highlight newA.setAttribute("visibility", "visible");
+				selectedTask = tsk_array[i].task;	
+			//	console.log("========== just set the selected task", selectedTask);						
+			}
+	
+			newA.addEventListener("click", function(e) {
+				selectTask(this.id);		
+			});	
+
+		//Highlight Menu			
+			newA.addEventListener("mouseover", function(e) {
+				document.getElementById(this.id).setAttribute('style', "cursor: pointer;");					
+			});
+	}// END For
+	if (selectedTask == ''){
+		selectedTask = tsk_array[0].task;
+	}
+
+
+}); 
+// End task menu generation
+
+function selectTask(setId){
+	selectedTask = document.getElementById(setId).getElementsByTagName("text")[0].innerHTML;
+	console.log("Task selected: "+setId+" Task Name: "+selectedTask);
+	webMI.trigger.fire("SetConfigTask", selectedTask);
+	// TODO: loop through all task buttons. select the one with setId as text, deselect the rest
+}
+
+webMI.trigger.connect("SetParameterTree", function(e){
+	paramTree.length = 0;
+	paramTree = e.value;
+//	console.log("Received a complete parameter tree: "+paramTree);
+// extract titles of all elements that have children, and pass to tree-navigation
+	var paramSectionTree = getSections(paramTree);
+	webMI.trigger.fire("SetParameterSectionTree", paramSectionTree);
+});
+
+webMI.trigger.connect("SetParamTreeSelection", function(e){
+	paramSelection = e.value;
+	webMI.display.openDisplay("GUI.DISPLAYS.ParameterTable", webMI.query, "parameterTable");
+});
+
+webMI.trigger.connect("RequestParameterList", function(e){
+//	console.log("Param list requested for "+paramSelection);
+	webMI.trigger.fire("SetParameterList", getParameterList(paramSelection, paramTree));
+});
+
+function getParameterList(variables, nodeList, prefix){
+	console.log("Extracting parameter list for selected ",selectedTask);
+	if (prefix == undefined){
+		prefix = '';
+	}
+	if (variables.length == 0) {
+		return [];
+	} else {
+		for (var i=0; i<nodeList.length; i++){
+
+			if (nodeList[i].variable === variables[variables.length-1]) {
+
+				var new_prefix = variables.pop();
+
+				if (nodeList[i].childs.length > 0) {
+					var child_var = nodeList[i].childs[0].variable;
+				
+					if (child_var.slice(0, child_var.indexOf("[")) === nodeList[i].variable) {
+						//console.log("That's an array group!");
+						new_prefix = "";
+					}
+				}
+				prefix = prefix + new_prefix;
+				if (variables.length == 0) {
+					console.log("============RETURNING PARAMLIST:", nodeList[i].dp_list, selectedTask, prefix);
+
+					return [nodeList[i].dp_list, selectedTask, prefix];
+				} else {
+					return getParameterList(variables, nodeList[i].childs, prefix);
+				}
+			}			
+		}
+		return [];
+	}
+}
+
+function getSections(nodeList){
+	var sections = [];
+	//console.log("Getting sections (just stripping out the dps)");
+	for(var i=0; i<nodeList.length; i++){
+		sections[i] = {title: nodeList[i].title, variable: nodeList[i].variable};
+		//console.log("Stripped a seciotn out: "+sections[i].title);
+		if (nodeList[i].childs !== undefined) {
+			if (nodeList[i].childs.length > 0) {
+				sections[i].childs = getSections(nodeList[i].childs);
+			}
+		}
+	}
+	return sections;
+}
+
+
+//Fonts
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"id_7", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"id_8", "key":"FontFamily", "property":""});
+]]></script>
+</svg>

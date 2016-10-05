@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="1024" version="1.2" xmlns="http://www.w3.org/2000/svg" height="120" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:parameter valuetype="color" substitute="$Fill$" behavior="optional" name="Fill" defaultvalue="#647a8f"/>
+  <atv:gridconfig width="10" enabled="true" height="10" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="true" height="10"/>
+ </metadata>
+ <g atv:insensitive="true" id="id_0" atv:refpx="0" atv:refpy="0" transform="matrix(0.8,0,0,1,0,0)">
+  <rect width="1280.00" x="0" y="0" fill="#b9c3cd" height="120.00" fill-opacity="0.9254901960784314" id="id_1" atv:refpx="640" atv:refpy="60"/>
+ </g>
+ <line visibility="hidden" stroke="#647A8F" stroke-linejoin="miter" id="pipe" stroke-linecap="square" y1="41" atv:refpx="136.5" x1="71.5" y2="41" stroke-width="3" atv:refpy="40.5" x2="171.5"/>
+ <rect width="74" x="15" y="15" fill="#ffffff" rx="6.727" ry="4.111" height="74" stroke="#7e90a2" stroke-linejoin="round" id="brdr_home" stroke-linecap="round" atv:refpx="52" stroke-width="1" atv:refpy="52"/>
+ <svg width="175" x="830" y="0" height="120" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.LngSwitch" id="id_21" atv:refpx="923.145" atv:refpy="61.039"/>
+ <svg width="85" x="100" y="13.999" visibility="hidden" height="105" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Layout.menu.menu_icon" id="icon_grid" atv:refpx="142.5" atv:refpy="41.499">
+  <atv:argument value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.Grid" name="svg"/>
+ </svg>
+ <svg width="85" x="100" y="13.999" visibility="hidden" height="105" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Layout.menu.menu_icon" id="icon_battery" atv:refpx="262.5" atv:refpy="41.499"/>
+ <svg width="85" x="100" y="13.999" visibility="hidden" height="105" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Layout.menu.menu_icon" id="icon_consumer" atv:refpx="382.5" atv:refpy="41.499">
+  <atv:argument value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.Consumer" name="svg"/>
+ </svg>
+ <svg width="85" x="100" y="13.999" visibility="hidden" height="105" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Layout.menu.menu_icon" id="icon_pv" atv:refpx="502.5" atv:refpy="41.499">
+  <atv:argument value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.PV" name="svg"/>
+ </svg>
+ <svg width="85" x="100" y="13.999" visibility="hidden" height="105" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Layout.menu.menu_icon" id="icon_diesel" atv:refpx="622.5" atv:refpy="58.999">
+  <atv:argument value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.Genset" name="svg"/>
+ </svg>
+ <script type="text/ecmascript" xlink:href="/q/ComponentTree.js"/>
+ <line stroke="none" id="id_3" y1="-150" atv:refpx="-157.5" x1="-170" y2="-150" stroke-width="2" atv:refpy="-149.5" x2="-145"/>
+ <svg width="514.19" x="411.352" y="383.532" height="499.2" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2Fhome.svg" id="home" atv:refpx="52" atv:refpy="52" transform="matrix(0.0778,0,0,0.0821,0,0)"/>
+ <svg width="100" x="20.27" y="6.284" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="i_qinous" atv:refpx="49.309" atv:refpy="53.643" transform="matrix(0.74,0,0,2.3871,0,0)">
+  <atv:argument value="#edf0f1" name="fillColorInactive"/>
+  <atv:argument value="#00ABE1" name="focusStrokeColor"/>
+  <atv:overwrite width="73" height="73" id="button_clickarea" transform="matrix(1.3514,0,0,0.4189,0,0)"/>
+  <atv:overwrite width="73" height="73" id="button_stroke_focus" transform="matrix(1.3514,0,0,0.4189,0,0)"/>
+ </svg>
+ <script type="text/ecmascript"><![CDATA[var systemTree;
+
+webMI.trigger.connect("Highlight", function(e){
+
+	if (typeof e.value == 'undefined'){
+		//console.log("Received a BAD highlight request");
+		return;
+	}
+	// TODO: breadcrumb trail
+	//console.log("Received a highlight request");
+	var menu_item_select = "";
+	var group = e.value;
+	switch(group){
+		case TYPE_PV:
+		case TYPE_PV_GROUP:
+			menu_item_select = "icon_pv";
+			hideDropDown ();
+			break;
+		case TYPE_CONSUMER:
+		case TYPE_CONSUMER_GROUP:
+			menu_item_select = "icon_consumer";
+			hideDropDown ();
+			break;
+		case TYPE_GRID:
+			menu_item_select = "icon_grid";
+			hideDropDown ();
+			break;
+		case TYPE_BATTERY:
+			
+		case TYPE_BATTERY_GROUP:
+			menu_item_select = "icon_battery";
+			showDropdown ();
+			break;
+		case TYPE_DIESEL:
+		case TYPE_DIESEL_GROUP:
+			menu_item_select = "icon_diesel";
+    		hideDropDown ();
+			break;
+		case TYPE_RAWMETER:
+			menu_item_select = "icon_rawmeter";
+			hideDropDown ();
+			break;
+		default: 
+			menu_item_select = "icon_unknowns";
+  		    hideDropDown ();
+	}
+
+	for (var i=1; i<7; i++){
+		switch(i){
+			case 1:
+			  menu_item = "icon_pv";
+			  break;
+			case 2:
+			  menu_item = "icon_consumer";
+			  break;
+			case 3:
+			  menu_item = "icon_grid";
+			  break;
+			case 4:
+				menu_item = "icon_battery";
+				break;
+			case 5:
+				menu_item = "icon_diesel";
+				break;
+			case 6:
+			  menu_item = "icon_rawmeter";
+			  break;
+			default: 
+				menu_item = "icon_unknowns";
+		}
+
+		if (menu_item == menu_item_select) {
+			webMI.trigger.fire("SelectMenuItem", [], menu_item);
+		} else {
+			webMI.trigger.fire("DeselectMenuItem", [], menu_item);
+		}
+	}
+	
+
+});
+
+webMI.trigger.connect("SystemTreeUpdate",
+	function(b){
+		systemTree = b.value;
+		if (typeof systemTree == 'undefined'){
+			//console.log("undefined sytemTree");
+			return;
+		}
+
+		//console.log(" received a sytemTree!! ==================== elements: "+systemTree.subComponentList.length);
+		//console.log(" TYPE_PV=",TYPE_PV);
+		var menu_x = 0;
+
+		for (var i = 0; i < systemTree.subComponentList.length; i++){
+
+			var GroupType = systemTree.subComponentList[i].Type;
+			//console.log("========Making visible group type ",GroupType);
+			// switch on group type and make item visible
+			var menu_item;
+			switch(GroupType){
+				case TYPE_PV:
+				case TYPE_PV_GROUP:
+					menu_item = "icon_pv";
+					//console.log("caught icon PV");
+					break;
+				case TYPE_CONSUMER:
+				case TYPE_CONSUMER_GROUP:
+					menu_item = "icon_consumer";
+					break;
+				case TYPE_GRID:
+					menu_item = "icon_grid";
+					break;
+				case TYPE_BATTERY:
+				case TYPE_BATTERY_GROUP:
+					menu_item = "icon_battery";
+				
+					break;
+				case TYPE_DIESEL:
+				case TYPE_DIESEL_GROUP:
+					menu_item = "icon_diesel";
+					break;
+				case TYPE_RAWMETER:
+					menu_item = "icon_rawmeter";
+					break;
+				default: 
+					menu_item = "icon_unknowns";
+			}
+			//console.log("making "+menu_item+" visible (group is "+GroupType);
+			webMI.trigger.fire("SetInfo", GroupType, menu_item);
+			webMI.gfx.setVisible(menu_item, true);
+			webMI.gfx.setMoveX(menu_item, webMI.translate(1, 0, 1, 0, menu_x));
+			// move menu item to next available spot
+			menu_x = menu_x + 100;
+			// get name and user-defined icon (if present)
+//			webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tooltip", {"id":menu_item, "text":systemTree.subComponentList[i].Name});
+			document.getElementById("pipe").setAttribute("x2", menu_x + "px");
+			webMI.gfx.setVisible("pipe", true);
+		}
+	
+});
+
+//////// Microinteraction
+// Click Home
+webMI.addEvent("i_qinous", "click", function(e) {
+	webMI.trigger.fire("SetCurrentNode", [-1]);	
+
+});
+webMI.addEvent("i_qinous", ["mouseover","touchstart"], function(e) {
+	document.getElementById("i_qinous").setAttribute('style', "cursor: pointer;");
+	document.getElementById("brdr_home").setAttribute("stroke-width", "2");		
+	webMI.gfx.setStroke("brdr_home", "#00abe1");
+	webMI.gfx.setFillOpacity("home", "0.5");
+
+});
+
+webMI.addEvent("i_qinous", ["mouseout","touchcancel"], function(e) {
+	document.getElementById("brdr_home").setAttribute("stroke-width", "1");	
+	webMI.gfx.setStroke("brdr_home", "#8395a6");
+	webMI.gfx.setFillOpacity("home", "1");
+});
+
+// Dropdown
+webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Open Context Menu", {"fontSize":"16", "id":"icon_battery_dropdown_box", "itemsCount":"0", "key1":"RACK 1", "key2":"RACK 2", "key3":"RACK 3", "key4":"RACK 4", "key5":"RACK 5+", "minWidth":"85", "onEvent":"click", "outputNode":"", "trigger":"SetRackCountToSelect", "value1":"1", "value2":"2", "value3":"3", "value4":"4", "value5":"5", "x":"225", "y":"105"});
+
+webMI.trigger.connect("SetRackCountToSelect", function(e) {
+	var rackCount = e.value,
+		RackCountToSelect;
+	
+	if (rackCount < 5) {
+		RackCountToSelect = rackCount;
+		webMI.trigger.fire("MoveToSubcomponent", 0);
+		webMI.trigger.fire("RackSelect", RackCountToSelect);//Go to rack directly SetCurrentNode / MoveToSubcomponent
+		console.log("Move to Rack View and Display rack: "+RackCountToSelect);
+	} else {
+		webMI.display.openWindow({display:"",extern:false,height:300,menubar:false,modal:true,movable:true,resizable:true,scrollbars:false,status:false,title:"CHOOSE RACK",toolbar:false,width:400,query:webMI.query});
+	}
+		
+});
+
+webMI.trigger.connect("showdropdown", function(e) {
+var showdropdown = e.value;
+if (showdropdown == true){
+	showDropdown();
+}else{
+	hideDropDown();
+}
+});
+
+
+var dropdownLine = document.getElementById("icon_battery_dropdown_line"),
+	dropdownBox = document.getElementById("icon_battery_dropdown_box");
+
+function showDropdown (){
+		dropdownLine.setAttribute("visibility", "visible");
+		dropdownBox.setAttribute("visibility", "visible");
+		}
+
+function hideDropDown(){
+		dropdownLine.setAttribute("visibility", "hidden");
+		dropdownBox.setAttribute("visibility", "hidden");
+		}
+]]></script>
+</svg>

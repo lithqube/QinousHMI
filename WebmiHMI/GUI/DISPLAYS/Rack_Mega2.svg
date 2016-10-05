@@ -1,0 +1,578 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="964" version="1.2" xmlns="http://www.w3.org/2000/svg" height="339" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="5" enabled="true" height="5" gridstyle="lines"/>
+  <atv:snapconfig width="5" enabled="true" height="5"/>
+ </metadata>
+ <rect width="945" x="9.5" y="0" fill="#DADCDD" rx="5" ry="4.985" height="339" stroke="none" stroke-linejoin="round" id="bckgrnd_box" stroke-linecap="round" atv:refpx="483" stroke-width="2" atv:refpy="169.5"/>
+ <rect width="400" x="20" y="25" fill="#ffffff" rx="4.878" ry="4.766" height="305" stroke="none" id="box_tray" atv:refpx="220" stroke-width="2" atv:refpy="172.581"/>
+ <g id="id_37" atv:refpx="93.75" atv:refpy="82.625" transform="matrix(1,0,0,1,-360,61.6252)">
+  <svg width="7.88" x="420" y="11" height="14.75" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.Temperature" id="icon_temp" atv:refpx="427.5" atv:refpy="18.5"/>
+  <text x="434.5" y="25" fill="#647a8f" font-family="Varela Round" id="txt_rackTemp" atv:refpx="434.47" atv:refpy="20.5" font-size="12">Temp °C</text>
+ </g>
+ <script type="text/ecmascript" xlink:href="/js/jquery.min.js"/>
+ <script type="text/ecmascript" xlink:href="/js/jquery-ui.min.js"/>
+ <g id="id_39" atv:refpx="181" atv:refpy="82.625" transform="matrix(1,0,0,1,-265,41.6252)">
+  <svg width="10" x="420" y="31" height="15" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.Voltage" id="icon_volt" atv:refpx="427" atv:refpy="38.5"/>
+  <text x="434" y="45" fill="#647a8f" font-family="Varela Round" id="txt_rackVolt" atv:refpx="433.308" atv:refpy="40.5" font-size="12">Volt V</text>
+ </g>
+ <g id="id_67" atv:refpx="320" atv:refpy="114.75" transform="matrix(1,0,0,1,0.0002,-39.7504)">
+  <rect width="145" x="257.597" y="144.501" fill="#647a8f" height="20" stroke="none" id="id_83" atv:refpx="327.5" stroke-width="2" atv:refpy="-70.599"/>
+  <text x="231.597" y="158.001" fill="#00ade1" font-family="Varela Round" id="tray_10" atv:refpx="224.597" atv:refpy="-127.499" font-size="11">10</text>
+  <svg width="386.26" x="10859.494" y="6447.392" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray10" atv:refpx="249.402" atv:refpy="-81.203" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="10859.494" y="-7175.37" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray10" atv:refpx="249.402" atv:refpy="-68.201" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="6447.392" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray10" atv:refpx="405.402" atv:refpy="-78.201" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="-7175.37" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray10" atv:refpx="405.402" atv:refpy="-68.201" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="271.597" y="159.001" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray10" atv:refpx="267.06" atv:refpy="-55.499" font-size="11">Temp °C</text>
+  <text x="336.597" y="159.001" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray10" atv:refpx="332.489" atv:refpy="-55.499" font-size="11">Voltage V</text>
+  <text x="324.097" y="159.001" fill="#ffffff" font-family="Open Sans" id="id_277" atv:refpx="315.299" atv:refpy="-55.499" font-size="11">|</text>
+  <svg width="100" x="177.653" y="221.637" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="10" atv:refpx="322.5" atv:refpy="148.274" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <g id="id_76" atv:refpx="320" atv:refpy="146.375" transform="matrix(1,0,0,1,0,-33.125)">
+  <g id="id_68" atv:refpx="320" atv:refpy="179">
+   <rect width="145" x="257.597" y="169.501" fill="#647a8f" height="20" stroke="none" id="id_94" atv:refpx="327.5" stroke-width="2" atv:refpy="-70.599"/>
+   <text x="232.097" y="183.001" fill="#00ade1" font-family="Varela Round" id="tray_11" atv:refpx="219.597" atv:refpy="-137.499" font-size="11">11</text>
+   <svg width="386.26" x="10859.494" y="7543.883" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray11" atv:refpx="249.402" atv:refpy="-81.203" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+   <svg width="386.26" x="10859.494" y="-8271.861" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray11" atv:refpx="249.402" atv:refpy="-68.201" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+   <svg width="386.26" x="17701.599" y="7543.883" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray11" atv:refpx="380.402" atv:refpy="-148.201" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+   <svg width="386.26" x="17701.599" y="-8271.861" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray11" atv:refpx="405.402" atv:refpy="-68.201" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+   <svg width="100" x="177.653" y="260.384" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="11" atv:refpx="322.5" atv:refpy="173.274" transform="matrix(1.45,0,0,0.6452,0,0)">
+    <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+    <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   </svg>
+  </g>
+  <text x="271.597" y="184.001" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray11" atv:refpx="267.06" atv:refpy="-50.499" font-size="11">Temp °C</text>
+  <text x="336.597" y="184.001" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray11" atv:refpx="332.489" atv:refpy="-50.499" font-size="11">Voltage V</text>
+  <text x="324.097" y="184.001" fill="#ffffff" font-family="Open Sans" id="id_281" atv:refpx="315.299" atv:refpy="-50.499" font-size="11">|</text>
+ </g>
+ <g id="id_69" atv:refpx="320" atv:refpy="178" transform="matrix(1,0,0,1,0,-26.5)">
+  <rect width="145" x="257.597" y="194.501" fill="#647a8f" height="20" stroke="none" id="id_103" atv:refpx="327.5" stroke-width="2" atv:refpy="-70.599"/>
+  <text x="231.597" y="208.001" fill="#00ade1" font-family="Varela Round" id="tray_12" atv:refpx="219.597" atv:refpy="-147.499" font-size="11">12</text>
+  <svg width="386.26" x="10859.494" y="8640.374" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray12" atv:refpx="249.402" atv:refpy="-81.203" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="10859.494" y="-9368.352" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray12" atv:refpx="249.402" atv:refpy="-68.201" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="8640.374" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray12" atv:refpx="405.402" atv:refpy="-78.201" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="-9368.352" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray12" atv:refpx="405.402" atv:refpy="-68.201" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="271.597" y="209.001" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray12" atv:refpx="267.06" atv:refpy="-50.499" font-size="11">Temp °C</text>
+  <text x="336.597" y="209.001" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray12" atv:refpx="332.489" atv:refpy="-50.499" font-size="11">Voltage V</text>
+  <text x="324.097" y="209.001" fill="#ffffff" font-family="Open Sans" id="id_285" atv:refpx="315.299" atv:refpy="-50.499" font-size="11">|</text>
+  <svg width="100" x="177.653" y="299.132" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="12" atv:refpx="322.5" atv:refpy="198.274" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <g id="id_60" atv:refpx="320" atv:refpy="83.125" transform="matrix(1,0,0,1,0.0002,-46.375)">
+  <rect width="145" x="257.597" y="119.501" fill="#647a8f" height="20" stroke="none" id="id_74" atv:refpx="327.5" stroke-width="2" atv:refpy="-70.599"/>
+  <text x="231.597" y="133.001" fill="#00ade1" font-family="Varela Round" id="tray_9" atv:refpx="229.597" atv:refpy="-122.499" font-size="11">09</text>
+  <svg width="386.26" x="10859.494" y="5350.9" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray9" atv:refpx="249.402" atv:refpy="-81.203" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="10859.494" y="-6078.878" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray9" atv:refpx="249.402" atv:refpy="-68.201" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="5350.9" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray9" atv:refpx="405.402" atv:refpy="-78.201" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="-6078.878" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray9" atv:refpx="405.402" atv:refpy="-68.201" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="271.597" y="134.001" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray9" atv:refpx="267.06" atv:refpy="-50.499" font-size="11">Temp °C</text>
+  <text x="336.597" y="134.001" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray9" atv:refpx="332.489" atv:refpy="-50.499" font-size="11">Voltage V</text>
+  <text x="324.097" y="134.001" fill="#ffffff" font-family="Open Sans" id="id_273" atv:refpx="315.299" atv:refpy="-50.499" font-size="11">|</text>
+  <svg width="100" x="177.653" y="182.889" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="9" atv:refpx="322.5" atv:refpy="123.274" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <g id="id_53" atv:refpx="320" atv:refpy="51.5" transform="matrix(1,0,0,1,0,-53)">
+  <rect width="145" x="257.597" y="94.501" fill="#647a8f" height="20" stroke="none" id="id_65" atv:refpx="312.5" stroke-width="2" atv:refpy="-115.599"/>
+  <text x="231.597" y="108.001" fill="#00ade1" font-family="Varela Round" id="tray_8" atv:refpx="229.597" atv:refpy="-112.499" font-size="11">08</text>
+  <svg width="386.26" x="10859.494" y="4254.409" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray8" atv:refpx="249.402" atv:refpy="-81.203" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="10859.494" y="-4982.387" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray8" atv:refpx="249.402" atv:refpy="-68.201" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="4254.409" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray8" atv:refpx="405.402" atv:refpy="-78.201" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="-4982.387" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray8" atv:refpx="405.402" atv:refpy="-68.201" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="271.597" y="109.001" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray8" atv:refpx="262.06" atv:refpy="-45.499" font-size="11">Temp °C</text>
+  <text x="336.597" y="109.001" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray8" atv:refpx="327.489" atv:refpy="-45.499" font-size="11">Voltage V</text>
+  <text x="324.097" y="109.001" fill="#ffffff" font-family="Open Sans" id="id_269" atv:refpx="310.299" atv:refpy="-45.499" font-size="11">|</text>
+  <svg width="100" x="177.653" y="144.141" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="8" atv:refpx="322.5" atv:refpy="98.274" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <g id="id_75" atv:refpx="320" atv:refpy="209.625" transform="matrix(1,0,0,1,0,-19.8748)">
+  <g id="id_70" atv:refpx="320" atv:refpy="229">
+   <rect width="145" x="257.597" y="219.5" fill="#647a8f" height="20" stroke="none" id="id_115" atv:refpx="127.5" stroke-width="2" atv:refpy="229.4"/>
+   <text x="231.597" y="233" fill="#00ade1" font-family="Varela Round" id="tray_13" atv:refpx="54.597" atv:refpy="227.5" font-size="11">13</text>
+   <svg width="386.26" x="10859.494" y="9736.844" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray13" atv:refpx="49.402" atv:refpy="218.796" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+   <svg width="386.26" x="10859.494" y="-10464.822" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray13" atv:refpx="49.402" atv:refpy="231.798" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+   <svg width="386.26" x="17701.599" y="9736.844" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray13" atv:refpx="205.402" atv:refpy="221.798" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+   <svg width="386.26" x="17701.599" y="-10464.822" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray13" atv:refpx="205.402" atv:refpy="231.798" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+   <svg width="100" x="177.653" y="337.88" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="13" atv:refpx="322.5" atv:refpy="223.273" transform="matrix(1.45,0,0,0.6452,0,0)">
+    <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+    <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   </svg>
+  </g>
+  <text x="271.597" y="234" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray13" atv:refpx="72.06" atv:refpy="254.5" font-size="11">Temp °C</text>
+  <text x="336.597" y="234" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray13" atv:refpx="137.489" atv:refpy="254.5" font-size="11">Voltage V</text>
+  <text x="324.097" y="234" fill="#ffffff" font-family="Open Sans" id="id_289" atv:refpx="120.299" atv:refpy="254.5" font-size="11">|</text>
+ </g>
+ <g id="id_72" atv:refpx="320" atv:refpy="272.875" transform="matrix(1,0,0,1,0,-6.6247)">
+  <rect width="145" x="257.597" y="269.5" fill="#647a8f" height="20" stroke="none" id="id_137" atv:refpx="127.5" stroke-width="2" atv:refpy="229.4"/>
+  <text x="231.597" y="283" fill="#00ade1" font-family="Varela Round" id="tray_15" atv:refpx="54.597" atv:refpy="227.5" font-size="11">15</text>
+  <svg width="386.26" x="10859.494" y="11929.827" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray15" atv:refpx="49.402" atv:refpy="218.796" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="10859.494" y="-12657.805" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray15" atv:refpx="49.402" atv:refpy="231.798" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="11929.827" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray15" atv:refpx="205.402" atv:refpy="221.798" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="-12657.805" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray15" atv:refpx="205.402" atv:refpy="231.798" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="271.597" y="284" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray15" atv:refpx="72.06" atv:refpy="254.5" font-size="11">Temp °C</text>
+  <text x="336.597" y="284" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray15" atv:refpx="137.489" atv:refpy="254.5" font-size="11">Voltage V</text>
+  <text x="324.097" y="284" fill="#ffffff" font-family="Open Sans" id="id_297" atv:refpx="120.299" atv:refpy="254.5" font-size="11">|</text>
+  <svg width="100" x="177.653" y="415.375" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="15" atv:refpx="322.5" atv:refpy="273.273" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <g id="id_73" atv:refpx="320" atv:refpy="304.5">
+  <rect width="145" x="257.597" y="294.5" fill="#647a8f" height="20" stroke="none" id="id_148" atv:refpx="127.5" stroke-width="2" atv:refpy="229.4"/>
+  <text x="231.597" y="308" fill="#00ade1" font-family="Varela Round" id="tray_16" atv:refpx="54.597" atv:refpy="227.5" font-size="11">16</text>
+  <svg width="386.26" x="10859.494" y="13026.318" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray16" atv:refpx="49.402" atv:refpy="218.796" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="10859.494" y="-13754.296" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray16" atv:refpx="49.402" atv:refpy="231.798" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="13026.318" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray16" atv:refpx="205.402" atv:refpy="221.798" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="-13754.296" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray16" atv:refpx="205.402" atv:refpy="231.798" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="271.597" y="309" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray16" atv:refpx="72.06" atv:refpy="254.5" font-size="11">Temp °C</text>
+  <text x="336.597" y="309" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray16" atv:refpx="137.489" atv:refpy="254.5" font-size="11">Voltage V</text>
+  <text x="324.097" y="309" fill="#ffffff" font-family="Open Sans" id="id_301" atv:refpx="120.299" atv:refpy="254.5" font-size="11">|</text>
+  <svg width="100" x="177.653" y="454.123" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="16" atv:refpx="322.499" atv:refpy="298.273" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <g id="id_81" atv:refpx="120" atv:refpy="209.625" transform="matrix(1,0,0,1,0,-19.875)">
+  <rect width="145" x="57.597" y="219.5" fill="#647a8f" height="20" stroke="none" id="id_28" atv:refpx="127.5" stroke-width="2" atv:refpy="1.9"/>
+  <text x="31.597" y="233" fill="#00ade1" font-family="Varela Round" id="tray_4" atv:refpx="44.597" atv:refpy="137.5" font-size="11">04</text>
+  <svg width="386.26" x="2087.564" y="9736.843" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray4" atv:refpx="49.402" atv:refpy="11.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="2087.564" y="-10464.821" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray4" atv:refpx="49.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="8929.669" y="9736.843" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray4" atv:refpx="205.402" atv:refpy="14.298" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="8929.669" y="-10464.821" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray4" atv:refpx="205.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="71.597" y="234" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray4" atv:refpx="62.06" atv:refpy="169.5" font-size="11">Temp °C</text>
+  <text x="136.597" y="234" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray4" atv:refpx="127.489" atv:refpy="169.5" font-size="11">Voltage V</text>
+  <text x="124.097" y="234" fill="#ffffff" font-family="Open Sans" id="id_252" atv:refpx="110.299" atv:refpy="169.5" font-size="11">|</text>
+  <svg width="100" x="39.722" y="337.88" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="4" atv:refpx="122.5" atv:refpy="90.773" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <g id="id_84" atv:refpx="120" atv:refpy="272.875" transform="matrix(1,0,0,1,0,-6.625)">
+  <rect width="145" x="57.597" y="269.5" fill="#647a8f" height="20" stroke="none" id="id_47" atv:refpx="117.5" stroke-width="2" atv:refpy="-13.1"/>
+  <text x="31.597" y="283" fill="#00ade1" font-family="Varela Round" id="tray_6" atv:refpx="34.597" atv:refpy="122.5" font-size="11">06</text>
+  <svg width="386.26" x="2087.564" y="11929.826" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray6" atv:refpx="49.402" atv:refpy="11.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="2087.564" y="-12657.804" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray6" atv:refpx="49.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="8929.669" y="11929.826" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray6" atv:refpx="205.402" atv:refpy="14.298" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="8929.669" y="-12657.804" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray6" atv:refpx="205.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="71.597" y="284" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray6" atv:refpx="67.06" atv:refpy="174.5" font-size="11">Temp °C</text>
+  <text x="136.597" y="284" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray6" atv:refpx="132.489" atv:refpy="174.5" font-size="11">Voltage V</text>
+  <text x="124.097" y="284" fill="#ffffff" font-family="Open Sans" id="id_261" atv:refpx="115.299" atv:refpy="174.5" font-size="11">|</text>
+  <svg width="100" x="39.722" y="415.375" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="6" atv:refpx="122.5" atv:refpy="140.773" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <g id="id_79" atv:refpx="120" atv:refpy="146.375" transform="matrix(1,0,0,1,0,-33.1252)">
+  <text x="31.597" y="183" fill="#00ade1" font-family="Varela Round" id="tray_2" atv:refpx="49.597" atv:refpy="152.5" font-size="11">02</text>
+  <svg width="386.26" x="2087.564" y="7543.861" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray2" atv:refpx="49.402" atv:refpy="11.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="2087.564" y="-8271.839" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray2" atv:refpx="49.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="8929.669" y="7543.861" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray2" atv:refpx="205.402" atv:refpy="14.298" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="8929.669" y="-8271.839" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray2" atv:refpx="205.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="145" x="57.597" y="169.5" fill="#647a8f" height="20" stroke="none" id="id_4" atv:refpx="132.5" stroke-width="2" atv:refpy="16.9"/>
+  <text x="71.597" y="184" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray2" atv:refpx="72.06" atv:refpy="179.5" font-size="11">Temp °C</text>
+  <text x="136.597" y="184" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray2" atv:refpx="137.489" atv:refpy="179.5" font-size="11">Voltage V</text>
+  <text x="124.097" y="184" fill="#ffffff" font-family="Open Sans" id="id_242" atv:refpx="120.299" atv:refpy="179.5" font-size="11">|</text>
+  <svg width="100" x="39.722" y="260.385" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="2" atv:refpx="122.5" atv:refpy="40.773" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <g id="id_86" atv:refpx="120" atv:refpy="178" transform="matrix(1,0,0,1,0,-26.5)">
+  <g id="id_80" atv:refpx="120" atv:refpy="204">
+   <rect width="145" x="57.597" y="194.5" fill="#647a8f" height="20" stroke="none" id="id_17" atv:refpx="132.5" stroke-width="2" atv:refpy="6.9"/>
+   <text x="31.597" y="208" fill="#00ade1" font-family="Varela Round" id="tray_3" atv:refpx="49.597" atv:refpy="142.5" font-size="11">03</text>
+   <svg width="386.26" x="2087.564" y="8640.352" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray3" atv:refpx="49.402" atv:refpy="11.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+   <svg width="386.26" x="2087.564" y="-9368.33" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray3" atv:refpx="49.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+   <svg width="386.26" x="8929.669" y="8640.352" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray3" atv:refpx="205.402" atv:refpy="14.298" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+   <svg width="386.26" x="8929.669" y="-9368.33" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray3" atv:refpx="205.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+   <svg width="100" x="39.722" y="299.132" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="3" atv:refpx="122.5" atv:refpy="65.773" transform="matrix(1.45,0,0,0.6452,0,0)">
+    <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+    <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   </svg>
+  </g>
+  <text x="71.597" y="209" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray3" atv:refpx="67.06" atv:refpy="169.5" font-size="11">Temp °C</text>
+  <text x="136.597" y="209" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray3" atv:refpx="132.489" atv:refpy="169.5" font-size="11">Voltage V</text>
+  <text x="124.097" y="209" fill="#ffffff" font-family="Open Sans" id="id_248" atv:refpx="115.299" atv:refpy="169.5" font-size="11">|</text>
+ </g>
+ <g id="id_82" atv:refpx="120" atv:refpy="241.25" transform="matrix(1,0,0,1,0,-13.2502)">
+  <rect width="145" x="57.597" y="244.5" fill="#647a8f" height="20" stroke="none" id="id_38" atv:refpx="122.5" stroke-width="2" atv:refpy="-3.1"/>
+  <text x="31.597" y="258" fill="#00ade1" font-family="Varela Round" id="tray_5" atv:refpx="39.597" atv:refpy="132.5" font-size="11">05</text>
+  <svg width="386.26" x="2087.564" y="10833.334" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray5" atv:refpx="49.402" atv:refpy="11.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="2087.564" y="-11561.312" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray5" atv:refpx="49.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="8929.669" y="10833.334" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray5" atv:refpx="205.402" atv:refpy="14.298" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="8929.669" y="-11561.312" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray5" atv:refpx="205.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="71.597" y="259" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray5" atv:refpx="62.06" atv:refpy="174.5" font-size="11">Temp °C</text>
+  <text x="136.597" y="259" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray5" atv:refpx="127.489" atv:refpy="174.5" font-size="11">Voltage V</text>
+  <text x="124.097" y="259" fill="#ffffff" font-family="Open Sans" id="id_256" atv:refpx="110.299" atv:refpy="174.5" font-size="11">|</text>
+  <svg width="100" x="39.722" y="376.628" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="5" atv:refpx="122.5" atv:refpy="115.773" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <g id="id_71" atv:refpx="320" atv:refpy="241.25" transform="matrix(1,0,0,1,0,-13.2497)">
+  <rect width="145" x="257.597" y="244.5" fill="#647a8f" height="20" stroke="none" id="id_126" atv:refpx="127.5" stroke-width="2" atv:refpy="229.4"/>
+  <text x="231.597" y="258" fill="#00ade1" font-family="Varela Round" id="tray_14" atv:refpx="54.597" atv:refpy="227.5" font-size="11">14</text>
+  <svg width="386.26" x="10859.494" y="10833.336" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray14" atv:refpx="49.402" atv:refpy="218.796" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="10859.494" y="-11561.314" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray14" atv:refpx="49.402" atv:refpy="231.798" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="10833.336" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray14" atv:refpx="205.402" atv:refpy="221.798" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="17701.599" y="-11561.314" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray14" atv:refpx="205.402" atv:refpy="231.798" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="271.597" y="259" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray14" atv:refpx="72.06" atv:refpy="249.5" font-size="11">Temp °C</text>
+  <text x="336.597" y="259" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray14" atv:refpx="137.489" atv:refpy="249.5" font-size="11">Voltage V</text>
+  <text x="324.097" y="259" fill="#ffffff" font-family="Open Sans" id="id_293" atv:refpx="120.299" atv:refpy="249.5" font-size="11">|</text>
+  <svg width="100" x="177.653" y="376.627" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="14" atv:refpx="322.5" atv:refpy="248.273" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <g id="id_78" atv:refpx="120" atv:refpy="114.75" transform="matrix(1,0,0,1,0,-39.75)">
+  <g id="id_77" atv:refpx="120" atv:refpy="154" transform="matrix(1,0,0,1,0,-0.0003)">
+   <rect width="145" x="57.597" y="144.5" fill="#647a8f" height="20" stroke="none" id="id_260" atv:refpx="122.5" stroke-width="2" atv:refpy="16.9"/>
+   <text x="32.097" y="158" fill="#00ade1" font-family="Varela Round" id="tray_1" atv:refpx="39.597" atv:refpy="153.5" font-size="11">01</text>
+   <svg width="386.26" x="2087.564" y="6447.369" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray1" atv:refpx="49.402" atv:refpy="11.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+   <svg width="386.26" x="2087.564" y="-7175.347" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray1" atv:refpx="49.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+   <svg width="386.26" x="8929.669" y="6447.369" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray1" atv:refpx="205.402" atv:refpy="14.298" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+   <svg width="386.26" x="8929.669" y="-7175.347" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray1" atv:refpx="205.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+   <svg width="100" x="39.722" y="221.639" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="1" atv:refpx="122.5" atv:refpy="15.773" transform="matrix(1.45,0,0,0.6452,0,0)">
+    <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+    <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   </svg>
+  </g>
+  <text x="71.597" y="159" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray1" atv:refpx="72.059" atv:refpy="154.5" font-size="11">Temp °C</text>
+  <text x="136.597" y="159" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray1" atv:refpx="137.489" atv:refpy="154.5" font-size="11">Voltage V</text>
+  <text x="124.097" y="159" fill="#ffffff" font-family="Open Sans" id="div1" atv:refpx="120.298" atv:refpy="154.5" font-size="11">|</text>
+ </g>
+ <g id="id_85" atv:refpx="120" atv:refpy="304.5">
+  <rect width="145" x="57.597" y="294.5" fill="#647a8f" height="20" stroke="none" id="id_56" atv:refpx="117.5" stroke-width="2" atv:refpy="-18.1"/>
+  <text x="31.597" y="308" fill="#00ade1" font-family="Varela Round" id="tray_7" atv:refpx="34.597" atv:refpy="117.5" font-size="11">07</text>
+  <svg width="386.26" x="2087.564" y="13026.317" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_tray7" atv:refpx="49.402" atv:refpy="11.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="2087.564" y="-13754.295" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_tray7" atv:refpx="49.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="8929.669" y="13026.317" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxvolt_tray7" atv:refpx="205.402" atv:refpy="14.298" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="8929.669" y="-13754.295" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="minvolt_tray7" atv:refpx="205.402" atv:refpy="24.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="71.597" y="309" fill="#ffffff" font-family="Open Sans" id="txtTemp_tray7" atv:refpx="67.06" atv:refpy="174.5" font-size="11">Temp °C</text>
+  <text x="136.597" y="309" fill="#ffffff" font-family="Open Sans" id="txtVolt_tray7" atv:refpx="132.489" atv:refpy="174.5" font-size="11">Voltage V</text>
+  <text x="124.097" y="309" fill="#ffffff" font-family="Open Sans" id="id_265" atv:refpx="115.299" atv:refpy="174.5" font-size="11">|</text>
+  <svg width="100" x="39.722" y="454.123" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="7" atv:refpx="122.5" atv:refpy="165.773" transform="matrix(1.45,0,0,0.6452,0,0)">
+   <atv:overwrite width="144" height="19.001" id="button_clickarea" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+   <atv:overwrite width="144" height="19.001" id="button_stroke_focus" transform="matrix(0.6897,0,0,1.5499,0,0)"/>
+  </svg>
+ </g>
+ <script type="text/ecmascript"><![CDATA[var $ = top.$;
+var	trays_number = 16,
+	cntnr_cells = document.getElementById("cntnr_cells"),
+	traySubscription,
+	racknode;
+
+webMI.addOnload(function() {
+
+	console.log("- - - Loading rack view - - -");
+	webMI.trigger.fire("RequestRackNode");
+
+	for (var i = 1; i <= 16; i++) {
+		var id = document.getElementById(i);
+		webMI.addEvent(id, ["click","touchend"], function(e) {
+
+			webMI.gfx.setVisible(cntnr_cells, true);
+			$(cntnr_cells).toggle("drop", 500);
+//			console.log("Tray "+this.id+" selected");
+			if (racknode != undefined){
+
+				var writeDP = "/" + racknode.TaskName + "/.SamsungCommands[" + racknode.Index + "].TrayRequest[" + racknode.RackNumber + "]";
+//				console.log("Writing "+this.id+" to ", writeDP);
+				var writeOutput = webMI.data.write([writeDP], [this.id]);
+	//			console.log("result of write", writeOutput);
+				webMI.data.unsubscribe(traySubscription);
+				var trayDPs = [
+					racknode.DataDP + ".Tray.CurrentTray",
+					racknode.DataDP + ".TrayDetails.Temp01",
+					racknode.DataDP + ".TrayDetails.Temp02",
+					racknode.DataDP + ".TrayDetails.Temp03",
+					racknode.DataDP + ".TrayDetails.Temp04",
+					racknode.DataDP + ".TrayDetails.Temp05",
+					racknode.DataDP + ".TrayDetails.Temp06",
+					racknode.DataDP + ".TrayDetails.Temp07",
+					racknode.DataDP + ".TrayDetails.Temp08",
+					racknode.DataDP + ".TrayDetails.Volt01",
+					racknode.DataDP + ".TrayDetails.Volt02",
+					racknode.DataDP + ".TrayDetails.Volt03",
+					racknode.DataDP + ".TrayDetails.Volt04",
+					racknode.DataDP + ".TrayDetails.Volt05",
+					racknode.DataDP + ".TrayDetails.Volt06",
+					racknode.DataDP + ".TrayDetails.Volt07",
+					racknode.DataDP + ".TrayDetails.Volt08",
+					racknode.DataDP + ".TrayDetails.Volt09",
+					racknode.DataDP + ".TrayDetails.Volt10",
+					racknode.DataDP + ".TrayDetails.Volt11",
+					racknode.DataDP + ".TrayDetails.Volt12",
+					racknode.DataDP + ".TrayDetails.Volt13",
+					racknode.DataDP + ".TrayDetails.Volt14",
+					racknode.DataDP + ".TrayDetails.Volt15",
+					racknode.DataDP + ".TrayDetails.Volt16"
+				];
+	
+				var traySubscription = webMI.data.subscribeBlock(trayDPs, function(e){
+
+//					console.log("Tray Data Details: ", e);					
+					var currentTray = e[0].value,
+						Temp = [];
+					for (var i = 0; i<8; i++){
+	                    Temp.push(e[i+1].value);
+					}
+					var Volt = [];
+					for (var i = 0; i<16; i++){
+	                    Volt.push(e[i+9].value);
+					}
+
+                    // Cells Container                    
+                    webMI.gfx.setText("txt_trayNumber", "Tray "+currentTray);
+
+					for (var i = 1; i <= 8; i++) {
+						var cellTempId = "txt_tempcell"+i;
+							webMI.gfx.setText(cellTempId, Temp[i-1].toPrecision(3)+" °C");
+							webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.FontFace", {"fontName":"qinous regular", "fontPath":"../../fonts/qinous/qinous_regular.woff2", "id":"txt_tempcell"+i});
+							webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_tempcell"+i, "key":"FontFamily", "property":""});
+ 
+					}
+					for (var i = 1; i <= 16; i++) {
+						var cellVoltId = "txt_cell"+i;                    
+						webMI.gfx.setText(cellVoltId, Volt[i-1].toPrecision(4)+" V");
+						webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.FontFace", {"fontName":"qinous regular", "fontPath":"../../fonts/qinous/qinous_regular.woff2", "id":"cell_"+i});
+						webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_"+ii, "key":"FontFamily", "property":""});
+						webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.FontFace", {"fontName":"qinous regular", "fontPath":"../../fonts/qinous/qinous_regular.woff2", "id":"txt_cell"+i});
+						webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell"+i, "key":"FontFamily", "property":""});
+
+					}
+
+				});
+			}
+		});
+	}
+});
+
+webMI.addEvent("box_tray", ["click","touchend"], function(e) {
+webMI.gfx.setVisible(cntnr_cells, false);
+});
+webMI.addEvent("close_click", ["click","touchend"], function(e) {
+webMI.gfx.setVisible(cntnr_cells, false);
+});
+
+
+webMI.trigger.connect("SendRackNode", function(e){
+	
+//	console.log("Received rack node", e);
+	racknode = e.value;
+
+	var rackDPs = [
+		racknode.DataDP + ".Rack.RackVoltage",
+		racknode.DataDP + ".Rack.SOC",
+		racknode.DataDP + ".Rack.SOH",
+		racknode.DataDP + ".RackDetails.MaxTempRack",
+		racknode.DataDP + ".RackDetails.MinTempRack",
+		racknode.DataDP + ".RackDetails.MaxTempTrayID",
+		racknode.DataDP + ".RackDetails.MinTempTrayID",
+		racknode.DataDP + ".RackDetails.MaxVoltageRack",
+		racknode.DataDP + ".RackDetails.MinVoltageRack",
+		racknode.DataDP + ".RackDetails.MaxVoltageTrayID",
+		racknode.DataDP + ".RackDetails.MinVoltageTrayID"
+	]
+	webMI.data.subscribeBlock(rackDPs, function(g){
+
+//		console.log("Rack Data: ", g);
+		var voltage = g[0].value,
+			soc = g[1].value,
+			soh = g[2].value,
+			maxTemp = g[3].value,
+			minTemp = g[4].value,
+			maxTempTrayID = g[5].value,
+			minTempTrayID = g[6].value,
+			maxVoltage = g[7].value,
+			minVoltage = g[8].value,
+			maxVoltageTrayID = g[9].value,
+			minVoltageTrayID = g[10].value;
+
+		//update items
+        webMI.gfx.setText("txt_stateCharge", "State of Charge: "+soc.toPrecision(3)+" %");
+        webMI.gfx.setText("txt_stateHealth", "State of Health: "+soh.toPrecision(3)+" %");
+        webMI.gfx.setText("txt_rackTemp"," "+ maxTemp.toPrecision(3)+" °C");
+        webMI.gfx.setText("txt_rackVolt"," "+ voltage.toPrecision(5)+" V");
+
+        // Fill in rack information        
+		for (var i=1; i<=16; i++){
+			var tempText = "       ",
+				voltText = "       ";
+			if (maxTempTrayID == i) {
+				webMI.gfx.setVisible("maxtemp_tray"+i, true);
+				tempText = maxTemp.toPrecision(3)+" °C";
+			} else {
+				webMI.gfx.setVisible("maxtemp_tray"+i, false);
+			}
+
+			if (minTempTrayID == i) {
+				webMI.gfx.setVisible("mintemp_tray"+i, true);
+				tempText = minTemp.toPrecision(3)+" °C";
+			} else {
+				webMI.gfx.setVisible("mintemp_tray"+i, false);
+			}
+
+	
+			if (maxVoltageTrayID == i) {
+				webMI.gfx.setVisible("maxvolt_tray"+i, true);
+				voltText = maxVoltage.toPrecision(3)+" V";
+			} else {
+				webMI.gfx.setVisible("maxvolt_tray"+i, false);
+			}
+
+			if (minVoltageTrayID == i) {
+				webMI.gfx.setVisible("minvolt_tray"+i, true);
+				voltText = maxVoltage.toPrecision(3)+" V";
+			} else {
+				webMI.gfx.setVisible("minvolt_tray"+i, false);
+			}
+
+			webMI.gfx.setText("txt_tray"+i,"   " + tempText + " |    " + voltText);
+			webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"tray_"+i, "key":"FontFamily", "property":""});
+			webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_tray"+i, "key":"FontFamily", "property":""});
+
+		}
+	});	
+
+});
+// General fonts
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_rackTemp", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_rackVolt", "key":"FontFamily", "property":""});
+
+
+
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_selectMessage", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_stateHealth", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_stateCharge", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_trayNumber", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"close_icon", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_tempcell1", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_tempcell2", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_tempcell3", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_tempcell4", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_tempcell5", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_tempcell6", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_tempcell7", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_tempcell8", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell15", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_15", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell13", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell11", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell9", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell7", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell5", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell3", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell1", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell2", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell4", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell6", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell8", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell10", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell12", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell14", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_cell16", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_16", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_14", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_12", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_10", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_8", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_6", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_4", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_2", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_13", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_11", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_9", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_7", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_5", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_3", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cell_1", "key":"FontFamily", "property":""});webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"cntnr_cells", "key":"FontFamily", "property":""});]]></script>
+ <rect width="420" x="520" y="10" fill="#ffffff" rx="5" ry="5" height="320" stroke="none" stroke-linejoin="round" id="box_backCell" stroke-linecap="round" atv:refpx="730" stroke-width="2" atv:refpy="170"/>
+ <text x="564.5" y="59" fill="#00ABE5" font-family="Bryant Regular" id="txt_stateCharge" font-weight="bold" atv:refpx="570.369" atv:refpy="54.5" font-size="15">$State of Charge: %$</text>
+ <text x="564.5" y="107.667" fill="#00ABE5" font-family="Bryant Regular" id="txt_stateHealth" font-weight="bold" atv:refpx="570.011" atv:refpy="103.167" font-size="15">$State of Health: %$</text>
+ <text x="560" y="187" fill="#8b98a5" font-family="Bryant Regular" id="txt_selectMessage" atv:refpx="566.249" atv:refpy="182.5" font-size="20">Please select a Tray...</text>
+ <line stroke="#647a8f" stroke-linejoin="round" id="id_11" stroke-linecap="round" y1="140.333" atv:refpx="730" x1="555" y2="140.333" stroke-width="2" atv:refpy="140.333" x2="905"/>
+ <g visibility="hidden" id="cntnr_cells" atv:refpx="730" atv:refpy="170" transform="matrix(1,0,0,1,170,-350)">
+  <rect width="420" x="350" y="360" fill="#4a5055" rx="5" ry="5" height="320" stroke="none" id="background" atv:refpx="750" stroke-width="2" atv:refpy="510"/>
+  <rect width="375" x="375" y="390" fill="#ffffff" rx="5" ry="5" height="285" stroke="none" id="background_white" atv:refpx="752.5" stroke-width="2" atv:refpy="522.5"/>
+  <text x="374" y="377" fill="#ffffff" font-family="Bryant Regular" id="txt_trayNumber" font-weight="bold" atv:refpx="386.364" atv:refpy="372.5" font-size="15">Tray  </text>
+  <rect width="50" x="405" y="400" fill="#4A5055" height="25" stroke="none" id="id_2" atv:refpx="621" stroke-width="2" atv:refpy="402.5"/>
+  <text x="414.5" y="414" fill="#ffffff" font-family="Bryant Regular" id="txt_cell1" atv:refpx="413.755" atv:refpy="409.5" font-size="11">0.00V</text>
+  <text x="384.5" y="415" fill="#00ade1" font-family="Bryant Regular" id="cell_1" atv:refpx="392" atv:refpy="410.5" font-size="11">01</text>
+  <svg width="386.26" x="20175.439" y="17763.157" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_1" atv:refpx="574.209" atv:refpy="398.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="20175.439" y="-18491.134" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_1" atv:refpx="574.209" atv:refpy="408.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="405" y="435" fill="#4A5055" height="25" stroke="none" id="id_5" atv:refpx="621" stroke-width="2" atv:refpy="437.5"/>
+  <text x="414.5" y="449" fill="#ffffff" font-family="Bryant Regular" id="txt_cell3" atv:refpx="413.755" atv:refpy="444.5" font-size="11">0.00V</text>
+  <text x="384.5" y="450" fill="#00ade1" font-family="Bryant Regular" id="cell_3" atv:refpx="393.8" atv:refpy="445.5" font-size="11">03</text>
+  <svg width="386.26" x="20175.439" y="19298.245" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_3" atv:refpx="574.209" atv:refpy="433.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="20175.439" y="-20026.222" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_3" atv:refpx="574.209" atv:refpy="443.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="405" y="470" fill="#4A5055" height="25" stroke="none" id="id_10" atv:refpx="621" stroke-width="2" atv:refpy="472.5"/>
+  <text x="414.5" y="484" fill="#ffffff" font-family="Bryant Regular" id="txt_cell5" atv:refpx="413.755" atv:refpy="479.5" font-size="11">0.00V</text>
+  <text x="384.5" y="485" fill="#00ade1" font-family="Bryant Regular" id="cell_5" atv:refpx="393.8" atv:refpy="480.5" font-size="11">05</text>
+  <svg width="386.26" x="20175.439" y="20833.333" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_5" atv:refpx="574.209" atv:refpy="468.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="20175.439" y="-21561.309" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_5" atv:refpx="574.209" atv:refpy="478.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="405" y="505" fill="#4A5055" height="25" stroke="none" id="id_15" atv:refpx="621" stroke-width="2" atv:refpy="507.5"/>
+  <text x="414.5" y="519" fill="#ffffff" font-family="Bryant Regular" id="txt_cell7" atv:refpx="413.755" atv:refpy="514.5" font-size="11">0.00V</text>
+  <text x="384.5" y="519" fill="#00ade1" font-family="Bryant Regular" id="cell_7" atv:refpx="393.2" atv:refpy="514.5" font-size="11">07</text>
+  <svg width="386.26" x="20175.439" y="22368.421" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_7" atv:refpx="574.209" atv:refpy="503.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="20175.439" y="-23096.397" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_7" atv:refpx="574.209" atv:refpy="513.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="405" y="540" fill="#4A5055" height="25" stroke="none" id="id_20" atv:refpx="621" stroke-width="2" atv:refpy="542.5"/>
+  <text x="414.5" y="554" fill="#ffffff" font-family="Bryant Regular" id="txt_cell9" atv:refpx="413.755" atv:refpy="549.5" font-size="11">0.00V</text>
+  <text x="384.5" y="555" fill="#00ade1" font-family="Bryant Regular" id="cell_9" atv:refpx="393.8" atv:refpy="550.5" font-size="11">09</text>
+  <svg width="386.26" x="20175.439" y="23903.508" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_9" atv:refpx="574.209" atv:refpy="538.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="20175.439" y="-24631.485" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_9" atv:refpx="574.209" atv:refpy="548.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="405" y="575" fill="#4A5055" height="25" stroke="none" id="id_25" atv:refpx="621" stroke-width="2" atv:refpy="577.5"/>
+  <text x="414.5" y="589" fill="#ffffff" font-family="Bryant Regular" id="txt_cell11" atv:refpx="413.755" atv:refpy="584.5" font-size="11">0.00V</text>
+  <text x="384.5" y="590" fill="#00ade1" font-family="Bryant Regular" id="cell_11" atv:refpx="389.6" atv:refpy="585.5" font-size="11">11</text>
+  <svg width="386.26" x="20175.439" y="25438.596" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_11" atv:refpx="574.209" atv:refpy="573.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="20175.439" y="-26166.572" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_11" atv:refpx="574.209" atv:refpy="583.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="405" y="610" fill="#4A5055" height="25" stroke="none" id="id_30" atv:refpx="621" stroke-width="2" atv:refpy="612.5"/>
+  <text x="414.5" y="624" fill="#ffffff" font-family="Bryant Regular" id="txt_cell13" atv:refpx="413.755" atv:refpy="619.5" font-size="11">0.00V</text>
+  <text x="384.5" y="625" fill="#00ade1" font-family="Bryant Regular" id="cell_13" atv:refpx="391.4" atv:refpy="620.5" font-size="11">13</text>
+  <svg width="386.26" x="20175.439" y="26973.684" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_13" atv:refpx="574.209" atv:refpy="608.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="20175.439" y="-27701.66" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_13" atv:refpx="574.209" atv:refpy="618.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <svg width="386.26" x="26096.492" y="17763.157" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_1" atv:refpx="709.209" atv:refpy="398.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="26096.492" y="-18491.134" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_1" atv:refpx="709.209" atv:refpy="408.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="519" y="417" fill="#647a8f" font-family="Bryant Regular" id="txt_tempcell1" atv:refpx="541.25" atv:refpy="412.5" font-size="15">$Temp$°C</text>
+  <svg width="386.26" x="26096.492" y="19298.245" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="id_90" atv:refpx="709.209" atv:refpy="433.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="26096.492" y="-20026.222" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_2" atv:refpx="709.209" atv:refpy="443.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="519" y="452" fill="#647a8f" font-family="Bryant Regular" id="txt_tempcell2" atv:refpx="541.25" atv:refpy="447.5" font-size="15">$Temp$°C</text>
+  <svg width="386.26" x="26096.492" y="20833.333" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="id_93" atv:refpx="709.209" atv:refpy="468.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="26096.492" y="-21561.309" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_3" atv:refpx="709.209" atv:refpy="478.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="519" y="487" fill="#647a8f" font-family="Bryant Regular" id="txt_tempcell3" atv:refpx="541.25" atv:refpy="482.5" font-size="15">$Temp$°C</text>
+  <svg width="386.26" x="26096.492" y="22368.421" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_4" atv:refpx="709.209" atv:refpy="503.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="26096.492" y="-23096.397" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_4" atv:refpx="709.209" atv:refpy="513.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="519" y="522" fill="#647a8f" font-family="Bryant Regular" id="txt_tempcell4" atv:refpx="541.25" atv:refpy="517.5" font-size="15">$Temp$°C</text>
+  <svg width="386.26" x="26096.492" y="23903.508" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_5" atv:refpx="709.209" atv:refpy="538.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="26096.492" y="-24631.485" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_5" atv:refpx="709.209" atv:refpy="548.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="519" y="557" fill="#647a8f" font-family="Bryant Regular" id="txt_tempcell5" atv:refpx="541.25" atv:refpy="552.5" font-size="15">$Temp$°C</text>
+  <svg width="386.26" x="26096.492" y="25438.596" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_6" atv:refpx="709.209" atv:refpy="573.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="26096.492" y="-26166.572" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_6" atv:refpx="709.209" atv:refpy="583.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="519" y="592" fill="#647a8f" font-family="Bryant Regular" id="txt_tempcell6" atv:refpx="541.25" atv:refpy="587.5" font-size="15">$Temp$°C</text>
+  <svg width="386.26" x="26096.492" y="26973.684" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_7" atv:refpx="709.209" atv:refpy="608.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="26096.492" y="-27701.66" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_7" atv:refpx="709.209" atv:refpy="618.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="519" y="627" fill="#647a8f" font-family="Bryant Regular" id="txt_tempcell7" atv:refpx="541.25" atv:refpy="622.5" font-size="15">$Temp$°C</text>
+  <svg width="386.26" x="26096.492" y="28508.771" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxtemp_8" atv:refpx="709.209" atv:refpy="643.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="26096.492" y="-29236.748" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mintemp_8" atv:refpx="709.209" atv:refpy="653.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <text x="519" y="662" fill="#647a8f" font-family="Bryant Regular" id="txt_tempcell8" atv:refpx="541.25" atv:refpy="657.5" font-size="15">$Temp$°C</text>
+  <rect width="50" x="405" y="645" fill="#4A5055" height="25" stroke="none" id="id_114" atv:refpx="621" stroke-width="2" atv:refpy="647.5"/>
+  <text x="414.5" y="659" fill="#ffffff" font-family="Bryant Regular" id="txt_cell15" atv:refpx="413.755" atv:refpy="654.5" font-size="11">0.00V</text>
+  <text x="384.5" y="660" fill="#00ade1" font-family="Bryant Regular" id="cell_15" atv:refpx="391.4" atv:refpy="655.5" font-size="11">15</text>
+  <svg width="386.26" x="20175.439" y="28508.771" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_15" atv:refpx="574.209" atv:refpy="643.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="20175.439" y="-29236.748" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_15" atv:refpx="574.209" atv:refpy="653.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="675" y="400" fill="#4A5055" height="25" stroke="none" id="id_119" atv:refpx="891" stroke-width="2" atv:refpy="402.5"/>
+  <text x="684.5" y="414" fill="#ffffff" font-family="Bryant Regular" id="txt_cell2" atv:refpx="683.755" atv:refpy="409.5" font-size="11">0.00V</text>
+  <text x="654.5" y="415" fill="#00ade1" font-family="Bryant Regular" id="cell_2" atv:refpx="663.8" atv:refpy="410.5" font-size="11">02</text>
+  <svg width="386.26" x="32017.544" y="17763.157" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_02" atv:refpx="844.209" atv:refpy="398.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="32017.544" y="-18491.134" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_2" atv:refpx="844.209" atv:refpy="408.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="675" y="435" fill="#4A5055" height="25" stroke="none" id="id_124" atv:refpx="891" stroke-width="2" atv:refpy="437.5"/>
+  <text x="684.5" y="449" fill="#ffffff" font-family="Bryant Regular" id="txt_cell4" atv:refpx="683.755" atv:refpy="444.5" font-size="11">0.00V</text>
+  <text x="654.5" y="450" fill="#00ade1" font-family="Bryant Regular" id="cell_4" atv:refpx="663.8" atv:refpy="445.5" font-size="11">04</text>
+  <svg width="386.26" x="32017.544" y="19298.245" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_04" atv:refpx="844.209" atv:refpy="433.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="32017.544" y="-20026.222" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_4" atv:refpx="844.209" atv:refpy="443.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="675" y="470" fill="#4A5055" height="25" stroke="none" id="id_129" atv:refpx="891" stroke-width="2" atv:refpy="472.5"/>
+  <text x="684.5" y="484" fill="#ffffff" font-family="Bryant Regular" id="txt_cell6" atv:refpx="683.755" atv:refpy="479.5" font-size="11">0.00V</text>
+  <text x="654.5" y="485" fill="#00ade1" font-family="Bryant Regular" id="cell_6" atv:refpx="663.8" atv:refpy="480.5" font-size="11">06</text>
+  <svg width="386.26" x="32017.544" y="20833.333" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_06" atv:refpx="844.209" atv:refpy="468.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="32017.544" y="-21561.309" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_6" atv:refpx="844.209" atv:refpy="478.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="675" y="505" fill="#4A5055" height="25" stroke="none" id="id_134" atv:refpx="891" stroke-width="2" atv:refpy="507.5"/>
+  <text x="684.5" y="519" fill="#ffffff" font-family="Bryant Regular" id="txt_cell8" atv:refpx="683.755" atv:refpy="514.5" font-size="11">0.00V</text>
+  <text x="654.5" y="520" fill="#00ade1" font-family="Bryant Regular" id="cell_8" atv:refpx="663.8" atv:refpy="515.5" font-size="11">08</text>
+  <svg width="386.26" x="32017.544" y="22368.421" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_08" atv:refpx="844.209" atv:refpy="503.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="32017.544" y="-23096.397" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_8" atv:refpx="844.209" atv:refpy="513.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="675" y="540" fill="#4A5055" height="25" stroke="none" id="id_139" atv:refpx="891" stroke-width="2" atv:refpy="542.5"/>
+  <text x="684.5" y="554" fill="#ffffff" font-family="Bryant Regular" id="txt_cell10" atv:refpx="683.755" atv:refpy="549.5" font-size="11">0.00V</text>
+  <text x="654.5" y="554" fill="#00ade1" font-family="Bryant Regular" id="cell_10" atv:refpx="662" atv:refpy="549.5" font-size="11">10</text>
+  <svg width="386.26" x="32017.544" y="23903.508" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_10" atv:refpx="844.209" atv:refpy="538.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="32017.544" y="-24631.485" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_10" atv:refpx="844.209" atv:refpy="548.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="675" y="575" fill="#4A5055" height="25" stroke="none" id="id_144" atv:refpx="891" stroke-width="2" atv:refpy="577.5"/>
+  <text x="684.5" y="589" fill="#ffffff" font-family="Bryant Regular" id="txt_cell12" atv:refpx="683.755" atv:refpy="584.5" font-size="11">0.00V</text>
+  <text x="654.5" y="590" fill="#00ade1" font-family="Bryant Regular" id="cell_12" atv:refpx="661.4" atv:refpy="585.5" font-size="11">12</text>
+  <svg width="386.26" x="32017.544" y="25438.596" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_12" atv:refpx="844.209" atv:refpy="573.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="32017.544" y="-26166.572" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_12" atv:refpx="844.209" atv:refpy="583.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="675" y="610" fill="#4A5055" height="25" stroke="none" id="id_149" atv:refpx="891" stroke-width="2" atv:refpy="612.5"/>
+  <text x="684" y="624" fill="#ffffff" font-family="Bryant Regular" id="txt_cell14" atv:refpx="683.255" atv:refpy="619.5" font-size="11">0.00V</text>
+  <text x="654.5" y="625" fill="#00ade1" font-family="Bryant Regular" id="cell_14" atv:refpx="661.4" atv:refpy="620.5" font-size="11">14</text>
+  <svg width="386.26" x="32017.544" y="26973.684" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_14" atv:refpx="844.209" atv:refpy="608.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="32017.544" y="-27701.66" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="mincell_14" atv:refpx="844.209" atv:refpy="618.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="50" x="675" y="645" fill="#4A5055" height="25" stroke="none" id="id_154" atv:refpx="891" stroke-width="2" atv:refpy="647.5"/>
+  <text x="684.5" y="659" fill="#ffffff" font-family="Bryant Regular" id="txt_cell16" atv:refpx="683.755" atv:refpy="654.5" font-size="11">0.00V</text>
+  <text x="654.5" y="660" fill="#00ade1" font-family="Bryant Regular" id="cell_16" atv:refpx="661.4" atv:refpy="655.5" font-size="11">16</text>
+  <svg width="386.26" x="32017.544" y="28508.771" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="maxcell_16" atv:refpx="844.209" atv:refpy="643.296" transform="matrix(0.0228,0,0,0.0228,0,0)"/>
+  <svg width="386.26" x="32017.544" y="-29236.748" visibility="hidden" height="289.38" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.UpArrow" id="id_158" atv:refpx="844.209" atv:refpy="653.298" transform="matrix(0.0228,0,0,-0.0228,0,0)"/>
+  <rect width="14.566" x="750.017" y="365" fill="none" rx="0.875" height="14.743" ry="1.19" stroke="#ffffff" stroke-linejoin="round" id="close_border" stroke-linecap="round" atv:refpx="917.29" stroke-width="1" atv:refpy="362.941"/>
+  <text x="756.434" y="387.398" fill="#ffffff" font-family="Bryant Regular" id="close_icon" font-weight="bold" atv:refpx="755.693" atv:refpy="373.273" font-size="20" transform="matrix(0.4454,0,0,0.4508,417.2998,200.6764)">X</text>
+  <svg width="100" x="5148.988" y="767.443" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="close_click" atv:refpx="917.3" atv:refpy="362.372" transform="matrix(0.1457,0,0,0.4756,0,0)">
+   <atv:argument prefix="base" name="base"/>
+   <atv:overwrite width="13.566" height="13.744" id="button_clickarea" transform="matrix(6.8653,0,0,2.1026,0,0)"/>
+   <atv:overwrite width="13.566" height="13.744" id="button_stroke_focus" transform="matrix(6.8653,0,0,2.1026,0,0)"/>
+  </svg>
+ </g>
+</svg>

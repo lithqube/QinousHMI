@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg width="1024" atv:contentwidth="1280" version="1.2" xmlns="http://www.w3.org/2000/svg" height="768" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext" atv:contentheight="734">
+ <defs>
+  <radialGradient fx="0.5" fy="0.5" cx="0.5" cy="0.5" id="linear_0" r="1" gradientUnits="objectBoundingBox">
+   <stop offset="0" stop-color="#efefef"/>
+   <stop offset="1" stop-color="#efefef" stop-opacity="0"/>
+  </radialGradient>
+ </defs>
+ <metadata>
+  <atv:gridconfig width="5" enabled="true" height="5" gridstyle="lines"/>
+  <atv:snapconfig width="5" enabled="true" height="5"/>
+ </metadata>
+ <g atv:insensitive="true" id="id_2" atv:refpx="0" atv:refpy="0" transform="matrix(0.8,0,0,0.96,0,0)">
+  <rect width="1280.00" x="0" y="0" fill="#ffffff" height="800.00" id="id_3" atv:refpx="640" atv:refpy="400"/>
+ </g>
+ <rect width="988" x="35" y="124.5" fill="none" rx="5" ry="4.8" height="600" stroke="#efefef" stroke-linejoin="round" id="border_iframe" stroke-linecap="round" atv:refpx="529" stroke-width="1" atv:refpy="423.54"/>
+ <svg width="800" x="49.793" y="124" height="600" stroke="" stroke-linejoin="round" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Flat.hmi.iframe" id="main" atv:refpx="472.638" atv:refpy="437.593" stroke-width="0" transform="matrix(1.205,0,0,1,0,0)">
+  <atv:argument value="content" name="frameName"/>
+  <atv:overwrite x="415.5" y="414.11" id="label2" transform="matrix(0.625,0,0,0.9231,0,0)"/>
+  <atv:overwrite x="549" y="344.5" id="label" transform="matrix(0.625,0,0,0.9231,0,0)"/>
+  <atv:argument value="GUI.DISPLAYS.onLoad" name="display"/>
+ </svg>
+ <svg width="1024" x="0" y="0" rx="5" height="120" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Layout.Menu" id="menu" atv:refpx="512" atv:refpy="60"/>
+ <svg width="1024" x="0" y="817.111" rx="5" height="50" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Layout.Footer" id="footer" atv:refpx="512" atv:refpy="746.59" transform="matrix(1,0,0,0.8857,0,0)"/>
+ <script type="text/ecmascript" xlink:href="/q/StdConstantsFunctions.js"/>
+ <script type="text/ecmascript" xlink:href="/q/ConfigStructures.js"/>
+ <script type="text/ecmascript" xlink:href="/q/MonitoringFunctions.js"/>
+ <script type="text/ecmascript" xlink:href="/q/ComponentTree.js"/>
+ <script type="text/ecmascript" xlink:href="/q/AlarmInfo.js"/>
+ <script type="text/ecmascript" xlink:href="/q/DiagramDatasets.js"/>
+ <script type="text/ecmascript" xlink:href="/js/stock/highstock.js"/>
+ <script type="text/ecmascript" xlink:href="/js/stock/highcharts-more.js"/>
+ <svg width="60" x="0" y="165" rx="5" height="356" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Layout.Nav" id="nav" atv:refpx="30" atv:refpy="355"/>
+ <script type="text/ecmascript"><![CDATA[var activeView = VIEW_MONITORING;
+var configTask = SYSTEM_TASK;
+var configSelection = "";
+var externalTaskList = [];
+var currentNode;
+var systemTree;
+
+// anyone can call and set the active view. this will cause it to refresh.
+webMI.trigger.connect("SetActiveView", function(e){
+
+	activeView = e.value;
+	//console.log("REFERENCES SCRIPTS Active View set to "+activeView);
+	refreshActiveView();
+
+});
+
+webMI.data.read(["/Q_SYS/.CurrentTimeUTC", "/Q_SYS/.CurrentTimeLocal"], function(e){
+			
+	// this is what has to be applied to UTC timestamp to get the local time at the SPS	
+	LocalTimeSystemTimeDiff = (e[1].value - e[0].value)*1000;
+
+	// high charts will display everything in UTC anyway, but browser UTC may not be exactly SPS UTC. this is what we need to apply
+	// to get the latest data out of Scope. 
+	BrowserTimeSystemTimeDiff = Date.now() - e[0].value*1000; 
+
+	console.log("Got local time");
+
+});
+
+webMI.addOnload(function() {
+
+//	console.log("- - - - Loading main screen - - - - ");
+
+	top.document.body.style.backgroundColor = '#000000';
+
+	// create a new empty component tree
+	var systemDataDP = "/"+SYSTEM_TASK+"/"+getDataDP(TYPE_SYSTEM);
+	var systemConfigDP = "/"+SYSTEM_TASK+"/"+getConfigDP(TYPE_SYSTEM);
+	var alarmInfo = getStdAlarmInfo(systemDataDP, TYPE_SYSTEM);
+	systemTree = new ComponentTreeNode(
+			"System", 
+			"", 
+			TYPE_SYSTEM, 
+			-1, 
+			SYSTEM_TASK, 
+			"",
+			systemConfigDP,
+			systemDataDP, 
+			alarmInfo.DP_List, 
+			alarmInfo.Masks); // the root node
+	currentNode = systemTree;
+
+	addVirtualItemsToTree(systemTree, SYSTEM_TASK);
+
+	// find the external items
+	externalTaskList.length = 0;
+	addExternalItemsToTree(systemTree, SYSTEM_TASK, externalTaskList);
+
+	//console.log("Loaded");
+
+	// update display after all the callback come in and we have the tree
+	setTimeout(function(){   
+		//console.log("TIMEOUT - ------------ - sending system tree", systemTree);
+		webMI.trigger.fire("SystemTreeUpdate", systemTree); 
+		webMI.trigger.fire("SetCurrentNode", [TYPE_SYSTEM]); 
+		webMI.trigger.fire("SetFooterConfig", getFooterConfig(systemTree));
+		subscribeToAlarms(systemTree);
+	}, 1500);
+
+	// todo: every 500 ms, check all active alarms and update icon in footer	
+	setInterval(function(){
+		webMI.trigger.fire("UpdateAllAlarms", getActiveAlarms(systemTree));
+	}, 2000);
+//	screenresolution ();
+});
+
+function subscribeToAlarms(node){
+	// go through each element in the list
+	if (node.AlarmDPList.length > 0){
+		// subscribe to alarm
+		webMI.data.subscribeBlock(node.AlarmDPList, generateAlarmCallback(node));
+	}
+
+	for (var i=0; i<node.subComponentList.length; i++){
+		// call subscribe to alarms on all children
+		subscribeToAlarms(node.subComponentList[i]);
+	}
+}
+
+generateAlarmCallback = function(node){
+
+	return function(f){
+
+		//console.log("Alarm callback for ", node, " with ", f);
+		node.ActiveAlarms.length = 0;		
+		for (var i=0; i<f.length; i++){
+
+			var alarmStatus = f[i].value;
+			var alarmMasks = node.AlarmMaskList[i];
+			if (alarmStatus > 0){
+
+				if (alarmMasks !== undefined){
+					for (var j=0; j<alarmMasks.length; j++){
+
+						//console.log("Check alarm bitwise against mask: ", alarmStatus, alarmMasks[j]);
+		
+						if ((alarmStatus & alarmMasks[j].value) > 0) {
+			
+							//console.log("Alarms match. pushing onto active alarm list");
+							node.ActiveAlarms.push({level: alarmMasks[j].level, name: alarmMasks[j].name});
+		
+						}
+		
+					}
+				} else {
+	
+					node.ActiveAlarms.push({level: ALARM_LEVEL_WARNING, name: "UnknownAlarm: "+alarmStatus+"("+f[i].address+")"});
+	
+				}
+			}
+		}
+
+	}
+}
+
+webMI.trigger.connect("GetAlarmsFromCurrentNode", function(e){
+
+	var activeAlarmList = getActiveAlarms(currentNode);	
+	var alarmInfoList =[];
+	getAlarmInfoList(currentNode, alarmInfoList);
+
+//	console.log("here is the alarminfolist", alarmInfoList);
+
+	webMI.trigger.fire("UpdateAlarmsFromCurrentNode", [activeAlarmList, alarmInfoList]);
+});
+
+webMI.trigger.connect("GetAllAlarms", function(e){
+	webMI.trigger.fire("UpdateAllAlarms", getActiveAlarms(systemTree));
+});
+
+getActiveAlarms=function(node){
+
+	var list = [];
+	for (var i=0; i<node.ActiveAlarms.length; i++){
+
+		list.push({owner: node.Name, level: node.ActiveAlarms[i].level, name: node.ActiveAlarms[i].name});
+
+	}
+	for (var i=0; i<node.subComponentList.length; i++){
+		var sublist = getActiveAlarms(node.subComponentList[i]);
+		list = list.concat(sublist);
+	}
+
+	return list;
+}
+
+webMI.trigger.connect("RequestParameterTree", function(e){
+
+	// TODO: for the current node, get the tree of parameter groups
+	var paramTree = [];
+	//console.log("Parameter Tree Requested for task ",configTask);
+	//console.log("Look through ",externalTaskList);
+
+	if (configTask == SYSTEM_TASK) {
+		paramTree = getParamTreeForModule("q_sys.m");		
+	} else {
+		for(var i=0; i<externalTaskList.length; i++){
+			//console.log("Compare to external task ", externalTaskList[i].task);
+			if (externalTaskList[i].task === configTask) {
+				//console.log("This task is from module ", externalTaskList[i].module);
+				paramTree = getParamTreeForModule(externalTaskList[i].module);
+				break;
+			}
+		}
+	}
+	webMI.trigger.fire("SetParameterTree", paramTree);
+
+});
+
+
+webMI.trigger.connect("RequestTaskList", function(e){
+
+	var taskList = [{task: SYSTEM_TASK, module: "q_sys.m"}];
+	for (var i=0; i<externalTaskList.length; i++){
+		//console.log("Adding external task "+externalTaskList[i].task);
+		taskList.push(externalTaskList[i]);
+	}
+	for (var i=0; i<taskList.length; i++){
+		taskList[i].selected = false;
+		if (taskList[i].task == configTask) {
+			taskList[i].selected = true;
+		}
+	}
+	//console.log("=========== sending tasklist", taskList, configTask);
+	webMI.trigger.fire("SetTaskList", taskList);
+
+});
+
+
+webMI.trigger.connect("MoveToSubcomponent", function(e){
+
+	var subcomp = e.value;
+
+	if (subcomp != undefined){
+
+		if (currentNode.Type == TYPE_SYSTEM){
+			console.log("Currentnode is SYSTEM subcomp value: "+subcomp );
+			subcomp = subcomp + 1;
+		}
+		if (subcomp < currentNode.subComponentList.length) {
+
+			currentNode = currentNode.subComponentList[subcomp];
+			nodeUpdated();
+
+
+		}
+
+	}
+
+});
+
+nodeUpdated = function(){
+	/// reload monitoring display
+	if (currentNode != undefined){
+
+		refreshActiveView()
+	
+		/////////////////////// UPDATE MENU
+		webMI.trigger.fire("Highlight", currentNode.Type, "menu");
+		
+	}
+
+}
+
+webMI.trigger.connect("SetCurrentNode", function(e){
+
+	if (typeof e.value == 'undefined'){
+		console.log("someone tried to set a bad node");
+		return;
+	}
+
+	//////////////////////// SET THE CURRENT NODE
+	// expecting: e.value is an array of Group, SubIndex, SubIndex, SubIndex, etc
+	//console.log("current node is", currentNode);
+	//console.log("--------setting current node to ",e);
+	var Group = e.value;
+
+	if (Group == TYPE_SYSTEM) {
+		currentNode = systemTree;
+	} else {
+		for (var i=0; i<systemTree.subComponentList.length; i++){
+			if (systemTree.subComponentList[i].Type == Group ) {
+
+				currentNode = systemTree.subComponentList[i];
+
+			}
+		}
+	}
+
+	for (var i=1; i<e.value.length; i++){
+		//console.log("going to subcomonent");
+		currentNode = currentNode.subComponentList[i];
+
+	}
+	
+	nodeUpdated();
+});
+
+webMI.trigger.connect("MonitoringDataRequest", function(e){
+	//console.log("MonitoringDataRequest called");
+	///////////////////// FIRE INFO TO MONITORING VIEW
+	webMI.trigger.fire("SetMonitoringBasicData", getMonitoringBasicData(currentNode));
+
+});
+
+webMI.trigger.connect("MonitoringNodeRequest", function(e){
+
+//	console.log("current node request received, firing");
+	webMI.trigger.fire("SetMonitoringNode", currentNode);
+
+});
+
+webMI.trigger.connect("ChartInfoRequest", function(e){
+
+	console.log("chart info request received, firing");
+	webMI.trigger.fire("SetChartInfo", [currentNode, LocalTimeSystemTimeDiff, BrowserTimeSystemTimeDiff]);
+
+});
+
+/////////////////////////// end get basic data
+
+function getParamTreeForModule(module){
+
+	//console.log("Getting param tree for module: "+module);
+	
+	var paramTree = [];
+	//console.log("Searching paramTable for ", module);
+	for (var i=0; i<paramTable.length; i++){
+
+		//console.log("Looking at: ", paramTable[i]);
+		if (paramTable[i].title == module) {
+			paramTree = paramTable[i].childs;
+		}
+
+	}
+	//console.log("returning param tree: ",paramTree);
+	return paramTree;
+}
+
+
+webMI.trigger.connect("SetConfigTask", function(e) {
+
+	configTask = e.value;
+	//console.log("Just set the Default known config task to ", configTask);
+	configSelection = "";
+
+	refreshActiveView();
+
+});
+
+webMI.trigger.connect("GetAlarmHistoryConfig", function(e){
+
+	var logRecordersSets = [];
+
+	if ((currentNode.Type == TYPE_BATTERY) || (currentNode.Type == TYPE_BATTERY_GROUP)) {
+		 [{	
+			recorder: "SAMVAC_BCU1_STAT", // a list of Scope recorder, and the associated series definitions is supplied via trigger
+			prefix: "SAMVAC/.BCUData[1]", // no leading slash!
+		}];
+	}
+});
+
+function refreshActiveView(){
+	console.log("=======REFRESH VIEW=======");
+
+	switch(activeView){
+		case(VIEW_MONITORING):
+			webMI.display.openDisplay("GUI.DISPLAYS.MonitoringView", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		case(VIEW_CONFIGURATION):
+			webMI.display.openDisplay("GUI.DISPLAYS.ConfigurationView", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		case(VIEW_DIAGRAMS):	
+			webMI.display.openDisplay("GUI.DISPLAYS.DiagramsView", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		case(VIEW_ALARMS):	
+			webMI.display.openDisplay("GUI.DISPLAYS.AlarmsView", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		case(VIEW_ENVIRONMENT):	
+			webMI.display.openDisplay("GUI.DISPLAYS.EnvironmentView", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		case(VIEW_CONTROL):
+			
+			webMI.display.openDisplay("GUI.DISPLAYS.ControlView", webMI.query, "subframe");	
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		default:
+			webMI.display.openDisplay("GUI.DISPLAYS.MonitoringView", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", VIEW_MONITORING);
+			webMI.display.openDisplay("GUI.DISPLAYS.MonitoringView", webMI.query);
+			return;
+	}
+	
+}
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"main", "key":"FontFamily", "property":""});
+
+]]></script>
+</svg>

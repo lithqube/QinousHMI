@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="964" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svgmaker="http://www.svgmaker.com/svgns" version="1.2" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns="http://www.w3.org/2000/svg" xmlns:ns="http://web.resource.org/cc/" height="600" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atvise="http://www.atvise.com/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://web.resource.org/cc/" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="10" enabled="true" height="10" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="true" height="10"/>
+ </metadata>
+ <foreignObject width="964" x="0" y="0" height="500" id="cntnr_tabs">
+  <div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%; margin: 0 auto" id="tabs"/>
+ </foreignObject>
+ <svg width="105" x="569.5" y="558" height="35" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.Picker%20Date" id="TimePicker" atv:refpx="592.5" atv:refpy="527.5"/>
+ <g id="bttn_hour" atv:refpx="302" atv:refpy="528" transform="matrix(1,0,0,1,29.5,48)">
+  <rect width="83" x="260.5" y="510.5" fill="none" rx="5" ry="4.605" height="35" stroke="#647A8F" stroke-linejoin="round" id="brdr_button" stroke-linecap="square" atv:refpx="211.572" stroke-width="1" atv:refpy="576.905"/>
+  <text x="302" y="532.5" fill="#647a8f" font-family="Varela Round" text-anchor="middle" id="txt_taskname" stroke-linecap="square" atv:refpx="302" atv:refpy="528.5" font-size="16">T{Hour}</text>
+ </g>
+ <g id="bttn_day" atv:refpx="395.333" atv:refpy="528" transform="matrix(1,0,0,1,32.8333,48)">
+  <rect width="83" x="350.5" y="510.5" fill="none" rx="5" ry="4.605" height="35" stroke="#647A8F" stroke-linejoin="round" id="id_6" stroke-linecap="round" atv:refpx="201.572" stroke-width="1" atv:refpy="551.905"/>
+  <text x="392" y="532.5" fill="#647a8f" font-family="Varela Round" text-anchor="middle" id="id_7" atv:refpx="223.066" atv:refpy="548" font-size="16">T{Day}</text>
+ </g>
+ <g id="bttn_week" atv:refpx="488.667" atv:refpy="528" transform="matrix(1,0,0,1,36.1667,48)">
+  <rect width="83" x="440.5" y="510.5" fill="none" rx="5" ry="4.605" height="35" stroke="#647A8F" stroke-linejoin="round" id="id_9" stroke-linecap="round" atv:refpx="181.572" stroke-width="1" atv:refpy="551.905"/>
+  <text x="482" y="532.5" fill="#647a8f" font-family="Varela Round" text-anchor="middle" id="id_10" atv:refpx="164.491" atv:refpy="548" font-size="16">T{Week}</text>
+ </g>
+ <g id="bttn_past" atv:refpx="26.5" atv:refpy="526.001" transform="matrix(1,0,0,1,-65,53)">
+  <svg width="256" x="1199.925" y="4646.145" height="294.4" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2Farrow-left%20%281%29.svg" id="id_4" atv:refpx="83.001" atv:refpy="521" transform="matrix(0.0625,0,0,0.1087,0,0)"/>
+  <svg width="256" x="1472" y="4645.814" height="294.4" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2Farrow-left%20%281%29.svg" id="id_5" atv:refpx="98.001" atv:refpy="520.999" transform="matrix(0.0625,0,0,0.1087,0,0)"/>
+ </g>
+ <g id="bttn_future" atv:refpx="937.5" atv:refpy="526.001" transform="matrix(-1,0,0,1,1028.9953,53)">
+  <svg width="256" x="1199.925" y="4646.145" height="294.4" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2Farrow-left%20%281%29.svg" id="id_12" atv:refpx="83.001" atv:refpy="521" transform="matrix(0.0625,0,0,0.1087,0,0)"/>
+  <svg width="256" x="1472" y="4645.814" height="294.4" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Ficons%2Farrow-left%20%281%29.svg" id="id_13" atv:refpx="98.001" atv:refpy="520.999" transform="matrix(0.0625,0,0,0.1087,0,0)"/>
+ </g>
+ <image width="198" x="1491.31" y="1629.859" visibility="hidden" height="198" xlink:href="../../css/img/Preloader2.gif" id="loader" atv:refpx="482.066" atv:refpy="517.064" transform="matrix(0.3031,0,0,0.3031,0,0)"/>
+ <script type="text/ecmascript" xlink:href="/js/jquery.min.js"/>
+ <script type="text/ecmascript" xlink:href="/js/stock/highstock.js"/>
+ <script type="text/ecmascript" xlink:href="/js/stock/highcharts-more.js"/>
+ <script type="text/ecmascript" xlink:href="/js/stock/modules/boost.js"/>
+ <script type="text/ecmascript" xlink:href="/js/stock/modules/data.js"/>
+ <script type="text/ecmascript" xlink:href="/js/stock/modules/exporting.js"/>
+ <script type="text/ecmascript" xlink:href="/js/stock/modules/no-data-to-display.js"/>
+ <script type="text/ecmascript" xlink:href="/scope.js"/>
+ <script type="text/ecmascript" xlink:href="/q/StdConstantsFunctions.js"/>
+ <script type="text/ecmascript" xlink:href="/q/DiagramFunctions.js"/>
+ <script type="text/ecmascript" xlink:href="/q/DiagramDatasets.js"/>
+ <script type="text/ecmascript"><![CDATA[var $ = top.$;
+//setTimeout(function() { chart.reflow(); }, 1);
+var data = [];
+var labels = [];
+var dp_totalPower,
+	dp_voltage,
+	dp_frequency,
+	container,
+	chartOverview,
+	chartPower,
+	chartEnery;
+var timelapse = 300000;
+var bttn_past = document.getElementById("bttn_past"),
+	bttn_hour = document.getElementById("bttn_hour"),
+	bttn_day = document.getElementById("bttn_day"),
+	bttn_week = document.getElementById("bttn_week"),
+	TimePicker = document.getElementById("TimePicker"),
+	bttn_future = document.getElementById("bttn_future");
+var highchart;
+
+const ENUM_HOUR = 0;
+const ENUM_DAY = 1;
+const ENUM_WEEK = 2;
+const ENUM_MONTH = 3;
+
+var time_OneHour = 1000*3600;
+var time_OneDay = time_OneHour*24;
+var time_OneWeek = time_OneDay*7;
+var time_OneMonth = time_OneWeek*4;
+var timeSpan = time_OneHour;
+var startTime;
+
+
+// TODO: 
+// 1) store index results from getContent in onLoad function -- avoid requesting the TOC over and over again
+// 2) reference on click of "Load More" button -- disable "load more" button if no more data available
+
+// Datapoints connection -- these values will eventually be set using a trigger, and taken from the scope data. The var chartSpec here is shown as an example/default data structure. at a later date it will be updated using a trigger, which will include the correct data for the component being viewed
+var chartSpec; 
+
+var recorderSeriesList = [];
+var tocList = [];
+webMI.addOnload(function(a){
+	webMI.gfx.setVisible("loader", true);
+	console.log("I am requesting diagram data");
+
+	webMI.trigger.fire("ChartInfoRequest");
+});
+
+webMI.trigger.connect("SetChartInfo", function(f){
+
+	console.log("Diagram view has recieved the monitoring node!");
+	var node = f.value[0];
+	LocalTimeSystemTimeDiff = f.value[1];
+	BrowserTimeSystemTimeDiff = f.value[2];
+	var frontspec;
+
+	// get the corresponding chartdata for this node
+	// and extract the frontspec
+	for (var i=0; i<ChartData.length; i++){
+		if (ChartData[i].type == node.Type){
+			chartSpec = ChartData[i].tabs[0].spec;	
+			break;			
+		}
+	}
+
+	
+	// JQUERY TABS
+	tabs = document.getElementById("tabs");
+//	tabs.style.maxWidth = "1000px";
+//	tabs.style.maxHeight = "565px";
+//	tabs.style.minWidth = "857px";
+//	tabs.style.minHeight = "484px";
+	//tabs.style.position = "center";
+	/*  $(function() {
+		$(tabs).tabs();
+	  });
+	*/
+	
+	// HIGHCHARTS INTEGRATION
+	// OVERVIEW
+	var overview = document.getElementById("tabs");
+	overview.style.maxWidth = "100%";
+//	overview.style.textAlign = "center";
+	$(function () {
+        $(overview).highcharts('StockChart',{
+    	chart: {
+            type: 'spline',
+            zoomType: 'xy',
+			spacingBottom: 20,
+			spacingTop: 5,
+			spacingLeft: 20,
+			spacingRight: 20,
+			width: null,
+	        height: null,
+//			zoomType: 'xy',
+			alignTicks: true,
+			 loading: {
+            labelStyle: {
+                color: 'white'
+            },
+            style: {
+                backgroundColor: 'gray'
+            }
+			},
+			exporting:{
+				enabled: false,
+			},
+			plotOptions: {
+				},
+			animation: {
+				easing: 'easeOutBounce'
+				},
+			events: {
+				load: function () {
+		
+					highchart = this;
+					timeSpan = time_OneHour;			
+					startTime = Date.now() - BrowserTimeSystemTimeDiff - timeSpan;
+					// get historical data -- this will add data to each series -- must complete before loading chart!
+					recorderSeriesList = [];
+					for (var i=0; i<chartSpec.data.length; i++) {
+		
+						tocList.push({ toc: {}});
+						recorderSeriesList.push([]);
+						for (var j=0; j<chartSpec.data[i].series.length; j++){
+		
+							recorderSeriesList[recorderSeriesList.length -1].push(this.addSeries(chartSpec.data[i].series[j]));
+
+						}
+//						console.log("our series list", recorderSeriesList[i]);
+						//Scope.querylookup(chartSpec.data[i].recorder, curPLCSytsemTime - 48*60 * 1000 * 60, curPLCSytsemTime, addQueriedDataToSeries(chartSpec.data[i], recorderSeriesList, LocalTimeSystemTimeDiff));
+	
+						// use get content -- read is limited to 10000 data points, and we want to decide for ourselves how to iterate to get the desired data. get content gives us the needed information.
+						console.log("Looking up", getRecorderPrefix(node) + "_" + chartSpec.data[i].recorder);
+						Scope.getContent(
+					
+							getRecorderPrefix(node) + "_" + chartSpec.data[i].recorder, 
+							getContentAndAddSeries(
+								tocList[i],
+								chartSpec.data[i], 
+								recorderSeriesList[i], 
+								node,
+								LocalTimeSystemTimeDiff, 
+								startTime, 
+								startTime + timeSpan));
+
+
+					}
+				}
+			}
+		},
+		legend: {
+            enabled: true
+        },
+		rangeSelector : {
+			enabled : false
+		},
+		navigator: {
+			enabled: false,
+			height: 20
+		},
+		credits: {
+			enabled: false
+		},
+		title: {
+			text: 'Live Overview',
+			x: -20 //center
+		},
+		xAxis: {
+			type: 'datetime',
+			ordinal:false
+		},
+		yAxis: chartSpec.yaxes,
+		tooltip: {
+			xDateFormat: '%d/%m/%Y - %H:%M:%S',
+			shared: false
+		}
+		
+      }) // end chart creation
+    }); // end chart overview
+//setTimeout(function() { highchart.reflow(); }, 1);
+
+}); // end addOnload
+
+webMI.trigger.connect("setLoader", function(f){
+	var statusLoader = f.value;
+	if (statusLoader == false){
+	console.log("- - Hide loader - -");
+	webMI.gfx.setVisible("loader", false);
+	}
+});
+
+function RefreshDiagram(){
+
+	//TODO -- set highlight of hour / week / day buttons
+
+	switch (timeSpan){
+		case time_OneHour:
+			break;
+		case time_OneDay:
+			break;
+		case time_OneWeek:
+			break;		
+		default:
+			timeSpan = time_OneHour;
+	}
+
+//	console.log("REFRESHING DIAGRAM with ", startTime, startTime+timeSpan);
+	while(highchart.series.length > 0){
+	    highchart.series[0].remove(true);
+	}
+	recorderSeriesList = [];
+
+//	console.log("cleared everything out");
+	for (var i=0; i<chartSpec.data.length; i++) {
+
+		recorderSeriesList.push([]);
+		for (var j=0; j<chartSpec.data[i].series.length; j++){
+
+//			console.log("Config object contents:", chartSpec.data[i].series[j].data = []);
+			recorderSeriesList[recorderSeriesList.length -1].push(highchart.addSeries(chartSpec.data[i].series[j]));
+
+		}
+		addQueriedDataToSeries(
+			tocList[i].toc,
+			chartSpec.data[i], 
+			recorderSeriesList[i], 
+			LocalTimeSystemTimeDiff, 
+			startTime, 
+			startTime + timeSpan);
+	}
+
+}
+
+// Buttons
+webMI.addEvent("bttn_past", ["mouseover","touchstart"], function(e){
+	bttn_past.setAttribute('style', "cursor: pointer;");
+});
+webMI.addEvent("bttn_future", ["mouseover","touchstart"], function(e){
+	bttn_future.setAttribute('style', "cursor: pointer;");
+});
+webMI.addEvent("bttn_day", ["mouseover","touchstart"], function(e){
+	bttn_day.setAttribute('style', "cursor: pointer;");
+});
+webMI.addEvent("bttn_hour", ["mouseover","touchstart"], function(e){
+	bttn_hour.setAttribute('style', "cursor: pointer;");
+});
+webMI.addEvent("bttn_week", ["mouseover","touchstart"], function(e){
+	bttn_week.setAttribute('style', "cursor: pointer;");
+});
+webMI.addEvent("TimePicker", ["mouseover","touchstart"], function(e){
+	TimePicker.setAttribute('style', "cursor: pointer;");
+});
+
+webMI.addEvent("bttn_past", "click", function(e) {
+	startTime = startTime - timeSpan;
+	RefreshDiagram();
+});
+
+webMI.addEvent("bttn_future", "click", function(e) {
+	startTime = Math.min(startTime + timeSpan, Date.now() - BrowserTimeSystemTimeDiff - timeSpan);
+	RefreshDiagram();
+});
+
+webMI.addEvent("bttn_day", "click", function(e) {
+	if (timeSpan != time_OneDay){
+		timeSpan = time_OneDay;
+		startTime = Math.min(startTime, Date.now() - time_OneDay);
+		RefreshDiagram();
+	}
+});
+
+webMI.addEvent("bttn_hour", "click", function(e) {
+	if (timeSpan != time_OneHour){
+		timeSpan = time_OneHour;
+		RefreshDiagram();
+	}
+});
+
+webMI.addEvent("bttn_week", "click", function(e) {
+	if (timeSpan != time_OneWeek){
+		timeSpan = time_OneWeek;
+		RefreshDiagram();
+	}
+});
+
+webMI.trigger.connect("valuechanged", function(e){
+//	console.log("Date time picker update??", e);
+	if (e.value !== undefined){
+		startTime = e.value;
+		RefreshDiagram();
+	}
+});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_taskname", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"id_7", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"id_10", "key":"FontFamily", "property":""});]]></script>
+</svg>

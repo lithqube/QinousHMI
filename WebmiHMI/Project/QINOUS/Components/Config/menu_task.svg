@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="85" version="1.2" xmlns="http://www.w3.org/2000/svg" height="30" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs>
+  <linearGradient id="linear_0" y1="0" x1="0" y2="1" gradientUnits="objectBoundingBox" x2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop offset="1" stop-color="#00c800"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <atv:parameter desc="" valuetype="display" substitute="$TaskName$" behavior="mandatory" name="TaskName" defaultvalue=""/>
+  <atv:gridconfig width="5" enabled="true" height="5" gridstyle="lines"/>
+  <atv:snapconfig width="5" enabled="true" height="5"/>
+ </metadata>
+ <g atv:insensitive="true" id="bttn_taskmenu" atv:refpx="0" atv:refpy="0" transform="matrix(0.0664,0,0,0.0391,0,0)"/>
+ <rect width="83" x="1" y="1" fill="none" rx="5" ry="3.684" height="28" stroke="#647A8F" stroke-linejoin="round" id="brdr_button" stroke-linecap="round" atv:refpx="42.572" stroke-width="1" atv:refpy="14.624"/>
+ <text x="42.5" y="20" fill="#647a8f" font-family="Open Sans" text-anchor="middle" id="txt_taskname" atv:refpx="42.5" atv:refpy="16" font-size="12">$TaskName$</text>
+ <script type="text/ecmascript"><![CDATA[
+
+
+
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_taskname", "key":"FontFamily", "property":""});]]></script>
+</svg>

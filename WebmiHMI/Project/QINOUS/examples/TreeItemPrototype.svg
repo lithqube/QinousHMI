@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="300" version="1.2" xmlns="http://www.w3.org/2000/svg" height="45" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="20" enabled="false" height="20" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="false" height="10"/>
+ </metadata>
+ <rect width="300" x="0" y="0" fill="#3f434a" height="45" stroke="none" id="id_2" atv:refpx="0" stroke-width="0" atv:refpy="0"/>
+ <rect width="300" x="0" y="0" fill="#003265" display="none" height="45" stroke="none" id="selectedIndicator" atv:refpx="150.001" stroke-width="0" atv:refpy="22.5"/>
+ <text x="33" y="19.203" atv:bindtl="0,1" fill="#ffffff" font-family="Arial" atv:bindbr="0,1" id="id_0" atv:refpx="28.369" atv:refpy="15.842" font-size="12">$name$</text>
+ <text x="236.366" y="19.5" atv:bindtl="1,1" fill="#ffffff" font-family="Arial" text-anchor="end" atv:bindbr="1,1" id="id_1" atv:refpx="240.968" atv:refpy="15.248" font-size="12">$value$</text>
+ <g id="id_10" atv:refpx="17" atv:refpy="15" transform="matrix(1,0,0,1,0.6337,-10.2179)"/>
+ <rect width="41.72" x="0.337" y="-0.026" fill="#0000ff" height="44.974" stroke="none" fill-opacity="0" id="expandClickarea" atv:refpx="21.197" stroke-width="0" atv:refpy="22.461"/>
+ <text x="255.5" y="19.852" atv:bindtl="1,1" fill="#ffffff" font-family="Arial" text-anchor="start" atv:bindbr="1,1" id="id_3" atv:refpx="295.09" atv:refpy="15.6" font-size="12">$max$</text>
+ <text x="248.321" y="19.5" atv:bindtl="1,1" fill="#ffffff" font-family="Open Sans" text-anchor="end" atv:bindbr="1,1" id="id_4" atv:refpx="252.848" atv:refpy="15.248" font-size="12">/</text>
+ <rect width="100" x="190" y="30" fill="#ffffff" height="5" stroke="none" id="id_5" atv:refpx="240" stroke-width="0" atv:refpy="32.5"/>
+ <rect width="52.85" x="190" y="30" fill="#fff300" height="5" stroke="none" id="indicator" atv:refpx="216.425" stroke-width="0" atv:refpy="32.499"/>
+ <polyline atv:bindtl="1,1" points="13.5,8 13.5,21.998 20.5,14.999 13.5,8" fill="#E3D700" stroke="none" atv:bindbr="1,1" id="collapsedIndicator" atv:refpx="17.001" stroke-width="0" atv:refpy="15"/>
+ <polyline atv:bindtl="1,1" points="24.002,11.499 10.004,11.499 17.003,18.499 24.002,11.499" fill="#E3D700" stroke="none" atv:bindbr="1,1" id="expandedIndicator" atv:refpx="17.002" stroke-width="0" atv:refpy="15.001"/>
+ <text x="67.601" y="37.217" fill="#ffffff" font-family="Arial" text-anchor="end" id="id_6" atv:refpx="54.101" atv:refpy="32.717" font-size="12">Time</text>
+</svg>

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Bryant';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/bryant_medium.woff2') format('woff2'),
+      url('../fonts/bryant_medium.woff') format('woff');
+}
+
+* {
+  box-sizing: content-box;
+}
+
+ol, ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root, div[data-reactroot] {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Bryant";
+  //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 18px;
+}
+
+div[data-reactroot] {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  flex: 0 0 auto;
+  height: 100px;
+  background-color: rgb(190, 199, 208);
+  padding: 0 20px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 auto;
+  min-height: 20px;
+  background-color: rgb(115, 136, 156);
+  color: white;
+  min-height: 33px;
+
+  .footer-stats {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    padding-left: 20px;
+
+    .stat {
+      flex: 0 0 auto;
+      margin-right: 15px;
+    }
+  }
+}
+
+
+.view-selector {
+  flex: 0 0 auto;
+  display: fixed;
+  width: 70px;
+
+  ol {
+    margin-top: 24px;
+  }
+  
+  li {
+    width: 52px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: rgb(109, 130, 151);
+    fill: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+
+    .icon {
+      flex: 0 0 auto;
+      width: 32px;
+      height: 32px;
+      margin-left: 9px;
+    }
+
+    &.active {
+      margin-left: 0;
+      width: 62px;
+      border-radius: 0 4px 4px 0;
+      cursor: default;
+      background-color: $colorQinousBlue;
+
+      .icon {
+        margin-left: 17px;
+      }
+    }
+  }
+}
+
+.view-container {
+  flex: 1 1 auto;
+  overflow: scroll;
+  padding: 23px;
+  z-index: 0;
+}
+
+.main {
+  display: flex;
+  flex: 1 1 auto;
+  height: auto;
+}

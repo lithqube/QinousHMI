@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="390" version="1.2" xmlns="http://www.w3.org/2000/svg" height="182" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:parameter valuetype="color" substitute="" behavior="optional" name="test" defaultvalue="blue"/>
+  <atv:gridconfig width="20" enabled="false" height="20" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="false" height="10"/>
+ </metadata>
+ <script type="text/ecmascript"><![CDATA[console.error(webMI.query);
+
+
+
+
+
+webMI.data.subscribe("Server1/Q_SYS/.DieselGroupConfig.ControlPlace", function(e) {
+console.error(e);
+var id = "id_6";
+var value = e.value;
+webMI.gfx.setText(id, value);
+
+});
+
+]]></script>
+ <svg width="400" x="-0.447" y="-0.322" height="400" xlink:href="SYSTEM.LIBRARY.ATVISE.OBJECTDISPLAYS.Chrome.trend.ejschart" id="id_0" atv:refpx="194.413" atv:refpy="90.999" transform="matrix(0.9742,0,0,0.4557,0,0)">
+  <atv:argument value="500" name="updateInterval"/>
+  <atv:argument value="Server1/DEMO_PLC/Bars.Bars[1]" name="node1"/>
+  <atv:argument value="Server1/DEMO_PLC/Bars.Bars[2]" name="node2"/>
+  <atv:overwrite x="259.698" y="142.296" id="btn_forward" transform="matrix(1.0264,0,0,2.1942,0,0)"/>
+  <atv:overwrite y="142.296" id="btn_back" transform="matrix(1.0264,0,0,2.1942,0,0)"/>
+  <atv:overwrite x="38.849" y="111.148" id="id_1" transform="matrix(1.0264,0,0,2.1942,0,0)"/>
+  <atv:overwrite width="369.698" height="142.296" id="trendForeignObject" transform="matrix(1.0264,0,0,2.1942,0,0)"/>
+ </svg>
+</svg>

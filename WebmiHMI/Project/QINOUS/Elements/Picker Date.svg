@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="105" version="1.2" xmlns="http://www.w3.org/2000/svg" height="35" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <desc>Opens a dialog to pick a date.</desc>
+ <title>Picker Date</title>
+ <metadata>
+  <atv:parameter desc="name" valuetype="string" substitute="$NAME$" behavior="optional" name="name" defaultvalue="pickerDate"/>
+  <atv:parameter desc="background color" valuetype="color" substitute="$BACKGROUNDCOLOR$" group="Appearance" behavior="optional" name="backgroundColor" defaultvalue="#FFFFFF"/>
+  <atv:parameter desc="fill color inactive" valuetype="color" substitute="" group="Appearance" behavior="optional" name="fillInactive" defaultvalue="#FFFFFF"/>
+  <atv:parameter desc="stroke color pressed" valuetype="color" substitute="" group="Appearance" behavior="optional" name="strokePressed" defaultvalue="#FFFFFF"/>
+  <atv:parameter desc="focus stroke color" valuetype="color" substitute="" group="Appearance" behavior="optional" name="strokeFocus" defaultvalue="#FFFFFF"/>
+  <atv:gridconfig width="1" enabled="true" height="1" gridstyle="lines"/>
+  <atv:snapconfig width="1" enabled="true" height="1"/>
+ </metadata>
+ <rect width="103.5" x="0.75" y="0.75" fill="none" rx="6.235" ry="4.408" height="33.5" stroke="#647A8F" stroke-linejoin="round" id="brdr_button" stroke-linecap="round" atv:refpx="52.589" stroke-width="1" atv:refpy="17.05"/>
+ <script type="text/ecmascript"><![CDATA[var _value = 0,
+	name = webMI.query.name;
+webMI.addEvent("button", ["click","touchend"], function(e) {
+
+	webMI.display.openWindow({
+		display:"SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Elements.Datepicker",
+		extern:false,
+		height:400,
+		menubar:false,
+		modal:true,
+		movable:false,
+		resizable:true,
+		scrollbars:false,
+		status:false,
+		title:'',
+		toolbar:false,
+		width:600,
+		query: {
+			value: _value,
+			popupId: name
+		}
+	});
+}, "button");
+
+
+function updateDisplay(write) {
+	var date = new Date(_value),
+		dateString = date.toLocaleDateString();
+
+	
+	webMI.gfx.setText('button_button_label', dateString);
+	webMI.trigger.fire("valuechanged", _value, "");
+
+	if (write && webMI.query.base && webMI.query.base != '') webMI.data.write([webMI.query.base], [_value]);
+}
+
+// initial update
+webMI.addOnload(function() {
+/*	
+	if (!webMI.query.base || webMI.query.base == '') updateDisplay();
+	else {
+		webMI.data.read(webMI.query.base, function(e) {
+			_value = e.value;
+			updateDisplay();
+		});
+		webMI.data.subscribe(webMI.query.base, function(e) {
+			_value = e.value;
+			updateDisplay();
+		});
+	}
+*/
+});
+
+webMI.trigger.connect('com.atvise.datepicker_' + name, function(e) {
+	_value = e.value;
+	updateDisplay(true);
+})
+
+// Reset frame and text scaling
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.ResetScaling", { callback: function(originalSize, renderedSize, scale, scaleInverse) {
+	webMI.gfx.setScaleX('button_button_label', scaleInverse.x);
+
+	webMI.gfx.setScaleX('button_id_2', scaleInverse.x);
+	webMI.gfx.setWidth('button_id_2', renderedSize.width);
+	webMI.gfx.setMoveX('button_id_2', -(renderedSize.width - originalSize.width) / 2);
+
+	webMI.gfx.setScaleX('button_button_stroke', scaleInverse.x);
+	webMI.gfx.setWidth('button_button_stroke', (originalSize.width * scale.x) - 1);
+	webMI.gfx.setMoveX('button_button_stroke', -(renderedSize.width - originalSize.width) / 2);
+}, originalWidth: 100, originalHeight: 31, innerNode: document.getElementById('button') });
+
+// TwoHand support
+var _active = true;
+function setActive(value) {
+	webMI.trigger.fire('com.atvise.setActive', value || _active, 'button');
+}
+//webMI.trigger.connect('com.bachmann.themechange', function() { setActive(_active) });
+webMI.trigger.connect('com.atvise.setActive', function(e) {
+	setActive(_active = e.value);
+});
+
+]]></script>
+ <svg width="100" x="4.161" y="1.899" atv:bindtl="0,0" height="30" atv:bindbr="1,1" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.ActionButton" id="button" atv:refpx="52.064" atv:refpy="18.323" transform="matrix(0.9613,0,0,1.0531,0,0)">
+  <atv:argument prefix="fillInactive" value="" name="fillColorInactive"/>
+  <atv:argument prefix="backgroundColor" value="" name="fillColor"/>
+  <atv:argument prefix="strokePressed" value="" name="strokePressed"/>
+  <atv:argument prefix="strokeFocus" value="" name="focusStrokeColor"/>
+  <atv:argument value="#647A8F" name="fontColor"/>
+  <atv:argument value="T{Pick Date}" name="label"/>
+  <atv:overwrite width="95.07" x="0.529" y="0.513" height="31.624" id="button_stroke" transform="matrix(1.0403,0,0,0.9496,0,0)"/>
+  <atv:overwrite x="47.594" y="22.337" id="button_label" transform="matrix(1.0397,0,0,0.9488,-0.0011,0.001)"/>
+  <atv:overwrite x="40.843" y="9.088" id="button_symbol" transform="matrix(1.0397,0,0,0.9488,0,0)"/>
+  <atv:overwrite width="95.07" x="0.529" y="0.513" height="31.624" id="button_bg" transform="matrix(1.0403,0,0,0.9496,0,0)"/>
+  <atv:overwrite width="96.069" x="0.029" y="0.013" height="32.623" id="id_2" transform="matrix(1.0403,0,0,0.9496,0,0)"/>
+  <atv:overwrite id="button_clickarea" transform="matrix(1.0004,0,0,0.9662,-0.0198,0.0235)"/>
+ </svg>
+</svg>

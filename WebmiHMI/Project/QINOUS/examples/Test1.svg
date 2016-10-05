@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="580" version="1.2" xmlns="http://www.w3.org/2000/svg" height="375.77" xmlns:xlink="http://www.w3.org/1999/xlink" id="myparent" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="10" enabled="true" height="10" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="true" height="10"/>
+ </metadata>
+ <rect width="350" x="70" y="100" fill="none" height="120" stroke="#647a8f" id="container" atv:refpx="245" stroke-width="2" atv:refpy="160"/>
+ <svg width="85" x="12.162" y="10.676" height="55" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Layout.menu.consumer" id="groupid" atv:refpx="28.549" atv:refpy="19.939" transform="matrix(0.5223,0,0,0.5223,0,0)"/>
+ <rect width="80.811" x="70" y="40" fill="none" height="40" stroke="#647a8f" id="box" atv:refpx="110.406" stroke-width="2" atv:refpy="60"/>
+ <rect width="58.544" x="516.749" y="7.025" fill="none" height="22.637" stroke="#8f0e16" stroke-linejoin="round" id="clone" stroke-linecap="round" atv:refpx="546.021" stroke-width="2" atv:refpy="18.343"/>
+ <svg width="100" x="919.413" y="11.858" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.FlatComponents.Clickarea" id="clickbox" atv:refpx="545.996" atv:refpy="18.275" transform="matrix(0.5632,0,0,0.668,0,0)">
+  <atv:overwrite width="55.322" height="19.708" id="button_clickarea" transform="matrix(1.7755,0,0,1.497,0,0)"/>
+  <atv:overwrite width="55.322" height="19.708" id="button_stroke_focus" transform="matrix(1.7755,0,0,1.497,0,0)"/>
+ </svg>
+ <script type="text/ecmascript"><![CDATA[var $ = top.$;
+
+webMI.addEvent("groupid", "click", function(e) {
+var id = "groupid";
+var value = true;
+for (var i = 0; i<3; i++)
+{
+	var Root=document.getElementById("myparent");
+	var G = document.getElementById("groupid")
+	var newG = G.cloneNode(true)
+	newG.id = "groupid"+i;
+	var factor = 300 * i;
+	var move="translate("+ factor + ",0)";
+	newG.setAttributeNS(null, "transform", move);
+//console.log("clone by old method object:"+newG)
+	Root.appendChild(newG);
+}
+
+var elem = document.getElementById("groupid");
+elem.parentElement.removeChild(elem);
+//console.log("clone by old")
+});
+
+// Clone JQuery 
+var Box = document.getElementById("box");
+var container = document.getElementById("container");
+console.log("Initial id: "+Box.id);
+webMI.addEvent("clickbox", "click", function(e) {
+//	$(Box).clone(Box);
+	$(Box.id).clone().appendTo(container.id);
+		
+
+});
+
+webMI.addEvent("box", ["click","mouseover","mousemove","touchstart"], function(e) {
+var id = "box";
+var value = true;
+if (value == true)
+	webMI.gfx.setStroke(id, "#00abe1");
+	$(document.getElementById("clone")).fadeToggle("Slow","linear");
+
+});
+
+
+
+webMI.addEvent("box", ["mouseup","mouseout","touchend"], function(e) {
+var id = "box";
+var value = true;
+if (value == true)
+	webMI.gfx.setStroke(id, "#647a8f");
+
+});
+
+]]></script>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg width="1024" atv:contentwidth="1280" version="1.2" xmlns="http://www.w3.org/2000/svg" height="768" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext" atv:contentheight="734">
+ <defs>
+  <radialGradient fx="0.5" fy="0.5" cx="0.5" cy="0.5" id="linear_0" r="1" gradientUnits="objectBoundingBox">
+   <stop offset="0" stop-color="#efefef"/>
+   <stop offset="1" stop-color="#efefef" stop-opacity="0"/>
+  </radialGradient>
+ </defs>
+ <metadata>
+  <atv:gridconfig width="10" enabled="true" height="10" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="true" height="10"/>
+ </metadata>
+ <g atv:insensitive="true" id="id_2" atv:refpx="0" atv:refpy="0" transform="matrix(0.8,0,0,0.96,0,0)">
+  <rect width="1280.00" x="0" y="0" fill="#ffffff" height="800.00" id="id_3" atv:refpx="640" atv:refpy="400"/>
+ </g>
+ <rect width="983" x="35" y="140" fill="none" rx="4.974" ry="5" height="625" stroke="#efefef" stroke-linejoin="round" id="border_iframe" stroke-linecap="round" atv:refpx="526.5" stroke-width="1" atv:refpy="452.5"/>
+ <svg width="1024" x="0" y="836.111" rx="5" height="31" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Layout.Footer" id="footer" atv:refpx="512" atv:refpy="754.726" transform="matrix(1,0,0,0.8857,0,0)"/>
+ <rect width="1024" x="0" y="0" fill="#BEC7D0" height="120" stroke="none" id="header" atv:refpx="512" stroke-width="2" atv:refpy="60"/>
+ <svg width="175" x="790" y="0" height="120" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.LngSwitch" id="id_0" atv:refpx="893.5" atv:refpy="60"/>
+ <svg x="460.8" y="220" xlink:href="SYSTEM.LIBRARY.PROJECT.RESOURCES%2Fcss%2Fimg%2Fqinous_logo.svg" id="id_1" atv:refpx="512" atv:refpy="258.4"/>
+</svg>

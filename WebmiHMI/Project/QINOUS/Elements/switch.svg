@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg width="57.14" x="0px" version="1.1" y="0px" xmlns="http://www.w3.org/2000/svg" height="29.93" xmlns:xlink="http://www.w3.org/1999/xlink" style="enable-background:new 0 0 370 370" id="Capa_1" xml:space="preserve" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="5" enabled="true" height="5" gridstyle="lines"/>
+  <atv:snapconfig width="5" enabled="true" height="5"/>
+ </metadata>
+ <path fill="#647a8f" id="id_0" atv:refpx="28.571" atv:refpy="14.964" d="M42.178,0L14.964,0C6.713,0 0,6.712 0,14.963C0,23.215 6.713,29.927 14.964,29.927L42.178,29.927C50.429,29.927 57.142,23.215 57.142,14.963C57.142,6.712 50.429,0 42.178,0M24.001,14.963C24.001,19.408 20.385,23.025 15.939,23.025C11.494,23.025 7.878,19.408 7.878,14.963C7.878,10.519 11.494,6.902 15.939,6.902C20.385,6.902 24.001,10.519 24.001,14.963"/>
+ <script type="text/ecmascript"><![CDATA[webMI.addEvent("", ["mouseup","mouseout","touchend","touchmove"], function(e) {
+var id = "";
+var value = true;
+return function(value) {
+	release();
+} (value);
+});
+
+webMI.addEvent("", ["mousedown","touchstart"], function(e) {
+var id = "";
+var value = true;
+return function(value) {
+		if (active) webMI.gfx.setStroke("button_stroke", strokePressed);
+} (value);
+});
+
+webMI.addEvent("", ["click","touchstart"], function(e) {
+var id = "";
+var value = true;
+return function(value) {
+	if (active) tabHandler.setCurrentIndex(keyHandler);
+	clickFunction(true);
+} (value);
+});
+
+]]></script>
+</svg>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg width="695" version="1.2" xmlns="http://www.w3.org/2000/svg" height="510" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="10" enabled="true" height="10" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="true" height="10"/>
+ </metadata>
+ <g atv:table-height="510" id="grid" atv:refpx="348.084" atv:table-width="695" atv:refpy="258.814">
+  <rect width="850" fll="#647A8F" class="osk-trigger" height="600" id="rect1" atv:refpx="400" atv:refpy="300"/>
+ </g>
+ <script type="text/ecmascript" xlink:href="/q/TableFunctions.js"/>
+ <script type="text/ecmascript" xlink:href="/q/StdConstantsFunctions.js"/>
+ <script type="text/ecmascript"><![CDATA[var $ = top.$;
+var headers = [];
+var linefill = "#FFFFFF";
+var nodearray = [];
+var atviseTable;
+var paramList;
+var col_dp = 4;
+getRow = function(dp)
+{
+	var curData = atviseTable.dataProvider().source.data;
+	for (var i=0; i<curData.length; i++) {	
+		if(curData[i][1].dp == dp)
+			return i +1;
+	}
+}
+
+
+// setup blank table
+atviseTable = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Table", { "gElement": document.getElementById("grid"), "sortedByColumn":0, "autoResize":true, "height":510, "width":695});
+
+atviseTable.setConfiguration({rowHeight:35,sortingUp:true,autoResize:true, drawStatusBar:false});
+headers.push({name: "Parameter", width: 280, fontSize: fontSize});
+headers.push({name: "Value", width: 220, fontSize: fontSize});
+headers.push({name: "Type", width: 100, fontSize: fontSize});
+headers.push({name: "Set", width: 64, fontSize: fontSize});
+headers.push({name: "", width: 1, fontSize: fontSize});
+
+atviseTable.setHeaders(headers);
+
+// - - - - - - - - - - - -
+
+webMI.addOnload(function(f){
+	webMI.trigger.fire("RequestParameterList");		
+});
+
+// - - - - - - - - - - - -
+
+
+webMI.trigger.connect("SetParameterList", function(e){
+
+	paramList = e.value[0];
+	var task = e.value[1];
+	var prefix = e.value[2];
+
+//	console.log("Received parameter list: ", paramList);
+
+	//initialize table
+	for (var i=0; i<paramList.length; i++) {	
+//		console.log("=====================================Looking at : ", paramList[i]);
+		var datarow = [];
+		var fullyQualifiedDP = "/"+task+"/"+prefix+paramList[i].DP;
+
+		datarow[0] = {text: paramList[i].ParamName, fill:linefill, fontSize: fontcolumn};
+		datarow[1] = {text: "...", fill:linefill, dp:fullyQualifiedDP, fontSize: fontcolumn};
+		datarow[2] = {text: paramList[i].Type, fill:linefill, fontSize: fontcolumn};
+		var eventList = [{name: "click", fn: getWriteFunction(fullyQualifiedDP, paramList[i].Type)}];
+		datarow[3] = {text: "SET", fill:linefill, eventList: eventList, fontSize: fontcolumn};
+		//datarow[4] = {text: fullyQualifiedDP, fill:linefill};
+		nodearray[i] = datarow;	
+	}
+	atviseTable.setDataProvider({data: nodearray});
+
+	//Set Update Function
+	for (var i=0; i<paramList.length; i++) {
+		var fullyQualifiedDP = "/"+task+"/"+prefix+paramList[i].DP;
+		addSubscribe(2, getRow, fullyQualifiedDP, paramList[i].Type, atviseTable);
+	}
+});
+//on screen keyboard
+/*var table = document.getElementById("grid");
+	table.onScreenKeyboard({
+					rewireReturn : 'submit',
+					rewireTab : true
+				});
+*/
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"grid", "key":"FontFamily", "property":""});]]></script>
+</svg>
