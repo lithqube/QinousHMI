@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="305" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="1.1" xmlns="http://www.w3.org/2000/svg" height="305" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" sodipodi:docname="New document 1" id="svg2" inkscape:version="0.48.2 r9819" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs id="defs4"/>
+ <sodipodi:namedview inkscape:zoom="0.70710678" fit-margin-right="0" inkscape:window-x="-8" inkscape:window-y="-8" bordercolor="#666666" id="base" inkscape:pageopacity="0.0" inkscape:snap-global="false" inkscape:window-maximized="1" pagecolor="#ffffff" inkscape:window-width="1280" showgrid="true" inkscape:cx="293.23119" fit-margin-left="0" inkscape:cy="191.12166" fit-margin-top="0" fit-margin-bottom="0" borderopacity="1.0" inkscape:window-height="1002" inkscape:pageshadow="2" inkscape:current-layer="layer1" inkscape:document-units="px">
+  <inkscape:grid empspacing="5" snapvisiblegridlinesonly="true" enabled="true" visible="true" type="xygrid" id="grid2985"/>
+ </sodipodi:namedview>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+  <atv:gridconfig width="5" enabled="true" height="5" gridstyle="lines"/>
+  <atv:snapconfig width="5" enabled="true" height="5"/>
+ </metadata>
+ <g id="id_0" atv:refpx="152.501" atv:refpy="152.5" transform="matrix(1,0,0,1,-43.0105,-20.211)">
+  <path sodipodi:nodetypes="ssccssccsssccsssccsssccsssccsssccssccss" fill="#ffffff" stroke="none" inkscape:connector-curvature="0" fill-opacity="1" id="path2987" atv:refpx="377.5" atv:refpy="554.453" stroke-width="1" d="M179.605,90.663C106.427,90.663 47.105,149.985 47.105,223.163C47.105,264 65.589,300.514 94.636,324.819C103.512,315.925 112.387,307.028 121.261,298.132C123.213,296.179 121.635,291.412 117.73,287.507C113.824,283.602 109.088,282.023 107.136,283.976L94.448,296.663C79.981,279.915 70.36,258.846 67.792,235.663L87.105,235.663C89.866,235.663 92.105,231.186 92.105,225.663C92.105,220.14 89.866,215.663 87.105,215.663L67.355,215.663C68.93,191.749 77.961,169.87 92.167,152.351L107.136,167.319C109.088,169.272 113.824,167.693 117.73,163.788C121.635,159.883 123.213,155.116 121.261,153.163L106.105,138.007C123.452,123.022 145.436,113.234 169.605,111.101L169.605,133.163C169.605,135.925 174.082,138.163 179.605,138.163C185.127,138.163 189.605,135.925 189.605,133.163L189.605,111.101C213.785,113.231 235.751,123.012 253.105,138.007L237.948,153.163C235.996,155.116 237.574,159.883 241.48,163.788C245.385,167.693 250.121,169.272 252.073,167.319L267.042,152.351C281.245,169.871 290.284,191.746 291.855,215.663L272.105,215.663C269.343,215.663 267.105,220.14 267.105,225.663C267.105,231.186 269.343,235.663 272.105,235.663L291.386,235.663C288.823,258.849 279.221,279.913 264.761,296.663L252.073,283.976C250.121,282.023 245.385,283.602 241.48,287.507C237.574,291.412 235.996,296.179 237.948,298.132C246.821,307.04 255.714,315.929 264.605,324.819C293.641,300.514 312.105,263.992 312.105,223.163C312.105,149.985 252.782,90.663 179.605,90.663"/>
+  <path fill="#ffffff" sodipodi:type="arc" sodipodi:cx="375" stroke="none" sodipodi:cy="572.36218" sodipodi:rx="15" fill-opacity="1" sodipodi:ry="15" id="path3047" atv:refpx="377.5" atv:refpy="572.362" stroke-width="1" d="M197.105,225.65C197.105,235.315 189.27,243.15 179.605,243.15C169.94,243.15 162.105,235.315 162.105,225.65C162.105,215.985 169.94,208.15 179.605,208.15C189.27,208.15 197.105,215.985 197.105,225.65"/>
+  <path inkscape:transform-center-x="10.490208" inkscape:transform-center-y="-31.467556" fill="#ffffff" stroke="none" inkscape:connector-curvature="0" fill-opacity="1" id="rect3049" atv:refpx="367.01" atv:refpy="540.895" stroke-width="1" d="M147.838,146.816C143.232,148.883 140.354,152.314 141.292,154.727L165.079,215.889C162.004,220.479 161.145,226.466 163.299,232.005C166.803,241.013 176.945,245.475 185.952,241.972C194.96,238.469 199.422,228.327 195.919,219.319C193.765,213.78 189.087,209.946 183.719,208.64L159.932,147.478C158.931,144.904 153.947,144.441 148.8,146.443C148.478,146.568 148.146,146.679 147.838,146.816"/>
+  <path fill="#ffffff" stroke="none" inkscape:connector-curvature="0" fill-opacity="1" id="path3065" atv:refpx="269.023" atv:refpy="562.66" stroke-width="1" d="M309.902,30.856L283.142,20.603L270.325,54.053L250.255,46.363L279.144,111.137L343.916,82.249L323.846,74.558L336.662,41.108Z"/>
+ </g>
+</svg>

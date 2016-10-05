@@ -1,0 +1,2770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext" width="1024" atv:contentwidth="1280" version="1.2" height="768" atv:contentheight="734" visibility="hidden" atv:oe="2BC6G3CAA396M2LEF9JCJ6I8N7P5A32F466AFCE4A9J191JBMDICQ3IBO5LGBDD84" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <radialGradient fx="0.5" fy="0.5" cx="0.5" cy="0.5" id="linear_0" r="1" gradientUnits="objectBoundingBox">
+   <stop offset="0" stop-color="#efefef"/>
+   <stop offset="1" stop-color="#efefef" stop-opacity="0"/>
+  </radialGradient>
+ </defs>
+ <metadata/>
+ <g atv:insensitive="true" id="id_2" atv:refpx="0" atv:refpy="0" transform="matrix(0.8,0,0,0.96,0,0)">
+  <rect width="1280.00" x="0" y="0" fill="#ffffff" height="800.00" id="id_3" atv:refpx="640" atv:refpy="400"/>
+ </g>
+ <rect width="988" x="35" y="124.5" fill="none" rx="5" ry="4.8" height="600" stroke="#efefef" stroke-linejoin="round" id="border_iframe" stroke-linecap="round" atv:refpx="529" stroke-width="1" atv:refpy="423.54"/>
+ <g transform="matrix(1.205,0,0,1,0,0)">
+  <svg width="800" x="49.793" y="124" height="600" stroke="" stroke-linejoin="round" id="main" atv:refpx="472.638" atv:refpy="437.593" stroke-width="0">
+   <defs/>
+   <metadata/>
+   <rect width="796" x="2" y="2" fill="none" height="596" stroke="#000000" id="main_stroke" atv:refpx="400" stroke-width="2" atv:refpy="299.999"/>
+   <g id="main_iframegroup" atv:refpx="0" atv:refpy="0">
+    <atv:foreignObject width="800" x="0" y="0" height="600" id="main_iframediv">
+     <iframe allowTransparency="true" style="width:100%;height:100%" id="main_myframe" frameborder="0" scrolling="no" xmlns="http://www.w3.org/1999/xhtml">iframe</iframe>
+    </atv:foreignObject>
+   </g>
+   <atv:foreignObject width="800" x="0" y="0" height="600" id="main_zoomareadiv">
+    <div style="width:100%;height:100%;background-color:white;opacity:0;filter:alpha(opacity=0);" id="main_zoomarea" scrolling="no" xmlns="http://www.w3.org/1999/xhtml"/>
+   </atv:foreignObject>
+   <text x="549" y="344.5" fill="#000000" font-family="Verdana" id="main_label" atv:refpx="400" atv:refpy="300" font-size="48" transform="matrix(0.625,0,0,0.9231,0,0)">IFRAME</text>
+   <atv:foreignObject width="0" x="0" y="0" height="0" id="main_zoomboxdiv">
+    <div style="width: 100%; height:100%;" xmlns="http://www.w3.org/1999/xhtml"/>
+   </atv:foreignObject>
+   <text x="415.5" y="414.11" fill="#000000" font-family="Verdana" id="main_label2" atv:refpx="400" atv:refpy="369.61" font-size="48" transform="matrix(0.625,0,0,0.9231,0,0)">(display container)</text>
+  </svg>
+ </g>
+ <g>
+  <svg width="1024" x="0" y="0" rx="5" height="120" id="menu" atv:refpx="512" atv:refpy="60">
+   <defs/>
+   <metadata/>
+   <g atv:insensitive="true" id="menu_id_0" atv:refpx="0" atv:refpy="0" transform="matrix(0.8,0,0,1,0,0)">
+    <rect width="1280.00" x="0" y="0" fill="#b9c3cd" height="120.00" fill-opacity="0.9254901960784314" id="menu_id_1" atv:refpx="640" atv:refpy="60"/>
+   </g>
+   <line visibility="hidden" stroke="#647A8F" stroke-linejoin="miter" id="menu_pipe" stroke-linecap="square" y1="41" atv:refpx="136.5" x1="71.5" y2="41" stroke-width="3" atv:refpy="40.5" x2="171.5"/>
+   <rect width="74" x="15" y="15" fill="#ffffff" rx="6.727" ry="4.111" height="74" stroke="#7e90a2" stroke-linejoin="round" id="menu_brdr_home" stroke-linecap="round" atv:refpx="52" stroke-width="1" atv:refpy="52"/>
+   <g>
+    <svg width="175" x="830" y="0" height="120" id="menu_id_21" atv:refpx="923.145" atv:refpy="61.039">
+     <defs>
+      <linearGradient id="3linearGradient5122" y1="2.13078" x1="0.324181" y2="-0.588832" x2="0.363642" gradientUnits="objectBoundingBox">
+       <stop offset="0" stop-color="#dbe3db" stop-opacity="1"/>
+       <stop offset="1" stop-color="#dbe3db" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="3linearGradient5125" y1="-0.0768114" x1="0.523152" y2="1.27115" x2="0.524121" gradientUnits="objectBoundingBox">
+       <stop offset="0" stop-color="#dbe3db" stop-opacity="1"/>
+       <stop offset="1" stop-color="#dbe3db" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="3linear_5" y1="-0.0768114" x1="0.523152" y2="1.27115" x2="0.524121" gradientUnits="objectBoundingBox">
+       <stop offset="0" stop-color="#dbe3db" stop-opacity="1"/>
+       <stop offset="1" stop-color="#dbe3db" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="3linear_6" y1="2.13078" x1="0.324181" y2="-0.588832" x2="0.363642" gradientUnits="objectBoundingBox">
+       <stop offset="0" stop-color="#dbe3db" stop-opacity="1"/>
+       <stop offset="1" stop-color="#dbe3db" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="3linear_7" y1="-0.0768114" x1="0.523152" y2="1.27115" x2="0.524121" gradientUnits="objectBoundingBox">
+       <stop offset="0" stop-color="#dbe3db" stop-opacity="1"/>
+       <stop offset="1" stop-color="#dbe3db" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="3linear_8" y1="2.13078" x1="0.324181" y2="-0.588832" x2="0.363642" gradientUnits="objectBoundingBox">
+       <stop offset="0" stop-color="#dbe3db" stop-opacity="1"/>
+       <stop offset="1" stop-color="#dbe3db" stop-opacity="0"/>
+      </linearGradient>
+     </defs>
+     <metadata/>
+     <rect width="175" x="0" y="15" fill="#647A8F" rx="9.114" height="32" ry="5.517" stroke="none" id="menu_id_21_id_1" atv:refpx="87.5" stroke-width="2" atv:refpy="96"/>
+     <text x="9.5" y="35" fill="#ffffff" font-family="Varela Round" id="menu_id_21_id_3" atv:refpx="74.045" atv:refpy="28.5" font-size="12">HALLO USER:</text>
+     <g transform="matrix(1,0,0,0.9677,0,0)">
+      <svg width="60" x="0" y="62" height="31" id="menu_id_21_id_5" atv:refpx="30.008" atv:refpy="75.003">
+       <defs/>
+       <metadata/>
+       <rect width="60" x="0" y="0" fill="#647A8F" rx="5" ry="5" height="31" stroke="none" id="menu_id_21_id_5_id_31" atv:refpx="30" stroke-width="0" atv:refpy="15.5"/>
+       <g transform="matrix(1.25,0,0,1.25,0,0)">
+        <svg width="20" x="27.2" y="2.8" height="20" id="menu_id_21_id_5_id_32" atv:refpx="46.5" atv:refpy="16">
+         <defs/>
+         <metadata/>
+         <polygon points="12.091,12.14 16.534,16.175 14.835,9.625" fill="#ffffff" stroke="none" id="menu_id_21_id_5_id_32_id_4" atv:refpx="24.395" stroke-width="1" atv:refpy="13.339"/>
+         <path fill="#ffffff" fill-rule="evenodd" stroke="none" id="menu_id_21_id_5_id_32_id_17" atv:refpx="6.074" stroke-width="1" atv:refpy="9.925" d="M10.348,13.307L10,13.327L8.524,13.245L7.136,13.008L5.858,12.632L4.714,12.13L3.725,11.517L2.916,10.808L2.31,10.016L1.929,9.155L1.797,8.242L1.929,7.327L2.31,6.467L2.916,5.674L3.725,4.965L4.714,4.351L5.858,3.85L7.136,3.474L8.524,3.238L10,3.156L10.348,3.176L10.348,4.003L8.772,4.003L9.179,9.937L10.348,9.937L10.348,10.784L9.179,10.784L9.179,12.479L10.348,12.479Z"/>
+         <path fill="#ffffff" fill-rule="evenodd" stroke="none" id="menu_id_21_id_5_id_32_id_18" atv:refpx="22.324" stroke-width="1" atv:refpy="8.243" d="M18.202,8.242L18.069,9.155L17.688,10.016L17.081,10.807L16.271,11.517L15.283,12.129L14.139,12.632L12.861,13.007L11.473,13.244L10.013,13.326L10.013,12.479L10.82,12.479L10.82,10.784L10.013,10.784L10.013,9.937L10.82,9.937L11.213,4.003L10.013,4.003L10.013,3.156L11.473,3.238L12.861,3.474L14.139,3.85L15.283,4.352L16.271,4.965L17.081,5.674L17.688,6.467L18.069,7.327Z"/>
+        </svg>
+       </g>
+       <text x="8" y="20.5" fill="#ffffff" font-family="Varela Round" text-anchor="start" id="menu_id_21_id_5_id_34" atv:refpx="17.5" atv:refpy="14.5" font-size="14">de</text>
+       <rect width="60" x="0.144" y="-0.072" fill="#ffffff" height="31" stroke="none" fill-opacity="0" id="menu_id_21_id_5_languagePicker" atv:refpx="30.144" stroke-width="0" atv:refpy="15.428"/>
+      </svg>
+     </g>
+     <g>
+      <svg width="60" x="70" y="60" height="30" id="menu_id_21_id_7" atv:refpx="85" atv:refpy="75">
+       <defs>
+        <linearGradient id="6linear_12" y1="-0.0183441" x1="1" y2="1" gradientUnits="objectBoundingBox" x2="1">
+         <stop offset="0" stop-color="#494949"/>
+         <stop offset="1" stop-color="#000000"/>
+        </linearGradient>
+        <linearGradient id="6linear_0" y1="0.985206" x1="0.103182" y2="0.0446774" gradientUnits="objectBoundingBox" x2="0.103182">
+         <stop offset="0" stop-color="#494949"/>
+         <stop offset="1" stop-color="#000000"/>
+        </linearGradient>
+        <linearGradient id="6linear_1" y1="-0.0183441" x1="1" y2="1" gradientUnits="objectBoundingBox" x2="1">
+         <stop offset="0" stop-color="#ffffff" stop-opacity="0.2745098039215687"/>
+         <stop offset="0.5515695067264574" stop-color="#ffffff" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="6linear_5" y1="1.01601" x1="0.236193" y2="-0.0183441" gradientUnits="objectBoundingBox" x2="0.236193">
+         <stop offset="0" stop-color="#ffffff" stop-opacity="0.2745098039215687"/>
+         <stop offset="0.5515695067264574" stop-color="#ffffff" stop-opacity="0"/>
+        </linearGradient>
+       </defs>
+       <rect width="60" x="0" y="0" fill="#647A8F" rx="10" ry="5" height="30" stroke="none" stroke-linejoin="round" id="menu_id_21_id_7_id_1" stroke-linecap="round" atv:refpx="30" stroke-width="0.5" atv:refpy="15"/>
+       <metadata/>
+       <g id="menu_id_21_id_7_button_clickarea" atv:refpx="30" atv:refpy="15" transform="matrix(1,0,0,1,15,0)">
+        <g>
+         <svg width="20" x="5" visibility="hidden" y="5" atv:bindtl="0.5,0.5" height="20" atv:bindbr="0.5,0.5" id="menu_id_21_id_7_button_symbol_pressed" atv:refpx="34.5" atv:refpy="49.5">
+          <defs/>
+          <metadata/>
+          <path fill="#ffffff" fill-rule="evenodd" stroke="none" id="menu_id_21_id_7_button_symbol_pressed_id_14" atv:refpx="13" stroke-width="0" atv:refpy="10" d="M6,0L20,0L20,20L6,20L6,17L17,17L17,3L6,3Z"/>
+          <path fill="#ffffff" fill-rule="evenodd" stroke="none" id="menu_id_21_id_7_button_symbol_pressed_id_17" atv:refpx="6.695" stroke-width="0" atv:refpy="10" d="M0,7.5L6.014,7.5L6.015,4L13.389,10L6.015,16L6.015,12.5L0,12.5Z"/>
+         </svg>
+        </g>
+        <g>
+         <svg width="20" x="5" y="5" atv:bindtl="0.5,0.5" height="20" atv:bindbr="0.5,0.5" id="menu_id_21_id_7_button_symbol" atv:refpx="34.5" atv:refpy="49.5">
+          <defs/>
+          <metadata/>
+          <g id="menu_id_21_id_7_button_symbol_id_0">
+           <path fill="#ffffff" fill-rule="evenodd" stroke="none" id="menu_id_21_id_7_button_symbol_id_5" atv:refpx="22.043" stroke-width="1.027" atv:refpy="5.51" d="M19.518,9.967L19.49,10.573L11.278,10.573L11.086,9.933L11.816,9.555L12.483,8.889L12.92,8.043L13.076,7.071L12.92,6.097L12.483,5.253L11.816,4.586L10.971,4.149L9.998,3.992L9.025,4.149L8.18,4.586L7.513,5.253L7.076,6.097L6.919,7.071L7.076,8.043L7.513,8.889L8.18,9.555L8.909,9.933L8.717,10.573L0.504,10.573L0.477,9.967L0.516,9.1L0.631,8.256L0.818,7.436L1.073,6.645L1.394,5.886L1.777,5.162L2.219,4.477L2.716,3.834L3.266,3.236L3.864,2.686L4.507,2.189L5.193,1.747L5.917,1.364L6.676,1.043L7.467,0.787L8.286,0.6L9.131,0.486L9.998,0.447L10.864,0.486L11.709,0.6L12.528,0.787L13.319,1.043L14.078,1.364L14.803,1.747L15.488,2.189L16.131,2.686L16.729,3.236L17.279,3.834L17.776,4.477L18.218,5.162L18.601,5.886L18.922,6.645L19.177,7.436L19.364,8.256L19.479,9.1Z"/>
+           <path fill="#ffffff" fill-rule="evenodd" stroke="none" id="menu_id_21_id_7_button_symbol_id_6" atv:refpx="21.565" stroke-width="1.027" atv:refpy="24.821" d="M19.518,10.03L19.479,10.897L19.364,11.741L19.177,12.561L18.922,13.351L18.601,14.111L18.218,14.835L17.776,15.52L17.279,16.164L16.729,16.761L16.131,17.311L15.488,17.808L14.803,18.25L14.078,18.633L13.319,18.954L12.528,19.21L11.709,19.397L10.864,19.511L9.998,19.55L9.131,19.511L8.286,19.397L7.467,19.21L6.676,18.954L5.917,18.633L5.193,18.25L4.507,17.808L3.863,17.311L3.266,16.761L2.716,16.164L2.219,15.52L1.777,14.835L1.394,14.111L1.073,13.351L0.818,12.561L0.63,11.741L0.516,10.897L0.477,10.03L8.899,10.03L7.106,16.005L12.889,16.005L11.096,10.03Z"/>
+          </g>
+         </svg>
+        </g>
+       </g>
+      </svg>
+     </g>
+     <text x="109.5" y="35" fill="#ffffff" font-family="Varela Round" id="menu_id_21_username_label" atv:refpx="156.271" atv:refpy="28.5" font-size="12">USERNAME</text>
+    </svg>
+   </g>
+   <g>
+    <svg width="85" x="100" y="13.999" visibility="hidden" height="105" id="menu_icon_grid" atv:refpx="142.5" atv:refpy="41.499">
+     <defs>
+      <linearGradient id="9linear_0" y1="0" x1="0" y2="1" gradientUnits="objectBoundingBox" x2="1">
+       <stop offset="0" stop-color="#ffffff"/>
+       <stop offset="1" stop-color="#00c800"/>
+      </linearGradient>
+     </defs>
+     <metadata/>
+     <g atv:insensitive="true" id="menu_icon_grid_id_0" atv:refpx="0" atv:refpy="0" transform="matrix(0.0664,0,0,0.1367,0,0)"/>
+     <rect width="83" x="1" y="0.909" fill="#ffffff" rx="5" height="48.182" ry="4.545" stroke="#8395a6" stroke-linejoin="round" id="menu_icon_grid_brdr_icon" stroke-linecap="round" atv:refpx="42.572" stroke-width="1" atv:refpy="24.986"/>
+     <g transform="matrix(0.1306,0,0,0.1187,0,0)">
+      <svg width="512" x="69.322" y="88.902" fill="#647A8F" height="243.2" id="menu_icon_grid_icon_id" atv:refpx="42.503" atv:refpy="22.944">
+       <!-- Generated by IcoMoon.io -->
+       <defs/>
+       <metadata/>
+       <g id="menu_icon_grid_icon_id_icomoon-ignore" atv:refpx="0" atv:refpy="0"/>
+       <g id="menu_icon_grid_icon_id_id_1" atv:refpx="256.003" atv:refpy="121.503" transform="matrix(0.6656,0,0,0.6656,85.5954,-53.2316)">
+        <path fill="#647A8F" id="menu_icon_grid_icon_id_id_0" atv:refpx="256" atv:refpy="262.501" d="M297.575,96.051C294.4,92.877 294.4,92.877 291.226,92.877L220.877,92.877C220.877,92.877 217.703,92.877 217.703,96.051L150.529,160.051C150.529,160.051 147.355,163.225 147.355,166.399L147.355,188.825C147.355,191.999 150.529,195.173 153.703,195.173C156.878,195.173 166.504,191.999 166.504,188.825L166.504,176.024L217.704,176.024L217.704,185.649L150.53,252.823L150.53,278.424C150.53,284.772 153.704,288.049 156.879,288.049C160.053,288.049 163.227,284.873 163.227,281.7L163.227,265.726L211.253,265.726L176.027,422.5C176.027,425.675 179.201,432.125 182.375,432.125C182.375,432.125 182.375,432.125 185.549,432.125C188.724,432.125 191.898,428.95 191.898,425.776L191.898,419.427L255.898,374.678L316.724,419.427L316.724,425.776C316.724,428.951 323.073,432.125 326.349,432.125C329.525,432.125 332.698,425.776 332.698,422.5L300.749,265.726L348.775,265.726L348.775,278.526C348.775,284.875 351.95,288.151 355.124,288.151C358.298,288.151 361.473,284.976 361.473,281.802L361.473,253.028L297.473,189.028L297.473,176.228L348.673,176.228L348.673,189.028C348.673,192.202 351.848,195.377 355.022,195.377C358.196,195.377 361.371,192.203 361.371,189.028L361.371,166.603C361.371,163.429 361.371,163.429 358.196,160.254L297.575,96.049ZM294.4,307.2L268.799,287.949L284.773,271.975L294.398,307.201ZM271.974,176.025L255.999,198.45L243.198,176.025ZM240.025,159.949L256,143.974L275.251,159.949ZM281.6,188.826C281.6,192 281.6,192 281.6,188.826L281.6,230.401L265.626,211.15L281.6,188.827ZM278.425,249.651L236.85,249.651L256.101,224.051L278.424,249.651ZM268.8,265.625L256,275.25L246.375,265.625ZM281.6,147.251L268.8,134.451L281.6,121.651ZM271.974,108.749L255.999,121.652L243.198,108.852L271.974,108.852ZM230.4,118.374L246.375,134.347L230.4,150.424ZM230.4,188.826L246.375,211.251L230.4,233.574L230.4,188.825ZM227.226,271.974L246.477,287.948L217.703,310.373L227.226,271.973ZM172.851,159.949L214.426,118.374L214.426,159.949ZM172.851,249.651L214.426,208.076L214.426,249.651ZM198.451,399.974L211.251,342.425L243.2,364.85L198.451,399.973ZM256,355.226L217.6,329.626L256,297.676L294.4,329.626ZM300.851,342.425L313.651,396.8L268.902,364.851L300.851,342.426ZM339.149,249.651L297.574,249.651L297.574,208.076ZM297.575,159.949L297.575,115.098L342.426,159.949ZM137.625,224.051L3.174,271.974C3.174,271.974 0,271.974 3.174,275.149C3.174,275.149 3.174,275.149 6.349,275.149L140.698,236.749C140.698,236.749 140.698,236.749 140.698,233.575L137.626,224.052C140.8,227.226 137.626,227.226 137.626,224.052ZM3.175,259.175L128.001,195.175C128.001,195.175 128.001,195.175 128.001,192.001L128.001,182.376C128.001,182.376 128.001,182.376 128.001,179.202C128.001,179.202 128.001,179.202 124.827,179.202L0.001,256.002C0.001,256.002 0.001,256.002 3.176,259.177C0.001,259.177 0.001,259.177 3.176,259.177ZM128,271.974L6.349,287.948C6.349,287.948 3.174,287.948 3.174,291.123C3.174,291.123 3.174,294.298 6.349,294.298L128,284.673C128,284.673 131.174,284.673 131.174,281.498ZM128,271.974C131.174,275.251 131.174,275.251 128,271.974M512,256L387.174,182.375C387.174,182.375 387.174,182.375 383.998,182.375C383.998,182.375 383.998,182.375 383.998,185.549L383.998,192C383.998,192 383.998,192 383.998,195.174L508.823,259.173C511.998,259.173 511.998,259.173 511.998,255.999ZM505.651,287.949L384,271.975C384,271.975 384,271.975 380.825,271.975C380.825,271.975 380.825,271.975 380.825,275.15L380.825,281.499C380.825,281.499 380.825,284.674 384,284.674L505.651,291.023C505.651,291.228 508.826,291.228 505.651,287.951C508.826,287.951 508.826,287.951 505.651,287.951ZM508.825,271.974L374.476,223.948C374.476,223.948 374.476,223.948 371.301,223.948C371.301,223.948 371.301,223.948 371.301,227.123L371.301,236.646L505.65,275.046C508.825,275.251 508.825,275.251 508.825,271.974C512,271.974 508.825,271.974 508.825,271.974"/>
+       </g>
+      </svg>
+     </g>
+     <g transform="matrix(0.85,0,0,1.6129,0,0)">
+      <svg width="100" x="0" y="0" height="31" id="menu_icon_grid_clickarea" atv:refpx="42.65" atv:refpy="25.204">
+       <defs>
+        <linearGradient id="11linear_0" y1="0" x1="0" y2="1" gradientUnits="objectBoundingBox" x2="1">
+         <stop offset="0" stop-color="#000000"/>
+         <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+        </linearGradient>
+       </defs>
+       <metadata/>
+       <g id="menu_icon_grid_clickarea_id_0" atv:refpx="50" atv:refpy="15.5">
+        <rect width="84" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="" fill-opacity="0" atv:bindbr="1,1" id="menu_icon_grid_clickarea_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.1765,0,0,0.62,0,0)"/>
+        <rect width="84" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="menu_icon_grid_clickarea_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.1765,0,0,0.62,0,0)"/>
+       </g>
+      </svg>
+     </g>
+     <line visibility="hidden" stroke="#647A8F" id="menu_icon_grid_dropdown_line" y1="50" atv:refpx="43" x1="42.5" y2="72" stroke-width="3" atv:refpy="193" x2="42.5"/>
+     <g visibility="hidden" id="menu_icon_grid_dropdown_box" atv:refpx="42.5" atv:refpy="79.5">
+      <rect width="85" x="0" y="69.5" fill="#ffffff" rx="5" height="20" stroke="#A0AEBA" id="menu_icon_grid_dropdown" atv:refpx="42.5" stroke-width="1" atv:refpy="102.5"/>
+      <polyline atv:bindtl="1,1" points="81.8,75.55 66,75.55 73.899,83.45 81.8,75.55" fill="#647A8F" stroke="none" atv:bindbr="1,1" id="menu_icon_grid_drop" atv:refpx="81.772" stroke-width="0" atv:refpy="95.028"/>
+      <text x="20.5" y="83" fill="#647A8F" font-family="Valera Round" id="menu_icon_grid_rack_txt" atv:refpx="52.512" atv:refpy="76.5" font-size="11">RACK</text>
+     </g>
+    </svg>
+   </g>
+   <g>
+    <svg width="85" x="100" y="13.999" visibility="hidden" height="105" id="menu_icon_battery" atv:refpx="262.5" atv:refpy="41.499">
+     <defs>
+      <linearGradient id="12linear_0" y1="0" x1="0" y2="1" gradientUnits="objectBoundingBox" x2="1">
+       <stop offset="0" stop-color="#ffffff"/>
+       <stop offset="1" stop-color="#00c800"/>
+      </linearGradient>
+     </defs>
+     <metadata/>
+     <g atv:insensitive="true" id="menu_icon_battery_id_0" atv:refpx="0" atv:refpy="0" transform="matrix(0.0664,0,0,0.1367,0,0)"/>
+     <rect width="83" x="1" y="0.909" fill="#ffffff" rx="5" height="48.182" ry="4.545" stroke="#8395a6" stroke-linejoin="round" id="menu_icon_battery_brdr_icon" stroke-linecap="round" atv:refpx="42.572" stroke-width="1" atv:refpy="24.986"/>
+     <g transform="matrix(0.1306,0,0,0.1187,0,0)">
+      <svg width="512" x="69.322" y="88.902" fill="#647A8F" height="243.2" id="menu_icon_battery_icon_id" atv:refpx="42.503" atv:refpy="22.944">
+       <!-- Generated by IcoMoon.io -->
+       <defs/>
+       <metadata/>
+       <g id="menu_icon_battery_icon_id_icomoon-ignore" atv:refpx="0" atv:refpy="0" transform="matrix(1,0,0,1,0,-124.8)"/>
+       <path fill="#647A8F" id="menu_icon_battery_icon_id_i_battery" atv:refpx="256.001" atv:refpy="121.6" stroke-width="1" d="M434.053,115.6C425.151,115.6 419.216,118.598 413.282,118.598L413.282,64.62L324.253,7.646L324.253,196.567L374.702,178.575C377.67,208.562 401.411,232.555 434.053,232.555C466.697,232.555 493.406,205.563 493.406,172.577C493.406,142.589 466.697,115.6 434.053,115.6M434.053,226.555C407.346,226.555 381.434,203.775 381.434,176.787C381.434,176.787 381.573,176.089 381.573,176.089C381.573,155.099 390.903,136.078 408.71,130.079C414.644,127.081 428.119,124.594 434.053,124.594C460.76,124.594 486.027,148.073 486.027,175.062C486.027,202.05 460.76,226.555 434.053,226.555M229.29,190.57L267.868,193.569L267.868,106.603L229.29,109.601ZM86.848,115.6C83.88,115.6 80.91,115.6 77.946,115.6C45.3,115.6 18.593,142.589 18.593,175.577C18.593,208.562 45.302,235.553 77.946,235.553C107.621,235.553 134.327,211.562 137.295,181.574L226.324,190.57L226.324,106.603L273.805,100.605L273.805,190.57L318.319,193.569L318.319,7.646L86.848,64.62ZM128.394,172.577C128.394,175.577 128.394,178.575 128.394,178.575C125.427,202.565 104.653,223.557 77.946,223.557C51.234,223.557 27.495,199.565 27.495,172.577C27.495,145.589 51.236,121.596 77.946,121.596C80.912,121.596 83.88,121.596 86.848,121.596C110.587,127.594 128.394,148.587 128.394,172.577M86.848,145.589L69.043,145.589L69.043,166.581L48.266,166.581L48.266,187.57L69.043,187.57L69.043,208.562L89.812,208.562L89.812,187.57L107.621,187.57L107.621,166.581L86.848,166.581ZM401.411,187.57L460.76,187.57L460.76,166.581L401.411,166.581Z"/>
+      </svg>
+     </g>
+     <g transform="matrix(0.85,0,0,1.6129,0,0)">
+      <svg width="100" x="0" y="0" height="31" id="menu_icon_battery_clickarea" atv:refpx="42.65" atv:refpy="25.204">
+       <defs/>
+       <metadata/>
+       <g id="menu_icon_battery_clickarea_id_0" atv:refpx="50" atv:refpy="15.5">
+        <rect width="84" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="" fill-opacity="0" atv:bindbr="1,1" id="menu_icon_battery_clickarea_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.1765,0,0,0.62,0,0)"/>
+        <rect width="84" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="menu_icon_battery_clickarea_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.1765,0,0,0.62,0,0)"/>
+       </g>
+      </svg>
+     </g>
+     <line visibility="hidden" stroke="#647A8F" id="menu_icon_battery_dropdown_line" y1="50" atv:refpx="43" x1="42.5" y2="72" stroke-width="3" atv:refpy="193" x2="42.5"/>
+     <g visibility="hidden" id="menu_icon_battery_dropdown_box" atv:refpx="42.5" atv:refpy="79.5">
+      <rect width="85" x="0" y="69.5" fill="#ffffff" rx="5" height="20" stroke="#A0AEBA" id="menu_icon_battery_dropdown" atv:refpx="42.5" stroke-width="1" atv:refpy="102.5"/>
+      <polyline atv:bindtl="1,1" points="81.8,75.55 66,75.55 73.899,83.45 81.8,75.55" fill="#647A8F" stroke="none" atv:bindbr="1,1" id="menu_icon_battery_drop" atv:refpx="81.772" stroke-width="0" atv:refpy="95.028"/>
+      <text x="20.5" y="83" fill="#647A8F" font-family="Valera Round" id="menu_icon_battery_rack_txt" atv:refpx="52.512" atv:refpy="76.5" font-size="11">RACK</text>
+     </g>
+    </svg>
+   </g>
+   <g>
+    <svg width="85" x="100" y="13.999" visibility="hidden" height="105" id="menu_icon_consumer" atv:refpx="382.5" atv:refpy="41.499">
+     <defs>
+      <linearGradient id="14linear_0" y1="0" x1="0" y2="1" gradientUnits="objectBoundingBox" x2="1">
+       <stop offset="0" stop-color="#ffffff"/>
+       <stop offset="1" stop-color="#00c800"/>
+      </linearGradient>
+     </defs>
+     <metadata/>
+     <g atv:insensitive="true" id="menu_icon_consumer_id_0" atv:refpx="0" atv:refpy="0" transform="matrix(0.0664,0,0,0.1367,0,0)"/>
+     <rect width="83" x="1" y="0.909" fill="#ffffff" rx="5" height="48.182" ry="4.545" stroke="#8395a6" stroke-linejoin="round" id="menu_icon_consumer_brdr_icon" stroke-linecap="round" atv:refpx="42.572" stroke-width="1" atv:refpy="24.986"/>
+     <g transform="matrix(0.1306,0,0,0.1187,0,0)">
+      <svg width="512" x="69.322" y="88.902" fill="#647A8F" height="243.2" id="menu_icon_consumer_icon_id" atv:refpx="42.503" atv:refpy="22.944">
+       <!-- Generated by IcoMoon.io -->
+       <defs/>
+       <metadata/>
+       <g id="menu_icon_consumer_icon_id_id_4" atv:refpx="256" atv:refpy="121.5" transform="matrix(0.956,0,0,0.956,11.0304,21.8198)">
+        <path fill="#647A8F" id="menu_icon_consumer_icon_id_id_0" atv:refpx="448.424" atv:refpy="104.133" d="M384.339,0.041L384.506,208.225L416.506,205.535L416.506,100.159L480.506,108.287L480.506,203.135L512.506,200.991L512.506,48.959Z"/>
+        <path fill="#647A8F" id="menu_icon_consumer_icon_id_id_1" atv:refpx="304" atv:refpy="104.112" d="M224,200.224L384,208.224L384,0L224,45.376ZM297.472,49.472L347.424,37.408L347.424,88.416L297.472,95.936ZM347.424,124.16L347.424,173.6L300.159,173.92L298.943,128.576ZM241.28,62.752L284.992,52.672L284.992,98.015L241.28,104.671ZM241.28,133.792L284.992,129.919L284.992,174.079L241.28,174.272Z"/>
+        <path fill="#647A8F" id="menu_icon_consumer_icon_id_id_2" atv:refpx="144" atv:refpy="110.72" d="M96,208.543L159.998,202.685L160,202.688L192,200L192,44.192L96,12.896Z"/>
+        <path fill="#647A8F" id="menu_icon_consumer_icon_id_id_3" atv:refpx="48" atv:refpy="110.704" d="M0,200L96,208.512L96,12.895L0,49.536ZM91.424,176.928L53.952,176.48L53.952,133.792L91.424,130.175ZM53.952,58.56L85.184,48.831L85.184,97.823L53.952,103.648ZM16.48,69.6L42.4,62.4L41.696,105.92L16.48,110.336ZM16.48,137.376L41.44,134.944L41.44,176.256L16.479,175.936Z"/>
+       </g>
+      </svg>
+     </g>
+     <g transform="matrix(0.85,0,0,1.6129,0,0)">
+      <svg width="100" x="0" y="0" height="31" id="menu_icon_consumer_clickarea" atv:refpx="42.65" atv:refpy="25.204">
+       <defs/>
+       <metadata/>
+       <g id="menu_icon_consumer_clickarea_id_0" atv:refpx="50" atv:refpy="15.5">
+        <rect width="84" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="" fill-opacity="0" atv:bindbr="1,1" id="menu_icon_consumer_clickarea_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.1765,0,0,0.62,0,0)"/>
+        <rect width="84" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="menu_icon_consumer_clickarea_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.1765,0,0,0.62,0,0)"/>
+       </g>
+      </svg>
+     </g>
+     <line visibility="hidden" stroke="#647A8F" id="menu_icon_consumer_dropdown_line" y1="50" atv:refpx="43" x1="42.5" y2="72" stroke-width="3" atv:refpy="193" x2="42.5"/>
+     <g visibility="hidden" id="menu_icon_consumer_dropdown_box" atv:refpx="42.5" atv:refpy="79.5">
+      <rect width="85" x="0" y="69.5" fill="#ffffff" rx="5" height="20" stroke="#A0AEBA" id="menu_icon_consumer_dropdown" atv:refpx="42.5" stroke-width="1" atv:refpy="102.5"/>
+      <polyline atv:bindtl="1,1" points="81.8,75.55 66,75.55 73.899,83.45 81.8,75.55" fill="#647A8F" stroke="none" atv:bindbr="1,1" id="menu_icon_consumer_drop" atv:refpx="81.772" stroke-width="0" atv:refpy="95.028"/>
+      <text x="20.5" y="83" fill="#647A8F" font-family="Valera Round" id="menu_icon_consumer_rack_txt" atv:refpx="52.512" atv:refpy="76.5" font-size="11">RACK</text>
+     </g>
+    </svg>
+   </g>
+   <g>
+    <svg width="85" x="100" y="13.999" visibility="hidden" height="105" id="menu_icon_pv" atv:refpx="502.5" atv:refpy="41.499">
+     <defs>
+      <linearGradient id="16linear_0" y1="0" x1="0" y2="1" gradientUnits="objectBoundingBox" x2="1">
+       <stop offset="0" stop-color="#ffffff"/>
+       <stop offset="1" stop-color="#00c800"/>
+      </linearGradient>
+     </defs>
+     <metadata/>
+     <g atv:insensitive="true" id="menu_icon_pv_id_0" atv:refpx="0" atv:refpy="0" transform="matrix(0.0664,0,0,0.1367,0,0)"/>
+     <rect width="83" x="1" y="0.909" fill="#ffffff" rx="5" height="48.182" ry="4.545" stroke="#8395a6" stroke-linejoin="round" id="menu_icon_pv_brdr_icon" stroke-linecap="round" atv:refpx="42.572" stroke-width="1" atv:refpy="24.986"/>
+     <g transform="matrix(0.1306,0,0,0.1187,0,0)">
+      <svg width="512" x="69.322" y="88.902" fill="#647A8F" height="243.2" id="menu_icon_pv_icon_id" atv:refpx="42.503" atv:refpy="22.944">
+       <!-- Generated by IcoMoon.io -->
+       <defs/>
+       <metadata/>
+       <g id="menu_icon_pv_icon_id_id_1" atv:refpx="255.991" atv:refpy="121.502" transform="matrix(0.9249,0,0,0.8036,19.2352,-60.8053)">
+        <path fill="#647A8F" id="menu_icon_pv_icon_id_id_0" atv:refpx="256" atv:refpy="226.848" d="M115.616,91.008L101.856,105.344L116.064,110.88ZM33.28,126.656L13.824,122.656L24.736,139.264ZM77.984,85.44L71.776,104.32L86.976,103.136ZM150.912,158.016L166.176,145.28L146.368,143.456ZM147.072,112.384L128.448,119.328L138.848,130.464ZM57.44,108.768L41.664,96.704L44.288,116.416ZM76.96,170.176L143.04,170.176C143.007,165.248 143.04,167.872 142.976,167.232C140.512,134.976 112.32,110.271 80.032,112.768C47.744,115.264 23.616,143.168 26.08,175.456C27.68,196.032 39.744,214.24 56.608,223.424ZM19.264,153.248L0,158.079L17.024,168.32ZM471.36,180L86.24,180L45.056,293.792L52.544,312.096L97.568,312L97.568,362.336C97.568,362.336 98.4,368.256 104.96,368.256C111.616,368.256 112.32,362.336 112.32,362.336L112.32,311.968L456.352,311.328L456.352,362.304C456.352,362.304 457.183,368.224 463.744,368.224C470.4,368.224 471.104,362.304 471.104,362.304L471.104,311.36L508.671,311.36L511.999,289.376ZM478.784,243.904L423.424,243.904L416,219.328L470.816,219.328ZM461.216,194.752L465.984,209.504L412.544,209.504L408.416,194.752ZM401.12,194.752L405.28,209.504L337.184,209.504L335.008,194.752ZM230.048,194.752L327.904,194.752L330.08,209.504L228.384,209.504ZM227.008,219.328L331.872,219.328L335.776,243.904L224.032,243.904ZM156.896,194.752L223.04,194.752L221.376,209.504L153.472,209.504ZM96.64,194.752L149.76,194.752L146.304,209.504L92.192,209.504ZM87.712,219.328L143.456,219.328L137.28,243.904L80.32,243.904ZM66.912,288.128L77.312,253.727L135.584,253.727L127.584,288.128ZM212.288,288.128L134.688,288.128L142.752,253.727L216.16,253.727ZM144.448,243.904L150.624,219.328L219.968,219.328L216.992,243.904ZM219.264,288.128L223.2,253.727L336.896,253.727L341.984,288.128ZM338.976,219.328L408.704,219.328L416.16,243.904L342.912,243.904ZM348.992,288.128L343.936,253.727L418.144,253.727L427.744,288.128ZM435.168,288.128L425.44,253.727L481.952,253.727L493.12,288.128ZM22.016,228.928L40.64,221.984L30.24,210.816ZM18.208,183.296L2.911,196L22.72,197.856Z"/>
+       </g>
+      </svg>
+     </g>
+     <g transform="matrix(0.85,0,0,1.6129,0,0)">
+      <svg width="100" x="0" y="0" height="31" id="menu_icon_pv_clickarea" atv:refpx="42.65" atv:refpy="25.204">
+       <defs/>
+       <metadata/>
+       <g id="menu_icon_pv_clickarea_id_0" atv:refpx="50" atv:refpy="15.5">
+        <rect width="84" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="" fill-opacity="0" atv:bindbr="1,1" id="menu_icon_pv_clickarea_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.1765,0,0,0.62,0,0)"/>
+        <rect width="84" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="menu_icon_pv_clickarea_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.1765,0,0,0.62,0,0)"/>
+       </g>
+      </svg>
+     </g>
+     <line visibility="hidden" stroke="#647A8F" id="menu_icon_pv_dropdown_line" y1="50" atv:refpx="43" x1="42.5" y2="72" stroke-width="3" atv:refpy="193" x2="42.5"/>
+     <g visibility="hidden" id="menu_icon_pv_dropdown_box" atv:refpx="42.5" atv:refpy="79.5">
+      <rect width="85" x="0" y="69.5" fill="#ffffff" rx="5" height="20" stroke="#A0AEBA" id="menu_icon_pv_dropdown" atv:refpx="42.5" stroke-width="1" atv:refpy="102.5"/>
+      <polyline atv:bindtl="1,1" points="81.8,75.55 66,75.55 73.899,83.45 81.8,75.55" fill="#647A8F" stroke="none" atv:bindbr="1,1" id="menu_icon_pv_drop" atv:refpx="81.772" stroke-width="0" atv:refpy="95.028"/>
+      <text x="20.5" y="83" fill="#647A8F" font-family="Valera Round" id="menu_icon_pv_rack_txt" atv:refpx="52.512" atv:refpy="76.5" font-size="11">RACK</text>
+     </g>
+    </svg>
+   </g>
+   <g>
+    <svg width="85" x="100" y="13.999" visibility="hidden" height="105" id="menu_icon_diesel" atv:refpx="622.5" atv:refpy="58.999">
+     <defs>
+      <linearGradient id="18linear_0" y1="0" x1="0" y2="1" gradientUnits="objectBoundingBox" x2="1">
+       <stop offset="0" stop-color="#ffffff"/>
+       <stop offset="1" stop-color="#00c800"/>
+      </linearGradient>
+     </defs>
+     <metadata/>
+     <g atv:insensitive="true" id="menu_icon_diesel_id_0" atv:refpx="0" atv:refpy="0" transform="matrix(0.0664,0,0,0.1367,0,0)"/>
+     <rect width="83" x="1" y="0.909" fill="#ffffff" rx="5" height="48.182" ry="4.545" stroke="#8395a6" stroke-linejoin="round" id="menu_icon_diesel_brdr_icon" stroke-linecap="round" atv:refpx="42.572" stroke-width="1" atv:refpy="24.986"/>
+     <g transform="matrix(0.1306,0,0,0.1187,0,0)">
+      <svg width="512" x="69.322" y="88.902" fill="#647A8F" height="243.2" id="menu_icon_diesel_icon_id" atv:refpx="42.503" atv:refpy="22.944">
+       <!-- Generated by IcoMoon.io -->
+       <defs/>
+       <metadata/>
+       <g id="menu_icon_diesel_icon_id_id_5" atv:refpx="256.014" atv:refpy="121.501" transform="matrix(0.9133,0,0,0.5768,22.1845,9.2622)">
+        <g id="menu_icon_diesel_icon_id_id_7" atv:refpx="430.012" atv:refpy="12.786">
+         <path fill="#647A8F" id="menu_icon_diesel_icon_id_id_0" atv:refpx="361.626" atv:refpy="97.475" stroke-width="1" d="M352,32.774C345.6,35.974 348.8,51.974 348.8,55.174C352,58.374 358.4,58.374 364.8,55.174C371.2,51.974 377.6,42.374 374.4,39.174C371.2,32.774 358.4,26.374 352,32.774"/>
+         <path fill="#647A8F" id="menu_icon_diesel_icon_id_id_1" atv:refpx="454.235" atv:refpy="84.412" stroke-width="1" d="M508.8,3.974C483.2,-5.625 441.6,3.974 422.4,13.574C406.4,19.974 400,32.774 396.8,39.174C396.8,39.174 393.6,58.374 406.4,61.574C419.2,61.574 467.2,58.374 483.2,51.974C505.6,42.374 518.4,7.174 508.8,3.974"/>
+        </g>
+        <path fill="#647A8F" id="menu_icon_diesel_icon_id_id_2" atv:refpx="238.4" atv:refpy="396.4" stroke-width="1" d="M64,360.374L0,325.174L0,353.974L64,389.174L476.8,325.174L476.8,296.374Z"/>
+        <path fill="#647A8F" id="menu_icon_diesel_icon_id_id_3" atv:refpx="217.6" atv:refpy="151.6" stroke-width="1" d="M217.6,107.574C233.6,107.574 249.6,104.374 249.6,101.174C249.6,97.974 220.8,88.374 217.6,88.374C214.4,88.374 185.6,97.974 185.6,101.174C185.6,104.374 201.6,107.574 217.6,107.574"/>
+        <path fill="#647A8F" id="menu_icon_diesel_icon_id_id_4" atv:refpx="236.8" atv:refpy="258.8" stroke-width="1" d="M64,347.574L473.6,286.774L460.8,280.374L460.8,270.774L467.2,270.774L467.2,85.174L406.4,91.574L380.8,110.774L380.8,75.574C380.8,69.174 371.2,62.774 364.8,62.774C358.4,62.774 348.8,69.174 348.8,75.574L348.8,97.974C345.6,97.974 342.4,97.974 339.2,101.174C332.8,104.374 329.6,110.774 329.6,117.174L300.8,117.174C284.8,117.174 278.4,129.973 278.4,136.374L278.4,142.773L256,142.773C252.8,129.973 243.2,120.374 230.4,120.374L230.4,110.774C230.4,110.774 224,110.774 217.6,110.774C211.2,110.774 204.8,110.774 204.8,110.774L204.8,123.574L176,123.574C166.4,126.774 156.8,136.374 153.6,149.174L128,149.174L128,104.374L86.4,104.374L51.199,107.573L51.199,152.373L44.8,152.373L44.8,203.574C35.199,216.374 31.999,241.974 31.999,270.774C31.999,286.774 35.199,299.574 38.4,309.174L0,315.574ZM390.399,120.374L454.4,113.973L454.4,123.574L403.2,129.973L390.399,129.973ZM390.399,145.974L454.4,139.574L454.4,149.174L403.2,155.574L390.399,155.574ZM390.399,171.574L454.4,165.173L454.4,174.774L403.2,181.174L390.399,181.174ZM390.399,197.174L454.4,190.774L454.4,200.374L403.2,206.774L390.399,206.774ZM57.6,206.774C57.6,206.774 217.6,200.374 220.8,200.374C233.6,200.374 249.6,216.374 252.8,251.574C256,283.574 240,315.574 233.6,315.574C233.6,315.574 89.6,334.774 67.2,337.974C76.8,331.574 83.2,302.774 80,273.974C76.8,238.774 67.2,213.174 57.6,206.774"/>
+       </g>
+      </svg>
+     </g>
+     <g transform="matrix(0.85,0,0,1.6129,0,0)">
+      <svg width="100" x="0" y="0" height="31" id="menu_icon_diesel_clickarea" atv:refpx="42.65" atv:refpy="25.204">
+       <defs/>
+       <metadata/>
+       <g id="menu_icon_diesel_clickarea_id_0" atv:refpx="50" atv:refpy="15.5">
+        <rect width="84" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="" fill-opacity="0" atv:bindbr="1,1" id="menu_icon_diesel_clickarea_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.1765,0,0,0.62,0,0)"/>
+        <rect width="84" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="menu_icon_diesel_clickarea_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.1765,0,0,0.62,0,0)"/>
+       </g>
+      </svg>
+     </g>
+     <line visibility="hidden" stroke="#647A8F" id="menu_icon_diesel_dropdown_line" y1="50" atv:refpx="43" x1="42.5" y2="72" stroke-width="3" atv:refpy="193" x2="42.5"/>
+     <g visibility="hidden" id="menu_icon_diesel_dropdown_box" atv:refpx="42.5" atv:refpy="79.5">
+      <rect width="85" x="0" y="69.5" fill="#ffffff" rx="5" height="20" stroke="#A0AEBA" id="menu_icon_diesel_dropdown" atv:refpx="42.5" stroke-width="1" atv:refpy="102.5"/>
+      <polyline atv:bindtl="1,1" points="81.8,75.55 66,75.55 73.899,83.45 81.8,75.55" fill="#647A8F" stroke="none" atv:bindbr="1,1" id="menu_icon_diesel_drop" atv:refpx="81.772" stroke-width="0" atv:refpy="95.028"/>
+      <text x="20.5" y="83" fill="#647A8F" font-family="Valera Round" id="menu_icon_diesel_rack_txt" atv:refpx="52.512" atv:refpy="76.5" font-size="11">RACK</text>
+     </g>
+    </svg>
+   </g>
+   <line stroke="none" id="menu_id_3" y1="-150" atv:refpx="-157.5" x1="-170" y2="-150" stroke-width="2" atv:refpy="-149.5" x2="-145"/>
+   <g transform="matrix(0.0778,0,0,0.0821,0,0)">
+    <svg width="514.19" x="411.352" y="383.532" height="499.2" id="menu_home" atv:refpx="52" atv:refpy="52">
+     <!-- Generated by IcoMoon.io -->
+     <defs/>
+     <metadata/>
+     <g id="menu_home_id_2" atv:refpx="257.098" atv:refpy="249.602">
+      <path fill="#647A8F" id="menu_home_id_0" atv:refpx="256.148" atv:refpy="305.6" d="M81.748,272L81.748,480C81.748,486.4 88.148,492.8 91.348,496C94.548,499.2 100.948,499.2 104.148,499.2L196.948,499.2C200.148,499.2 203.348,499.2 206.548,496C209.748,492.8 209.748,489.6 209.748,486.4L209.748,387.2L302.548,387.2L302.548,486.4C302.548,489.6 302.548,492.799 305.748,496C308.948,499.2 312.148,499.2 315.348,499.2L408.148,499.2C414.548,499.2 417.748,499.2 420.948,496C424.148,492.8 430.548,489.6 430.548,480L430.548,272L257.748,112Z"/>
+      <path fill="#647A8F" id="menu_home_id_1" atv:refpx="257.096" atv:refpy="136" d="M504.148,214.4L280.148,9.6C267.348,-3.199 248.148,-3.199 235.348,9.6L11.348,214.4C-1.451,227.2 -4.651,246.4 8.148,262.4C17.748,268.8 27.348,272 33.748,272C40.148,272 49.748,268.8 56.148,262.4L257.748,80L459.348,262.4C472.148,275.2 494.548,275.2 507.348,259.2C516.948,249.6 516.948,227.2 504.148,214.4"/>
+     </g>
+    </svg>
+   </g>
+   <g transform="matrix(0.74,0,0,2.3871,0,0)">
+    <svg width="100" x="20.27" y="6.284" height="31" id="menu_i_qinous" atv:refpx="49.309" atv:refpy="53.643">
+     <defs/>
+     <metadata/>
+     <g id="menu_i_qinous_id_0" atv:refpx="50" atv:refpy="15.5">
+      <rect width="73" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="73" ry="3.5" stroke="#00ABE1" fill-opacity="0" atv:bindbr="1,1" id="menu_i_qinous_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.3514,0,0,0.4189,0,0)"/>
+      <rect width="73" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="73" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="menu_i_qinous_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.3514,0,0,0.4189,0,0)"/>
+     </g>
+    </svg>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(1,0,0,0.8857,0,0)">
+  <svg width="1024" x="0" y="817.111" rx="5" height="50" id="footer" atv:refpx="512" atv:refpy="746.59">
+   <defs/>
+   <metadata/>
+   <g atv:insensitive="true" id="footer_id_4" atv:refpx="0" atv:refpy="0" transform="matrix(1,0,0,1.5626,0,0)">
+    <rect width="1024.00" x="0" y="0" fill="#74889B" height="32.00" id="footer_id_5" atv:refpx="512" atv:refpy="16"/>
+   </g>
+   <text x="9" y="31.5" fill="#FFFFFF" font-family="Open Sans Semibold" id="footer_txt_footerItem" atv:refpx="5.003" atv:refpy="27" font-size="17"/>
+   <g transform="matrix(1.5,0,0,1.5,0,0)">
+    <svg width="20" x="656.667" y="6.667" height="20" id="footer_id_alarmstatus" atv:refpx="1000" atv:refpy="25">
+     <!-- Generated by IcoMoon.io -->
+     <defs/>
+     <metadata/>
+     <g fill="#647a8f" id="footer_id_alarmstatus_icomoon-ignore" atv:refpx="0" atv:refpy="0" transform="matrix(0.0363,0,0,0.0363,0.7159,0.5393)"/>
+     <g id="footer_id_alarmstatus_id_0" atv:refpx="10.009" atv:refpy="10.093">
+      <path fill="#647a8f" id="footer_id_alarmstatus_id_outer_triangle" atv:refpx="256" atv:refpy="260.864" stroke-width="0.036" d="M18.797,14.649L12.142,3.212C10.969,1.195 9.048,1.195 7.874,3.212L1.22,14.649C0.045,16.668 0.994,18.317 3.328,18.317L16.687,18.317C19.022,18.317 19.971,16.668 18.797,14.649M18.331,16.822C18.091,17.24 17.492,17.48 16.687,17.48L3.329,17.48C2.524,17.48 1.926,17.24 1.685,16.822C1.445,16.405 1.539,15.766 1.943,15.07L8.6,3.633C9.005,2.938 9.518,2.537 10.008,2.537C10.498,2.537 11.013,2.938 11.418,3.634L18.073,15.072C18.479,15.766 18.572,16.405 18.331,16.822"/>
+      <path fill="#647a8f" id="footer_id_alarmstatus_id_inner_triangle" atv:refpx="255.936" atv:refpy="258.784" stroke-width="0.036" d="M2.537,16.342L17.475,16.342L10.021,3.523ZM10.689,14.666C10.522,14.764 10.292,14.813 10,14.813C9.709,14.813 9.479,14.764 9.312,14.666C9.239,14.54 9.203,14.357 9.203,14.119C9.203,13.881 9.239,13.702 9.312,13.582C9.48,13.484 9.71,13.435 10,13.435C10.292,13.435 10.522,13.484 10.689,13.582C10.762,13.68 10.798,13.857 10.798,14.113C10.799,14.37 10.762,14.555 10.689,14.666M10.831,7.534L10.525,12.604C10.387,12.646 10.211,12.668 10,12.668C9.789,12.668 9.613,12.647 9.476,12.604L9.312,7.808C9.668,7.563 10.15,7.439 10.754,7.439Z"/>
+     </g>
+    </svg>
+   </g>
+   <g transform="matrix(0.5,0,0,1.6129,0,0)">
+    <svg width="100" x="1950" y="0" height="31" id="footer_click_alarm" atv:refpx="1000" atv:refpy="24.998">
+     <defs/>
+     <metadata/>
+     <g id="footer_click_alarm_id_0" atv:refpx="50" atv:refpy="15.5">
+      <rect width="49" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="" fill-opacity="0" atv:bindbr="1,1" id="footer_click_alarm_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2,0,0,0.62,0,0)"/>
+      <rect width="49" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="footer_click_alarm_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2,0,0,0.62,0,0)"/>
+     </g>
+    </svg>
+   </g>
+  </svg>
+ </g>
+ <g>
+  <svg width="60" x="0" y="165" rx="5" height="356" id="nav" atv:refpx="30" atv:refpy="355">
+   <defs/>
+   <metadata/>
+   <rect width="50" x="8" y="183.001" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="nav_bck_environment" stroke-linecap="round" atv:refpx="34" stroke-width="2" atv:refpy="208.001"/>
+   <g transform="matrix(0.0625,0,0,0.0625,0,0)">
+    <svg width="512" x="272.008" y="3072.01" fill="#FFFFFF" height="512" id="nav_icon_environment" atv:refpx="33.007" atv:refpy="207.908">
+     <!-- Generated by IcoMoon.io -->
+     <defs/>
+     <metadata/>
+     <g fill="#ffffff" id="nav_icon_environment_id_5" atv:refpx="259.008" atv:refpy="256">
+      <g id="nav_icon_environment_icomoon-ignore" atv:refpx="0" atv:refpy="0"/>
+      <path id="nav_icon_environment_id_0" atv:refpx="245.024" atv:refpy="256" d="M315.392,293.664L315.392,55.103C315.392,22.623 276.864,0 242.336,0C207.808,0 169.28,22.623 169.28,55.103L169.28,296.256C136.416,319.135 122.272,346.751 122.272,387.135C122.272,456 177.728,512 245.888,512C314.24,512 367.776,457.152 367.776,387.168C367.776,336.352 339.68,309.6 315.392,293.664M245.888,482.784C193.824,482.784 151.488,439.872 151.488,387.168C151.488,349.408 166.848,332.128 191.68,316.48L198.496,312.192L198.496,55.103C198.496,43.679 219.136,29.215 242.336,29.215C265.536,29.215 286.176,43.711 286.176,55.103L286.176,310.048L293.28,314.304C325.44,333.535 338.592,354.655 338.592,387.168C338.56,440.768 297.856,482.784 245.888,482.784"/>
+      <path id="nav_icon_environment_id_1" atv:refpx="244.48" atv:refpy="327.008" d="M256.928,346.976L256.928,221.12C256.928,213.056 250.4,206.496 242.304,206.496C234.24,206.496 227.68,213.024 227.68,221.12L227.68,348.32C207.744,355.296 193.344,374.08 193.344,396.384C193.344,424.64 216.224,447.52 244.48,447.52C272.736,447.52 295.616,424.64 295.616,396.384C295.647,372.48 279.135,352.544 256.928,346.976"/>
+      <path id="nav_icon_environment_id_2" atv:refpx="366.512" atv:refpy="67.712" d="M359.2,89.632L373.824,89.632C385.92,89.632 395.744,79.808 395.744,67.712C395.744,55.616 385.92,45.792 373.824,45.792L359.2,45.792C347.104,45.792 337.28,55.616 337.28,67.712C337.28,79.808 347.104,89.632 359.2,89.632"/>
+      <path id="nav_icon_environment_id_3" atv:refpx="366.512" atv:refpy="140.768" d="M373.824,118.848L359.2,118.848C347.104,118.848 337.28,128.672 337.28,140.768C337.28,152.864 347.104,162.688 359.2,162.688L373.824,162.688C385.92,162.688 395.744,152.863 395.744,140.767C395.744,128.671 385.92,118.847 373.824,118.848"/>
+      <path id="nav_icon_environment_id_4" atv:refpx="366.512" atv:refpy="213.824" d="M373.824,191.904L359.2,191.904C347.104,191.904 337.28,201.728 337.28,213.824C337.28,225.92 347.104,235.744 359.2,235.744L373.824,235.744C385.92,235.744 395.744,225.92 395.744,213.824C395.744,201.728 385.92,191.904 373.824,191.904"/>
+     </g>
+    </svg>
+   </g>
+   <g transform="matrix(0.4918,0,0,1.6129,0,0)">
+    <svg width="100" x="18.3" y="113.46" height="31" id="nav_environment" atv:refpx="33.59" atv:refpy="208.003">
+     <defs/>
+     <metadata/>
+     <g id="nav_environment_id_0" atv:refpx="50" atv:refpy="15.5">
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#00abe1" fill-opacity="0" atv:bindbr="1,1" id="nav_environment_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="nav_environment_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+     </g>
+    </svg>
+   </g>
+   <rect width="50" x="8" y="3" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="nav_bck_monitoring" stroke-linecap="round" atv:refpx="33" stroke-width="2" atv:refpy="28"/>
+   <g transform="matrix(0.0625,0,0,0.0625,0,0)">
+    <svg width="512" x="272.008" y="192" fill="#FFFFFF" height="512" id="nav_icon_monitoring" atv:refpx="33.007" atv:refpy="27.993">
+     <!-- Generated by IcoMoon.io -->
+     <defs/>
+     <metadata/>
+     <g id="nav_icon_monitoring_icomoon-ignore" atv:refpx="0" atv:refpy="0"/>
+     <path fill="#ffffff" id="nav_icon_monitoring_id_0" atv:refpx="257.6" atv:refpy="251.825" d="M483.2,411.824L483.2,232.624C483.2,223.024 476.8,216.624 467.2,216.624L64,216.624L64,15.024C64,5.424 57.6,-0.975 48,-0.975C38.4,-0.975 32,5.424 32,15.024L32,411.824C12.8,418.224 0,437.424 0,456.624C0,482.224 22.4,504.624 48,504.624C73.6,504.624 96,482.224 96,456.624C96,437.424 83.2,418.224 64,411.824L64,248.624L240,248.624L240,411.824C220.8,418.224 208,434.224 208,456.624C208,482.224 230.4,504.624 256,504.624C281.6,504.624 304,482.224 304,456.624C304,437.424 291.2,418.224 275.2,411.824L275.2,248.624L451.2,248.624L451.2,411.824C432,418.224 419.2,434.224 419.2,456.624C419.2,482.224 441.599,504.624 467.2,504.624C492.8,504.624 515.2,482.224 515.2,456.624C512,437.424 499.2,421.424 483.2,411.824"/>
+    </svg>
+   </g>
+   <g transform="matrix(0.4918,0,0,1.6129,0,0)">
+    <svg width="100" x="18.3" y="1.86" atv:bindtl="0,1" height="31" atv:bindbr="0,1" id="nav_monitoring" atv:refpx="34.59" atv:refpy="25.001">
+     <defs/>
+     <metadata/>
+     <g id="nav_monitoring_id_0" atv:refpx="50" atv:refpy="15.5">
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#00abe1" fill-opacity="0" atv:bindbr="1,1" id="nav_monitoring_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="nav_monitoring_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+     </g>
+    </svg>
+   </g>
+   <rect width="50" x="8" y="303.001" visibility="hidden" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="nav_bck_configuration" stroke-linecap="round" atv:refpx="33" stroke-width="2" atv:refpy="328.001"/>
+   <g transform="matrix(0.1019,0,0,0.1019,0,0)">
+    <svg width="314.186" x="156.949" y="3061.759" visibility="hidden" fill="#FFFFFF" height="314.186" id="nav_icon_configuration" atv:refpx="32.978" atv:refpy="327.935">
+     <defs/>
+     <metadata/>
+     <path fill="#ffffff" id="nav_icon_configuration_id_0" atv:refpx="157.093" atv:refpy="157.093" stroke-width="1" d="M258.697,89.648L227.089,55.608L263.966,21.366L246.68,4.081L187.979,25.097L187.979,94.252L4.958,269.079C1.324,272.549 -6.557,280.08 10.877,298.333C28.314,316.585 36.194,309.054 39.828,305.583L223.338,130.292L297.528,130.292L314.186,71.591L296.831,54.235Z"/>
+    </svg>
+   </g>
+   <g transform="matrix(0.4918,0,0,1.6129,0,0)">
+    <svg width="100" x="18.3" y="187.86" visibility="hidden" height="31" id="nav_configuration" atv:refpx="33.59" atv:refpy="326.003">
+     <defs/>
+     <metadata/>
+     <g id="nav_configuration_id_0" atv:refpx="50" atv:refpy="15.5">
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#00abe1" fill-opacity="0" atv:bindbr="1,1" id="nav_configuration_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="nav_configuration_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+     </g>
+    </svg>
+   </g>
+   <rect width="50" x="8" y="123" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="nav_bck_alarms" stroke-linecap="round" atv:refpx="33" stroke-width="2" atv:refpy="148"/>
+   <g transform="matrix(0.0625,0,0,0.0625,0,0)">
+    <svg width="512" x="272.008" y="2112.006" fill="#FFFFFF" height="512" id="nav_icon_alarms" atv:refpx="33.007" atv:refpy="147.958">
+     <!-- Generated by IcoMoon.io -->
+     <defs/>
+     <metadata/>
+     <g fill="#ffffff" id="nav_icon_alarms_icomoon-ignore" atv:refpx="0" atv:refpy="0"/>
+     <path fill="#ffffff" id="nav_icon_alarms_id_0" atv:refpx="265.6" atv:refpy="24" stroke-width="1" d="M195.2,48L336,48C339.2,48 342.4,44.8 342.4,41.6L342.4,6.399C342.4,3.199 339.2,0 336,0L195.2,0C188.799,0 188.799,3.199 188.799,6.399L188.799,41.6C188.799,44.8 188.799,48 195.2,48"/>
+     <ellipse cx="220" cy="278" fill="#ef5b1b" id="id_16" rx="34" ry="47" stroke="#3804bc" stroke-width="5"/>
+     <path fill="#ffffff" id="nav_icon_alarms_id_1" atv:refpx="264" atv:refpy="265.6" stroke-width="1" d="M451.2,22.4L371.2,22.4C368,22.4 364.8,25.599 364.8,28.799L364.8,67.199C364.8,70.399 361.6,73.6 358.4,73.6L166.4,73.6C163.2,73.6 160,70.399 160,67.199L160,25.599C160,22.399 156.8,19.199 153.6,19.199L76.8,19.199C73.6,19.199 70.4,22.399 70.4,25.599L70.4,505.599C70.4,508.799 73.6,511.999 76.8,511.999L451.2,511.999C454.4,511.999 457.599,508.799 457.599,505.599L457.599,25.599C457.599,22.399 454.4,22.399 451.2,22.4M396.8,444.8L134.4,444.8C128,444.8 121.6,438.4 121.6,432C121.6,425.599 128,419.2 134.4,419.2L396.8,419.2C403.2,419.2 409.6,425.599 409.6,432C409.6,438.4 403.2,444.8 396.8,444.8M396.8,377.6L134.4,377.6C128,377.6 121.6,371.2 121.6,364.8C121.6,358.4 128,352 134.4,352L396.8,352C403.2,352 409.6,358.4 409.6,364.8C409.6,374.4 403.2,377.6 396.8,377.6M396.8,313.6L134.4,313.6C128,313.6 121.6,307.2 121.6,300.8C121.6,294.4 128,288 134.4,288L396.8,288C403.2,288 409.6,294.4 409.6,300.8C409.6,307.2 403.2,313.6 396.8,313.6M396.8,246.4L134.4,246.4C128,246.4 121.6,240 121.6,233.6C121.6,227.2 128,220.799 134.4,220.799L396.8,220.799C403.2,220.799 409.6,227.2 409.6,233.6C409.6,240 403.2,246.4 396.8,246.4M396.8,179.2L134.4,179.2C128,179.2 121.6,172.799 121.6,166.399C121.6,159.999 128,153.599 134.4,153.599L396.8,153.599C403.2,153.599 409.6,159.999 409.6,166.399C409.6,172.799 403.2,179.2 396.8,179.2"/>
+    </svg>
+   </g>
+   <ellipse cx="660" cy="199" fill="#930863" id="id_27" rx="374" ry="341" stroke="#603b56" stroke-width="1"/>
+   <g transform="matrix(0.4918,0,0,1.6129,0,0)">
+    <svg width="100" x="18.3" y="76.26" height="31" id="nav_alarms" atv:refpx="33.59" atv:refpy="144.999">
+     <defs/>
+     <metadata/>
+     <g id="nav_alarms_id_0" atv:refpx="50" atv:refpy="15.5">
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#00abe1" fill-opacity="0" atv:bindbr="1,1" id="nav_alarms_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+      <line fill="#4c78fa" id="id_10" stroke="#a53221" stroke-width="1" x1="921" x2="1018" y1="664" y2="391"/>
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="nav_alarms_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+     </g>
+    </svg>
+   </g>
+   <rect width="50" x="8" y="63" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="nav_bck_diagram" stroke-linecap="round" atv:refpx="35" stroke-width="2" atv:refpy="85"/>
+   <g transform="matrix(0.0625,0,0,0.0625,0,0)">
+    <svg width="512" x="256.008" y="1200.003" fill="#FFFFFF" height="512" id="nav_icon_diagram" atv:refpx="32.99" atv:refpy="87.976" color="#FFFFFF">
+     <!-- Generated by IcoMoon.io -->
+     <defs/>
+     <metadata/>
+     <g fill="#ffffff" id="nav_icon_diagram_id_5" atv:refpx="254.4" atv:refpy="249.6">
+      <g id="nav_icon_diagram_icomoon-ignore" atv:refpx="0" atv:refpy="0"/>
+      <polyline fill="#a0927d" id="id_9" points="413,438 309,232 448,582 17,257 717,401 347,681 22,246 414,612 126,725 " stroke="#c2a7e9" stroke-width="3"/>
+      <path id="nav_icon_diagram_id_0" atv:refpx="254.4" atv:refpy="440" d="M6.4,448C3.2,448 0,441.6 0,438.4C0,435.199 3.2,432 6.4,432L502.4,432C505.599,432 508.799,435.2 508.799,438.4C508.799,441.599 505.599,444.799 502.4,444.799L6.399,444.799Z"/>
+      <rect fill="#910cd4" height="118" id="id_21" stroke="#a102f9" stroke-width="5" width="531" x="303" y="197"/>
+      <polyline fill="#3ac7b2" id="id_30" points="134,63 597,134 649,99 912,612 1005,358 498,254 726,181 473,159 545,151 57,176 660,615 " stroke="#b7e833" stroke-width="2"/>
+      <path id="nav_icon_diagram_id_1" atv:refpx="100.8" atv:refpy="267.2" d="M64,144L137.6,144L137.6,390.4L64,390.4Z"/>
+      <circle cx="937" cy="165" fill="#edde6e" id="id_25" r="284" stroke="#163b1d" stroke-width="3"/>
+      <path id="nav_icon_diagram_id_2" atv:refpx="212.8" atv:refpy="220.8" d="M176,51.2L249.6,51.2L249.6,390.4L176,390.4Z"/>
+      <path id="nav_icon_diagram_id_3" atv:refpx="315.2" atv:refpy="275.2" d="M278.4,160L352,160L352,390.4L278.4,390.4Z"/>
+      <polyline fill="#8da79c" id="id_22" points="551,462 858,558 780,219 750,517 463,257 202,142 416,245 687,232 689,188 573,465 469,625 115,321 807,539 102,635 " stroke="#c95a29" stroke-width="2"/>
+      <path id="nav_icon_diagram_id_4" atv:refpx="427.2" atv:refpy="313.6" d="M390.4,236.8L464,236.8L464,390.4L390.4,390.4Z"/>
+      <line fill="#32acd5" id="id_4" stroke="#5365ac" stroke-width="2" x1="846" x2="668" y1="462" y2="525"/>
+     </g>
+    </svg>
+   </g>
+   <g transform="matrix(0.4918,0,0,1.6129,0,0)">
+    <svg width="100" x="18.3" y="39.06" height="31" id="nav_diagram" atv:refpx="36.586" atv:refpy="94.704">
+     <defs/>
+     <metadata/>
+     <polygon fill="#c723ad" id="id_32" points="169,709 95,107 958,583 285,338 636,1 318,750 972,201 383,3 517,191 279,483 235,497 118,671 275,256 " stroke="#5b40c4" stroke-width="1"/>
+     <g id="nav_diagram_id_0" atv:refpx="50" atv:refpy="15.5">
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#00abe1" fill-opacity="0" atv:bindbr="1,1" id="nav_diagram_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+      <rect fill="#d2bfff" height="58" id="id_15" stroke="#62207d" stroke-width="2" width="67" x="829" y="687"/>
+      <rect fill="#b4e309" height="322" id="id_31" stroke="#1884a5" stroke-width="1" width="151" x="30" y="190"/>
+      <polygon fill="#b2ca03" id="id_19" points="520,640 211,410 602,755 948,749 711,562 150,508 485,469 191,498 10,536 452,510 771,351 10,109 295,667 193,703 " stroke="#e80415" stroke-width="2"/>
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="nav_diagram_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+      <polyline fill="#36c8d0" id="id_18" points="523,28 128,569 462,494 138,177 383,581 484,501 619,716 875,282 441,306 106,17 113,448 840,95 " stroke="#a03e42" stroke-width="4"/>
+      <polygon fill="#907f4c" id="id_13" points="199,297 541,493 978,585 19,287 547,698 482,209 133,364 39,303 895,756 990,424 775,202 305,720 612,670 172,531 " stroke="#09e624" stroke-width="2"/>
+      <rect fill="#de86c2" height="66" id="id_5" stroke="#58f061" stroke-width="4" width="77" x="539" y="506"/>
+     </g>
+    </svg>
+   </g>
+   <rect width="50" x="8" y="243.001" visibility="hidden" fill="#647A8F" rx="5" height="50" ry="6.25" stroke="#647a8f" stroke-linejoin="round" id="nav_bck_control" stroke-linecap="round" atv:refpx="33" stroke-width="2" atv:refpy="268.003"/>
+   <line fill="#8733d2" id="id_24" stroke="#4892d3" stroke-width="1" x1="261" x2="551" y1="148" y2="336"/>
+   <polyline fill="#352b72" id="id_7" points="730,1 341,645 761,329 489,709 146,510 198,233 " stroke="#b5e305" stroke-width="5"/>
+   <g transform="matrix(0.1317,0,0,0.1317,0,0)">
+    <svg width="305" x="120.83" y="1874.702" visibility="hidden" height="305" id="nav_icon_control" atv:refpx="40.47" atv:refpy="269.14">
+     <!-- Created with Inkscape (http://www.inkscape.org/) -->
+     <defs id="nav_icon_control_defs4"/>
+     <sodipodi:namedview xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:zoom="0.70710678" fit-margin-right="0" inkscape:window-x="-8" inkscape:window-y="-8" bordercolor="#666666" id="nav_icon_control_base" inkscape:pageopacity="0.0" inkscape:snap-global="false" inkscape:window-maximized="1" pagecolor="#ffffff" inkscape:window-width="1280" showgrid="true" inkscape:cx="293.23119" fit-margin-left="0" inkscape:cy="191.12166" fit-margin-top="0" fit-margin-bottom="0" borderopacity="1.0" inkscape:window-height="1002" inkscape:pageshadow="2" inkscape:current-layer="layer1" inkscape:document-units="px" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+      <inkscape:grid empspacing="5" snapvisiblegridlinesonly="true" enabled="true" visible="true" type="xygrid" id="nav_icon_control_grid2985"/>
+     </sodipodi:namedview>
+     <metadata id="nav_icon_control_metadata7">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+       <cc:Work rdf:about="" xmlns:cc="http://creativecommons.org/ns#">
+        <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+       </cc:Work>
+      </rdf:RDF>
+     </metadata>
+     <g id="nav_icon_control_id_0" atv:refpx="152.501" atv:refpy="152.5" transform="matrix(1,0,0,1,-43.0105,-20.211)">
+      <path xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" sodipodi:nodetypes="ssccssccsssccsssccsssccsssccsssccssccss" fill="#ffffff" stroke="none" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:connector-curvature="0" fill-opacity="1" id="nav_icon_control_path2987" atv:refpx="377.5" atv:refpy="554.453" stroke-width="1" d="M179.605,90.663C106.427,90.663 47.105,149.985 47.105,223.163C47.105,264 65.589,300.514 94.636,324.819C103.512,315.925 112.387,307.028 121.261,298.132C123.213,296.179 121.635,291.412 117.73,287.507C113.824,283.602 109.088,282.023 107.136,283.976L94.448,296.663C79.981,279.915 70.36,258.846 67.792,235.663L87.105,235.663C89.866,235.663 92.105,231.186 92.105,225.663C92.105,220.14 89.866,215.663 87.105,215.663L67.355,215.663C68.93,191.749 77.961,169.87 92.167,152.351L107.136,167.319C109.088,169.272 113.824,167.693 117.73,163.788C121.635,159.883 123.213,155.116 121.261,153.163L106.105,138.007C123.452,123.022 145.436,113.234 169.605,111.101L169.605,133.163C169.605,135.925 174.082,138.163 179.605,138.163C185.127,138.163 189.605,135.925 189.605,133.163L189.605,111.101C213.785,113.231 235.751,123.012 253.105,138.007L237.948,153.163C235.996,155.116 237.574,159.883 241.48,163.788C245.385,167.693 250.121,169.272 252.073,167.319L267.042,152.351C281.245,169.871 290.284,191.746 291.855,215.663L272.105,215.663C269.343,215.663 267.105,220.14 267.105,225.663C267.105,231.186 269.343,235.663 272.105,235.663L291.386,235.663C288.823,258.849 279.221,279.913 264.761,296.663L252.073,283.976C250.121,282.023 245.385,283.602 241.48,287.507C237.574,291.412 235.996,296.179 237.948,298.132C246.821,307.04 255.714,315.929 264.605,324.819C293.641,300.514 312.105,263.992 312.105,223.163C312.105,149.985 252.782,90.663 179.605,90.663"/>
+      <circle cx="24" cy="587" fill="#456313" id="id_29" r="222" stroke="#c62cd9" stroke-width="5"/>
+      <path fill="#ffffff" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" sodipodi:type="arc" sodipodi:cx="375" stroke="none" sodipodi:cy="572.36218" sodipodi:rx="15" fill-opacity="1" sodipodi:ry="15" id="nav_icon_control_path3047" atv:refpx="377.5" atv:refpy="572.362" stroke-width="1" d="M197.105,225.65C197.105,235.315 189.27,243.15 179.605,243.15C169.94,243.15 162.105,235.315 162.105,225.65C162.105,215.985 169.94,208.15 179.605,208.15C189.27,208.15 197.105,215.985 197.105,225.65"/>
+      <polygon fill="#c38b71" id="id_23" points="969,503 285,615 163,736 233,692 6,342 375,368 766,743 " stroke="#f6e088" stroke-width="2"/>
+      <path xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:transform-center-x="10.490208" inkscape:transform-center-y="-31.467556" fill="#ffffff" stroke="none" inkscape:connector-curvature="0" fill-opacity="1" id="nav_icon_control_rect3049" atv:refpx="367.01" atv:refpy="540.895" stroke-width="1" d="M147.838,146.816C143.232,148.883 140.354,152.314 141.292,154.727L165.079,215.889C162.004,220.479 161.145,226.466 163.299,232.005C166.803,241.013 176.945,245.475 185.952,241.972C194.96,238.469 199.422,228.327 195.919,219.319C193.765,213.78 189.087,209.946 183.719,208.64L159.932,147.478C158.931,144.904 153.947,144.441 148.8,146.443C148.478,146.568 148.146,146.679 147.838,146.816"/>
+      <polygon fill="#680c8d" id="id_17" points="313,189 459,218 871,405 458,621 741,134 776,610 750,530 831,378 450,668 809,488 774,645 " stroke="#ce08b1" stroke-width="3"/>
+      <path fill="#ffffff" stroke="none" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:connector-curvature="0" fill-opacity="1" id="nav_icon_control_path3065" atv:refpx="269.023" atv:refpy="562.66" stroke-width="1" d="M309.902,30.856L283.142,20.603L270.325,54.053L250.255,46.363L279.144,111.137L343.916,82.249L323.846,74.558L336.662,41.108Z"/>
+     </g>
+    </svg>
+   </g>
+   <g transform="matrix(0.4918,0,0,1.6129,0,0)">
+    <svg width="100" x="18.3" y="150.659" visibility="hidden" height="31" id="nav_control" atv:refpx="34.59" atv:refpy="270.005">
+     <defs/>
+     <metadata/>
+     <g id="nav_control_id_0" atv:refpx="50" atv:refpy="15.5">
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#00abe1" fill-opacity="0" atv:bindbr="1,1" id="nav_control_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+      <polyline fill="#66263e" id="id_33" points="722,642 781,378 775,209 995,709 38,232 291,2 261,116 774,45 " stroke="#5480af" stroke-width="3"/>
+      <rect fill="#1af166" height="15" id="id_20" stroke="#4851b4" stroke-width="2" width="5" x="1003" y="273"/>
+      <rect width="48.18" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="49" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="nav_control_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(2.0333,0,0,0.62,0,0)"/>
+      <polygon fill="#af1955" id="id_14" points="592,404 246,214 220,395 390,388 957,564 191,307 770,250 948,116 1023,12 " stroke="#cd49c4" stroke-width="1"/>
+     </g>
+    </svg>
+   </g>
+  </svg>
+ </g>
+ <script xlink:href="../../webmi.js" type="text/ecmascript"/>
+ <script xlink:href="/q/ComponentTree.js" type="text/ecmascript"/>
+ <script xlink:href="/q/StdConstantsFunctions.js" type="text/ecmascript"/>
+ <script xlink:href="/q/ConfigStructures.js" type="text/ecmascript"/>
+ <script xlink:href="/q/MonitoringFunctions.js" type="text/ecmascript"/>
+ <script xlink:href="/q/AlarmInfo.js" type="text/ecmascript"/>
+ <script xlink:href="/q/DiagramDatasets.js" type="text/ecmascript"/>
+ <script xlink:href="/js/stock/highstock.js" type="text/ecmascript"/>
+ <script xlink:href="/js/stock/highcharts-more.js" type="text/ecmascript"/>
+ <script type="text/ecmascript"><![CDATA[webMI.proxy({"":[function(webMI,window,document,self){var activeView = VIEW_MONITORING;
+var configTask = SYSTEM_TASK;
+var configSelection = "";
+var externalTaskList = [];
+var currentNode;
+var systemTree;
+
+// anyone can call and set the active view. this will cause it to refresh.
+webMI.trigger.connect("SetActiveView", function(e){
+
+	activeView = e.value;
+	//console.log("REFERENCES SCRIPTS Active View set to "+activeView);
+	refreshActiveView();
+
+});
+
+webMI.data.read(["/Q_SYS/.CurrentTimeUTC", "/Q_SYS/.CurrentTimeLocal"], function(e){
+			
+	// this is what has to be applied to UTC timestamp to get the local time at the SPS	
+	LocalTimeSystemTimeDiff = (e[1].value - e[0].value)*1000;
+
+	// high charts will display everything in UTC anyway, but browser UTC may not be exactly SPS UTC. this is what we need to apply
+	// to get the latest data out of Scope. 
+	BrowserTimeSystemTimeDiff = Date.now() - e[0].value*1000; 
+
+	console.log("Got local time");
+
+});
+
+webMI.addOnload(function() {
+
+//	console.log("- - - - Loading main screen - - - - ");
+
+	top.document.body.style.backgroundColor = '#000000';
+
+	// create a new empty component tree
+	var systemDataDP = "/"+SYSTEM_TASK+"/"+getDataDP(TYPE_SYSTEM);
+	var systemConfigDP = "/"+SYSTEM_TASK+"/"+getConfigDP(TYPE_SYSTEM);
+	var alarmInfo = getStdAlarmInfo(systemDataDP, TYPE_SYSTEM);
+	systemTree = new ComponentTreeNode(
+			"System", 
+			"", 
+			TYPE_SYSTEM, 
+			-1, 
+			SYSTEM_TASK, 
+			"",
+			systemConfigDP,
+			systemDataDP, 
+			alarmInfo.DP_List, 
+			alarmInfo.Masks); // the root node
+	currentNode = systemTree;
+
+	addVirtualItemsToTree(systemTree, SYSTEM_TASK);
+
+	// find the external items
+	externalTaskList.length = 0;
+	addExternalItemsToTree(systemTree, SYSTEM_TASK, externalTaskList);
+
+	//console.log("Loaded");
+
+	// update display after all the callback come in and we have the tree
+	setTimeout(function(){   
+		//console.log("TIMEOUT - ------------ - sending system tree", systemTree);
+		webMI.trigger.fire("SystemTreeUpdate", systemTree); 
+		webMI.trigger.fire("SetCurrentNode", [TYPE_SYSTEM]); 
+		webMI.trigger.fire("SetFooterConfig", getFooterConfig(systemTree));
+		subscribeToAlarms(systemTree);
+	}, 1500);
+
+	// todo: every 500 ms, check all active alarms and update icon in footer	
+	setInterval(function(){
+		webMI.trigger.fire("UpdateAllAlarms", getActiveAlarms(systemTree));
+	}, 2000);
+//	screenresolution ();
+});
+
+function subscribeToAlarms(node){
+	// go through each element in the list
+	if (node.AlarmDPList.length > 0){
+		// subscribe to alarm
+		webMI.data.subscribeBlock(node.AlarmDPList, generateAlarmCallback(node));
+	}
+
+	for (var i=0; i<node.subComponentList.length; i++){
+		// call subscribe to alarms on all children
+		subscribeToAlarms(node.subComponentList[i]);
+	}
+}
+
+generateAlarmCallback = function(node){
+
+	return function(f){
+
+		//console.log("Alarm callback for ", node, " with ", f);
+		node.ActiveAlarms.length = 0;		
+		for (var i=0; i<f.length; i++){
+
+			var alarmStatus = f[i].value;
+			var alarmMasks = node.AlarmMaskList[i];
+			if (alarmStatus > 0){
+
+				if (alarmMasks !== undefined){
+					for (var j=0; j<alarmMasks.length; j++){
+
+						//console.log("Check alarm bitwise against mask: ", alarmStatus, alarmMasks[j]);
+		
+						if ((alarmStatus & alarmMasks[j].value) > 0) {
+			
+							//console.log("Alarms match. pushing onto active alarm list");
+							node.ActiveAlarms.push({level: alarmMasks[j].level, name: alarmMasks[j].name});
+		
+						}
+		
+					}
+				} else {
+	
+					node.ActiveAlarms.push({level: ALARM_LEVEL_WARNING, name: "UnknownAlarm: "+alarmStatus+"("+f[i].address+")"});
+	
+				}
+			}
+		}
+
+	}
+}
+
+webMI.trigger.connect("GetAlarmsFromCurrentNode", function(e){
+
+	var activeAlarmList = getActiveAlarms(currentNode);	
+	var alarmInfoList =[];
+	getAlarmInfoList(currentNode, alarmInfoList);
+
+//	console.log("here is the alarminfolist", alarmInfoList);
+
+	webMI.trigger.fire("UpdateAlarmsFromCurrentNode", [activeAlarmList, alarmInfoList]);
+});
+
+webMI.trigger.connect("GetAllAlarms", function(e){
+	webMI.trigger.fire("UpdateAllAlarms", getActiveAlarms(systemTree));
+});
+
+getActiveAlarms=function(node){
+
+	var list = [];
+	for (var i=0; i<node.ActiveAlarms.length; i++){
+
+		list.push({owner: node.Name, level: node.ActiveAlarms[i].level, name: node.ActiveAlarms[i].name});
+
+	}
+	for (var i=0; i<node.subComponentList.length; i++){
+		var sublist = getActiveAlarms(node.subComponentList[i]);
+		list = list.concat(sublist);
+	}
+
+	return list;
+}
+
+webMI.trigger.connect("RequestParameterTree", function(e){
+
+	// TODO: for the current node, get the tree of parameter groups
+	var paramTree = [];
+	//console.log("Parameter Tree Requested for task ",configTask);
+	//console.log("Look through ",externalTaskList);
+
+	if (configTask == SYSTEM_TASK) {
+		paramTree = getParamTreeForModule("q_sys.m");		
+	} else {
+		for(var i=0; i<externalTaskList.length; i++){
+			//console.log("Compare to external task ", externalTaskList[i].task);
+			if (externalTaskList[i].task === configTask) {
+				//console.log("This task is from module ", externalTaskList[i].module);
+				paramTree = getParamTreeForModule(externalTaskList[i].module);
+				break;
+			}
+		}
+	}
+	webMI.trigger.fire("SetParameterTree", paramTree);
+
+});
+
+
+webMI.trigger.connect("RequestTaskList", function(e){
+
+	var taskList = [{task: SYSTEM_TASK, module: "q_sys.m"}];
+	for (var i=0; i<externalTaskList.length; i++){
+		//console.log("Adding external task "+externalTaskList[i].task);
+		taskList.push(externalTaskList[i]);
+	}
+	for (var i=0; i<taskList.length; i++){
+		taskList[i].selected = false;
+		if (taskList[i].task == configTask) {
+			taskList[i].selected = true;
+		}
+	}
+	//console.log("=========== sending tasklist", taskList, configTask);
+	webMI.trigger.fire("SetTaskList", taskList);
+
+});
+
+
+webMI.trigger.connect("MoveToSubcomponent", function(e){
+
+	var subcomp = e.value;
+
+	if (subcomp != undefined){
+
+		if (currentNode.Type == TYPE_SYSTEM){
+			console.log("Currentnode is SYSTEM subcomp value: "+subcomp );
+			subcomp = subcomp + 1;
+		}
+		if (subcomp < currentNode.subComponentList.length) {
+
+			currentNode = currentNode.subComponentList[subcomp];
+			nodeUpdated();
+
+
+		}
+
+	}
+
+});
+
+nodeUpdated = function(){
+	/// reload monitoring display
+	if (currentNode != undefined){
+
+		refreshActiveView()
+	
+		/////////////////////// UPDATE MENU
+		webMI.trigger.fire("Highlight", currentNode.Type, "menu");
+		
+	}
+
+}
+
+webMI.trigger.connect("SetCurrentNode", function(e){
+
+	if (typeof e.value == 'undefined'){
+		console.log("someone tried to set a bad node");
+		return;
+	}
+
+	//////////////////////// SET THE CURRENT NODE
+	// expecting: e.value is an array of Group, SubIndex, SubIndex, SubIndex, etc
+	//console.log("current node is", currentNode);
+	//console.log("--------setting current node to ",e);
+	var Group = e.value;
+
+	if (Group == TYPE_SYSTEM) {
+		currentNode = systemTree;
+	} else {
+		for (var i=0; i<systemTree.subComponentList.length; i++){
+			if (systemTree.subComponentList[i].Type == Group ) {
+
+				currentNode = systemTree.subComponentList[i];
+
+			}
+		}
+	}
+
+	for (var i=1; i<e.value.length; i++){
+		//console.log("going to subcomonent");
+		currentNode = currentNode.subComponentList[i];
+
+	}
+	
+	nodeUpdated();
+});
+
+webMI.trigger.connect("MonitoringDataRequest", function(e){
+	//console.log("MonitoringDataRequest called");
+	///////////////////// FIRE INFO TO MONITORING VIEW
+	webMI.trigger.fire("SetMonitoringBasicData", getMonitoringBasicData(currentNode));
+
+});
+
+webMI.trigger.connect("MonitoringNodeRequest", function(e){
+
+//	console.log("current node request received, firing");
+	webMI.trigger.fire("SetMonitoringNode", currentNode);
+
+});
+
+webMI.trigger.connect("ChartInfoRequest", function(e){
+
+	console.log("chart info request received, firing");
+	webMI.trigger.fire("SetChartInfo", [currentNode, LocalTimeSystemTimeDiff, BrowserTimeSystemTimeDiff]);
+
+});
+
+/////////////////////////// end get basic data
+
+function getParamTreeForModule(module){
+
+	//console.log("Getting param tree for module: "+module);
+	
+	var paramTree = [];
+	//console.log("Searching paramTable for ", module);
+	for (var i=0; i<paramTable.length; i++){
+
+		//console.log("Looking at: ", paramTable[i]);
+		if (paramTable[i].title == module) {
+			paramTree = paramTable[i].childs;
+		}
+
+	}
+	//console.log("returning param tree: ",paramTree);
+	return paramTree;
+}
+
+
+webMI.trigger.connect("SetConfigTask", function(e) {
+
+	configTask = e.value;
+	//console.log("Just set the Default known config task to ", configTask);
+	configSelection = "";
+
+	refreshActiveView();
+
+});
+
+webMI.trigger.connect("GetAlarmHistoryConfig", function(e){
+
+	var logRecordersSets = [];
+
+	if ((currentNode.Type == TYPE_BATTERY) || (currentNode.Type == TYPE_BATTERY_GROUP)) {
+		 [{	
+			recorder: "SAMVAC_BCU1_STAT", // a list of Scope recorder, and the associated series definitions is supplied via trigger
+			prefix: "SAMVAC/.BCUData[1]", // no leading slash!
+		}];
+	}
+});
+
+function refreshActiveView(){
+	console.log("=======REFRESH VIEW=======");
+
+	switch(activeView){
+		case(VIEW_MONITORING):
+			webMI.display.openDisplay("00000002", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		case(VIEW_CONFIGURATION):
+			webMI.display.openDisplay("00000005", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		case(VIEW_DIAGRAMS):	
+			webMI.display.openDisplay("00000008", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		case(VIEW_ALARMS):	
+			webMI.display.openDisplay("00000013", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		case(VIEW_ENVIRONMENT):	
+			webMI.display.openDisplay("00000014", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		case(VIEW_CONTROL):
+			
+			webMI.display.openDisplay("00000015", webMI.query, "subframe");	
+		    webMI.trigger.fire("SetActiveNavMenu", activeView);
+			return;
+		default:
+			webMI.display.openDisplay("00000002", webMI.query);
+		    webMI.trigger.fire("SetActiveNavMenu", VIEW_MONITORING);
+			webMI.display.openDisplay("00000002", webMI.query);
+			return;
+	}
+	
+}
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"main", "key":"FontFamily", "property":""});
+},{"footer":["21",{}],"main":["1",{"display":{v:"00000017"},"frameName":{v:"content"}}],"menu":["2",{}],"nav":["23",{}]},{}],"21":[function(webMI,window,document,self){webMI.trigger.connect("SetFooterConfig", function(e){
+
+	var line = document.getElementById("txt_footerItem");
+	var appendString = "";
+	var configArray = e.value;
+
+	var title = [];
+	var datapoint = [];
+	var unit =  [];
+
+
+	for (var i=0; i<configArray.length; i++){
+		title[i] = configArray[i].title;
+		datapoint[i] = configArray[i].dp;
+		unit[i] =  configArray[i].unit;
+	}
+
+	// Subscribe 
+	// Title & Unit make webMI.data.reawebMI.data.subscribe
+	webMI.data.subscribeBlock(datapoint, function(a){
+		var appendString = '';
+		for (var i=0; i<a.length; i++){
+			if (a[i].value == undefined)
+			;
+			else
+			appendString += title[i]+": "+a[i].value.toFixed(1)+" "+unit[i]+"  |   ";	
+		}	
+		webMI.gfx.setText(line, appendString);
+		
+	});
+
+
+});
+
+/*
+var configArray = 6;
+var appendString = "";
+for (var i=0; i<configArray; i++){
+		appendString += "string "+i+ " | ";
+		webMI.gfx.setText("txt_footerItem", appendString);
+		console.log("##### FOOTER #####");		
+		console.log (appendString)
+}*/
+
+webMI.trigger.connect("UpdateAllAlarms", function(e){
+	var alarmList = e.value;
+	var highest_level = ALARM_LEVEL_NONE;
+	for (var i=0; i<alarmList.length; i++){
+		if (alarmList[i].level > highest_level) {
+			highest_level = alarmList[i].level;
+		}
+	}
+	// set color of triangle
+	var id1 = "id_alarmstatus_id_outer_triangle"
+	var id2 = "id_alarmstatus_id_inner_triangle"
+	//console.log("Updating alarm icon, highest level is "+highest_level);
+	switch (highest_level){
+		case ALARM_LEVEL_INFO:
+			webMI.gfx.setFill(id1, "#00ffff");
+			webMI.gfx.setFill(id2, "#00ffff");
+			break;
+		case ALARM_LEVEL_WARNING:
+		case ALARM_LEVEL_LIMIT:
+			//console.log("Change color!");
+			webMI.gfx.setFill(id1, "#eaea00");
+			webMI.gfx.setFill(id2, "#eaea00");
+			break;
+		case ALARM_LEVEL_ERROR:
+		case ALARM_LEVEL_INHIBIT:
+		case ALARM_LEVEL_LIMIT_INHIBIT:
+		case ALARM_LEVEL_TRIP:
+			webMI.gfx.setFill(id1, "#cc0000");
+			webMI.gfx.setFill(id2, "#cc0000");
+			break;
+		default:
+			webMI.gfx.setFill(id1, "#647a8f");
+			webMI.gfx.setFill(id2, "#647a8f");
+	}
+});
+
+webMI.addEvent("id_alarmstatus", "click", function(e) {
+	webMI.trigger.fire("SetCurrentView", VIEW_ALARMS);
+	webMI.trigger.fire("SetCurrentNode", -1);
+});
+
+webMI.addEvent("click_alarm", ["mouseover","touchstart"], function(e){
+		document.getElementById("click_alarm").setAttribute('style', "cursor: pointer;");		
+	});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_footerItem", "key":"FontFamily", "property":""});
+
+
+webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Open PopUp", {"PopUp":"00000018", "extern":"true", "height":"585", "id":"click_alarm", "menubar":"false", "modal":"true", "moveable":"true", "onEvent":"click", "passParameters":"true", "resizeable":"true", "scrollbars":"false", "status":"false", "title":"ALARMS ", "toolbar":"false", "width":"780"});
+},{"click_alarm":["11",{}],"id_alarmstatus":["22",{}]},{}],"1":[function(webMI,window,document,self){var isNavigationFrame = webMI.query["isNavigationFrame"] == "true";
+var url = webMI.query["url"];
+var display = webMI.query["display"];
+var targetUrl = url;
+targetUrl = (targetUrl != undefined) ? targetUrl : webMI.display.createURL(display,{"base":webMI.query.base});
+var frameName = webMI.query["frameName"];
+var defaultFrameName = "";
+var firstCCDExceeded = true;
+var myFrame = document.getElementById("myframe");
+var myLoadingscreen = null;
+var myExcldFrame = null;
+var urlPrefix = "";
+var urlPostfix = "";
+var currentActiveFrame = myFrame;
+var consistencyHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Consistency Handler");
+var tabHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tab Handler");
+
+var mousedownpos1 = null;
+var mousedownpos2 = null;
+var mousedownpospan = null;
+var olddisplaystyle = null;
+
+var zoomAreaDiv = document.getElementById("zoomareadiv");
+var zoomBoxDiv = document.getElementById("zoomboxdiv");
+var zoomBoxParent = null;
+
+var myIframe = document.getElementById(frameName);
+var myIframeDiv = document.getElementById("iframediv");
+
+var iframegroup = document.getElementById("iframegroup");
+
+var zoomArea = document.getElementById("zoomarea");
+
+var preloadGroup = document.getElementById("preload_group");
+
+var preloaded = false;
+var excludePreloaded = [];
+var includePreloaded = [];
+var preloadedFrames = {};
+var runOnce = true;
+var resumeCallbackObjects = [];
+
+if (webMI.display.isVML())
+	myFrame.style.position = "absolute";
+
+function isInArray(arr,elem,replace){
+	for (var iA=0;iA<arr.length;iA++){
+		if ((typeof elem == "string") && (elem == arr[iA] || elem == urlPrefix+arr[iA]+urlPostfix)) {
+			if (replace && elem != replace){ arr[iA] = replace;}
+			return true;
+		} else if ((typeof elem == "object") && arr[iA] == elem){
+			return true;
+		}
+	}
+	return false;
+};
+function createLoadingScreen(loadingscreen){
+	myLoadingscreen = webMI.dom.createElement("http://www.w3.org/1999/xhtml", "div");
+	myLoadingscreen.style.fontFamily = "Arial";
+	myLoadingscreen.style.overflow = "hidden";
+	myLoadingscreen.style.position = "absolute";
+	myLoadingscreen.style.left = "0";
+	myLoadingscreen.style.top = "0";
+	myLoadingscreen.style.height = "100%";
+	myLoadingscreen.style.width = "100%";
+	myLoadingscreen.style.zIndex = "999";
+	myLoadingscreen.style.backgroundColor = "#CCCCCC";
+	myLoadingscreen.style.cursor = "wait";
+	loadingscreen.parentNode.appendChild(myLoadingscreen);
+};
+function setLoadingScreenMessage(urlString,c1,c2){
+	var msg = "Loading "+urlString.substring(urlString.lastIndexOf('/')+1)+" ("+c1+"/"+c2+")";
+	myLoadingscreen.innerHTML = "<div style='position:absolute;top:300px;width:100%;text-align:center'>"+msg+"</div>";
+};
+function createIFrame(url){
+	var frame = webMI.dom.createElement("http://www.w3.org/1999/xhtml", "iframe");
+	frame.frameBorder = "0";
+	frame.scrolling = "no";
+	frame.style.width = "100%";
+	frame.style.height = "100%";
+	if (url) frame.src = url;
+	return frame;
+};
+function attachLoadEvent(frame, additional, callback){
+	if (!tabHandler.hasIFrameEvent(frame)){
+		webMI.addEvent(frame, "load", function(e) {
+			if (additional!=null) additional();
+			addOnLoadFrame(frame);
+			addOnLoadAllFrame(frame,callback);
+		});
+		tabHandler.setIFrameHasEvent(frame);
+	}
+};
+function addOnLoadFrame(frame){
+	tabHandler.setIFrameLoaded(frame,true);
+	tabHandler.registerDisplay(frame.contentWindow.document);
+	var contentWin;
+	if ((contentWin = frame.contentWindow) && contentWin.webMI){
+		contentWin.webMI.addOnfocus(function(){
+			if (contentWin != null)
+				tabHandler.getFocused(contentWin.document);
+		});
+		contentWin.webMI.addOnunload(function(){
+			try {contentWin} catch(err){return;}
+			if (contentWin != null){
+				tabHandler.removeDoc(contentWin.document);
+			}
+		});
+	}
+	var element = frame.contentDocument ? frame.contentDocument : contentWin.document;
+	webMI.addEvent(element, ["click","keypress","touchstart"], function(e) {
+		webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.AutoLogout", {"action":"restartTimer"});
+	});
+	webMI.addEvent(element, "touchstart", function(e) {
+		webMI.display.showPopup(0, 0, null);
+	});
+	consistencyHandler.read();
+};
+function addOnLoadAllFrame(frame,callback){
+	if (!tabHandler.areAllIFrameLoaded()) {if (frame && frameName==defaultFrameName){tabHandler.addAfterIFrameLoad(callback);} return;};
+	tabHandler.beforeFirstUse(frame.contentWindow.document,false,callback);
+	tabHandler.runAfterIFrameLoad();
+};
+
+webMI.addOnload(function() {
+	zoomAreaDiv.style.display = "none";
+	if (isNavigationFrame) {
+		if (zoomAreaDiv != null && zoomBoxDiv != null) {
+			zoomBoxParent = zoomBoxDiv.parentNode;
+			zoomAreaDiv.style.zIndex = "100";
+			zoomBoxDiv.style.zIndex = "100";
+			zoomBoxDiv.style.display = "none";
+			zoomBoxDiv.style.border = "1px solid black";
+			zoomAreaDiv.style.cursor = "crosshair";
+			webMI.addEvent(zoomArea, "mousedown", zoomMouseDown);
+			webMI.addEvent(zoomArea, "mousemove", zoomMouseMove);
+			webMI.addEvent(zoomArea, "mouseup", zoomMouseUp);
+			webMI.addEvent(zoomBoxDiv, "mousedown", zoomMouseDown);
+			webMI.addEvent(zoomBoxDiv, "mousemove", zoomMouseMove);
+			webMI.addEvent(zoomBoxDiv, "mouseup", zoomMouseUp);
+		}
+
+		webMI.keys.addDownListener(function() {
+			if (!mousedownpos1 && !olddisplaystyle) {
+				mousedownpospan = null;
+				olddisplaystyle = "block";
+				zoomAreaDiv.style.display = "block";
+				zoomAreaDiv.style.cursor = "move";
+			}
+		}, 18);
+
+		webMI.keys.addUpListener(function() {
+			if (olddisplaystyle) {
+				zoomAreaDiv.style.cursor = "crosshair";
+				zoomAreaDiv.style.display = "none";
+				olddisplaystyle = null;
+			}
+		}, 18);
+
+		webMI.addOnfocus(function(e) {
+			mousedownpos1 = null;
+			mousedownpos2 = null;
+			updateZoomBox();
+			zoomAreaDiv.style.display = "none";
+		});
+
+		addNavigationTriggers();
+	}
+	webMI.gfx.setVisible("stroke", false);
+	webMI.gfx.setVisible("label", false);
+	webMI.gfx.setVisible("label2", false);
+
+	webMI.trigger.fire("com.atvise.display_structure", function(e, preload, excludePreload, includePreload, loadingscreen, firstConnect) {
+		if (e != null) {
+			var displayConfig = e;
+			urlPrefix = "/"+displayConfig["prefix"];
+			urlPostfix = displayConfig["postfix"];
+			preloaded = preload;
+
+			if (preloaded) {
+				webMI.trigger.connect("register.preload.resume", function(e) {
+					resumeCallbackObjects.push(e.value);
+				});
+			}
+
+			excludePreloaded = excludePreload;
+			includePreloaded = includePreload;
+			var defaultPage = (firstConnect.defaultUrl == "")?webMI.display.createURL(displayConfig["default"]):firstConnect.defaultUrl;
+			var firstFire = firstConnect.value && (webMI.query.isDefault == "true");
+			if (firstFire) {
+				firstConnect.value = false;
+				firstConnect.defaultFrameName = frameName;
+				defaultFrameName = frameName;
+				webMI.display.setOpenUrlHandler(function(url,frame) {
+					frame = (typeof frame != "string" || frame==null)?firstConnect.defaultFrameName:frame;
+					function changeDisplay(){
+						var iframe = tabHandler.getIFrame(frame);
+						if (iframe == null) iframe = tabHandler.getIFrame(firstConnect.defaultFrameName);
+						if (iframe != null){
+							if (frame != firstConnect.defaultFrameName){
+								changeFrame_(url,iframe)
+							} else {
+								(iframe!=null) && changeFrame(url,iframe);
+							}
+						}
+					}
+					if (tabHandler.areAllIFrameLoaded()){
+						changeDisplay();
+					} else {
+						tabHandler.addAfterIFrameLoad(changeDisplay);
+					}
+				});
+				webMI.addEvent(webMI.data, "clientvariableschange", function(e) {
+					if ("CCDexceeded" in e && e["CCDexceeded"]){
+						if (firstCCDExceeded){
+							alert("CCD exceeded!");
+							firstCCDExceeded = false;
+						} else console.warn("CCD exceeded!");
+					}
+				});
+			}
+			if (firstFire && (preload || (!preload && includePreloaded.length > 0))) {
+				var displays = [];
+				var urls = [];
+				var ucount1 = 0, ucount2 = 0;
+				function allLoadedCallback(frame){
+					if (runOnce){
+						runOnce = false;
+						changeFrame(targetUrl);
+						loadingscreen.parentNode.removeChild(myLoadingscreen);
+					} else {
+						frame && frameName == firstConnect.defaultFrameName && tabHandler.getFocused(frame.contentWindow.document);
+					}
+				}
+				function extractMenu(menu,prefix,allSub) {
+					var NORMAL = 0; var ALL_BELOW = 1; var NONE_BELOW = 2;
+					allSub = allSub||NORMAL;
+					for (var i in menu) {
+						var menuItem = menu[i];
+						var menuItemName = (menuItem.identifier)?menuItem.identifier:prefix+"."+menuItem.name;
+						if (menuItem.sub) {
+							if (allSub == ALL_BELOW || isInArray(includePreloaded,menuItemName)){
+								extractMenu(menuItem.sub,menuItemName,ALL_BELOW);
+							} else if (allSub == NONE_BELOW || isInArray(excludePreloaded,menuItemName)){
+								extractMenu(menuItem.sub,menuItemName,NONE_BELOW);
+							} else {
+								extractMenu(menuItem.sub,menuItemName,allSub);
+							}
+						}
+						if (menuItem.display && allSub == ALL_BELOW){
+							includePreloaded[includePreloaded.length] = menuItem.display;
+							displays.push(menuItem.display);
+						} else if (menuItem.url && allSub == ALL_BELOW){
+							includePreloaded[includePreloaded.length] = menuItem.url;
+							urls.push(menuItem.url);
+						} else if (menuItem.display && allSub == NONE_BELOW){
+							excludePreloaded[excludePreloaded.length] = menuItem.display;
+						} else if (menuItem.url && allSub == NONE_BELOW){
+							excludePreloaded[excludePreloaded.length] = menuItem.url;
+						} else if (menuItem.display && preload && (excludePreloaded.length == 0 || !isInArray(excludePreloaded,menuItemName,menuItem.display))) {
+							displays.push(menuItem.display);
+						} else if (menuItem.display && !preload && isInArray(includePreloaded,menuItemName,menuItem.display)) {
+							displays.push(menuItem.display);
+						} else if (menuItem.url  && (excludePreloaded.length == 0 || !isInArray(excludePreloaded,menuItem.url))) {
+							urls.push(menuItem.url);
+						} else if (menuItem.url  && !preload && isInArray(includePreloaded,menuItem.url)) {
+							urls.push(menuItem.url);
+						}
+					}
+				};
+				function addFrame(frameArray, isDisplay) {
+					var url = frameArray.pop();
+					if (url != undefined) {
+						url = isDisplay ? webMI.display.createURL(url) : url;
+						if (url == targetUrl || url == defaultPage) {
+							addFrame(frameArray, isDisplay);
+						} else {
+							var preloadedFrame = createIFrame(url);
+							preloadedFrames[url] = preloadedFrame;
+							tabHandler.pushIFrame("",preloadedFrame);
+							setLoadingScreenMessage(url,++ucount1,ucount2);
+							attachLoadEvent(preloadedFrame, 
+								function(){	
+									addFrame(frameArray, isDisplay);
+									preloadedFrame.contentWindow.webMI && preloadedFrame.contentWindow.webMI.data.pause();}, 
+								allLoadedCallback);
+							webMI.gfx.addForeignObject({x:0, y:0, width:800, height:600, childNodes: [preloadedFrame]}, iframegroup);
+						}
+					}
+				};
+				extractMenu(displayConfig.menu,"AGENT.DISPLAYS");
+				ucount2 = displays.length+urls.length;
+				if (includePreloaded.length == 0 && ucount2>0) ucount2--;
+				else ucount2++
+				createLoadingScreen(loadingscreen);
+				preloadedFrames[targetUrl] = myFrame;
+				tabHandler.pushIFrame(frameName,myFrame);
+				setLoadingScreenMessage(targetUrl,++ucount1,ucount2)
+				if (displays != undefined) {
+					addFrame(displays, true);
+				}
+				if (urls != undefined) {
+					addFrame(urls, false);
+				}
+				attachLoadEvent(myFrame,null,function(){allLoadedCallback(myFrame)});
+				myFrame.src = targetUrl;				
+				myExcldFrame = createIFrame();
+				preloadedFrames["exclude"] = myExcldFrame;
+				tabHandler.pushIFrame("",myExcldFrame);
+				tabHandler.setIFrameLoaded(myExcldFrame,true);
+				(webMI.gfx.addForeignObject({x:0, y:0, width:800, height:600, childNodes: [myExcldFrame]}, iframegroup)).style.display = "none";
+			} else {
+				tabHandler.pushIFrame(frameName,myFrame);
+				changeFrame_(targetUrl,myFrame);
+			}
+		}
+	});
+});
+
+/**
+ * calculate offset for zooming in nested iframes
+ */
+function getOffset(element, position) {
+	position.x -= element.offsetLeft;
+	position.y -= element.offsetTop;
+
+	if (element.id == "foreignobjects")
+		return position;
+
+	return getOffset(element.parentNode, position);
+}
+
+function zoomMouseDown(e) {
+	if(!e)
+		e = window.event;
+
+	if (e.preventDefault)
+		e.preventDefault();
+
+	if (olddisplaystyle != null) {
+		var webMImyIframe = currentActiveFrame.contentWindow.webMI;
+		var viewBox = webMImyIframe.display.getViewBox();
+		var offset = getOffset(zoomBoxParent, {x: e.clientX, y: e.clientY});
+		mousedownpospan = {x: offset.x, y: offset.y, viewBoxX: viewBox[0], viewBoxY: viewBox[1]};
+		zoomAreaDiv.style.cursor = "move";
+	} else {
+		if (!mousedownpos1)
+			mousedownpos1 = getOffset(zoomBoxParent, {x: e.clientX, y: e.clientY});
+		else
+			mousedownpos2 = getOffset(zoomBoxParent, {x: e.clientX, y: e.clientY});
+
+		updateZoomBox();
+	}
+}
+
+function zoomMouseMove(e) {
+	if(!e)
+		e = window.event;
+
+	if (mousedownpospan) {
+		var webMImyIframe = currentActiveFrame.contentWindow.webMI;
+		var viewBox = webMImyIframe.display.getViewBox();
+		var offset = getOffset(zoomBoxParent, {x: e.clientX, y: e.clientY});
+		var viewBoxX = mousedownpospan.viewBoxX + viewBox[2] * (mousedownpospan.x - offset.x) / parseFloat(myIframeDiv.style.width);
+		var viewBoxY = mousedownpospan.viewBoxY + viewBox[3] * (mousedownpospan.y - offset.y) / parseFloat(myIframeDiv.style.height);
+		webMImyIframe.display.setViewBox(viewBoxX, viewBoxY, viewBox[2], viewBox[3]);
+	} else {
+		mousedownpos2 = getOffset(zoomBoxParent, {x: e.clientX, y: e.clientY});
+		updateZoomBox();
+	}
+}
+
+function updateZoomBox() {
+	if(mousedownpos1 != null && mousedownpos2 != null) {
+		var w = Math.abs(mousedownpos1.x - mousedownpos2.x);
+		var h = Math.abs(mousedownpos1.y - mousedownpos2.y);
+
+		if (w > 1) --w;
+		if (h > 1) --h;
+
+		zoomBoxDiv.style.display = "block";
+		zoomBoxDiv.style.top = (mousedownpos1.y < mousedownpos2.y ? mousedownpos1.y : mousedownpos2.y) + "px";
+		zoomBoxDiv.style.left = (mousedownpos1.x < mousedownpos2.x ? mousedownpos1.x : mousedownpos2.x) + "px";
+		zoomBoxDiv.style.height = h + "px";
+		zoomBoxDiv.style.width = w + "px";
+	} else
+		zoomBoxDiv.style.display = "none";
+}
+
+function zoomMouseUp(e) {
+	if(!e)
+		e = window.event;
+
+	if (mousedownpospan) {
+		mousedownpospan = null;
+		zoomAreaDiv.style.cursor = "move";
+	} else if (mousedownpos1 && mousedownpos2 && mousedownpos1.x != mousedownpos2.x && mousedownpos1.y != mousedownpos2.y) {
+		var mainArea = {
+			x: myIframeDiv.offsetLeft,
+			y: myIframeDiv.offsetTop,
+			w: parseFloat(myIframeDiv.style.width),
+			h: parseFloat(myIframeDiv.style.height)
+		};
+		var h = parseFloat(zoomBoxDiv.style.height) / mainArea.h;
+		var w = parseFloat(zoomBoxDiv.style.width) / mainArea.w;
+		var x = (parseFloat(zoomBoxDiv.style.left) - mainArea.x) / mainArea.w;
+		var y = (parseFloat(zoomBoxDiv.style.top) - mainArea.y) / mainArea.h;
+
+		var webMImyIframe = currentActiveFrame.contentWindow.webMI;
+		var viewBox = webMImyIframe.display.getViewBox();
+		viewBox[0] = x * viewBox[2] + viewBox[0];
+		viewBox[1] = y * viewBox[3] + viewBox[1];
+		viewBox[3] = h * viewBox[3];
+		viewBox[2] = w * viewBox[2];
+		webMImyIframe.display.setViewBox(viewBox[0], viewBox[1], viewBox[2], viewBox[3]);
+
+		mousedownpos1 = null;
+		mousedownpos2 = null;
+		updateZoomBox();
+		zoomAreaDiv.style.display = "none";
+	}
+}
+
+function changeFrame_(url,frame){
+	firstCCDExceeded = true;
+	consistencyHandler.renew();
+	tabHandler.changeDisplay();
+	frame.style.display = "";
+
+	var cf = function() {
+		frame.src = url;
+		attachLoadEvent(frame, null, function(){tabHandler.getFocused(frame.contentWindow.document)});
+	};
+
+	//Fix Opera timeout problem
+	if (navigator.userAgent.indexOf("Opera") > -1) {
+		setTimeout(function(){
+			frame.src = null;
+			cf();
+		}, 1);
+	} else {
+		cf();
+	}
+}
+
+function changeFrame(url, frame) {
+	var pureUrl = (url.indexOf("?")>-1)?url.substring(0,url.indexOf("?")):url;
+	for (var i in preloadedFrames) {
+			preloadedFrames[i].contentWindow.webMI && preloadedFrames[i].contentWindow.webMI.data.pause();
+			preloadedFrames[i].parentNode.style.display = "none";
+	}
+	if (!preloaded && includePreloaded.length == 0 ) {
+		myFrame.parentNode.style.display = "";
+		changeFrame_(url, frame||myFrame);
+	} else if ( (!preloaded && !isInArray(includePreloaded,pureUrl)) || (preloaded && isInArray(excludePreloaded,pureUrl)) ) {
+		myExcldFrame.parentNode.style.display = "";
+		currentActiveFrame = myExcldFrame;
+		myIframeDiv = myExcldFrame.parentNode;
+		changeFrame_(url, myExcldFrame);
+	} else {
+		var find = false;
+		tabHandler.blurFocused();
+		for (var i in preloadedFrames) {
+			if (i == url || i == url.substring(0,url.indexOf("?")) ) {
+				find = true;
+				firstCCDExceeded = true;
+				preloadedFrames[i].parentNode.style.display = "";
+				var contentDocument = preloadedFrames[i].contentWindow.document;
+				for (var j = 0; j < resumeCallbackObjects.length; ++j) {
+					if (contentDocument == resumeCallbackObjects[j].document)
+						resumeCallbackObjects[j].callback();
+				}
+				preloadedFrames[i].contentWindow.webMI && preloadedFrames[i].contentWindow.webMI.data.resume();
+				currentActiveFrame = preloadedFrames[i];
+				myIframeDiv = preloadedFrames[i].parentNode;
+				tabHandler.getFocused(preloadedFrames[i].contentWindow.document);
+			}
+		}
+		if (!find){ // alarmlist, historylist
+			if (myExcldFrame == null ) myExcldFrame = frame||myFrame;
+			myExcldFrame.parentNode.style.display = "";
+			currentActiveFrame = myExcldFrame;
+			myIframeDiv = myExcldFrame.parentNode;
+			changeFrame_(url, myExcldFrame);
+		}
+	}
+}
+
+webMI.trigger.connect("getSource_" + frameName, function(e) {
+	var src = currentActiveFrame.src;
+	if (currentActiveFrame.src.indexOf("/") > -1) {
+		var parts = currentActiveFrame.src.split("/");
+		src = parts[parts.length-1];
+	}
+	if (src.indexOf("?") > -1) {
+		src = src.substring(0, src.indexOf("?"));
+	}
+	e.value(src, currentActiveFrame.contentWindow.webMI);
+});
+
+function addNavigationTriggers() {
+	webMI.trigger.connect("changeDisplay_" + frameName, function(e) {
+		var url = e.value;
+		var query;
+
+		if (typeof e.value == "object") {
+			url = e.value.url;
+			query = e.value.query;
+		} else {
+			var indexOfQuestionMark = url.indexOf("?", 1);
+			if (indexOfQuestionMark > 0) {
+				query = url.substring(indexOfQuestionMark + 1);
+				url = url.substring(0, indexOfQuestionMark);
+			}
+		}
+
+		if (url != undefined)
+			webMI.display.openUrl(webMI.display.createURL(url), query, frameName);
+	});
+	// 0...x, 1...y, 2...w, 3...h
+	var zoomFactor = 0.1;
+	webMI.trigger.connect("com.atvise.zoomIn_" + frameName, function(e) {
+		var webMImyIframe = currentActiveFrame.contentWindow.webMI;
+		var viewBox = webMImyIframe.display.getViewBox();
+		viewBox[3] /= 1+zoomFactor;
+		viewBox[2] /= 1+zoomFactor;
+		viewBox[0] += viewBox[2] * zoomFactor / 2;
+		viewBox[1] += viewBox[3] * zoomFactor / 2;
+		webMImyIframe.display.setViewBox(viewBox[0], viewBox[1], viewBox[2], viewBox[3]);
+	});
+	webMI.trigger.connect("com.atvise.zoomOut_" + frameName, function(e) {
+		var webMImyIframe = currentActiveFrame.contentWindow.webMI;
+		var viewBox = webMImyIframe.display.getViewBox();
+		viewBox[0] -= viewBox[2] * zoomFactor / 2;
+		viewBox[1] -= viewBox[3] * zoomFactor / 2;
+		viewBox[3] *= 1+zoomFactor;
+		viewBox[2] *= 1+zoomFactor;
+		webMImyIframe.display.setViewBox(viewBox[0], viewBox[1], viewBox[2], viewBox[3]);
+	});
+	webMI.trigger.connect("com.atvise.zoom11_" + frameName, function(e) {
+		var webMImyIframe = currentActiveFrame.contentWindow.webMI;
+		var viewBox = webMImyIframe.display.getInitialViewBox();
+		webMImyIframe.display.setViewBox(viewBox[0], viewBox[1], viewBox[2], viewBox[3]);
+	});
+	webMI.trigger.connect("com.atvise.zoomRect_" + frameName, function(e) {
+		mousedownpospan = null;
+		zoomAreaDiv.style.display = "block";
+	});
+	webMI.trigger.connect("com.atvise.getDefaultDisplay_" + frameName, function(e) {
+		e.value(display,url);
+	});
+}
+
+//workaround for [AT-D-3223]
+
+if (navigator.userAgent.indexOf("Firefox") != -1) {
+	if (webMI.display.getURLPrefix() == "") {
+		console.warn("Reloading because of empty URL prefix - Firefox Bug 301325");
+		window.window.location.reload();
+	}
+}
+},{},{"frameName":"myframe","isDefault":"true","isNavigationFrame":"false"}],"2":[function(webMI,window,document,self){var systemTree;
+
+webMI.trigger.connect("Highlight", function(e){
+
+	if (typeof e.value == 'undefined'){
+		//console.log("Received a BAD highlight request");
+		return;
+	}
+	// TODO: breadcrumb trail
+	//console.log("Received a highlight request");
+	var menu_item_select = "";
+	var group = e.value;
+	switch(group){
+		case TYPE_PV:
+		case TYPE_PV_GROUP:
+			menu_item_select = "icon_pv";
+			hideDropDown ();
+			break;
+		case TYPE_CONSUMER:
+		case TYPE_CONSUMER_GROUP:
+			menu_item_select = "icon_consumer";
+			hideDropDown ();
+			break;
+		case TYPE_GRID:
+			menu_item_select = "icon_grid";
+			hideDropDown ();
+			break;
+		case TYPE_BATTERY:
+			
+		case TYPE_BATTERY_GROUP:
+			menu_item_select = "icon_battery";
+			showDropdown ();
+			break;
+		case TYPE_DIESEL:
+		case TYPE_DIESEL_GROUP:
+			menu_item_select = "icon_diesel";
+    		hideDropDown ();
+			break;
+		case TYPE_RAWMETER:
+			menu_item_select = "icon_rawmeter";
+			hideDropDown ();
+			break;
+		default: 
+			menu_item_select = "icon_unknowns";
+  		    hideDropDown ();
+	}
+
+	for (var i=1; i<7; i++){
+		switch(i){
+			case 1:
+			  menu_item = "icon_pv";
+			  break;
+			case 2:
+			  menu_item = "icon_consumer";
+			  break;
+			case 3:
+			  menu_item = "icon_grid";
+			  break;
+			case 4:
+				menu_item = "icon_battery";
+				break;
+			case 5:
+				menu_item = "icon_diesel";
+				break;
+			case 6:
+			  menu_item = "icon_rawmeter";
+			  break;
+			default: 
+				menu_item = "icon_unknowns";
+		}
+
+		if (menu_item == menu_item_select) {
+			webMI.trigger.fire("SelectMenuItem", [], menu_item);
+		} else {
+			webMI.trigger.fire("DeselectMenuItem", [], menu_item);
+		}
+	}
+	
+
+});
+
+webMI.trigger.connect("SystemTreeUpdate",
+	function(b){
+		systemTree = b.value;
+		if (typeof systemTree == 'undefined'){
+			//console.log("undefined sytemTree");
+			return;
+		}
+
+		//console.log(" received a sytemTree!! ==================== elements: "+systemTree.subComponentList.length);
+		//console.log(" TYPE_PV=",TYPE_PV);
+		var menu_x = 0;
+
+		for (var i = 0; i < systemTree.subComponentList.length; i++){
+
+			var GroupType = systemTree.subComponentList[i].Type;
+			//console.log("========Making visible group type ",GroupType);
+			// switch on group type and make item visible
+			var menu_item;
+			switch(GroupType){
+				case TYPE_PV:
+				case TYPE_PV_GROUP:
+					menu_item = "icon_pv";
+					//console.log("caught icon PV");
+					break;
+				case TYPE_CONSUMER:
+				case TYPE_CONSUMER_GROUP:
+					menu_item = "icon_consumer";
+					break;
+				case TYPE_GRID:
+					menu_item = "icon_grid";
+					break;
+				case TYPE_BATTERY:
+				case TYPE_BATTERY_GROUP:
+					menu_item = "icon_battery";
+				
+					break;
+				case TYPE_DIESEL:
+				case TYPE_DIESEL_GROUP:
+					menu_item = "icon_diesel";
+					break;
+				case TYPE_RAWMETER:
+					menu_item = "icon_rawmeter";
+					break;
+				default: 
+					menu_item = "icon_unknowns";
+			}
+			//console.log("making "+menu_item+" visible (group is "+GroupType);
+			webMI.trigger.fire("SetInfo", GroupType, menu_item);
+			webMI.gfx.setVisible(menu_item, true);
+			webMI.gfx.setMoveX(menu_item, webMI.translate(1, 0, 1, 0, menu_x));
+			// move menu item to next available spot
+			menu_x = menu_x + 100;
+			// get name and user-defined icon (if present)
+//			webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tooltip", {"id":menu_item, "text":systemTree.subComponentList[i].Name});
+			document.getElementById("pipe").setAttribute("x2", menu_x + "px");
+			webMI.gfx.setVisible("pipe", true);
+		}
+	
+});
+
+//////// Microinteraction
+// Click Home
+webMI.addEvent("i_qinous", "click", function(e) {
+	webMI.trigger.fire("SetCurrentNode", [-1]);	
+
+});
+webMI.addEvent("i_qinous", ["mouseover","touchstart"], function(e) {
+	document.getElementById("i_qinous").setAttribute('style', "cursor: pointer;");
+	document.getElementById("brdr_home").setAttribute("stroke-width", "2");		
+	webMI.gfx.setStroke("brdr_home", "#00abe1");
+	webMI.gfx.setFillOpacity("home", "0.5");
+
+});
+
+webMI.addEvent("i_qinous", ["mouseout","touchcancel"], function(e) {
+	document.getElementById("brdr_home").setAttribute("stroke-width", "1");	
+	webMI.gfx.setStroke("brdr_home", "#8395a6");
+	webMI.gfx.setFillOpacity("home", "1");
+});
+
+// Dropdown
+webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Open Context Menu", {"fontSize":"16", "id":"icon_battery_dropdown_box", "itemsCount":"0", "key1":"RACK 1", "key2":"RACK 2", "key3":"RACK 3", "key4":"RACK 4", "key5":"RACK 5+", "minWidth":"85", "onEvent":"click", "outputNode":"", "trigger":"SetRackCountToSelect", "value1":"1", "value2":"2", "value3":"3", "value4":"4", "value5":"5", "x":"225", "y":"105"});
+
+webMI.trigger.connect("SetRackCountToSelect", function(e) {
+	var rackCount = e.value,
+		RackCountToSelect;
+	
+	if (rackCount < 5) {
+		RackCountToSelect = rackCount;
+		webMI.trigger.fire("MoveToSubcomponent", 0);
+		webMI.trigger.fire("RackSelect", RackCountToSelect);//Go to rack directly SetCurrentNode / MoveToSubcomponent
+		console.log("Move to Rack View and Display rack: "+RackCountToSelect);
+	} else {
+		webMI.display.openWindow({display:"",extern:false,height:300,menubar:false,modal:true,movable:true,resizable:true,scrollbars:false,status:false,title:"CHOOSE RACK",toolbar:false,width:400,query:webMI.query});
+	}
+		
+});
+
+webMI.trigger.connect("showdropdown", function(e) {
+var showdropdown = e.value;
+if (showdropdown == true){
+	showDropdown();
+}else{
+	hideDropDown();
+}
+});
+
+
+var dropdownLine = document.getElementById("icon_battery_dropdown_line"),
+	dropdownBox = document.getElementById("icon_battery_dropdown_box");
+
+function showDropdown (){
+		dropdownLine.setAttribute("visibility", "visible");
+		dropdownBox.setAttribute("visibility", "visible");
+		}
+
+function hideDropDown(){
+		dropdownLine.setAttribute("visibility", "hidden");
+		dropdownBox.setAttribute("visibility", "hidden");
+		}
+},{"home":["20",{}],"i_qinous":["11",{"fillColorInactive":{v:"#edf0f1"},"focusStrokeColor":{v:"#00ABE1"}}],"icon_battery":["12",{}],"icon_consumer":["14",{"svg":{v:"00000019"}}],"icon_diesel":["18",{"svg":{v:"00000020"}}],"icon_grid":["9",{"svg":{v:"00000021"}}],"icon_pv":["16",{"svg":{v:"00000022"}}],"id_21":["3",{}]},{"Fill":"#647a8f"}],"23":[function(webMI,window,document,self){var bck_fill = "#BEC7D0", //EEF1F2
+	bck_stroke ="#647A8F",
+	bck_strokeActive ="#00abe1";
+
+var idActiveMenu,
+	activeNavMenu,
+	selectedMenu;
+
+// - - - > Security Control
+webMI.trigger.connect("userLogOn", function(e) {
+	var loggedIn = e.value,
+		viewParameters = webMI.hasRight(VIEW_PARAMETERS),
+		viewControls = webMI.hasRight(VIEW_CONTROLS);
+//		console.log("Trigger connect for user loggedIn status: "+loggedIn+ " View Parameters? "+viewParameters+ " | View Controls? "+ viewControls);
+
+		if (loggedIn == true) {
+			if(viewParameters == true){
+				showConfigurationView();	
+			}
+			if(viewControls == true){
+				showControlView();
+			}
+		}else {
+				hideConfigurationView();
+				hideControlView();
+		}
+});
+
+//Monitor View
+webMI.addEvent("monitoring", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_MONITORING;
+	idActiveMenu = "monitoring";	
+	webMI.trigger.fire("SetActiveView", VIEW_MONITORING);
+	highlight();
+});
+
+webMI.addEvent("monitoring", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_monitoring", "0.5");
+	document.getElementById("monitoring").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("monitoring", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_monitoring", "1");
+});
+
+// Diagram View
+webMI.addEvent("diagram", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_DIAGRAMS;
+	idActiveMenu = "diagram";	
+	webMI.trigger.fire("SetActiveView", VIEW_DIAGRAMS);
+	highlight();	
+});
+webMI.addEvent("diagram", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_diagram", "0.5");
+	document.getElementById("diagram").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("diagram", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_diagram", "1");
+});
+
+// Alarms View
+webMI.addEvent("alarms", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_ALARMS;
+	idActiveMenu = "alarms";	
+	webMI.trigger.fire("SetActiveView", VIEW_ALARMS);
+	highlight();
+});
+webMI.addEvent("alarms", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_alarms", "0.5");
+	document.getElementById("alarms").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("alarms", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_alarms", "1");
+});
+
+// Configuration View
+webMI.addEvent("configuration", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_CONFIGURATION;
+	idActiveMenu = "configuration";	
+	webMI.trigger.fire("SetActiveView", VIEW_CONFIGURATION);
+	highlight();
+
+});
+webMI.addEvent("configuration", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_configuration", "0.5");
+	document.getElementById("configuration").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("configuration", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_configuration", "1");
+});
+
+
+// Environment View
+webMI.addEvent("environment", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_ENVIRONMENT;
+	idActiveMenu = "environment";	
+	webMI.trigger.fire("SetActiveView", VIEW_ENVIRONMENT);
+	highlight();
+});
+
+webMI.addEvent("environment", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_environment", "0.5");
+	document.getElementById("environment").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("environment", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_environment", "1");
+});
+
+// Control View 
+webMI.addEvent("control", ["click","touchend"], function(e) {
+	selectedMenu = 	VIEW_CONTROL;
+	idActiveMenu = "control";	
+	webMI.trigger.fire("SetActiveView", VIEW_CONTROL);	
+	highlight();
+});
+
+webMI.addEvent("control", ["mouseover","touchstart"], function(e){
+	webMI.gfx.setFillOpacity("icon_control", "0.5");
+	document.getElementById("control").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("control", ["mouseout","touchend"], function(e){
+	webMI.gfx.setFillOpacity("icon_control", "1");
+});
+
+// Microinteractions
+function showConfigurationView(){
+	webMI.gfx.setVisible("configuration", true);
+	webMI.gfx.setVisible("icon_configuration", true);
+	webMI.gfx.setVisible("bck_configuration", true);
+}
+function showControlView(){
+	webMI.gfx.setVisible("control", true); 
+	webMI.gfx.setVisible("icon_control", true); 
+	webMI.gfx.setVisible("bck_control", true); 
+}
+function hideConfigurationView(){
+	webMI.gfx.setVisible("configuration", false);
+	webMI.gfx.setVisible("icon_configuration", false);
+	webMI.gfx.setVisible("bck_configuration", false);
+}
+function hideControlView(){
+	webMI.gfx.setVisible("control", false); 
+	webMI.gfx.setVisible("icon_control", false); 
+	webMI.gfx.setVisible("bck_control", false); 		
+}
+
+// Trigger Connect for Active Navigation Menu
+
+
+function highlight(){
+	webMI.trigger.connect("SetActiveNavMenu", function(e) {
+	activeNavMenu = e.value;
+		switch (activeNavMenu) {
+		  case 1:
+			setActive();
+			document.getElementById("bck_diagram").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_diagram").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_alarms").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_alarms").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_configuration").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_configuration").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_environment").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_environment").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_control").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_control").setAttribute("fill",bck_stroke);
+			break;
+		  case 2:
+			setActive();
+			document.getElementById("bck_monitoring").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_monitoring").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_diagram").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_diagram").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_alarms").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_alarms").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_environment").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_environment").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_control").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_control").setAttribute("fill",bck_stroke);
+			break;
+		  case 3:
+			setActive();
+			document.getElementById("bck_monitoring").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_monitoring").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_alarms").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_alarms").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_configuration").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_configuration").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_environment").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_environment").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_control").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_control").setAttribute("fill",bck_stroke);
+			break;
+		  case 4:
+			setActive();
+			document.getElementById("bck_diagram").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_diagram").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_monitoring").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_monitoring").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_configuration").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_configuration").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_environment").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_environment").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_control").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_control").setAttribute("fill",bck_stroke);
+			break;
+		  case 5:
+			setActive();
+			document.getElementById("bck_diagram").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_diagram").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_alarms").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_alarms").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_configuration").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_configuration").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_monitoring").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_monitoring").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_control").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_control").setAttribute("fill",bck_stroke);
+			break;
+		  case 6:
+			setActive();
+			document.getElementById("bck_diagram").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_diagram").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_alarms").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_alarms").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_configuration").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_configuration").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_environment").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_environment").setAttribute("fill",bck_stroke);
+			document.getElementById("bck_monitoring").setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_monitoring").setAttribute("fill",bck_stroke);
+			break;
+		  default:
+			document.getElementById("bck_"+idActiveMenu).setAttribute("stroke",bck_stroke);		
+			document.getElementById("bck_"+idActiveMenu).setAttribute("fill",bck_stroke);
+			
+		}
+	});
+} 
+
+function setActive(){
+	document.getElementById("bck_"+idActiveMenu).setAttribute("stroke",bck_strokeActive);		
+	document.getElementById("bck_"+idActiveMenu).setAttribute("fill",bck_fill);
+	webMI.gfx.setFillOpacity("icon_"+idActiveMenu, "1");
+	document.getElementById("bck_"+idActiveMenu).setAttribute("stroke-width", "2");
+}
+},{"alarms":["11",{"fillColorInactive":{v:"#fff"},"focusStrokeColor":{v:"#00abe1"}}],"configuration":["11",{"fillColorInactive":{v:"#fff"},"focusStrokeColor":{v:"#00abe1"},"right":{v:"SYSTEM.SECURITY.RIGHTS.VISU.Advanced"}}],"control":["11",{"fillColorInactive":{v:"#fff"},"focusStrokeColor":{v:"#00abe1"},"right":{v:"SYSTEM.SECURITY.RIGHTS.VISU.Advanced"}}],"diagram":["11",{"fillColorInactive":{v:"#fff"},"focusStrokeColor":{v:"#00abe1"}}],"environment":["11",{"fillColorInactive":{v:"#fff"},"focusStrokeColor":{v:"#00abe1"}}],"icon_alarms":["27",{}],"icon_configuration":["26",{}],"icon_control":["29",{}],"icon_diagram":["28",{}],"icon_environment":["24",{}],"icon_monitoring":["25",{}],"monitoring":["11",{"fillColorInactive":{v:"#fff"},"focusStrokeColor":{v:"#00abe1"}}]},{"fill":"#ffffff"}],"11":[function(webMI,window,document,self){var base = (webMI.query["base"] == undefined) ? "" : webMI.query["base"];
+var newValue = webMI.query["value"];
+var fillColorInactive = webMI.query["fillColorInactive"];
+var tabHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tab Handler");
+var tabIndex = (webMI.query["tabIndex"] == undefined) ? "" : webMI.query["tabIndex"];
+var tooltip = (webMI.query["tooltip"] == undefined) ? "" : webMI.query["tooltip"];
+
+webMI.gfx.setStroke("button_clickarea","");
+
+if (newValue == "true") {
+	newValue = true;
+} else if (newValue == "false") {
+	newValue = false;
+} else {
+	try {
+		var temp = parseFloat(newValue);
+		if (!isNaN(temp)) {
+			newValue = temp;
+		}
+	} catch(e) {}
+}
+
+var onMouseDownValue = webMI.query["onMouseDownValue"];
+var onMouseDownNode = (webMI.query["onMouseDownNode"] == undefined) ? "" : webMI.query["onMouseDownNode"];
+var onMouseUpValue = webMI.query["onMouseUpValue"];
+var onMouseUpNode = (webMI.query["onMouseUpNode"] == undefined) ? "" : webMI.query["onMouseUpNode"];
+var strokeNormal = "none";
+
+var right = (webMI.query["right"] == undefined) ? "" : webMI.query["right"];
+if (right.search(/SYSTEM\.SECURITY\.RIGHTS\./) != -1) {
+	right = right.substring(23,right.length); //remove "prefix" SYSTEM.SECURITY.RIGHTS.
+}
+
+var active = false;
+var hasRight = false;
+
+if (right != "") {
+	webMI.addEvent(webMI.data, "clientvariableschange", function(e) {
+		hasRight=false;
+		if (("username" in e) && (e.username != "")) {
+				hasRight = webMI.hasRight(right);
+		}
+		deActivate();
+	});
+}
+
+var activeValue = (webMI.query["activeValue"] == undefined) ? "" :webMI.query["activeValue"];
+var activeNode = (webMI.query["activeNode"] == undefined) ? "" : webMI.query["activeNode"];
+var nodeIsActive = false;
+
+if ((activeNode != "") && (String(activeValue) != "")) {
+	webMI.data.subscribe(activeNode, function(e) {
+		var nodeActiveValue = e.value;
+		if (typeof nodeActiveValue == "boolean") {
+			nodeIsActive = (String(nodeActiveValue) == activeValue);
+		} else if (typeof nodeActiveValue == "number") {
+			try {
+				var temp = parseFloat(activeValue);
+				nodeIsActive = (nodeActiveValue == temp);
+			} catch(e) {
+				nodeIsActive = false;
+			}
+		} else {
+			nodeIsActive = (nodeActiveValue == activeValue);
+		}
+		deActivate();
+	});
+} else {
+	deActivate();
+}
+
+function deActivate(forceDeActivate) {
+	if (typeof forceDeActivate !== "undefined" && forceDeActivate){
+		active = false;
+	} else if (right != "") {
+		if ((String(activeValue) != "") && (activeNode != "")) {
+			active=(nodeIsActive && hasRight);
+		} else {
+			active=hasRight;
+		}
+	} else {
+		if ((String(activeValue) != "") && (activeNode != "")) {
+			active=nodeIsActive;
+		} else {
+			active=true;
+		}
+	}
+	/*if (active) {
+		webMI.gfx.setFillOpacity("button_clickarea", 0);
+	} else {
+		webMI.gfx.setFillOpacity("button_clickarea", 100);
+		webMI.gfx.setFill("button_clickarea", fillColorInactive);
+	}*/
+}
+
+function focusTH(){
+	if (active) {
+		webMI.gfx.setVisible("button_stroke_focus", null);
+	}
+}
+function blurTH(){
+	if (active) {
+		webMI.gfx.setVisible("button_stroke_focus", false);
+	}
+}
+function applyTH(){
+	if (active) {
+		if (base != "") {
+			webMI.data.write(base, newValue);
+		}
+		webMI.trigger.fire("valuechanged", newValue, "");
+	}
+}
+function backTH(){}
+function arrowTH(dir){}
+function keyHandler(keyTH,param2){
+	if (keyTH == "focus"){
+		focusTH();
+	} else if (keyTH == "blur"){
+		blurTH();
+	} else if (keyTH == "apply"){
+		applyTH();
+	} else if (keyTH == "back"){
+		backTH();
+	} else if (keyTH == "arrow"){
+		arrowTH(param2);
+	} else if (keyTH == "isActive"){
+		return active && param2(document.getElementById("button_clickarea").parentNode);
+	}
+}
+webMI.addEvent("button_stroke_focus", ["mousedown","touchstart"], function(e) {
+var id = "button_stroke_focus";
+var value = true;
+return function(value) {
+		if (active) {
+			if (onMouseDownNode != "") {
+				webMI.data.write(onMouseDownNode, onMouseDownValue);
+			}
+			webMI.trigger.fire("valuechangedMouseDown", onMouseDownValue, "");
+		}
+} (value);
+});
+
+
+webMI.addEvent("button_stroke_focus", ["mouseup","touchend"], function(e) {
+var id = "button_stroke_focus";
+var value = true;
+return function(value) {
+		if (active) {
+			if (onMouseUpNode != "") {
+				webMI.data.write(onMouseUpNode, onMouseUpValue);
+			}
+			webMI.trigger.fire("valuechangedMouseUp", onMouseUpValue, "");
+		}
+} (value);
+});
+
+webMI.addEvent("button_clickarea", ["click", "touchend"], function(e) {
+	if (active) {
+		tabHandler.setCurrentIndex(keyHandler);
+		if (base != "") {
+			webMI.data.write(base, newValue);
+		}
+		webMI.trigger.fire("valuechanged", newValue, "");
+	}
+});
+
+webMI.addEvent("button_clickarea", "dragstart", function(e) {
+	if (e.preventDefault) {
+		e.preventDefault();
+	}
+});
+webMI.addOnload(function() {
+	var doc = document.getElementById("button_clickarea").ownerDocument;
+	tabHandler.register(tabIndex,keyHandler,doc);
+});
+
+if (tooltip != ""){
+	webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tooltip", {"auto":"true", "id":"button_clickarea", "text":tooltip});
+}
+
+// Hide stroke on init
+webMI.gfx.setVisible('button_stroke_focus', false);
+
+// Theme Support
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"stroke", "defaultValue":"#E3D700", "id":"button_stroke_focus", "key":"ControlTintColor", "property":"focusStrokeColor"});
+
+// Reset scaling
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.ResetScaling", { callback: function(originalSize, renderedSize, scale, scaleInverse) {
+	webMI.gfx.setScaleX('id_0', scaleInverse.x);
+	webMI.gfx.setWidth('id_0', renderedSize.width);
+	webMI.gfx.setMoveX('id_0', -(renderedSize.width - originalSize.width) / 2);
+	webMI.gfx.setWidth('button_stroke_focus', renderedSize.width - 1);
+	webMI.gfx.setWidth('button_clickarea', renderedSize.width - 1);
+}, originalWidth: 100, originalHeight: 31, innerNode: document.getElementById('id_0') });
+
+// TwoHand support
+webMI.trigger.connect("com.atvise.setActive", function(e){
+	if (e.value){
+		deActivate();
+	}  else {
+		deActivate(true);
+	}
+});
+},{},{"fillColorInactive":"","focusStrokeColor":""}],"22":[function(webMI,window,document,self){},{},{}],"20":[function(webMI,window,document,self){},{},{}],"12":[function(webMI,window,document,self){// Change Color on mouse over
+// line
+var $ = top.$;
+var Group = "";
+var selected = false;
+
+
+var selectMenuIcon = function(){
+	var idln = "brdr_icon";
+	var id = "icon_id";
+	document.getElementById("brdr_icon").setAttribute("stroke-width", "2");	
+	webMI.gfx.setStroke(idln, "#00abe1");
+//	document.getElementById(this).setAttribute("fill", "#00abe1");
+	webMI.gfx.setFillOpacity(id, "0.5");
+	
+}
+
+var deselectMenuIcon = function(){
+	var idln = "brdr_icon";
+	var id = "icon_id";
+	document.getElementById("brdr_icon").setAttribute("stroke-width", "1");	
+	webMI.gfx.setStroke(idln, "#8395a6");
+	webMI.gfx.setFillOpacity(id, "1");
+}
+
+
+webMI.addEvent("clickarea", ["mouseover","touchstart"], function(e){
+	selectMenuIcon();
+	document.getElementById("clickarea").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("clickarea", ["mouseout","touchend"], function(e){
+
+	if (!selected) {
+		deselectMenuIcon(e)
+	}
+
+});
+
+
+
+webMI.trigger.connect("SelectMenuItem", function(e){
+//	console.log("selecting icon for focus element");
+	selected = true;
+	selectMenuIcon()
+});
+
+webMI.trigger.connect("DeselectMenuItem", function(e){
+	selected = false;
+	deselectMenuIcon()
+});
+
+
+webMI.addEvent("clickarea", "click", function(e) {
+	
+//	console.log("menu item clicked...");
+	if (typeof Group != 'undefined'){
+		webMI.trigger.fire("SetCurrentNode", Group);	
+	}
+});
+
+webMI.trigger.connect("SetInfo", function(e){
+
+//	console.log("Menu item got group: "+e.value);
+	Group = e.value;
+	// TODO set tooltip text
+
+});
+
+
+webMI.addEvent("drop", ["mouseover","touchstart"], function(e){
+	document.getElementById("drop").setAttribute('style', "cursor: pointer;");		
+});
+
+
+
+// Fonts
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"rack_txt", "key":"FontFamily", "property":""});
+},{"clickarea":["11",{}],"icon_id":["13",{}]},{"svg":"00000023"}],"14":[function(webMI,window,document,self){// Change Color on mouse over
+// line
+var $ = top.$;
+var Group = "";
+var selected = false;
+
+
+var selectMenuIcon = function(){
+	var idln = "brdr_icon";
+	var id = "icon_id";
+	document.getElementById("brdr_icon").setAttribute("stroke-width", "2");	
+	webMI.gfx.setStroke(idln, "#00abe1");
+//	document.getElementById(this).setAttribute("fill", "#00abe1");
+	webMI.gfx.setFillOpacity(id, "0.5");
+	
+}
+
+var deselectMenuIcon = function(){
+	var idln = "brdr_icon";
+	var id = "icon_id";
+	document.getElementById("brdr_icon").setAttribute("stroke-width", "1");	
+	webMI.gfx.setStroke(idln, "#8395a6");
+	webMI.gfx.setFillOpacity(id, "1");
+}
+
+
+webMI.addEvent("clickarea", ["mouseover","touchstart"], function(e){
+	selectMenuIcon();
+	document.getElementById("clickarea").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("clickarea", ["mouseout","touchend"], function(e){
+
+	if (!selected) {
+		deselectMenuIcon(e)
+	}
+
+});
+
+
+
+webMI.trigger.connect("SelectMenuItem", function(e){
+//	console.log("selecting icon for focus element");
+	selected = true;
+	selectMenuIcon()
+});
+
+webMI.trigger.connect("DeselectMenuItem", function(e){
+	selected = false;
+	deselectMenuIcon()
+});
+
+
+webMI.addEvent("clickarea", "click", function(e) {
+	
+//	console.log("menu item clicked...");
+	if (typeof Group != 'undefined'){
+		webMI.trigger.fire("SetCurrentNode", Group);	
+	}
+});
+
+webMI.trigger.connect("SetInfo", function(e){
+
+//	console.log("Menu item got group: "+e.value);
+	Group = e.value;
+	// TODO set tooltip text
+
+});
+
+
+webMI.addEvent("drop", ["mouseover","touchstart"], function(e){
+	document.getElementById("drop").setAttribute('style', "cursor: pointer;");		
+});
+
+
+
+// Fonts
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"rack_txt", "key":"FontFamily", "property":""});
+},{"clickarea":["11",{}],"icon_id":["15",{}]},{"svg":"00000023"}],"18":[function(webMI,window,document,self){// Change Color on mouse over
+// line
+var $ = top.$;
+var Group = "";
+var selected = false;
+
+
+var selectMenuIcon = function(){
+	var idln = "brdr_icon";
+	var id = "icon_id";
+	document.getElementById("brdr_icon").setAttribute("stroke-width", "2");	
+	webMI.gfx.setStroke(idln, "#00abe1");
+//	document.getElementById(this).setAttribute("fill", "#00abe1");
+	webMI.gfx.setFillOpacity(id, "0.5");
+	
+}
+
+var deselectMenuIcon = function(){
+	var idln = "brdr_icon";
+	var id = "icon_id";
+	document.getElementById("brdr_icon").setAttribute("stroke-width", "1");	
+	webMI.gfx.setStroke(idln, "#8395a6");
+	webMI.gfx.setFillOpacity(id, "1");
+}
+
+
+webMI.addEvent("clickarea", ["mouseover","touchstart"], function(e){
+	selectMenuIcon();
+	document.getElementById("clickarea").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("clickarea", ["mouseout","touchend"], function(e){
+
+	if (!selected) {
+		deselectMenuIcon(e)
+	}
+
+});
+
+
+
+webMI.trigger.connect("SelectMenuItem", function(e){
+//	console.log("selecting icon for focus element");
+	selected = true;
+	selectMenuIcon()
+});
+
+webMI.trigger.connect("DeselectMenuItem", function(e){
+	selected = false;
+	deselectMenuIcon()
+});
+
+
+webMI.addEvent("clickarea", "click", function(e) {
+	
+//	console.log("menu item clicked...");
+	if (typeof Group != 'undefined'){
+		webMI.trigger.fire("SetCurrentNode", Group);	
+	}
+});
+
+webMI.trigger.connect("SetInfo", function(e){
+
+//	console.log("Menu item got group: "+e.value);
+	Group = e.value;
+	// TODO set tooltip text
+
+});
+
+
+webMI.addEvent("drop", ["mouseover","touchstart"], function(e){
+	document.getElementById("drop").setAttribute('style', "cursor: pointer;");		
+});
+
+
+
+// Fonts
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"rack_txt", "key":"FontFamily", "property":""});
+},{"clickarea":["11",{}],"icon_id":["19",{}]},{"svg":"00000023"}],"9":[function(webMI,window,document,self){// Change Color on mouse over
+// line
+var $ = top.$;
+var Group = "";
+var selected = false;
+
+
+var selectMenuIcon = function(){
+	var idln = "brdr_icon";
+	var id = "icon_id";
+	document.getElementById("brdr_icon").setAttribute("stroke-width", "2");	
+	webMI.gfx.setStroke(idln, "#00abe1");
+//	document.getElementById(this).setAttribute("fill", "#00abe1");
+	webMI.gfx.setFillOpacity(id, "0.5");
+	
+}
+
+var deselectMenuIcon = function(){
+	var idln = "brdr_icon";
+	var id = "icon_id";
+	document.getElementById("brdr_icon").setAttribute("stroke-width", "1");	
+	webMI.gfx.setStroke(idln, "#8395a6");
+	webMI.gfx.setFillOpacity(id, "1");
+}
+
+
+webMI.addEvent("clickarea", ["mouseover","touchstart"], function(e){
+	selectMenuIcon();
+	document.getElementById("clickarea").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("clickarea", ["mouseout","touchend"], function(e){
+
+	if (!selected) {
+		deselectMenuIcon(e)
+	}
+
+});
+
+
+
+webMI.trigger.connect("SelectMenuItem", function(e){
+//	console.log("selecting icon for focus element");
+	selected = true;
+	selectMenuIcon()
+});
+
+webMI.trigger.connect("DeselectMenuItem", function(e){
+	selected = false;
+	deselectMenuIcon()
+});
+
+
+webMI.addEvent("clickarea", "click", function(e) {
+	
+//	console.log("menu item clicked...");
+	if (typeof Group != 'undefined'){
+		webMI.trigger.fire("SetCurrentNode", Group);	
+	}
+});
+
+webMI.trigger.connect("SetInfo", function(e){
+
+//	console.log("Menu item got group: "+e.value);
+	Group = e.value;
+	// TODO set tooltip text
+
+});
+
+
+webMI.addEvent("drop", ["mouseover","touchstart"], function(e){
+	document.getElementById("drop").setAttribute('style', "cursor: pointer;");		
+});
+
+
+
+// Fonts
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"rack_txt", "key":"FontFamily", "property":""});
+},{"clickarea":["11",{}],"icon_id":["10",{}]},{"svg":"00000023"}],"16":[function(webMI,window,document,self){// Change Color on mouse over
+// line
+var $ = top.$;
+var Group = "";
+var selected = false;
+
+
+var selectMenuIcon = function(){
+	var idln = "brdr_icon";
+	var id = "icon_id";
+	document.getElementById("brdr_icon").setAttribute("stroke-width", "2");	
+	webMI.gfx.setStroke(idln, "#00abe1");
+//	document.getElementById(this).setAttribute("fill", "#00abe1");
+	webMI.gfx.setFillOpacity(id, "0.5");
+	
+}
+
+var deselectMenuIcon = function(){
+	var idln = "brdr_icon";
+	var id = "icon_id";
+	document.getElementById("brdr_icon").setAttribute("stroke-width", "1");	
+	webMI.gfx.setStroke(idln, "#8395a6");
+	webMI.gfx.setFillOpacity(id, "1");
+}
+
+
+webMI.addEvent("clickarea", ["mouseover","touchstart"], function(e){
+	selectMenuIcon();
+	document.getElementById("clickarea").setAttribute('style', "cursor: pointer;");		
+});
+
+webMI.addEvent("clickarea", ["mouseout","touchend"], function(e){
+
+	if (!selected) {
+		deselectMenuIcon(e)
+	}
+
+});
+
+
+
+webMI.trigger.connect("SelectMenuItem", function(e){
+//	console.log("selecting icon for focus element");
+	selected = true;
+	selectMenuIcon()
+});
+
+webMI.trigger.connect("DeselectMenuItem", function(e){
+	selected = false;
+	deselectMenuIcon()
+});
+
+
+webMI.addEvent("clickarea", "click", function(e) {
+	
+//	console.log("menu item clicked...");
+	if (typeof Group != 'undefined'){
+		webMI.trigger.fire("SetCurrentNode", Group);	
+	}
+});
+
+webMI.trigger.connect("SetInfo", function(e){
+
+//	console.log("Menu item got group: "+e.value);
+	Group = e.value;
+	// TODO set tooltip text
+
+});
+
+
+webMI.addEvent("drop", ["mouseover","touchstart"], function(e){
+	document.getElementById("drop").setAttribute('style', "cursor: pointer;");		
+});
+
+
+
+// Fonts
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"rack_txt", "key":"FontFamily", "property":""});
+},{"clickarea":["11",{}],"icon_id":["17",{}]},{"svg":"00000023"}],"3":[function(webMI,window,document,self){//User
+	webMI.addEvent(webMI.data, "clientvariableschange", function(e) {
+		webMI.gfx.setText("username_label", (e.username) ? e.username : "");
+	});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"id_3", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"username_label", "key":"FontFamily", "property":""});
+},{"id_5":["4",{}],"id_7":["6",{}]},{}],"27":[function(webMI,window,document,self){},{},{}],"26":[function(webMI,window,document,self){},{},{}],"29":[function(webMI,window,document,self){},{},{}],"28":[function(webMI,window,document,self){},{},{}],"24":[function(webMI,window,document,self){},{},{}],"25":[function(webMI,window,document,self){},{},{}],"13":[function(webMI,window,document,self){},{},{"Color":"#647A8F","Height":"","Icon Battery":"","Width":""}],"15":[function(webMI,window,document,self){},{},{"Color":"#647a8f","Height":"","Icon":"","Width":""}],"19":[function(webMI,window,document,self){},{},{" Icon Genset":""}],"10":[function(webMI,window,document,self){},{},{}],"17":[function(webMI,window,document,self){},{},{"Icon":""}],"4":[function(webMI,window,document,self){(function() {
+	document.getElementById('languagePicker').style.cursor = 'pointer';
+	webMI.callExtension('SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Open Context Menu', {
+		id: 'languagePicker',
+		menuObj: { languagemenu: 'languagemenu' },
+		outputNode:null,
+		x: -100,
+		y: 31,
+		onEvent: 'click'
+	});
+})();
+},{"id_32":["5",{"symbolColor":{v:"#ffffff"}}]},{}],"6":[function(webMI,window,document,self){var strokeNormal = "none";
+var strokePressed = webMI.query["strokePressed"];
+var loggedIn = false;
+var loginmethod = null;
+var activatedEvents = true;
+
+function setButton(fill, activateEvents) {
+	webMI.gfx.setVisible("button_symbol_pressed", loggedIn);
+	webMI.gfx.setVisible("button_symbol", !loggedIn);
+	webMI.gfx.setFill("button_bg", fill ? webMI.query["fill"] : webMI.query["fillColorInactive"]);
+	activatedEvents = activateEvents;
+}
+
+webMI.addOnload(function() {
+	webMI.data.call("info",{},function(e) { //get information from webmi.js
+		loginmethod = e.loginmethod;
+		if(loginmethod == "none") {
+			setButton(false, false);
+			return;
+		}
+		webMI.addEvent(webMI.data, "clientvariableschange", function(e) {
+			loggedIn = (e.username != "" && e.username != undefined);
+			if(loggedIn && loginmethod == "form")
+				webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.AutoLogout", {"action":"start"});
+			if("username" in e) {
+				if(loginmethod == "http" ||	loginmethod == "ntlm") //ntml is not defined in webmi
+					setButton(false, false);
+				else if(loginmethod == "form")
+					setButton(true, true);
+//					console.log("User Logon fire trigger");
+					triggerLogon();
+
+			}
+			else if(e.username == undefined) //webMI2ADS 2.0.1 specific fix to enable login
+				setButton(true, true);
+		}
+	);});
+});
+
+function setButtonEvents(strokeStyle, buttonFill, setStroke) {
+	if(activatedEvents) {
+		webMI.gfx.setStroke("button_stroke", strokeStyle ? strokePressed : strokeNormal);
+		webMI.gfx.setFill("button_stroke", buttonFill ? "url(#linear_1)" : "url(#linear_5)");
+		if(setStroke)
+			webMI.gfx.setStrokeWidth("button_stroke", "1");
+	}
+}
+
+webMI.addEvent("button_clickarea", "click", function(e) {
+	// Check if the configuration of the PLC match each one of these cases of loggedIn, otherwhise it won´t work
+	if (loggedIn == false && loginmethod == "form") {
+		webMI.display.openWindow({display:"00000024",extern:false,height:300,menubar:false,modal:true,movable:true,resizable:true,scrollbars:false,status:false,title:"Anmelden",toolbar:false,width:500,query:webMI.query});
+		
+	} else if (loggedIn == false && loginmethod == "http") { //webMI2ADS 2.0.1 specific fix to enable login
+		webMI.data.login();
+		
+	} else if (loggedIn == true && loginmethod == "form") {
+		webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.AutoLogout", {"action":"manualLogout"});
+		webMI.data.logout(function(){});
+		webMI.display.openDisplay("00000002", webMI.query);
+	}
+});
+
+
+
+webMI.addEvent("button_clickarea", "mouseup", function(e) {
+	setButtonEvents(false, true, false);
+});
+
+webMI.addEvent("button_clickarea", "mousedown", function(e) {
+	setButtonEvents(true, false, false);
+});
+
+webMI.addEvent("button_clickarea", "mouseout", function(e) {
+	setButtonEvents(false, true, true);
+});
+
+webMI.addEvent("button_clickarea", "dragstart", function(e) {
+	if (e.preventDefault) {
+		e.preventDefault();
+	}
+});
+
+// trigger to components
+function triggerLogon(){
+	if (loggedIn == true){
+		webMI.trigger.fire("userLogOn", true);
+	}else {
+		webMI.trigger.fire("userLogOn", false);
+	}
+}
+document.getElementById('button_clickarea').style.cursor = 'pointer';
+},{"button_symbol":["8",{"symbolColor":{b:"symbolColor"}}],"button_symbol_pressed":["7",{"symbolColor":{b:"symbolColorLogout"}}]},{"fill":"#000000","fillColorInactive":"#FFFFFF","strokePressed":"#FFFFFF","symbolColor":"#ffffff","symbolColorLogout":"#ffffff","symbolLogin":"00000025","symbolLogout":"00000026"}],"5":[function(webMI,window,document,self){},{},{"symbolColor":"#000000"}],"8":[function(webMI,window,document,self){},{},{"symbolColor":"#000000"}],"7":[function(webMI,window,document,self){},{},{"symbolColor":"#000000"}]},window);]]></script>
+</svg>

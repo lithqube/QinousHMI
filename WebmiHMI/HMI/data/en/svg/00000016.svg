@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext" width="800" version="1.2" height="35" visibility="hidden" atv:oe="2BC6E3AA8376K2JED9HCH6G8L7N4O2GF264ADCC489H171HBKDGCO3GBM5JFPCR82" xmlns="http://www.w3.org/2000/svg">
+ <defs/>
+ <metadata/>
+ <ellipse cx="514" cy="20" fill="#80c0fb" id="id_32" rx="65" ry="8" stroke="#ece713" stroke-width="1"/>
+ <ellipse cx="212" cy="2" fill="#4df277" id="id_31" rx="203" ry="8" stroke="#e36d96" stroke-width="3"/>
+ <line fill="#ce11fd" id="id_30" stroke="#9f9f4a" stroke-width="3" x1="553" x2="356" y1="2" y2="18"/>
+ <polygon fill="#36a08d" id="id_29" points="348,5 761,2 109,12 285,30 309,5 380,25 592,28 " stroke="#6a236c" stroke-width="3"/>
+ <circle cx="783" cy="23" fill="#1a084f" id="id_28" r="119" stroke="#e5a7a3" stroke-width="4"/>
+ <rect fill="#c09ad4" height="6" id="id_27" stroke="#36e8bd" stroke-width="5" width="6" x="601" y="24"/>
+ <rect fill="#c3d201" height="12" id="id_26" stroke="#68108a" stroke-width="3" width="3" x="747" y="2"/>
+ <ellipse cx="0" cy="5" fill="#dc99e8" id="id_25" rx="270" ry="16" stroke="#86b70e" stroke-width="3"/>
+ <polygon fill="#59736f" id="id_24" points="485,4 652,8 322,15 273,5 82,34 781,11 169,10 " stroke="#9ee3d7" stroke-width="4"/>
+ <line fill="#391b4e" id="id_23" stroke="#fc3336" stroke-width="1" x1="339" x2="713" y1="6" y2="29"/>
+ <circle cx="212" cy="20" fill="#78a511" id="id_22" r="1" stroke="#7ade61" stroke-width="3"/>
+ <ellipse cx="593" cy="20" fill="#0f5b24" id="id_21" rx="272" ry="4" stroke="#f1af88" stroke-width="1"/>
+ <line fill="#234afe" id="id_20" stroke="#9bcefc" stroke-width="4" x1="51" x2="257" y1="14" y2="17"/>
+ <polygon fill="#896a76" id="id_19" points="435,24 757,19 282,24 343,22 382,18 " stroke="#292841" stroke-width="1"/>
+ <line fill="#20b623" id="id_18" stroke="#e3bb17" stroke-width="2" x1="236" x2="140" y1="15" y2="28"/>
+ <line fill="#ac3aa1" id="id_17" stroke="#59ff44" stroke-width="3" x1="621" x2="604" y1="34" y2="18"/>
+ <text x="65" y="23.5" fill="#607589" font-family="Varela Round" id="txt_error" atv:refpx="94.756" atv:refpy="19" font-size="20">txt_error</text>
+ <ellipse cx="11" cy="22" fill="#3e4952" id="id_16" rx="317" ry="3" stroke="#19abc6" stroke-width="5"/>
+ <polyline fill="#764d11" id="id_15" points="616,2 270,27 755,15 50,7 718,17 29,13 281,26 667,6 " stroke="#e04cd6" stroke-width="3"/>
+ <circle cx="497" cy="14" fill="#4f6f86" id="id_14" r="10" stroke="#abcc5c" stroke-width="5"/>
+ <circle cx="32" cy="15" fill="#008fed" id="id_13" r="86" stroke="#ddab92" stroke-width="3"/>
+ <circle cx="254" cy="10" fill="#df7f14" id="id_12" r="164" stroke="#7e2ff4" stroke-width="3"/>
+ <circle cx="330" cy="26" fill="#dd8ce6" id="id_11" r="74" stroke="#c32143" stroke-width="2"/>
+ <ellipse cx="144" cy="20" fill="#b95120" id="id_10" rx="50" ry="3" stroke="#4929a1" stroke-width="4"/>
+ <line fill="#6a2516" id="id_9" stroke="#127faa" stroke-width="4" x1="762" x2="723" y1="19" y2="18"/>
+ <ellipse cx="42" cy="4" fill="#cb7bfc" id="id_8" rx="393" ry="8" stroke="#80213b" stroke-width="1"/>
+ <circle cx="253" cy="24" fill="#1b3fb0" id="id_7" r="88" stroke="#652825" stroke-width="1"/>
+ <rect fill="#404832" height="26" id="id_6" stroke="#a91136" stroke-width="3" width="257" x="248" y="1"/>
+ <line fill="#852519" id="id_5" stroke="#632e51" stroke-width="4" x1="211" x2="79" y1="15" y2="13"/>
+ <polyline fill="#5d87bd" id="id_4" points="544,13 629,22 263,19 391,13 626,34 91,25 558,30 " stroke="#5b56fe" stroke-width="1"/>
+ <polygon fill="#fec18f" id="id_3" points="204,5 91,22 476,11 303,13 167,22 462,18 708,22 707,2 507,1 532,34 160,19 364,21 455,1 115,4 " stroke="#12ee70" stroke-width="5"/>
+ <circle cx="612" cy="6" fill="#dd2e56" id="id_2" r="165" stroke="#48ef98" stroke-width="3"/>
+ <rect fill="#2824bf" height="5" id="id_1" stroke="#a36d37" stroke-width="2" width="639" x="141" y="16"/>
+ <script xlink:href="../../webmi.js" type="text/ecmascript"/>
+ <script type="text/ecmascript"><![CDATA[webMI.proxy({"":[function(webMI,window,document,self){webMI.addEvent(webMI.data, "clientvariableschange", function(e) {
+	var username = e.username;
+	webMI.gfx.setText("txt_error","Sorry "+username+" you do not have the proper rights to excute this functionality");
+	console.log("Warning: "+username+" has no rights for this functionality")
+});
+
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_error", "key":"FontFamily", "property":""});
+},{},{}]},window);]]></script>
+</svg>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext" width="780" version="1.2" height="570" visibility="hidden" atv:oe="2BC6E3AA8376K2JED9HCH6G8L7N4O2GF264ADCC489H171HBKDGCO3GBM5JFPCR82" xmlns="http://www.w3.org/2000/svg">
+ <defs/>
+ <metadata/>
+ <rect fill="#9bfb14" height="318" id="id_31" stroke="#9a8cb2" stroke-width="1" width="88" x="557" y="121"/>
+ <polygon fill="#276dca" id="id_30" points="418,511 759,244 265,0 427,325 41,156 133,422 478,136 312,227 432,204 682,328 454,562 323,78 " stroke="#f3f78e" stroke-width="5"/>
+ <rect fill="#b6f979" height="36" id="id_29" stroke="#c312c5" stroke-width="3" width="10" x="753" y="176"/>
+ <polyline fill="#e2a3ea" id="id_28" points="187,557 367,531 611,429 751,251 385,521 158,20 387,181 263,305 645,481 204,534 443,396 " stroke="#9abf11" stroke-width="4"/>
+ <circle cx="728" cy="395" fill="#7e9714" id="id_27" r="155" stroke="#0f135b" stroke-width="4"/>
+ <ellipse cx="80" cy="462" fill="#72836d" id="id_26" rx="335" ry="164" stroke="#aeeae4" stroke-width="5"/>
+ <polyline fill="#da7d87" id="id_23" points="691,281 105,397 243,292 244,487 771,270 608,133 411,65 578,491 511,424 " stroke="#d6ae62" stroke-width="3"/>
+ <circle cx="742" cy="348" fill="#f3ba8c" id="id_21" r="71" stroke="#aa7996" stroke-width="3"/>
+ <circle cx="567" cy="311" fill="#069bd8" id="id_20" r="130" stroke="#0ad1b6" stroke-width="2"/>
+ <ellipse cx="506" cy="83" fill="#be548d" id="id_19" rx="86" ry="1" stroke="#995793" stroke-width="4"/>
+ <g atv:table-height="600" id="grid" atv:refpx="390.622" atv:table-width="800" atv:refpy="289.251">
+  <circle cx="210" cy="360" fill="#7a6c8e" id="id_32" r="82" stroke="#fc55b2" stroke-width="1"/>
+  <rect fill="#f1fa7e" height="3" id="id_25" stroke="#661958" stroke-width="1" width="6" x="741" y="552"/>
+  <circle cx="592" cy="125" fill="#4cfcf4" id="id_24" r="38" stroke="#7a4e0d" stroke-width="1"/>
+  <rect fill="#c3c508" height="1" id="id_22" stroke="#7f68b8" stroke-width="1" width="7" x="771" y="562"/>
+  <line fill="#354c48" id="id_18" stroke="#d97eb6" stroke-width="3" x1="49" x2="264" y1="126" y2="94"/>
+  <polygon fill="#96f9f3" id="id_15" points="755,475 437,204 690,262 361,172 642,547 76,11 298,39 586,362 388,392 282,207 81,243 " stroke="#bf97fd" stroke-width="4"/>
+  <rect width="780" fll="#647A8F" height="570" id="rect1" atv:refpx="400" atv:refpy="300"/>
+  <polygon fill="#cc573d" id="id_14" points="135,93 590,97 353,391 461,260 698,350 50,1 475,291 135,502 436,16 728,161 252,55 554,289 " stroke="#582abb" stroke-width="3"/>
+  <ellipse cx="54" cy="551" fill="#6d2d2d" id="id_12" rx="88" ry="280" stroke="#107ec2" stroke-width="3"/>
+  <ellipse cx="122" cy="365" fill="#cb880e" id="id_11" rx="61" ry="180" stroke="#8f2938" stroke-width="4"/>
+  <circle cx="474" cy="6" fill="#2836c2" id="id_8" r="168" stroke="#68243c" stroke-width="4"/>
+  <line fill="#3f4535" id="id_7" stroke="#a41e35" stroke-width="5" x1="468" x2="265" y1="291" y2="121"/>
+  <ellipse cx="460" cy="393" fill="#923732" id="id_4" rx="155" ry="122" stroke="#75275e" stroke-width="4"/>
+ </g>
+ <script xlink:href="../../webmi.js" type="text/ecmascript"/>
+ <script xlink:href="/q/AlarmInfo.js" type="text/ecmascript"/>
+ <script xlink:href="/q/StdConstantsFunctions.js" type="text/ecmascript"/>
+ <script xlink:href="/scope.js" type="text/ecmascript"/>
+ <script type="text/ecmascript"><![CDATA[webMI.proxy({"":[function(webMI,window,document,self){var $ = top.$;
+var headers = [];
+var linefill = "#FFFFFF";
+var nodearray = [];
+var atviseTable;
+var alarmList;
+
+var earliestIndex;
+
+// setup blank table
+atviseTable = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Table", { "gElement": document.getElementById("grid"), "sortedByColumn":0, "autoResize":false});
+
+atviseTable.setConfiguration({rowHeight:35,sortingUp:true,autoResize:true, drawStatusBar:false});
+headers.push({name: "Owner", width: 200, fontSize: fontSize});
+headers.push({name: "Level", width: 100, fontSize: fontSize});
+headers.push({name: "Name", width: 500, fontSize: fontSize});
+
+atviseTable.setHeaders(headers);
+
+
+// - - - - - - - - - - - -
+
+webMI.addOnload(function(f){
+	webMI.trigger.fire("GetAlarmsFromCurrentNode");		
+});// END For
+
+// - - - - - - - - - - - -
+
+
+webMI.trigger.connect("UpdateAlarmsFromCurrentNode", function(e){
+
+	activeAlarmList = e.value[0];
+	var alarmHistoryInfo = e.value[1];
+
+//	console.log("Got an alarm history information structure ", alarmHistoryInfo);
+
+	//======= ACTIVE ALARMS TAB==========
+	for (var i=0; i<activeAlarmList.length; i++) {	
+
+		var datarow = [];
+		datarow[0] = {text: activeAlarmList[i].owner, fill:linefill};//, eventList: eventList};
+		datarow[1] = {text: getAlarmLevelString(activeAlarmList[i].level), fill:linefill};
+		datarow[2] = {text: activeAlarmList[i].name, fill:linefill};
+		nodearray[i] = datarow;	
+
+	}
+	atviseTable.setDataProvider({data: nodearray});
+
+	var alarmWordHistory = [];
+
+	//========= ALARM HISTORY TAB=======
+	if (alarmHistoryInfo.length > 0){
+
+
+		for (var i=0; i< alarmHistoryInfo.length; i++){
+
+//			console.log("Getting recorder contents ", alarmHistoryInfo[i]);
+			// get TOC for this recorder		
+			Scope.getContent(
+				alarmHistoryInfo[i].recorder, 
+				tocCallback(alarmHistoryInfo[i], alarmWordHistory));
+		}
+	}
+});
+
+
+tocCallback = function(alarmHistoryInfo, alarmWordHistory){
+
+	return function(e){
+
+		if (e === undefined) {
+//			console.log("No such recorder methinks");
+			return;
+		}
+		var toc = e
+		var newestIndex = 0;
+			
+		for (var i=0; i<toc.length; i++){					
+			var newestIndex = Math.max(newestIndex, toc[i].idxstart);
+		}
+
+		// request most recent lines from DB for alarmHistoryInfo[i].recorder, alarmHistoryInfo[i].alarmList. callback using alarmHistoryInfo[i].alarmMasksList
+		Scope.readIndex(
+			alarmHistoryInfo.recorder, 
+			alarmHistoryInfo.alarms, 
+			newestIndex, 
+			newestIndex + 10000, 
+			false, 
+			addScopeResultsToAlarmHistoryCallback(alarmHistoryInfo, alarmWordHistory));
+
+	}
+}
+},{},{}]},window);]]></script>
+</svg>

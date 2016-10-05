@@ -1,0 +1,2485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext" width="500" version="1.2" height="306.5" visibility="hidden" atv:oe="2BD6G3CAA396M2LEF9JCJ6I8N7P5A32F466AFCE4A9J191JBMDICQ3IBO5LGBDD84" xmlns="http://www.w3.org/2000/svg">
+ <defs/>
+ <desc>The Input for a &quot;Picker Date&quot;.</desc>
+ <title>Date Input</title>
+ <metadata/>
+ <rect width="500" x="0" y="0" fill="#FFFFFF" height="306.5" stroke="#647A8F" id="id_0" atv:refpx="250" stroke-width="2" atv:refpy="153.25"/>
+ <rect width="350" x="0" y="0" fill="#FFFFFF" height="306.5" stroke="#647A8F" id="id_1" atv:refpx="175" stroke-width="2" atv:refpy="153.25"/>
+ <!--<g id="id_4" atv:refpx="419.712" atv:refpy="158.954" transform="matrix(1,0,0,1,126.7117,133.9536)">
+  <text x="297.5" y="31" fill="#ffffff" font-family="Open Sans" text-anchor="end" id="monthLabel" atv:refpx="310.5" atv:refpy="26.5" font-size="16">Month</text>
+  <text x="304" y="31" fill="#ffffff" font-family="Open Sans" id="yearLabel" atv:refpx="344.89" atv:refpy="26.5" font-size="16">Year</text>
+ </g>-->
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="54.838" y="59.615" height="30" id="field_00" atv:refpx="32.5" atv:refpy="63">
+   <defs>
+    <linearGradient id="1linear_12" y1="-0.0183441" x1="1" y2="1" gradientUnits="objectBoundingBox" x2="1">
+     <stop offset="0" stop-color="#494949"/>
+     <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="1linear_0" y1="0.95625" x1="0.104404" y2="0.0895522" gradientUnits="objectBoundingBox" x2="0.104404">
+     <stop offset="0" stop-color="#494949"/>
+     <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="1linear_1" y1="-0.0183441" x1="1" y2="1" gradientUnits="objectBoundingBox" x2="1">
+     <stop offset="0" stop-color="#ffffff" stop-opacity="0.2745098039215687"/>
+     <stop offset="0.5515695067264574" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="1linear_2" y1="1" x1="1" y2="-0.0183441" gradientUnits="objectBoundingBox" x2="1">
+     <stop offset="0" stop-color="#ffffff" stop-opacity="0.2745098039215687"/>
+     <stop offset="0.5515695067264574" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+   </defs>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_00_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_00_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_00_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_00_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_00_button_symbol_defs1373">
+       <linearGradient id="2linearGradient2250">
+        <stop offset="0" stop-color="#008700" stop-opacity="1"/>
+        <stop offset="1" stop-color="#006f00" stop-opacity="1"/>
+       </linearGradient>
+      </defs>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_00_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_00_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">29</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_00_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="208.064" y="59.615" height="30" id="field_01" atv:refpx="80" atv:refpy="63">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_01_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_01_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_01_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_01_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_01_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_01_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_01_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">30</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_01_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="361.29" y="59.615" height="30" id="field_02" atv:refpx="127.499" atv:refpy="63">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_02_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_02_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_02_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_02_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_02_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_02_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_02_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">1</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_02_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="514.516" y="59.615" height="30" id="field_03" atv:refpx="175" atv:refpy="63">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_03_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_03_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_03_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_03_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_03_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_03_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_03_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">2</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_03_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="667.742" y="59.615" height="30" id="field_04" atv:refpx="222.5" atv:refpy="63">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_04_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_04_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_04_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_04_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_04_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_04_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_04_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">3</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_04_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="820.967" y="59.615" height="30" id="field_05" atv:refpx="270" atv:refpy="63">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_05_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_05_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_05_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_05_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_05_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_05_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_05_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">4</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_05_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="974.193" y="59.615" height="30" id="field_06" atv:refpx="317.5" atv:refpy="63">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_06_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_06_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_06_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_06_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_06_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_06_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_06_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">5</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_06_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="58.064" y="110.29" height="30" id="field_10" atv:refpx="33.5" atv:refpy="105.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_10_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_10_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_10_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_10_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_10_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_10_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_10_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">6</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_10_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="211.29" y="110.29" height="30" id="field_11" atv:refpx="81" atv:refpy="105.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_11_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_11_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_11_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_11_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_11_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_11_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_11_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">7</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_11_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="364.516" y="110.29" height="30" id="field_12" atv:refpx="128.5" atv:refpy="105.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_12_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_12_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_12_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_12_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_12_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_12_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_12_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">8</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_12_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="517.741" y="110.29" height="30" id="field_13" atv:refpx="176" atv:refpy="105.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_13_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_13_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_13_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_13_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_13_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_13_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_13_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">9</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_13_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="670.967" y="110.29" height="30" id="field_14" atv:refpx="223.5" atv:refpy="105.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_14_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_14_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_14_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_14_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_14_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_14_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_14_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">10</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_14_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="824.193" y="110.29" height="30" id="field_15" atv:refpx="271" atv:refpy="105.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_15_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_15_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_15_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_15_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_15_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_15_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_15_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">11</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_15_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="977.419" y="110.29" height="30" id="field_16" atv:refpx="318.5" atv:refpy="105.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_16_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_16_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_16_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_16_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_16_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_16_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_16_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">12</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_16_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="58.064" y="160.963" height="30" id="field_20" atv:refpx="33.499" atv:refpy="148">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_20_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_20_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_20_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_20_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_20_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_20_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_20_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">13</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_20_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="211.29" y="160.963" height="30" id="field_21" atv:refpx="80.999" atv:refpy="148">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_21_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_21_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_21_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_21_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_21_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_21_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_21_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">14</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_21_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="364.516" y="160.963" height="30" id="field_22" atv:refpx="128.499" atv:refpy="148">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_22_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_22_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_22_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_22_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_22_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_22_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_22_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">15</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_22_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="517.741" y="160.963" height="30" id="field_23" atv:refpx="175.999" atv:refpy="148">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_23_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_23_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_23_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_23_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_23_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_23_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_23_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">16</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_23_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="670.967" y="160.963" height="30" id="field_24" atv:refpx="223.499" atv:refpy="148">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_24_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_24_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_24_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_24_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_24_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_24_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_24_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">17</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_24_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="824.193" y="160.963" height="30" id="field_25" atv:refpx="270.999" atv:refpy="148">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_25_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_25_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_25_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_25_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_25_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_25_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_25_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">18</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_25_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="977.419" y="160.963" height="30" id="field_26" atv:refpx="318.499" atv:refpy="148">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_26_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_26_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_26_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_26_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_26_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_26_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_26_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">19</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_26_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="58.064" y="211.637" height="30" id="field_30" atv:refpx="33.5" atv:refpy="190.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_30_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_30_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_30_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_30_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_30_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_30_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_30_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">20</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_30_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="211.29" y="211.637" height="30" id="field_31" atv:refpx="81" atv:refpy="190.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_31_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_31_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_31_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_31_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_31_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_31_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_31_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">21</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_31_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="364.516" y="211.637" height="30" id="field_32" atv:refpx="128.5" atv:refpy="190.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_32_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_32_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_32_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_32_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_32_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_32_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_32_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">22</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_32_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="517.741" y="211.637" height="30" id="field_33" atv:refpx="176" atv:refpy="190.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_33_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_33_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_33_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_33_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_33_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_33_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_33_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">23</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_33_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="670.967" y="211.637" height="30" id="field_34" atv:refpx="223.5" atv:refpy="190.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_34_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_34_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_34_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_34_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_34_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_34_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_34_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">24</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_34_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="824.193" y="211.637" height="30" id="field_35" atv:refpx="271" atv:refpy="190.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_35_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_35_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_35_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_35_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_35_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_35_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_35_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">25</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_35_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="977.419" y="211.637" height="30" id="field_36" atv:refpx="318.5" atv:refpy="190.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_36_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_36_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_36_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_36_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_36_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_36_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_36_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">26</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_36_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="58.064" y="262.311" height="30" id="field_40" atv:refpx="33.5" atv:refpy="233">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_40_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_40_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_40_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_40_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_40_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_40_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_40_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">27</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_40_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="211.29" y="262.311" height="30" id="field_41" atv:refpx="81" atv:refpy="233">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_41_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_41_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_41_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_41_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_41_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_41_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_41_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">28</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_41_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="364.516" y="262.311" height="30" id="field_42" atv:refpx="128.5" atv:refpy="233">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_42_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_42_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_42_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_42_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_42_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_42_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_42_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">29</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_42_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="517.741" y="262.311" height="30" id="field_43" atv:refpx="176" atv:refpy="233">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_43_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_43_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_43_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_43_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_43_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_43_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_43_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">30</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_43_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="670.967" y="262.311" height="30" id="field_44" atv:refpx="223.5" atv:refpy="233">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_44_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_44_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_44_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_44_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_44_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_44_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_44_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">31</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_44_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="824.193" y="262.311" height="30" id="field_45" atv:refpx="271" atv:refpy="233">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_45_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_45_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_45_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_45_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_45_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_45_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_45_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">1</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_45_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="977.419" y="262.311" height="30" id="field_46" atv:refpx="318.5" atv:refpy="233">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_46_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_46_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_46_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_46_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_46_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_46_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_46_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">2</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_46_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="58.064" y="312.984" height="30" id="field_50" atv:refpx="33.5" atv:refpy="275.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_50_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_50_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_50_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_50_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_50_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_50_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_50_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">3</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_50_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="211.29" y="312.984" height="30" id="field_51" atv:refpx="81" atv:refpy="275.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_51_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_51_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_51_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_51_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_51_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_51_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_51_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">4</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_51_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="364.516" y="312.984" height="30" id="field_52" atv:refpx="128.5" atv:refpy="275.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_52_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_52_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_52_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_52_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_52_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_52_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_52_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">5</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_52_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="517.741" y="312.984" height="30" id="field_53" atv:refpx="176" atv:refpy="275.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_53_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_53_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_53_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_53_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_53_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_53_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_53_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">6</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_53_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="670.967" y="312.984" height="30" id="field_54" atv:refpx="223.5" atv:refpy="275.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_54_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_54_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_54_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_54_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_54_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_54_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_54_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">7</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_54_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="824.193" y="312.984" height="30" id="field_55" atv:refpx="271" atv:refpy="275.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_55_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_55_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_55_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_55_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_55_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_55_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_55_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">8</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_55_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(0.31,0,0,0.8387,0,0)">
+  <svg width="100" x="977.419" y="312.984" height="30" id="field_56" atv:refpx="318.5" atv:refpy="275.5">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="field_56_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="31" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="26" ry="4" stroke="647a8f" atv:bindbr="1,1" id="field_56_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="25" ry="5" stroke="647a8f" atv:bindbr="1,1" id="field_56_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+    <g transform="matrix(3.2258,0,0,1.1923,0,0)">
+     <svg width="20" x="8.25" y="5.75" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="field_56_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="field_56_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="field_56_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="15" y="19" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="field_56_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(3.2258,0,0,1.1923,0,0)">9</text>
+    <rect width="30" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="25" ry="3.5" stroke="none" atv:bindbr="1,1" id="field_56_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(3.2258,0,0,1.1923,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <text x="364" y="27" fill="#647a8f" font-family="Open Sans" text-anchor="start" id="yearLabelLeft" atv:refpx="374.167" atv:refpy="22.5" font-size="12">Year</text>
+ <text x="364" y="50" fill="#647a8f" font-family="Open Sans" text-anchor="start" id="dayOfTheWeekLabel" atv:refpx="426.782" atv:refpy="45.5" font-size="16">Day Of The Week</text>
+ <text x="364.5" y="74" fill="#6f8397" font-family="Open Sans" text-anchor="start" id="numericDateLabel" atv:refpx="417.142" atv:refpy="68" font-size="16">Numeric Date</text>
+ <g>
+  <svg width="7" x="325" y="18" height="14" id="goForwardButton" atv:refpx="328.5" atv:refpy="25">
+   <defs/>
+   <metadata/>
+   <polyline atv:bindtl="1,1" points="0,-0.001 0,13.998 7,6.998 0,-0.001" fill="#00ABE5" stroke="none" atv:bindbr="1,1" id="goForwardButton_id_7" atv:refpx="3.5" stroke-width="0" atv:refpy="6.999"/>
+  </svg>
+ </g>
+ <g>
+  <svg width="7" x="18" y="18" height="14" id="goBackButton" atv:refpx="21.5" atv:refpy="25">
+   <defs/>
+   <metadata/>
+   <polyline atv:bindtl="1,1" points="7,14 7,0 0,7 7,14" fill="#00ABE5" stroke="none" atv:bindbr="1,1" id="goBackButton_id_7" atv:refpx="3.5" stroke-width="0" atv:refpy="6.999"/>
+  </svg>
+ </g>
+ <rect width="23" x="10" y="10" fill="#00ABE5" height="30" stroke="#FFFFFF" fill-opacity="0" id="goBackClickarea" atv:refpx="21.5" stroke-width="0" atv:refpy="25"/>
+ <rect width="23" x="317" y="10" fill="#00ABE5" height="30" stroke="#FFFFFF" fill-opacity="0" id="goForwardClickarea" atv:refpx="328.5" stroke-width="0" atv:refpy="25"/>
+ <polyline fill="#11813d" id="id_10" points="262,140 303,167 451,43 68,224 474,231 305,2 38,182 494,7 365,50 365,12 " stroke="#5a5089" stroke-width="5"/>
+ <g transform="matrix(1.27,0,0,1,0,0)">
+  <svg width="100" x="33.858" y="10" height="31" id="monthInput" atv:refpx="106.5" atv:refpy="25.5">
+   <defs>
+    <linearGradient id="5linear_21" y1="-0.0183441" x1="1" y2="1" gradientUnits="objectBoundingBox" x2="1">
+     <stop offset="0" stop-color="#494949"/>
+     <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="5linear_6" y1="1" x1="0.223168" y2="0.149253" gradientUnits="objectBoundingBox" x2="0.223168">
+     <stop offset="0" stop-color="#494949"/>
+     <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="5linear_11" y1="-0.0183441" x1="1" y2="1" gradientUnits="objectBoundingBox" x2="1">
+     <stop offset="0" stop-color="#494949"/>
+     <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="5linear_0" y1="0" x1="0" y2="1" gradientUnits="objectBoundingBox" x2="1">
+     <stop offset="0" stop-color="#d0d0d0"/>
+     <stop offset="1" stop-color="#d0d0d0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="5linear_14" y1="-0.0183441" x1="1" y2="1" gradientUnits="objectBoundingBox" x2="1">
+     <stop offset="0" stop-color="#ffffff" stop-opacity="0.2745098039215687"/>
+     <stop offset="0.5515695067264574" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+   </defs>
+   <metadata/>
+   <rect width="127" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="4" height="31" ry="4" stroke="none" atv:bindbr="1,1" id="monthInput_combobox_stroke" atv:refpx="50.314" stroke-width="0" atv:refpy="16.551" transform="matrix(0.7874,0,0,1,0,0)"/>
+   <rect fill="#029dfe" height="88" id="id_18" stroke="#9a0990" stroke-width="4" width="165" x="110" y="35"/>
+   <text x="9" y="21.5" atv:bindtl="0,1" fill="#FFFFFF" font-family="Open Sans" text-anchor="start" atv:bindbr="0,1" id="monthInput_combobox_label" atv:refpx="5" atv:refpy="0.5" font-size="16" transform="matrix(0.7874,0,0,1,0,0)">Combobox</text>
+   <polyline atv:bindtl="1,1" points="119.5,13.999 105.5,13.999 112.5,20.999 119.5,13.999" fill="#00ABE5" stroke="none" atv:bindbr="1,1" id="monthInput_id_0" atv:refpx="92.475" stroke-width="0" atv:refpy="17.525" transform="matrix(0.7874,0,0,1,0,0)"/>
+   <g>
+    <svg width="100" x="0" y="0" atv:bindtl="0,0" height="31" atv:bindbr="1,1" id="monthInput_combobox_clickarea" atv:refpx="50" atv:refpy="15.5">
+     <defs>
+      <linearGradient id="6linear_0" y1="0" x1="0" y2="1" gradientUnits="objectBoundingBox" x2="1">
+       <stop offset="0" stop-color="#000000"/>
+       <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+      </linearGradient>
+     </defs>
+     <metadata/>
+     <g id="monthInput_combobox_clickarea_id_0" atv:refpx="50" atv:refpy="15.5">
+      <rect fill="#28f8c2" height="8" id="id_21" stroke="#ae8ea5" stroke-width="4" width="11" x="456" y="282"/>
+      <rect width="99" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="30" ry="3.5" stroke="" fill-opacity="0" atv:bindbr="1,1" id="monthInput_combobox_clickarea_button_stroke_focus" atv:refpx="50" stroke-width="1" atv:refpy="15.5"/>
+      <polyline fill="#e65519" id="id_11" points="435,56 471,237 155,199 243,142 331,259 451,80 106,77 208,133 " stroke="#34868e" stroke-width="3"/>
+      <rect width="99" x="0.5" y="0.5" atv:bindtl="0,0" fill="#ffffff" rx="3.5" height="30" ry="3.5" stroke="#000000" fill-opacity="0" atv:bindbr="1,1" id="monthInput_combobox_clickarea_button_clickarea" atv:refpx="50" stroke-width="1" atv:refpy="15.5"/>
+      <polygon fill="#fdeebd" id="id_6" points="154,3 16,106 276,96 305,53 261,110 109,202 92,300 171,217 475,55 380,282 65,103 " stroke="#96c74a" stroke-width="2"/>
+     </g>
+    </svg>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(1.5875,0,0,1,0,0)">
+  <svg width="80" x="113.386" y="10" height="31" id="yearInput" atv:refpx="243.5" atv:refpy="25.5">
+   <defs>
+    <linearGradient id="7linear_12" y1="-0.0183441" x1="1" y2="1" gradientUnits="objectBoundingBox" x2="1">
+     <stop offset="0" stop-color="#494949"/>
+     <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="7linear_0" y1="1.01745" x1="0.146915" y2="0.104475" gradientUnits="objectBoundingBox" x2="0.146915">
+     <stop offset="0" stop-color="#494949"/>
+     <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+   </defs>
+   <metadata/>
+   <polygon fill="#09bafd" id="id_12" points="82,277 290,233 53,300 304,185 371,66 426,123 261,165 243,38 222,216 498,111 " stroke="#18c120" stroke-width="1"/>
+   <g id="yearInput_input_element" atv:refpx="0" atv:refpy="0"/>
+   <rect fill="#5c3d12" height="0" id="id_9" stroke="#a5c122" stroke-width="3" width="7" x="448" y="287"/>
+   <polygon fill="#5e760e" id="id_25" points="453,221 30,288 40,135 345,190 336,201 96,158 450,201 400,214 " stroke="#6b08f5" stroke-width="5"/>
+   <g id="yearInput_svg_input" atv:refpx="57.25" atv:refpy="29.177">
+    <rect width="199.326" x="4.267" y="7.75" atv:bindtl="0,0" fill="none" rx="6" height="46.5" ry="6" stroke="none" atv:bindbr="1,1" id="yearInput_blinking_frame" atv:refpx="80.4297" stroke-width="3" atv:refpy="31" transform="matrix(0.6299,0,0,1,0,0)"/>
+    <rect width="126" x="0.5" y="0.5" atv:bindtl="0,0" fill="#647a8f" rx="3.95" height="30" ry="3.871" stroke="none" atv:bindbr="1,1" id="yearInput_input_bg" atv:refpx="40" stroke-width="1" atv:refpy="15.5" transform="matrix(0.6299,0,0,1,0,0)"/>
+    <circle cx="202" cy="164" fill="#6aa160" id="id_15" r="24" stroke="#08b44e" stroke-width="5"/>
+    <text x="63.5" y="21.5" atv:bindtl="0.5,0.5" fill="#ffffff" font-family="Open Sans" text-anchor="middle" rx="4" ry="4" atv:bindbr="0.5,0.5" id="yearInput_input_label" atv:refpx="40" atv:refpy="7" font-size="16" transform="matrix(0.6299,0,0,1,0,0)">Wert</text>
+    <circle cx="147" cy="32" fill="#2ac7fc" id="id_14" r="30" stroke="#ab0917" stroke-width="1"/>
+   </g>
+   <atv:foreignObject width="80" x="0" y="0" height="31" id="yearInput_clickareaFO">
+    <div style="width:100%;height:100%;opacity:0;filter:alpha(opacity=0);background-color:red" id="yearInput_div_clickarea" xmlns="http://www.w3.org/1999/xhtml"/>
+   </atv:foreignObject>
+   <style type="text/css"><![CDATA[	
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src: url("../../Font/OpenSans-Regular.ttf") format("truetype")
+}
+@font-face {
+	font-family: 'OpenSans-ExtraBold';
+	src: url("../../Font/OpenSans-ExtraBold.ttf") format("truetype")
+}
+@font-face {
+	font-family: 'OpenSans-BoldItalic';
+	src: url("../../Font/OpenSans-BoldItalic.ttf") format("truetype")
+}
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: url("../../Font/OpenSans-Bold.ttf") format("truetype")
+}
+]]></style>
+  </svg>
+ </g>
+ <g transform="matrix(1.3,0,0,1,0,0)">
+  <svg width="100" x="276.923" y="265.5" height="30" id="id_3" atv:refpx="425" atv:refpy="281">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="id_3_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <polyline fill="#296bc7" id="id_27" points="13,254 445,296 265,291 360,100 99,158 35,224 169,147 268,49 253,28 29,207 " stroke="#123390" stroke-width="2"/>
+    <rect width="130" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="31" ry="4" stroke="647a8f" atv:bindbr="1,1" id="id_3_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(0.7692,0,0,1,0,0)"/>
+    <polyline fill="#f2aa1c" id="id_26" points="254,280 32,92 424,131 336,37 332,80 19,225 314,178 205,97 " stroke="#5adf1f" stroke-width="3"/>
+    <rect fill="#58b35a" height="66" id="id_23" stroke="#e7bb1a" stroke-width="4" width="40" x="347" y="208"/>
+    <rect width="129" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="30" ry="5" stroke="647a8f" atv:bindbr="1,1" id="id_3_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(0.7692,0,0,1,0,0)"/>
+    <circle cx="61" cy="283" fill="#0c4e42" id="id_20" r="142" stroke="#447108" stroke-width="2"/>
+    <g transform="matrix(0.7692,0,0,1,0,0)">
+     <svg width="20" x="57.75" y="8.25" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="id_3_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="id_3_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="id_3_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+      <polygon fill="#bd98fb" id="id_5" points="324,39 424,243 201,293 466,31 302,204 " stroke="#6caee3" stroke-width="4"/>
+     </svg>
+    </g>
+    <circle cx="203" cy="127" fill="#9b7636" id="id_29" r="74" stroke="#57e957" stroke-width="1"/>
+    <text x="64.5" y="21.5" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="id_3_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(0.7692,0,0,1,0,0)">Okay</text>
+    <polyline fill="#5fdca6" id="id_22" points="73,135 86,22 414,168 270,40 344,104 10,118 207,188 376,159 " stroke="#1d5328" stroke-width="5"/>
+    <ellipse cx="131" cy="87" fill="#053b70" id="id_7" rx="151" ry="79" stroke="#efc795" stroke-width="1"/>
+    <line fill="#e50a89" id="id_34" stroke="#267163" stroke-width="5" x1="59" x2="454" y1="280" y2="207"/>
+    <rect width="129" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="30" ry="3.5" stroke="none" atv:bindbr="1,1" id="id_3_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(0.7692,0,0,1,0,0)"/>
+    <polygon fill="#2a2749" id="id_33" points="455,163 144,48 366,188 498,284 421,193 351,184 138,241 42,68 109,1 95,20 34,292 396,184 4,149 " stroke="#1fcdfe" stroke-width="4"/>
+   </g>
+  </svg>
+ </g>
+ <g transform="matrix(1.3,0,0,1,0,0)">
+  <svg width="100" x="276.923" y="224.5" height="30" id="nowButton" atv:refpx="425" atv:refpy="240">
+   <defs/>
+   <metadata/>
+   <g atv:bindtl="0,0" atv:bindbr="1,1" id="nowButton_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1,0,0,0.9677,0,0)">
+    <rect width="130" x="0" y="0" atv:bindtl="0,0" fill="#647a8f" rx="5" RY="5" height="31" ry="4" stroke="647a8f" atv:bindbr="1,1" id="nowButton_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(0.7692,0,0,1,0,0)"/>
+    <rect width="129" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="5" height="30" ry="5" stroke="647a8f" atv:bindbr="1,1" id="nowButton_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(0.7692,0,0,1,0,0)"/>
+    <polyline fill="#b3c825" id="id_24" points="213,127 200,210 240,15 177,172 472,151 484,41 132,251 18,49 228,57 " stroke="#8b875c" stroke-width="3"/>
+    <ellipse cx="73" cy="240" fill="#398c60" id="id_19" rx="79" ry="79" stroke="#b54938" stroke-width="3"/>
+    <g transform="matrix(0.7692,0,0,1,0,0)">
+     <svg width="20" x="57.75" y="8.25" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="nowButton_button_symbol" atv:refpx="50" atv:refpy="15.5">
+      <defs id="nowButton_button_symbol_defs1373"/>
+      <metadata/>
+      <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="nowButton_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+     </svg>
+    </g>
+    <text x="64.5" y="21.5" visibility="inherit" atv:bindtl="0.5,0.5" fill="#FFFFFF" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="nowButton_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(0.7692,0,0,1,0,0)">Heute</text>
+    <rect width="129" x="0.5" y="0.5" atv:bindtl="0,0" fill="none" rx="3.5" height="30" ry="3.5" stroke="none" atv:bindbr="1,1" id="nowButton_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(0.7692,0,0,1,0,0)"/>
+   </g>
+  </svg>
+ </g>
+ <script xlink:href="../../webmi.js" type="text/ecmascript"/>
+ <script type="text/ecmascript"><![CDATA[webMI.proxy({"":[function(webMI,window,document,self){var popupId = webMI.query.popupId;
+
+// Theming: Topbar
+/*
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"", "id":"id_0", "key":"WindowBackgroundColor", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"", "id":"id_1", "key":"ControlBackgroundColor", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"", "id":"yearLabel", "key":"ControlTextColor", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"", "id":"monthLabel", "key":"ControlTextColor", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"", "id":"monthLabel", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"", "id":"yearLabel", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"", "id":"yearLabelLeft", "key":"ControlLabelColor", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"", "id":"yearLabelLeft", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"", "id":"dayOfTheWeekLabel", "key":"ControlTextColor", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"", "id":"dayOfTheWeekLabel", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"", "id":"numericDateLabel", "key":"ControlTextColor", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"", "id":"numericDateLabel", "key":"FontFamily", "property":""});
+*/
+var _value = {},
+	_monthNames = [
+		"Jänner",
+		"Februar",
+		"März",
+		"April",
+		"Mai",
+		"Juni",
+		"Juli",
+		"August",
+		"September",
+		"Oktober",
+		"November",
+		"Dezember"
+	],
+	_dayOfTheWeekNames = [
+		"Sonntag",
+		"Montag",
+		"Dienstag",
+		"Mittwoch",
+		"Donnerstag",
+		"Freitag",
+		"Samstag"
+	],
+	_buttonValues = {};
+
+function updateButtons() {
+	// get first displayed day
+	var currentDate = new Date(_value.raw);
+	currentDate.setDate(0);
+	var dOW = currentDate.getDay();
+
+	while (dOW != 1) {
+		currentDate.setDate(currentDate.getDate() - 1);
+		dOW = currentDate.getDay();
+	}
+
+	var initialUpdate = _buttonValues['00'] === undefined;
+	for (var y = 0; y < 6; y++) { // for each row
+		for (var x = 0; x < 7; x++) { // and each column
+			var id = y + '' + x,
+				fieldId = 'field_' + id,
+				labelId = fieldId + '_button_label',
+				bgId = fieldId + '_button_bg';
+			
+			// set label
+			webMI.gfx.setText(labelId, currentDate.getDate());
+
+			// draw today indicator
+			if (currentDate.getMonth() == _value.month && currentDate.getDate() == _value.day) {
+				webMI.gfx.setFill(labelId, window.theme.getValue('ControlBackgroundColor'));
+				webMI.gfx.setFill(bgId, window.theme.getValue('ControlTintColor'));
+			}
+			else {
+				var now = new Date();
+				webMI.gfx.setFill(labelId, window.theme.getValue(
+					(currentDate.getMonth() == now.getMonth() && currentDate.getDate() == now.getDate() && currentDate.getFullYear() == now.getFullYear()) ? 'ControlTintColor' :
+					(currentDate.getMonth() == _value.month) ? 'ControlTextColor' : 'ControlLabelColor'));
+				webMI.gfx.setFill(bgId, 'none');
+			}
+
+			// set action
+			if (initialUpdate)
+				(function() {
+					var _id = id;
+	
+					webMI.trigger.connect('clicked', function(e) {
+						if (_buttonValues[_id] != _value.raw) setValue(_buttonValues[_id])
+					}, fieldId);
+				})();
+
+			// save date
+			_buttonValues[id] = currentDate.valueOf();
+			
+			// select next date
+			currentDate.setDate(currentDate.getDate() + 1);
+		}
+	}
+}
+
+function setValue(timestamp) {
+	var millis = 0;
+	
+	//check if a value is given
+	if (timestamp) {
+		millis = timestamp;
+
+		//if not number, try to parse
+		if (typeof millis != "number") {
+			millis = parseInt(timestamp, 10);
+
+			if (isNaN(millis)) {
+				millis = 0;
+			}
+		}
+	}
+
+	//set new date
+	var newDate = new Date(millis);
+	_value.raw = millis;
+	_value.day = newDate.getDate();
+	_value.dayOfTheWeek = newDate.getDay();
+	_value.month = newDate.getMonth();
+	_value.year = newDate.getFullYear();
+	_value.hours = newDate.getHours();
+	_value.minutes = newDate.getMinutes();
+	_value.seconds = newDate.getSeconds();
+	_value.millis = newDate.getMilliseconds();
+
+	// update buttons
+	updateButtons();
+	
+	// update labels
+	updateLabels();
+
+	//webMI.data.write([webMI.query.base], [timestamp]);
+}
+
+function updateLabels() {
+	/*webMI.gfx.setText('yearLabel', _value.year);
+	webMI.gfx.setText('monthLabel', _monthNames[_value.month]);*/
+	webMI.gfx.setText('yearLabelLeft', _value.year);
+	webMI.gfx.setText('dayOfTheWeekLabel', _dayOfTheWeekNames[_value.dayOfTheWeek] + ',');
+	webMI.gfx.setText('numericDateLabel', new Date(_value.raw).toLocaleDateString());
+	
+	webMI.trigger.fire('setSelectedItem', _monthNames[_value.month], 'monthInput');
+	webMI.trigger.fire('setValue', _value.year, 'yearInput');
+}
+
+webMI.addOnload(function() {
+//	setValue(webMI.query.value);
+	setValue((new Date()).valueOf());
+	webMI.trigger.fire("com.atvise.datepicker_" + popupId, _value.raw);
+});
+
+webMI.trigger.connect('setValue', function(e) {
+	setValue(e.value);
+})
+
+// Back / Forward buttons
+webMI.addEvent('goBackClickarea', ['mouseup', 'touchend'], function(e) {
+	var newValue = new Date(_value.raw);
+	newValue.setMonth(newValue.getMonth() - 1);
+	setValue(newValue.valueOf());
+});
+
+webMI.addEvent('goForwardClickarea', ['mouseup', 'touchend'], function(e) {
+	var newValue = new Date(_value.raw);
+	newValue.setMonth(newValue.getMonth() + 1);
+	setValue(newValue.valueOf());
+});
+
+// Month input
+webMI.trigger.fire('setItems', (function() {
+	var items = [];
+	for (var i in _monthNames) {
+		items.push({ text: _monthNames[i], value: i });
+	}
+	
+	return items;
+})(), 'monthInput');
+
+webMI.trigger.connect('valuechanged', function(e) {
+	if (e.value == _value.month) return;
+	
+	var newDate = new Date(_value.raw);
+	newDate.setMonth(e.value);
+	setValue(newDate.valueOf());
+}, 'monthInput');
+
+// Year input
+webMI.trigger.connect('valuechanged', function(e) {
+	if (!_value.raw || e.value == _value.year || _value.year && e.value == '') return;
+	
+	var newDate = new Date(_value.raw);
+	newDate.setFullYear(e.value);
+	setValue(newDate.valueOf());
+}, 'yearInput');
+
+// Okay button
+webMI.trigger.connect("clicked", function() {
+	webMI.trigger.fire("com.atvise.datepicker_" + popupId, _value.raw);
+	webMI.display.closeWindow(); 
+}, "id_3");
+
+// 'Now' Button
+webMI.trigger.connect("clicked", function(e) {
+	setValue((new Date()).valueOf());
+}, "nowButton");
+},{"field_00":["1",{"label":{v:"29"}}],"field_01":["1",{"label":{v:"30"}}],"field_02":["1",{"label":{v:"1"}}],"field_03":["1",{"label":{v:"2"}}],"field_04":["1",{"label":{v:"3"}}],"field_05":["1",{"label":{v:"4"}}],"field_06":["1",{"label":{v:"5"}}],"field_10":["1",{"label":{v:"6"}}],"field_11":["1",{"label":{v:"7"}}],"field_12":["1",{"label":{v:"8"}}],"field_13":["1",{"label":{v:"9"}}],"field_14":["1",{"label":{v:"10"}}],"field_15":["1",{"label":{v:"11"}}],"field_16":["1",{"label":{v:"12"}}],"field_20":["1",{"label":{v:"13"}}],"field_21":["1",{"label":{v:"14"}}],"field_22":["1",{"label":{v:"15"}}],"field_23":["1",{"label":{v:"16"}}],"field_24":["1",{"label":{v:"17"}}],"field_25":["1",{"label":{v:"18"}}],"field_26":["1",{"label":{v:"19"}}],"field_30":["1",{"label":{v:"20"}}],"field_31":["1",{"label":{v:"21"}}],"field_32":["1",{"label":{v:"22"}}],"field_33":["1",{"label":{v:"23"}}],"field_34":["1",{"label":{v:"24"}}],"field_35":["1",{"label":{v:"25"}}],"field_36":["1",{"label":{v:"26"}}],"field_40":["1",{"label":{v:"27"}}],"field_41":["1",{"label":{v:"28"}}],"field_42":["1",{"label":{v:"29"}}],"field_43":["1",{"label":{v:"30"}}],"field_44":["1",{"label":{v:"31"}}],"field_45":["1",{"label":{v:"1"}}],"field_46":["1",{"label":{v:"2"}}],"field_50":["1",{"label":{v:"3"}}],"field_51":["1",{"label":{v:"4"}}],"field_52":["1",{"label":{v:"5"}}],"field_53":["1",{"label":{v:"6"}}],"field_54":["1",{"label":{v:"7"}}],"field_55":["1",{"label":{v:"8"}}],"field_56":["1",{"label":{v:"9"}}],"goBackButton":["4",{}],"goForwardButton":["3",{}],"id_3":["1",{"label":{v:"Okay"}}],"monthInput":["5",{}],"nowButton":["1",{"label":{v:"Heute"}}],"yearInput":["7",{}]},{"popupId":"datePickerPopup"}],"1":[function(webMI,window,document,self){/* 
+
+Action Button
+
+Triggers a 'clicked' event
+
+*/
+
+var strokeNormal = "none";
+var strokePressed = webMI.query["strokePressed"];
+var focusStrokeColor = webMI.query["focusStrokeColor"];
+//var fillColor = webMI.query["fillColor"];
+var fillColorInactive = webMI.query["fillColorInactive"];
+var display = webMI.query["display"];
+var consistencyGroup = webMI.query["consistencyGroup"];
+var consistencyFunction = webMI.query["consistencyFunction"];
+
+if (consistencyGroup)
+	var consistencyHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Consistency Handler");
+
+var tabHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tab Handler");
+var tabIndex = (webMI.query["tabIndex"] == undefined) ? "" : webMI.query["tabIndex"];
+var tooltip = (webMI.query["tooltip"] == undefined) ? "" : webMI.query["tooltip"];
+
+var right = (webMI.query["right"] == undefined) ? "" : webMI.query["right"];
+if (right.search(/SYSTEM\.SECURITY\.RIGHTS\./) != -1) {
+	right = right.substring(23,right.length); //remove "prefix" SYSTEM.SECURITY.RIGHTS.
+}
+
+var active = false;
+var hasRight = false;
+
+if (right != "") {
+	webMI.addEvent(webMI.data, "clientvariableschange", function(e) {
+		hasRight=false;
+		if (("username" in e) && (e.username != "")) {
+				hasRight = webMI.hasRight(right);
+		}
+		deActivate();
+	});
+}
+
+var activeValue = (webMI.query["activeValue"] == undefined) ? "" :webMI.query["activeValue"];
+var activeNode = (webMI.query["activeNode"] == undefined) ? "" : webMI.query["activeNode"];
+var nodeIsActive = false;
+
+if ((activeNode != "") && (String(activeValue) != "")) {
+	webMI.data.subscribe(activeNode, function(e) {
+		var nodeActiveValue = e.value;
+		if (typeof nodeActiveValue == "boolean") {
+			nodeIsActive = (String(nodeActiveValue) == activeValue);
+		} else if (typeof nodeActiveValue == "number") {
+			try {
+				var temp = parseFloat(activeValue);
+				nodeIsActive = (nodeActiveValue == temp);
+			} catch(e) {
+				nodeIsActive = false;
+			}
+		} else {
+			nodeIsActive = (nodeActiveValue == activeValue);
+		}
+		deActivate();
+	});
+} else {
+	deActivate();
+}
+
+function deActivate(forceDeActivate) {
+	if (typeof forceDeActivate !== "undefined" && forceDeActivate){
+		active = false;
+	} else if (right != "") {
+		if ((String(activeValue) != "") && (activeNode != "")) {
+			active=(nodeIsActive && hasRight);
+		} else {
+			active=hasRight;
+		}
+	} else {
+		if ((String(activeValue) != "") && (activeNode != "")) {
+			active=nodeIsActive;
+		} else {
+			active=true;
+		}
+	}
+	if (active) {
+		webMI.gfx.setFill("id_2", webMI.query["fillColor"]);
+	//	webMI.gfx.setVisible("button_stroke", null);
+	} else {
+		webMI.gfx.setFill("id_2", webMI.query["fillColorInactive"]); // fillColorInactive
+	//	webMI.gfx.setVisible("button_stroke", false);
+	}
+}
+
+function release() {
+	if (active) {
+		webMI.gfx.setFill("button_stroke", "none"); // "url(#linear_1)"
+//		webMI.gfx.setFill("button_bg", "none"); // added
+		webMI.gfx.setStroke("button_stroke", strokeNormal);
+	}
+}
+
+function focusTH(){
+	if (active) {
+		webMI.gfx.setStroke("button_stroke", webMI.query['focusStrokeColor']);
+	}
+}
+function applyTH(){
+	if (active){
+		webMI.trigger.fire("clicked", true, "");
+	}
+	if (consistencyGroup)
+		consistencyFunction == "write" ? consistencyHandler.write(consistencyGroup) : consistencyHandler.read(consistencyGroup);
+}
+function backTH(){}
+function arrowTH(dir){}
+function keyHandler(keyTH,param2){
+	if (keyTH == "focus"){
+		focusTH();
+	} else if (keyTH == "blur"){
+		release();
+	} else if (keyTH == "apply"){
+		//webMI.gfx.setFill("button_stroke", "url(#linear_2)");
+		applyTH();
+	} else if (keyTH == "releaseClick"){
+		//webMI.gfx.setFill("button_stroke", "url(#linear_1)");
+	} else if (keyTH == "back"){
+		backTH();
+	} else if (keyTH == "arrow"){
+		arrowTH(param2);
+	} else if (keyTH == "isActive"){
+		return active && param2(document.getElementById("button_clickarea").parentNode);
+	}
+}
+
+webMI.addEvent("button_clickarea", ["click","mousedown","touchstart"], function(e) {
+var id = "button_clickarea";
+var value = true;
+return function(value) {
+		if (active) {
+			webMI.gfx.setFill("button_stroke", "none"); // "url(#linear_2)"
+//			webMI.gfx.setFill("button_bg", window.theme.getValue('ControlActiveBackgroundColor')); // added
+			webMI.gfx.setStroke("button_stroke", webMI.query['focusStrokeColor']);
+		}
+} (value);
+});
+
+webMI.addEvent("button_clickarea", ["click","mouseup","touchend","touchcancel"], function(e) {
+var id = "button_clickarea";
+var value = true;
+return function(value) {
+		release();
+} (value);
+});
+
+webMI.addEvent("button_clickarea", ["mouseout", "touchleave"], function(e) {
+	var id = "button_clickarea";
+	var value = true;
+	return function(value) {
+		release();
+	} (value);
+});
+
+webMI.addEvent("button_clickarea", ('ontouchend' in window ? 'touchend' : 'click'), function(e) {
+	if (active){
+		tabHandler.setCurrentIndex(keyHandler, function(){
+			webMI.trigger.fire("clicked", true, "")
+		});
+		//webMI.trigger.fire("clicked", true, "");
+	}
+	if (consistencyGroup)
+		consistencyFunction == "write" ? consistencyHandler.write(consistencyGroup) : consistencyHandler.read(consistencyGroup);
+});
+
+webMI.addEvent("button_clickarea", ["touchend"], function(e) {
+	var pX = event.pageX,
+		pY = event.pageY;
+	e.preventDefault();
+});
+
+webMI.addEvent("button_clickarea", ["touchleave"], function() {
+	alert('leaving');
+})
+
+webMI.addEvent("button_clickarea", "dragstart", function(e) {
+	if (e.preventDefault) {
+		e.preventDefault();
+	}
+});
+webMI.addOnload(function() {
+	var doc = document.getElementById("button_clickarea").ownerDocument;
+	tabHandler.register(tabIndex,keyHandler,doc);
+});
+
+webMI.trigger.connect("com.atvise.setActive", function(e){
+	if (e.value){
+		deActivate();
+	}  else {
+		deActivate(true);
+	}
+});
+
+if (tooltip != ""){
+	webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tooltip", {"auto":"true", "id":"button_clickarea", "text":tooltip});
+}
+
+/*webMI.trigger.connect('com.bachmann.themechange', function() {
+	webMI.gfx.setStroke('button_stroke', (webMI.gfx.getStroke('button_stroke') == 'none') ? 'none' : webMI.query['focusStrokeColor']);
+});*/
+
+webMI.trigger.connect('com.bachmann.themeapplied', function(e) {
+	webMI.gfx.setStroke('button_stroke', (webMI.gfx.getStroke('button_stroke') == 'none') ? 'none' : webMI.query['focusStrokeColor']);
+}, '_button_stroke');
+
+// Theme
+
+//change here the colors for the GUI Theme
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"Open Sans", "id":"button_label", "key":"FontFamily", "property":"fontFamily"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#ffffff", "id":"button_label", "key":"ControlTextColor", "property":"fontColor"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#3f434a", "id":"id_2", "key":"ControlBackgroundColor", "property":"fillColor"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#ffffff", "id":"button_symbol", "key":"ControlTextColor", "property":"symbolColor"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"stroke", "defaultValue":"#E3D700", "id":"_button_stroke", "key":"ControlTintColor", "property":"focusStrokeColor"});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#8c8c8c", "key":"ControlInactiveBackgroundColor", "property":"fillColorInactive"});
+// hide stroke on init
+webMI.gfx.setStroke('button_stroke', 'none');
+
+// Two Hand support
+webMI.trigger.connect('com.bachmann.themechange', function(e) {
+	//deActivate(!active);
+})
+},{"button_symbol":["2",{"symbolColor":{b:"symbolColor"}}]},{"consistencyFunction":"write","fillColor":"#647a8f","fillColorInactive":"#647a8f","focusStrokeColor":"#647a8f","fontColor":"#FFFFFF","fontFamily":"Open Sans","fontSize":"16","label":"Standard","strokePressed":"#647a8f","symbol":"00000010","symbolColor":"#FFFFFF","visibilityLabel":"inherit","visibilitySymbol":"hidden"}],"4":[function(webMI,window,document,self){webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"", "id":"id_7", "key":"ControlTintColor", "property":""});
+},{},{}],"3":[function(webMI,window,document,self){webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"", "id":"id_7", "key":"ControlTintColor", "property":""});
+},{},{}],"5":[function(webMI,window,document,self){var base = (webMI.query["base"] == undefined) ? "" : webMI.query["base"];
+var outputNode = (webMI.query["outputNode"] == undefined) ? "" : webMI.query["outputNode"];
+outputNode = (outputNode == "") ? base : outputNode;
+webMI.gfx.setText("combobox_label", "");
+var fontSize = parseFloat(webMI.query["fontSize"]);
+var fontFamily = webMI.query["fontFamily"];
+var fontColor = webMI.query["fontColor"];
+var fill = webMI.query["fill"];
+var fillColorInactive = webMI.query["fillColorInactive"];
+var buttonFill = webMI.query["buttonFill"];
+var strokeFillPressed = webMI.query["strokePressed"];
+var focusStrokeColor = webMI.query["focusStrokeColor"];
+var itemsCount = webMI.query["itemsCount"];
+var consistencyGroup = webMI.query["consistencyGroup"];
+var tabHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tab Handler");
+var tabIndex = (webMI.query["tabIndex"] == undefined) ? "" : webMI.query["tabIndex"];
+var tooltip = (webMI.query["tooltip"] == undefined) ? "" : webMI.query["tooltip"];
+
+if (consistencyGroup)
+	var consistencyHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Consistency Handler");
+
+var text1 = webMI.query["text1"];
+var text1value = webMI.query["text1value"] == undefined ? "" :  webMI.query["text1value"];
+var text2 = webMI.query["text2"];
+var text2value = webMI.query["text2value"] == undefined ? "" :  webMI.query["text2value"];
+var text3 = webMI.query["text3"];
+var text3value = webMI.query["text3value"] == undefined ? "" :  webMI.query["text3value"];
+var text4 = webMI.query["text4"];
+var text4value = webMI.query["text4value"] == undefined ? "" :  webMI.query["text4value"];
+var text5 = webMI.query["text5"];
+var text5value = webMI.query["text5value"] == undefined ? "" :  webMI.query["text5value"];
+var enumList = (webMI.query["enumList"] == undefined) ? "" : webMI.query["enumList"];
+var right = (webMI.query["right"] == undefined) ? "" : webMI.query["right"];
+if (right.search(/SYSTEM\.SECURITY\.RIGHTS\./) != -1) {
+	right = right.substring(23,right.length); //remove "prefix" SYSTEM.SECURITY.RIGHTS.
+}
+
+var active = false;
+var hasRight = false;
+var currentValue = null;
+
+if (right != "") {
+	webMI.addEvent(webMI.data, "clientvariableschange", function(e) {
+		hasRight=false;
+		if (("username" in e) && (e.username != "")) {
+				hasRight = webMI.hasRight(right);
+		}
+		deActivate();
+	});
+}
+
+var activeValue = (webMI.query["activeValue"] == undefined) ? "" :webMI.query["activeValue"];
+var activeNode = (webMI.query["activeNode"] == undefined) ? "" : webMI.query["activeNode"];
+var nodeIsActive = false;
+
+if ((activeNode != "") && (String(activeValue) != "")) {
+	webMI.data.subscribe(activeNode, function(e) {
+		var nodeActiveValue = e.value;
+		if (typeof nodeActiveValue == "boolean") {
+			nodeIsActive = (String(nodeActiveValue) == activeValue);
+		} else if (typeof nodeActiveValue == "number") {
+			try {
+				var temp = parseFloat(activeValue);
+				nodeIsActive = (nodeActiveValue == temp);
+			} catch(e) {
+				nodeIsActive = false;
+			}
+		} else {
+			nodeIsActive = (nodeActiveValue == activeValue);
+		}
+		deActivate();
+	});
+} else {
+	deActivate();
+}
+
+function deActivate(force) {
+	if (force) active = false;
+	else if (right != "") {
+		if ((String(activeValue) != "") && (activeNode != "")) {
+			active=(nodeIsActive && hasRight);
+		} else {
+			active=hasRight;
+		}
+	} else {
+		if ((String(activeValue) != "") && (activeNode != "")) {
+			active=nodeIsActive;
+		} else {
+			active=true;
+		}
+	}
+	if (active) {
+		webMI.gfx.setFill("combobox_stroke", webMI.query.fill); // was _bg
+		webMI.gfx.setFill("button_bg", buttonFill)
+	} else {
+		webMI.gfx.setFill("combobox_stroke", webMI.query.fillColorInactive); // was _bg
+		webMI.gfx.setFill("button_bg", fillColorInactive);
+	}
+}
+
+var mode = webMI.query["mode"];
+
+function update(item) {
+	if (item == "") {getFn("","",null)(true); return;}
+	for (var i in menuObj) {
+		if (item == menuObj[i]["text"]) {
+			menuObj[i]["value"](1);
+			break;
+		}
+	}
+}
+
+if (base != "") {
+	if (consistencyGroup) {
+		consistencyHandler.register(consistencyGroup, base, update);
+	} else {
+		webMI.data.subscribe(base, function(e) {
+			currentValue = e.value;
+	//?????????????????????????
+			if (mode == "Text") {
+				var texts = [text1, text2, text3, text4, text5];
+				var textvals = [text1value, text2value, text3value, text4value, text5value];
+				webMI.gfx.setText("combobox_label", "");
+				for (var i=0; i<5; i++) {
+					if (texts[i] != undefined && textvals[i] != undefined && currentValue == textvals[i]) {
+						webMI.gfx.setText("combobox_label", texts[i]);
+					}
+				}
+			} else if (mode == "Boolean") {
+				if (currentValue == 0) {
+					webMI.gfx.setText("combobox_label", "false");
+				} else {
+					webMI.gfx.setText("combobox_label", "true");
+				}
+			} else if (mode == "Enum List" && enumList != "") {
+				webMI.gfx.setText("combobox_label", "");
+				for (var i in enumList) {
+					if (enumList[i].text != undefined && enumList[i].value != undefined && currentValue == enumList[i].value) {
+						webMI.gfx.setText("combobox_label", enumList[i].text);
+					}
+				}
+			} else if (mode == "Script") {
+				webMI.gfx.setText("combobox_label", "");
+				for (var i in menuObj) {
+					if (currentValue == menuObj[i]["originalValue"]) {
+						return webMI.gfx.setText("combobox_label", menuObj[i]["text"]);
+					}
+				}
+			}
+		});
+	}
+}
+
+var menuObj = {};
+
+if (mode == "Text") {
+	var texts = [text1, text2, text3, text4, text5];
+	var textvals = [text1value, text2value, text3value, text4value, text5value];
+	for (var i=0; i<5; i++) {
+		if (texts[i] != undefined && textvals[i] != undefined) {
+			menuObj[i] = { text: texts[i], value: getFn(texts[i], textvals[i], (i)) };
+		}
+	}
+} else if (mode == "Boolean") {
+	menuObj = {
+		1: {text: "true", value: getFn("true", true, 0)},
+		2: {text: "false", value: getFn("false", false, 1)}
+	};
+} else if (mode == "Enum List" && enumList != "") {
+	var cnt = 0;
+	for (var i in enumList) {
+		if (enumList[i].text != undefined && enumList[i].value != undefined) {
+			menuObj[cnt] = { text: enumList[i].text, value: getFn(enumList[i].text, enumList[i].value, cnt) };
+			cnt++;
+		}
+	}
+}
+
+var selectedIndex = -1;
+var selectedItem = null;
+
+function getFn(text, value, idx) {
+	return function(e) {
+		webMI.trigger.fire("valuechanged", value, "");
+		webMI.gfx.setText("combobox_label", text);
+		if (outputNode != null && outputNode != "" && !consistencyGroup) {
+			webMI.data.write(outputNode, value);
+		}
+		selectedIndex = idx;
+		selectedItem = { text: text, value: value, idx: idx };
+
+		if (consistencyGroup && e !== 1)
+			consistencyHandler.set(consistencyGroup, base, value);
+	};
+}
+
+function focusTH(){
+	if (active) {
+		webMI.gfx.setStroke("combobox_bg", focusStrokeColor);
+	}
+}
+function blurTH(){
+	if (active) {
+		backTH();
+		webMI.gfx.setStroke("combobox_bg", "none");
+	}
+}
+function applyTH(){
+	openMenu();
+	/*webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Open Context Menu", {
+		"id":"combobox_clickarea",
+		onEvent: "immediately",
+		menuObj: menuObj,
+		"outputNode":outputNode,
+		"x":0,
+		"y":30,
+		active: function() {
+			return (active);
+		},
+		"itemsCount": itemsCount,
+		"fontSize": fontSize
+	});*/
+}
+function backTH(){
+	webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Open Context Menu", {
+		"id":"",
+		onEvent: "immediately"
+	});
+}
+function arrowTH(dir){}
+function keyHandler(keyTH,param2){
+	if (keyTH == "focus"){
+		focusTH();
+	} else if (keyTH == "blur"){
+		blurTH();
+	} else if (keyTH == "apply"){
+		applyTH();
+	} else if (keyTH == "space"){
+		applyTH();
+	} else if (keyTH == "back"){
+		backTH();
+	} else if (keyTH == "arrow"){
+		arrowTH(param2);
+	} else if (keyTH == "isActive"){
+		return active && param2(document.getElementById("combobox_clickarea").parentNode);
+	}
+}
+
+webMI.trigger.connect("setSelectedItem", function(e) {
+	var item = e.value;
+	webMI.gfx.setText("combobox_label", item);
+	if (item == "") {getFn("","",null)(); return;}
+	for (var i in menuObj) {
+		if (item == menuObj[i]["text"]) {
+			menuObj[i]["value"]();
+			break;
+		}
+	}
+}, "");
+
+function openMenu() {
+	if (!active) return;
+	webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Open Context Menu", {
+		"id":"combobox_clickarea",
+		onEvent: "immediately",
+		menuObj: menuObj,
+		"outputNode":outputNode,
+		"x":0,
+		"y":30,
+		active: function() {
+			return true;
+		},
+		"itemsCount": itemsCount,
+		"fontSize": fontSize
+	});
+}
+
+webMI.addEvent("combobox_clickarea", ('ontouchend' in window) ? 'touchend' : 'click', function(e) { // 
+	openMenu();
+});
+
+
+
+
+webMI.addEvent("combobox_clickarea", "dragstart", function(e) {
+	if (e.preventDefault) {
+		e.preventDefault();
+	}
+});
+
+webMI.trigger.connect("setItems", function(e) {
+	var value = e.value;
+
+	for (var i in menuObj)
+		delete menuObj[i];
+
+	var cnt = 0;
+	for (var i in value) {
+		if (currentValue == value[i].value) {
+			getFn(value[i].text, value[i].value, cnt)();
+		}
+
+		menuObj[cnt] = { text: value[i].text, value: getFn(value[i].text, value[i].value, cnt), originalValue: value[i].value };
+		cnt++;
+	}
+});
+
+webMI.trigger.connect("addItem", function(e) {
+	var value = e.value;
+	var cnt = 0;
+	for (var i in menuObj) {
+		cnt++;
+	}
+	menuObj[cnt+1] = { text: value.text, value: getFn(value.text, value.value, cnt) };
+});
+
+
+webMI.trigger.connect("getSelectedItem", function(e) {
+var id = "";
+var value = e.value;
+	if (typeof value == "function"){
+		value(selectedItem);
+	}
+	else {
+		webMI.trigger.fire("selectedItem", selectedItem, "");
+	}
+});
+
+webMI.trigger.connect("getItems", function(e) {
+	var items = [];
+	for (var i in menuObj) {
+		if (i != "style") {
+			items.push(menuObj[i]);
+		}
+	}
+	webMI.trigger.fire("items", items, "");
+});
+webMI.addOnload(function() {
+	var doc = document.getElementById("combobox_clickarea").ownerDocument;
+	tabHandler.register(tabIndex,keyHandler,doc);
+});
+
+if (tooltip != ""){
+	webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tooltip", {"auto":"true", "id":"combobox_clickarea", "text":tooltip});
+}
+
+// Theming
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#E3D700", "id":"id_0", "key":"ControlTintColor", "property":"buttonFill"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#3f434a", "id":"combobox_stroke", "key":"ControlBackgroundColor", "property":"fill"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#ffffff", "id":"combobox_label", "key":"ControlTextColor", "property":"fontColor"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"Open Sans", "id":"combobox_label", "key":"FontFamily", "property":"fontFamily"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#8c8c8c", "key":"ControlInactiveBackgroundColor", "property":"fillColorInactive"});
+
+// Reset frame and text scaling
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.ResetScaling", { callback: function(originalSize, renderedSize, scale, scaleInverse) {
+	if (!document.getElementById('combobox_stroke').getAttribute('transform')) {
+		webMI.gfx.setScaleX('combobox_label', scaleInverse.x);
+		webMI.gfx.setScaleX('id_0', scaleInverse.x);
+		webMI.gfx.setScaleX('combobox_stroke', scaleInverse.x);
+		webMI.gfx.setWidth('combobox_stroke', renderedSize.width);
+		webMI.gfx.setMoveX('combobox_stroke', -(renderedSize.width - originalSize.width) / 2);
+	}
+}, originalWidth: 100, originalHeight: 31, innerNode: document.getElementById('combobox_clickarea') });
+
+// TwoHand support
+var _active = true;
+webMI.trigger.connect('com.bachmann.themechange', function(e) { deActivate(!_active) });
+webMI.trigger.connect('com.atvise.setActive', function(e) {
+	_active = e.value;
+	deActivate(!e.value);
+});
+},{"combobox_clickarea":["6",{}]},{"buttonFill":"#647a8f","fill":"#647a8f","fillColorInactive":"#647a8f","focusStrokeColor":"#647a8f","fontColor":"#FFFFFF","fontFamily":"Open Sans","fontSize":"16","itemsCount":"0","mode":"Text","strokePressed":"#647a8f","symbolColor":"#FFFFFF"}],"7":[function(webMI,window,document,self){webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"Open Sans", "id":"input_label", "key":"FontFamily", "property":"fontFamily"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#8c8c8c", "key":"ControlInactiveBackgroundColor", "property":"fillColorInactive"});
+var inputMode = webMI.query["validation"]; //implement if hasFeature html5 input types
+var inputFO = webMI.dom.createElement("http://www.w3.org/1999/xhtml", "input");
+var isPasswordMode = (inputMode == "Password" || webMI.query["password"] == "Yes");
+inputFO.type = isPasswordMode ? "password" : "text"; //implement e-mail when browsers support it
+inputFO.id = "html_input";
+inputFO.style.width = "100%";
+inputFO.style.height = "100%";
+inputFO.style.border = "1px solid yellow";
+inputFO.style.outline = 'none';
+inputFO.style.borderRadius = '4px';
+inputFO.style.padding = "0px";
+inputFO.style.boxSizing = 'border-box';
+inputFO.style.textAlign = "center"; // was right
+inputFO.style.color = window.theme.getValue('ControlTextColor');
+inputFO.style.fontFamily = webMI.query["fontFamily"];
+inputFO.style.fontWeight = 'bold';
+inputFO.style.fontSize = parseFloat(webMI.query["fontSize"])*0.0820625+"em";
+inputFO.style.backgroundColor = window.theme.getValue('ControlEditingBackgroundColor');
+inputFO.style.fontFamily = window.theme.getValue('FontFamily');
+var foreignObject = null;
+var createdForeignObject = false;
+var data = {};
+var security = {};
+var initialized = false;
+var value = null;
+var nodeToSubscribe = (webMI.query["outputNode"] != "") ? webMI.query["outputNode"] : webMI.query["base"];
+var decimalFraction = parseInt(webMI.query["decimalFraction"], 10);
+var tabHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tab Handler");
+var consistencyHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Consistency Handler");
+var consistencyGroup = webMI.query["consistencyGroup"];
+var preventFirstConsistencyRead = true;
+var storedEvent = {"keyCode": null, "shiftKey": false};
+var backgroundColor = webMI.query["fill"];
+
+webMI.addOnload(function(e) {
+	var remaining = 8;
+	data = {
+		"min":			{"value":null, "address": webMI.query["nodeMin"], "paramValue": webMI.query["min"]},
+		"max":			{"value":null, "address": webMI.query["nodeMax"], "paramValue": webMI.query["max"]},
+		"limitLowLow":	{"value":null, "address": webMI.query["nodeLowLow"], "paramValue": webMI.query["limitLowLow"]},
+		"limitLow":		{"value":null, "address": webMI.query["nodeLow"], "paramValue": webMI.query["limitLow"]},
+		"limitHigh":	{"value":null, "address": webMI.query["nodeHigh"], "paramValue": webMI.query["limitHigh"]},
+		"limitHighHigh":{"value":null, "address": webMI.query["nodeHighHigh"], "paramValue": webMI.query["limitHighHigh"]},
+		"activeNode":	{"value":null, "address": webMI.query["activeNode"], "paramValue": ""},
+		"activeValue":	{"value":null, "address": "", "paramValue": webMI.query["activeValue"]},
+		"base":			{"value":null, "address": webMI.query["base"], "paramValue": ""}
+	};
+
+	function initVariables(value, address, id) {
+		if(id == "base" && consistencyGroup != "" && address != "") {
+			webMI.data.read(address, function(e) {
+				data[id]["value"] = e.value;
+			});
+			consistencyHandler.register(consistencyGroup, address, handleInput);
+			reduceRemaining();
+		} else if (address != "") {
+			webMI.data.subscribe(address, function(e) {
+				data[id]["value"] = e.value;
+				reduceRemaining();
+			});
+		} else if (!isNaN(parseFloat(value))) {
+			data[id]["value"] = parseFloat(value);
+			reduceRemaining();
+		} else if (typeof value == "string" && value != "off") {
+			data[id]["value"] = value;
+			reduceRemaining();
+		} else
+			reduceRemaining();
+
+		function reduceRemaining() {
+			if(!initialized)
+				initialized = (--remaining == 0);
+			else
+				handleInput();
+		}
+	}
+
+	for(var i in data)
+		initVariables(data[i]["paramValue"], data[i]["address"], i);
+
+	var doc = document.getElementById("svg_input").ownerDocument;
+	tabHandler.register(webMI.query["tabIndex"],keyHandler,doc);
+
+	if (webMI.query["tooltip"] != undefined)
+		webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tooltip", {"auto":"true", "id":"clickareaFO", "text":webMI.query["tooltip"]});
+});
+
+function setColorization() {
+	function setBackground(color) {
+		webMI.gfx.setFill("input_bg", color);
+		webMI.gfx.setStroke("input_bg", color);
+		inputFO.style.color = window.theme.getValue('ControlTextColor');
+		inputFO.style.backgroundColor = window.theme.getValue('ControlActiveBackgroundColor');
+		inputFO.style.borderColor = window.theme.getValue('ControlTintColor');
+		webMI.gfx.setFill('input_label', window.theme.getValue('ControlTextColor'));
+	}
+
+	if(data["limitLowLow"]["value"] != null && value <= data["limitLowLow"]["value"])
+		setBackground(webMI.query["limitLowLowFill"]);
+	else if(data["limitLow"]["value"] != null && value <= data["limitLow"]["value"])
+		setBackground(webMI.query["limitLowFill"]);
+	else if(data["limitHighHigh"]["value"] != null && value >= data["limitHighHigh"]["value"])
+		setBackground(webMI.query["limitHighHighFill"]);
+	else if(data["limitHigh"]["value"] != null && value >= data["limitHigh"]["value"])
+		setBackground(webMI.query["limitHighFill"]);
+	else if(!security["hasRight"] || !security["activateInput"] || !security["activated"])
+		setBackground(webMI.query["fillColorInactive"]);
+	else if(security["outputModeOnly"])
+		setBackground(webMI.query["fillNotEditable"]);
+	else
+		setBackground(window.theme.getValue('ControlBackgroundColor'));
+}
+
+function handleInput(consistencyValue){
+	//preventing first ConsistencyRead, as it would call handleInput without a consistencyValue
+	if(consistencyGroup != "" && preventFirstConsistencyRead) {
+		preventFirstConsistencyRead = false;
+		return;
+	}
+
+	if(consistencyValue && consistencyGroup != "")
+		consistencyHandler.set(consistencyGroup, data["base"]["address"], consistencyValue); //does not support alternative node
+	
+	value = (data["base"] && consistencyValue == undefined) ? data["base"]["value"] : consistencyValue; // support for not set base added
+
+	var formattedOutput = null;
+	var enumList = webMI.query["enumList"];
+
+	if (isPasswordMode)
+		formattedOutput = "*** Passwort ***";
+	else if(enumList != "") {
+		formattedOutput = (enumList[value] != undefined) ? enumList[value].value : value + " not in enum list";
+		value = (enumList[value] != undefined) ? enumList[value].value : value;
+	} else if(inputMode == "Number") {
+		var leadingZeros = parseInt(webMI.query["leadingZeros"], 10);
+		var postDecimal = parseInt(webMI.query["postDecimal"], 10);
+		var sign = webMI.query["sign"] == "true";
+		var unit = webMI.query["unit"];
+		var fieldWidth = 0;
+		formattedOutput = (value != null) ? value : "";
+
+		if(!isNaN(decimalFraction) && decimalFraction > 0)
+			formattedOutput = formattedOutput / Math.pow(10, decimalFraction);
+
+		if(!isNaN(leadingZeros) && leadingZeros > 0)
+			fieldWidth += leadingZeros;
+
+		if(!isNaN(postDecimal) && postDecimal > 0) {
+			if(postDecimal > 9)
+				postDecimal = 9;
+			fieldWidth += (postDecimal + 1);
+		}
+
+		if(!isNaN(leadingZeros) && !isNaN(postDecimal)) {
+			var formatString = ((sign) ? "%+" : "%") + "0" + fieldWidth + "." + postDecimal + "f";
+			formattedOutput = webMI.sprintf(formatString, formattedOutput);
+		}
+
+		value = formattedOutput;
+
+		if(unit != undefined)
+			formattedOutput = formattedOutput + " " + unit;
+	}
+	else if (inputMode == 'Time') {
+		// get raw value
+		var b = webMI.query.base || new Date();
+
+		if (consistencyValue) {
+			for (var type in consistencyValue) {
+				b['set' + type](consistencyValue[type]);
+			}
+		}
+
+		value = b.valueOf();
+
+		// get formatted value
+		function format(number, places) {
+			places = places || 2;
+			return webMI.sprintf("%0" + places + "d", number);
+		}
+
+		formattedOutput = b.getHours() + ':' + format(b.getMinutes());
+		if (b.getSeconds() !== 0 || b.getMilliseconds() !== 0) formattedOutput += ':' + format(b.getSeconds());
+		if (b.getMilliseconds() !== 0) formattedOutput += '.' + format(b.getMilliseconds(), 3);
+	}
+
+	webMI.trigger.fire("valuechanged", (value == null) ? "" : value, "");
+	webMI.gfx.setText("input_label", (formattedOutput != null) ? formattedOutput : value);
+
+	security = {
+		"outputModeOnly": (webMI.query["editable"] == "No"),
+		"activateInput": (data["activeValue"]["value"] == null || data["activeNode"]["value"] == null) || data["activeValue"]["value"] == String(data["activeNode"]["value"]),
+		"hasRight": true,
+		"activated": (typeof security["activated"] === "boolean") ? security["activated"] : true
+	};
+
+	var requiredRight = webMI.query["right"];
+
+	if (requiredRight != "") {
+		if (requiredRight.search(/SYSTEM\.SECURITY\.RIGHTS\./) != -1)
+			requiredRight = requiredRight.substring(23,requiredRight.length); //remove "prefix" SYSTEM.SECURITY.RIGHTS.
+
+		webMI.addEvent(webMI.data, "clientvariableschange", function(e) {
+			security["hasRight"] = webMI.hasRight(requiredRight);
+			if(!security["hasRight"])
+				switchToOutputMode();
+			setColorization();
+		});
+	}
+
+	if(!security["activateInput"])
+		switchToOutputMode();
+
+	//workaround until apple Bug ID 12900899 has been solved and the foreignobject clickarea is no longer required
+	if(security["outputModeOnly"])
+		webMI.gfx.setVisible("clickareaFO", false);
+
+	if(inputMode == "Number")
+		value = parseFloat(value);
+
+	setColorization();
+}
+
+var isInInputMode = false;
+function switchToOutputMode() {
+	webMI.gfx.setVisible("svg_input", null);
+	webMI.gfx.setVisible(foreignObject, false);
+	isInInputMode = true;
+}
+
+function switchToInputMode(){
+	if(security["hasRight"] && !security["outputModeOnly"] && security["activateInput"] && security["activated"]) {
+
+		var directKeyboardMode = webMI.query["allowDirectInput"] == "Yes";
+		var useSVGKeyboard = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Configuration", {"action":"existsIndexParameter", "parameterName":"useSVGKeyboard"});
+		if(useSVGKeyboard == "true")
+			directKeyboardMode = false;
+
+		function setFocus() {
+			inputFO.focus();
+			if(webMI.query["selectTextOnFocus"] == "true")
+				inputFO.select();
+		}
+
+		if(directKeyboardMode) {
+			tabHandler.setAcceptKeys(false);
+			inputFO.value = inputMode == 'Time' ? webMI.gfx.getText('input_label') : value;
+			webMI.gfx.setVisible("svg_input", false);
+			if(!createdForeignObject) {
+				var textboxGroup = document.getElementById("input_element");
+				console.error(textboxGroup); // FIXME: Who did add this error message and why?
+				foreignObject = webMI.gfx.addForeignObject({x:0, y:0, width:80, height:31, id:"input_fo", childNodes: [inputFO]}, textboxGroup);
+				//foreignObject.style.border = "black 2px solid";
+				createdForeignObject = true;
+				setFocus();
+			 } else {
+				webMI.gfx.setVisible(foreignObject, null);
+				setFocus();
+			}
+		} else { //SVG Mode
+			function getDisplayParameters(){
+				var communicationID = new Date().getTime().toString();
+				webMI.trigger.connect(communicationID, function(e) {
+					checkInput(e.value);
+				});
+
+				var passObj = {};
+				for (var i in webMI.query)
+					passObj[i] = webMI.query[i];
+				passObj["minValue"] = data["min"]["value"];
+				passObj["maxValue"] = data["max"]["value"];
+				if (nodeToSubscribe != "" && consistencyGroup == "")
+					passObj["target"] = nodeToSubscribe;
+				if (nodeToSubscribe == "" || consistencyGroup != "")
+					passObj["trigger"] = communicationID;
+				if (isPasswordMode)
+					passObj["password"] = "Yes";
+				return passObj;
+			}
+
+			var keyboard = null;
+			var size = (inputMode != undefined && inputMode == "Number") ? {w: 438, h: 378} : {w: 550, h: 250};
+
+			if (inputMode != undefined && inputMode == "Number")
+				keyboard = "00000011";
+			else
+				keyboard = "00000012";
+
+			var keyboardParam = getDisplayParameters();
+			webMI.display.openWindow({display:keyboard,extern:false,height:size.h,menubar:false,modal:true,movable:true,resizable:false,scrollbars:false,status:false,title:"Tastatur",toolbar:false,width:size.w,query:keyboardParam});
+		}
+
+		isInInputMode = true;
+	}
+}
+
+function keyHandler(keyTH,param2){
+	if (keyTH == "focus")
+		webMI.gfx.setStroke("input_bg", window.theme.getValue('ControlTintColor'));
+	else if (keyTH == "blur")
+		webMI.gfx.setStroke("input_bg", window.theme.getValue('ControlBackgroundColor'));
+	else if (keyTH == "apply")
+		switchToInputMode();
+	else if (keyTH == "isActive")
+		return (security["hasRight"] && !security["outputModeOnly"] && security["activateInput"] && security["activated"] && param2(document.getElementById("svg_input").parentNode));
+}
+
+// TwoHand Support
+webMI.addEvent(('ontouchend' in window) ? this : 'clickareaFO', ('ontouchend' in window) ? 'touchend' : 'click', function(e) {
+	if (!e.changedTouches || e.changedTouches[0].target.parentNode == document.getElementById('svg_input')) {
+		tabHandler.setCurrentIndex(keyHandler);
+		switchToInputMode();
+	}
+});
+
+webMI.addEvent('clickareaFO', 'click', function(e) {
+	if (!e.changedTouches || e.changedTouches.length == 0 || e.changedTouches[0].target.parentNode == document.getElementById('svg_input')) {
+		tabHandler.setCurrentIndex(keyHandler);
+		switchToInputMode();
+	}
+});
+
+function stopPropagation(event) {
+	/*
+	 * If the ALT key is pressed together with one or more other keys on
+	 * Firefox (only Windows), there will be no keyup event when the ALT
+	 * key gets released. Since the ALT key is being used for paning in
+	 * atvise visualization, we have to make sure that key listeners in the
+	 * global document do not get triggered if someone is currently entering
+	 * something in the inputFO (like "someone@example.com").
+	**/
+	if (event.altKey){
+		if (event.stopPropagation)
+			event.stopPropagation();
+		else
+			event.cancelBubble = true;
+	}
+}
+
+webMI.addEvent(inputFO, "keyup", stopPropagation);
+webMI.addEvent(inputFO, "keydown", function(e) {
+	var keyCode = e.keyCode;
+	if (/MSIE/.test(navigator.userAgent)){
+		storedEvent["keyCode"] = e.keyCode;
+		storedEvent["shiftKey"] = e.shiftKey;
+	}
+	if(keyCode == "13" || keyCode == "9") {
+		inputFO.blur();
+		if (keyCode == "13") tabHandler.setAcceptKeysPrevent(true);
+	} else if(keyCode == "27"){
+		storedEvent["keyCode"] = "27";
+		tabHandler.setAcceptKeysPrevent(true);
+		inputFO.blur();
+	}
+
+	stopPropagation(e);
+});
+
+inputFO.onblur = function() {
+	switchToOutputMode();
+	tabHandler.setAcceptKeys(true);
+
+	if (storedEvent["keyCode"] != null){
+		if (storedEvent["shiftKey"] && storedEvent["keyCode"] == "9")
+			tabHandler.prevTab();
+		else if (storedEvent["keyCode"] == "9")
+			tabHandler.nextTab();
+	}
+
+	if (storedEvent["keyCode"] != "27"){
+		//workaround: setTimeout for Chrome crash error (clicking out from the input field or clicking enter while holding a button pressed).
+		setTimeout(function(){
+			checkInput(inputFO.value);
+		},0);
+	}
+
+	storedEvent["keyCode"] = null;
+};
+
+function checkInput(tempValue) {
+	var tempValue = String(tempValue);
+	var regexps = {
+		"Boolean":"(true|false|0|1)",
+		"Number":"[+-]*[0-9]+(\.[0-9]+)?",
+		"String":".*",
+		"Password":".*",
+		"Time":"[0-9]+\:[0-9]{2}(\:[0-9]{2}(\.[0-9]{1,3})?)?"
+	};
+	if(new RegExp("^" + regexps[inputMode] + "$", "i").test(tempValue)) {
+		if(inputMode == "Boolean")
+			tempValue = (tempValue.toLowerCase() == "true" || tempValue == "1") ? true : false;
+		else if(inputMode == "Number")
+			tempValue = tempValue = parseFloat(tempValue.replace(",","."));
+	} else {
+		console.warn("Please enter a valid format according to the selected input mode.");
+		return;
+	}
+
+	if(inputMode == "Number") {
+		if(data["min"] && data["min"]["value"] != null && tempValue < data["min"]["value"]) {
+			alert("Wert zu niedrig");
+			return;
+		} else if(data["max"] && data["max"]["value"] != null && tempValue > data["max"]["value"]) {
+			alert("Wert zu hoch");
+			return;
+		}
+
+		if(!isNaN(decimalFraction) && decimalFraction > 0)
+			tempValue = tempValue * Math.pow(10, decimalFraction);
+
+		writeValue(tempValue);
+	} else if(inputMode == "String" || inputMode == "Boolean" || inputMode == "Password")
+		writeValue(tempValue);
+	else if (inputMode == 'Time') {
+		var parts = tempValue.replace('.', ':').split(':'),
+			values = { Hours: 0, Minutes: 0, Seconds: 0, Milliseconds: 0 };
+
+		if (parts.length < 2) { console.warn('Got invalid input "' + value + '"'); }
+		else {
+			var i = 0;
+			for (var type in values) {
+				values[type] = parseInt(parts[i] || 0);
+				i++;
+			}
+
+			writeValue(values);//new Date(0,0,0,values.Hours, values.Minutes, values.Seconds, values.Miliseconds).valueOf());
+		}
+	}
+
+	function writeValue(tempValue) {
+		if(consistencyGroup == "" && nodeToSubscribe != ""){
+			webMI.data.write(nodeToSubscribe, tempValue);
+			webMI.trigger.fire("com.atvise.outputvaluechanged", tempValue, "");
+		}
+		else handleInput(tempValue);
+
+	}
+}
+
+webMI.trigger.connect("setValue", function(e) {
+	checkInput(e.value);
+});
+
+webMI.trigger.connect("com.atvise.setActive",function(e){
+	security["activated"] = e.value;
+
+	setColorization();
+	if (!isInInputMode) switchToOutputMode();
+});
+
+webMI.trigger.connect("com.atvise.setBlinking", function(e){
+	if (e.value == "none"){
+		webMI.gfx.setStroke("blinking_frame", e.value);
+		webMI.gfx.setVisible("blinking_frame", null);
+	} else {
+		webMI.gfx.setStroke("blinking_frame", e.value);
+		webMI.gfx.setVisible("blinking_frame",{0:true,2:false,4:true,6:false,8:true,10:false});
+	}
+});
+
+webMI.trigger.connect("com.atvise.setBackground", function(e){
+	backgroundColor = (e.value == "") ? webMI.query["editingBackgroundColor"] : e.value;
+	setColorization();
+});
+
+// Theme Support
+webMI.trigger.connect('com.bachmann.themechange', function() { 
+	setTimeout(setColorization, 1);
+	inputFO.style.fontFamily = window.theme.getValue('FontFamily');
+});
+},{},{"activeNode":"","activeValue":"off","allowDirectInput":"Yes","base":"","consistencyGroup":"","decimalFraction":"","editable":"Yes","editingBackgroundColor":"#3f434a","editingBorderColor":"#E3D700","editingFontFamily":"Open Sans Bold","enumList":"","fill":"#647a8f","fillColorInactive":"#647a8f","fillNotEditable":"#ffffff","focusStrokeColor":"#647a8f","fontColor":"#ffffff","fontFamily":"Open Sans","fontSize":"16","leadingZeros":"0","limitHigh":"off","limitHighFill":"#647a8f","limitHighHigh":"off","limitHighHighFill":"#647a8f","limitLow":"off","limitLowFill":"#647a8f","limitLowLow":"off","limitLowLowFill":"#647a8f","max":"off","min":"off","nodeHigh":"","nodeHighHigh":"","nodeLow":"","nodeLowLow":"","nodeMax":"","nodeMin":"","outputNode":"","password":"No","postDecimal":"0","right":"","selectTextOnFocus":"false","sign":"false","tabIndex":"","validation":"Number"}],"2":[function(webMI,window,document,self){},{},{"symbolColor":"#000000"}],"6":[function(webMI,window,document,self){var base = (webMI.query["base"] == undefined) ? "" : webMI.query["base"];
+var newValue = webMI.query["value"];
+var fillColorInactive = webMI.query["fillColorInactive"];
+var tabHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tab Handler");
+var tabIndex = (webMI.query["tabIndex"] == undefined) ? "" : webMI.query["tabIndex"];
+var tooltip = (webMI.query["tooltip"] == undefined) ? "" : webMI.query["tooltip"];
+
+webMI.gfx.setStroke("button_clickarea","");
+
+if (newValue == "true") {
+	newValue = true;
+} else if (newValue == "false") {
+	newValue = false;
+} else {
+	try {
+		var temp = parseFloat(newValue);
+		if (!isNaN(temp)) {
+			newValue = temp;
+		}
+	} catch(e) {}
+}
+
+var onMouseDownValue = webMI.query["onMouseDownValue"];
+var onMouseDownNode = (webMI.query["onMouseDownNode"] == undefined) ? "" : webMI.query["onMouseDownNode"];
+var onMouseUpValue = webMI.query["onMouseUpValue"];
+var onMouseUpNode = (webMI.query["onMouseUpNode"] == undefined) ? "" : webMI.query["onMouseUpNode"];
+var strokeNormal = "none";
+
+var right = (webMI.query["right"] == undefined) ? "" : webMI.query["right"];
+if (right.search(/SYSTEM\.SECURITY\.RIGHTS\./) != -1) {
+	right = right.substring(23,right.length); //remove "prefix" SYSTEM.SECURITY.RIGHTS.
+}
+
+var active = false;
+var hasRight = false;
+
+if (right != "") {
+	webMI.addEvent(webMI.data, "clientvariableschange", function(e) {
+		hasRight=false;
+		if (("username" in e) && (e.username != "")) {
+				hasRight = webMI.hasRight(right);
+		}
+		deActivate();
+	});
+}
+
+var activeValue = (webMI.query["activeValue"] == undefined) ? "" :webMI.query["activeValue"];
+var activeNode = (webMI.query["activeNode"] == undefined) ? "" : webMI.query["activeNode"];
+var nodeIsActive = false;
+
+if ((activeNode != "") && (String(activeValue) != "")) {
+	webMI.data.subscribe(activeNode, function(e) {
+		var nodeActiveValue = e.value;
+		if (typeof nodeActiveValue == "boolean") {
+			nodeIsActive = (String(nodeActiveValue) == activeValue);
+		} else if (typeof nodeActiveValue == "number") {
+			try {
+				var temp = parseFloat(activeValue);
+				nodeIsActive = (nodeActiveValue == temp);
+			} catch(e) {
+				nodeIsActive = false;
+			}
+		} else {
+			nodeIsActive = (nodeActiveValue == activeValue);
+		}
+		deActivate();
+	});
+} else {
+	deActivate();
+}
+
+function deActivate(forceDeActivate) {
+	if (typeof forceDeActivate !== "undefined" && forceDeActivate){
+		active = false;
+	} else if (right != "") {
+		if ((String(activeValue) != "") && (activeNode != "")) {
+			active=(nodeIsActive && hasRight);
+		} else {
+			active=hasRight;
+		}
+	} else {
+		if ((String(activeValue) != "") && (activeNode != "")) {
+			active=nodeIsActive;
+		} else {
+			active=true;
+		}
+	}
+	/*if (active) {
+		webMI.gfx.setFillOpacity("button_clickarea", 0);
+	} else {
+		webMI.gfx.setFillOpacity("button_clickarea", 100);
+		webMI.gfx.setFill("button_clickarea", fillColorInactive);
+	}*/
+}
+
+function focusTH(){
+	if (active) {
+		webMI.gfx.setVisible("button_stroke_focus", null);
+	}
+}
+function blurTH(){
+	if (active) {
+		webMI.gfx.setVisible("button_stroke_focus", false);
+	}
+}
+function applyTH(){
+	if (active) {
+		if (base != "") {
+			webMI.data.write(base, newValue);
+		}
+		webMI.trigger.fire("valuechanged", newValue, "");
+	}
+}
+function backTH(){}
+function arrowTH(dir){}
+function keyHandler(keyTH,param2){
+	if (keyTH == "focus"){
+		focusTH();
+	} else if (keyTH == "blur"){
+		blurTH();
+	} else if (keyTH == "apply"){
+		applyTH();
+	} else if (keyTH == "back"){
+		backTH();
+	} else if (keyTH == "arrow"){
+		arrowTH(param2);
+	} else if (keyTH == "isActive"){
+		return active && param2(document.getElementById("button_clickarea").parentNode);
+	}
+}
+webMI.addEvent("button_stroke_focus", ["mousedown","touchstart"], function(e) {
+var id = "button_stroke_focus";
+var value = true;
+return function(value) {
+		if (active) {
+			if (onMouseDownNode != "") {
+				webMI.data.write(onMouseDownNode, onMouseDownValue);
+			}
+			webMI.trigger.fire("valuechangedMouseDown", onMouseDownValue, "");
+		}
+} (value);
+});
+
+
+webMI.addEvent("button_stroke_focus", ["mouseup","touchend"], function(e) {
+var id = "button_stroke_focus";
+var value = true;
+return function(value) {
+		if (active) {
+			if (onMouseUpNode != "") {
+				webMI.data.write(onMouseUpNode, onMouseUpValue);
+			}
+			webMI.trigger.fire("valuechangedMouseUp", onMouseUpValue, "");
+		}
+} (value);
+});
+
+webMI.addEvent("button_clickarea", ["click", "touchend"], function(e) {
+	if (active) {
+		tabHandler.setCurrentIndex(keyHandler);
+		if (base != "") {
+			webMI.data.write(base, newValue);
+		}
+		webMI.trigger.fire("valuechanged", newValue, "");
+	}
+});
+
+webMI.addEvent("button_clickarea", "dragstart", function(e) {
+	if (e.preventDefault) {
+		e.preventDefault();
+	}
+});
+webMI.addOnload(function() {
+	var doc = document.getElementById("button_clickarea").ownerDocument;
+	tabHandler.register(tabIndex,keyHandler,doc);
+});
+
+if (tooltip != ""){
+	webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tooltip", {"auto":"true", "id":"button_clickarea", "text":tooltip});
+}
+
+// Hide stroke on init
+webMI.gfx.setVisible('button_stroke_focus', false);
+
+// Theme Support
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"stroke", "defaultValue":"#E3D700", "id":"button_stroke_focus", "key":"ControlTintColor", "property":"focusStrokeColor"});
+
+// Reset scaling
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.ResetScaling", { callback: function(originalSize, renderedSize, scale, scaleInverse) {
+	webMI.gfx.setScaleX('id_0', scaleInverse.x);
+	webMI.gfx.setWidth('id_0', renderedSize.width);
+	webMI.gfx.setMoveX('id_0', -(renderedSize.width - originalSize.width) / 2);
+	webMI.gfx.setWidth('button_stroke_focus', renderedSize.width - 1);
+	webMI.gfx.setWidth('button_clickarea', renderedSize.width - 1);
+}, originalWidth: 100, originalHeight: 31, innerNode: document.getElementById('id_0') });
+
+// TwoHand support
+webMI.trigger.connect("com.atvise.setActive", function(e){
+	if (e.value){
+		deActivate();
+	}  else {
+		deActivate(true);
+	}
+});
+},{},{"fillColorInactive":"","focusStrokeColor":""}]},window);]]></script>
+</svg>

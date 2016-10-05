@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext" width="20" version="1.2" height="20" visibility="hidden" atv:oe="2BC6E3AA8376K2JED9HCH6G8L7N4P31F466AFCE4A9J191JBMDICQ3IBO5LGBDD84" xmlns="http://www.w3.org/2000/svg">
+ <defs/>
+ <metadata/>
+ <line fill="#345ede" id="id_32" stroke="#82eeb7" stroke-width="4" x1="7" x2="5" y1="13" y2="8"/>
+ <polyline fill="#696527" id="id_31" points="8,9 19,10 14,15 4,16 13,10 1,14 10,18 10,14 " stroke="#161273" stroke-width="3"/>
+ <polygon fill="#ac374d" id="id_30" points="6,16 10,16 11,11 6,6 6,6 6,9 19,14 14,1 16,19 19,3 16,19 15,13 8,19 " stroke="#3ba70f" stroke-width="1"/>
+ <line fill="#678b29" id="id_27" stroke="#236d33" stroke-width="2" x1="5" x2="1" y1="10" y2="7"/>
+ <polyline fill="#5d5605" id="id_22" points="9,6 17,5 12,14 4,7 7,7 19,10 17,1 6,8 6,17 " stroke="#aec69b" stroke-width="2"/>
+ <circle cx="17" cy="19" fill="#dc60f8" id="id_21" r="1" stroke="#d2d4fe" stroke-width="5"/>
+ <line fill="#0c3317" id="id_20" stroke="#2c94aa" stroke-width="4" x1="5" x2="8" y1="3" y2="15"/>
+ <circle cx="8" cy="6" fill="#f8c392" id="id_19" r="4" stroke="#03ed69" stroke-width="4"/>
+ <path fill="#000000" fill-rule="evenodd" stroke="none" id="id_14" atv:refpx="13" stroke-width="0" atv:refpy="10" d="M6,0L20,0L20,20L6,20L6,17L17,17L17,3L6,3Z"/>
+ <polygon fill="#c7a86f" id="id_18" points="10,3 5,6 17,18 4,10 18,17 15,4 3,19 4,9 " stroke="#37a1a2" stroke-width="5"/>
+ <circle cx="19" cy="14" fill="#d8d39b" id="id_16" r="3" stroke="#767164" stroke-width="2"/>
+ <polyline fill="#43ae09" id="id_15" points="3,16 6,11 14,14 17,16 15,17 12,16 " stroke="#39a117" stroke-width="3"/>
+ <line fill="#68c5ab" id="id_8" stroke="#419226" stroke-width="1" x1="8" x2="3" y1="18" y2="18"/>
+ <rect fill="#44b3ab" height="1" id="id_5" stroke="#7c01b0" stroke-width="2" width="13" x="4" y="19"/>
+ <ellipse cx="19" cy="2" fill="#87c7fc" id="id_3" rx="2" ry="9" stroke="#edf414" stroke-width="1"/>
+ <line fill="#5df992" id="id_2" stroke="#e17499" stroke-width="3" x1="3" x2="17" y1="12" y2="19"/>
+ <ellipse cx="17" cy="15" fill="#e20d13" id="id_1" rx="5" ry="3" stroke="#97b359" stroke-width="5"/>
+ <polygon fill="#c12f0a" id="id_34" points="3,11 9,19 9,13 0,7 13,2 17,12 3,9 18,18 5,17 5,17 6,18 15,10 " stroke="#66e2a8" stroke-width="1"/>
+ <polygon fill="#120354" id="id_33" points="2,9 8,11 3,3 8,4 2,6 4,2 9,8 11,7 17,2 1,17 3,15 " stroke="#b02205" stroke-width="2"/>
+ <polyline fill="#8f02a9" id="id_29" points="9,4 12,8 16,8 7,19 12,6 8,19 1,19 7,6 " stroke="#715d7f" stroke-width="4"/>
+ <polyline fill="#88bb18" id="id_28" points="1,15 15,2 7,16 17,7 1,1 8,5 15,10 5,17 18,13 " stroke="#8adc74" stroke-width="3"/>
+ <rect fill="#115f1b" height="5" id="id_26" stroke="#f9c599" stroke-width="3" width="5" x="11" y="12"/>
+ <ellipse cx="7" cy="17" fill="#2a42fa" id="id_25" rx="5" ry="2" stroke="#99ca05" stroke-width="5"/>
+ <rect fill="#32cec4" height="8" id="id_24" stroke="#6c8892" stroke-width="3" width="0" x="1" y="11"/>
+ <polygon fill="#30fccf" id="id_23" points="2,2 14,18 12,19 7,7 16,19 9,8 " stroke="#15e506" stroke-width="4"/>
+ <path fill="#000000" fill-rule="evenodd" stroke="none" id="id_17" atv:refpx="6.695" stroke-width="0" atv:refpy="10" d="M0,7.5L6.014,7.5L6.015,4L13.389,10L6.015,16L6.015,12.5L0,12.5Z"/>
+ <circle cx="17" cy="18" fill="#3dae66" id="id_13" r="8" stroke="#f75bf6" stroke-width="4"/>
+ <polyline fill="#d58443" id="id_12" points="13,7 4,18 8,17 1,0 3,16 1,19 8,6 2,12 1,11 7,4 2,6 15,5 16,1 " stroke="#1ee467" stroke-width="1"/>
+ <ellipse cx="2" cy="19" fill="#576e7b" id="id_11" rx="4" ry="3" stroke="#b7cd53" stroke-width="2"/>
+ <polyline fill="#801373" id="id_10" points="12,18 12,2 14,5 7,17 1,12 15,1 8,12 " stroke="#31ef89" stroke-width="1"/>
+ <ellipse cx="0" cy="18" fill="#eeb724" id="id_9" rx="6" ry="0" stroke="#444394" stroke-width="5"/>
+ <polygon fill="#86be69" id="id_7" points="14,15 4,16 13,10 1,14 10,18 " stroke="#652716" stroke-width="2"/>
+ <line fill="#305668" id="id_6" stroke="#cb73fa" stroke-width="2" x1="7" x2="18" y1="11" y2="6"/>
+ <ellipse cx="6" cy="6" fill="#9a9619" id="id_4" rx="9" ry="9" stroke="#38af57" stroke-width="4"/>
+ <script xlink:href="../../webmi.js" type="text/ecmascript"/>
+ <script type="text/ecmascript"><![CDATA[webMI.proxy({"":[function(webMI,window,document,self){},{},{"symbolColor":"#000000"}]},window);]]></script>
+</svg>

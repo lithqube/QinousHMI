@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svgmaker="http://www.svgmaker.com/svgns" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ns="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atvise="http://www.atvise.com/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:atv="http://webmi.atvise.com/2007/svgext" width="964" version="1.2" height="600" visibility="hidden" atv:oe="2BC6E3AAC3D6S2RF5A9D9789D8F5G38FA6CALCK4G9P1F1PCCE8DG48CE6BGHDJ8A" xmlns="http://www.w3.org/2000/svg">
+ <defs/>
+ <metadata/>
+ <atv:foreignObject width="964" x="0" y="0" height="500" id="cntnr_tabs">
+  <div style="width:100%;height:100%; margin: 0 auto" id="tabs" xmlns="http://www.w3.org/1999/xhtml"/>
+ </atv:foreignObject>
+ <circle cx="947" cy="121" fill="#468888" id="id_40" r="287" stroke="#51e8e0" stroke-width="4"/>
+ <g>
+  <svg width="105" x="569.5" y="558" height="35" id="TimePicker" atv:refpx="592.5" atv:refpy="527.5">
+   <defs/>
+   <metadata/>
+   <rect width="103.5" x="0.75" y="0.75" fill="none" rx="6.235" ry="4.408" height="33.5" stroke="#647A8F" stroke-linejoin="round" id="TimePicker_brdr_button" stroke-linecap="round" atv:refpx="52.589" stroke-width="1" atv:refpy="17.05"/>
+   <rect fill="#bee5c1" height="96" id="id_26" stroke="#08878b" stroke-width="1" width="281" x="571" y="453"/>
+   <g transform="matrix(0.9613,0,0,1.0531,0,0)">
+    <svg width="100" x="4.161" y="1.899" atv:bindtl="0,0" height="30" atv:bindbr="1,1" id="TimePicker_button" atv:refpx="52.064" atv:refpy="18.323">
+     <defs>
+      <linearGradient id="2linear_12" y1="-0.0183441" x1="1" y2="1" gradientUnits="objectBoundingBox" x2="1">
+       <stop offset="0" stop-color="#494949"/>
+       <stop offset="1" stop-color="#000000"/>
+      </linearGradient>
+      <linearGradient id="2linear_0" y1="0.95625" x1="0.104404" y2="0.0895522" gradientUnits="objectBoundingBox" x2="0.104404">
+       <stop offset="0" stop-color="#494949"/>
+       <stop offset="1" stop-color="#000000"/>
+      </linearGradient>
+      <linearGradient id="2linear_1" y1="-0.0183441" x1="1" y2="1" gradientUnits="objectBoundingBox" x2="1">
+       <stop offset="0" stop-color="#ffffff" stop-opacity="0.2745098039215687"/>
+       <stop offset="0.5515695067264574" stop-color="#ffffff" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="2linear_2" y1="1" x1="1" y2="-0.0183441" gradientUnits="objectBoundingBox" x2="1">
+       <stop offset="0" stop-color="#ffffff" stop-opacity="0.2745098039215687"/>
+       <stop offset="0.5515695067264574" stop-color="#ffffff" stop-opacity="0"/>
+      </linearGradient>
+     </defs>
+     <metadata/>
+     <g atv:bindtl="0,0" atv:bindbr="1,1" id="TimePicker_button_button_clickarea" atv:refpx="50" atv:refpy="15" transform="matrix(1.0004,0,0,0.9662,-0.0198,0.0235)">
+      <rect width="96.069" x="0.029" y="0.013" atv:bindtl="0,0" fill="#FFFFFF" rx="5" RY="5" height="32.623" ry="4" stroke="647a8f" atv:bindbr="1,1" id="TimePicker_button_id_2" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.0403,0,0,0.9496,0,0)"/>
+      <rect width="95.07" x="0.529" y="0.513" atv:bindtl="0,0" fill="none" rx="5" height="31.624" ry="5" stroke="647a8f" atv:bindbr="1,1" id="TimePicker_button_button_bg" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.0403,0,0,0.9496,0,0)"/>
+      <line fill="#8f2b6e" id="id_14" stroke="#759a4a" stroke-width="2" x1="66" x2="781" y1="466" y2="304"/>
+      <g transform="matrix(1.0397,0,0,0.9488,0,0)">
+       <svg width="20" x="40.843" y="9.088" atv:bindtl="0.5,0.5" visibility="hidden" height="20" atv:bindbr="0.5,0.5" id="TimePicker_button_button_symbol" atv:refpx="50" atv:refpy="15.5">
+        <defs id="TimePicker_button_button_symbol_defs1373">
+         <linearGradient id="3linearGradient2250">
+          <stop offset="0" stop-color="#008700" stop-opacity="1"/>
+          <stop offset="1" stop-color="#006f00" stop-opacity="1"/>
+         </linearGradient>
+        </defs>
+        <metadata/>
+        <polygon points="2.661,10.134 1.306,11.529 7.773,19.274 18.693,1.654 17.338,0.725 7.231,13.233" fill="#FFFFFF" stroke="none" id="TimePicker_button_button_symbol_id_3" atv:refpx="10" stroke-width="1" atv:refpy="10"/>
+        <circle cx="258" cy="14" fill="#9e8acb" id="id_37" r="182" stroke="#e52940" stroke-width="2"/>
+       </svg>
+      </g>
+      <text x="47.594" y="22.337" visibility="inherit" atv:bindtl="0.5,0.5" fill="#647A8F" font-family="Open Sans" text-anchor="middle" atv:bindbr="0.5,0.5" id="TimePicker_button_button_label" atv:refpx="50" atv:refpy="15.5" font-size="16" transform="matrix(1.0397,0,0,0.9488,-0.0011,0.001)">Pick Date</text>
+      <rect width="95.07" x="0.529" y="0.513" atv:bindtl="0,0" fill="none" rx="3.5" height="31.624" ry="3.5" stroke="none" atv:bindbr="1,1" id="TimePicker_button_button_stroke" atv:refpx="50" stroke-width="1" atv:refpy="15.5" transform="matrix(1.0403,0,0,0.9496,0,0)"/>
+     </g>
+    </svg>
+   </g>
+  </svg>
+ </g>
+ <polyline fill="#da37a3" id="id_8" points="353,334 939,305 433,507 296,379 574,465 174,292 483,469 774,40 1,158 14,150 796,387 373,523 " stroke="#ff60f6" stroke-width="4"/>
+ <g id="bttn_hour" atv:refpx="302" atv:refpy="528" transform="matrix(1,0,0,1,29.5,48)">
+  <polyline fill="#8cf1c8" id="id_30" points="133,423 711,398 794,33 942,476 162,536 52,591 197,406 407,454 446,508 238,60 556,579 550,105 " stroke="#a94159" stroke-width="4"/>
+  <rect width="83" x="260.5" y="510.5" fill="none" rx="5" ry="4.605" height="35" stroke="#647A8F" stroke-linejoin="round" id="brdr_button" stroke-linecap="square" atv:refpx="211.572" stroke-width="1" atv:refpy="576.905"/>
+  <polyline fill="#24a3fd" id="id_15" points="6,74 308,105 824,238 879,540 523,180 708,257 570,591 453,188 432,419 551,275 889,586 " stroke="#28b012" stroke-width="5"/>
+  <line fill="#19b2e8" id="id_39" stroke="#d8e30e" stroke-width="4" x1="474" x2="815" y1="124" y2="153"/>
+  <text x="302" y="532.5" fill="#647a8f" font-family="Varela Round" text-anchor="middle" id="txt_taskname" stroke-linecap="square" atv:refpx="302" atv:refpy="528.5" font-size="16">Hour</text>
+  <circle cx="146" cy="86" fill="#13e353" id="id_22" r="63" stroke="#e89835" stroke-width="4"/>
+ </g>
+ <g id="bttn_day" atv:refpx="395.333" atv:refpy="528" transform="matrix(1,0,0,1,32.8333,48)">
+  <rect width="83" x="350.5" y="510.5" fill="none" rx="5" ry="4.605" height="35" stroke="#647A8F" stroke-linejoin="round" id="id_6" stroke-linecap="round" atv:refpx="201.572" stroke-width="1" atv:refpy="551.905"/>
+  <text x="392" y="532.5" fill="#647a8f" font-family="Varela Round" text-anchor="middle" id="id_7" atv:refpx="223.066" atv:refpy="548" font-size="16">Day</text>
+  <polyline fill="#df79fd" id="id_19" points="400,170 621,168 899,143 15,570 27,419 " stroke="#7ba495" stroke-width="2"/>
+ </g>
+ <g id="bttn_week" atv:refpx="488.667" atv:refpy="528" transform="matrix(1,0,0,1,36.1667,48)">
+  <rect width="83" x="440.5" y="510.5" fill="none" rx="5" ry="4.605" height="35" stroke="#647A8F" stroke-linejoin="round" id="id_9" stroke-linecap="round" atv:refpx="181.572" stroke-width="1" atv:refpy="551.905"/>
+  <rect fill="#5841f1" height="27" id="id_35" stroke="#a5693a" stroke-width="1" width="425" x="272" y="420"/>
+  <text x="482" y="532.5" fill="#647a8f" font-family="Varela Round" text-anchor="middle" id="id_10" atv:refpx="164.491" atv:refpy="548" font-size="16">Week</text>
+  <polyline fill="#50dbc9" id="id_34" points="786,34 406,495 580,562 805,417 620,367 341,426 903,222 320,147 526,129 622,343 293,176 585,106 " stroke="#d214d1" stroke-width="4"/>
+ </g>
+ <g id="bttn_past" atv:refpx="26.5" atv:refpy="526.001" transform="matrix(1,0,0,1,-65,53)">
+  <g transform="matrix(0.0625,0,0,0.1087,0,0)">
+   <svg width="256" x="1199.925" y="4646.145" height="294.4" id="id_4" atv:refpx="83.001" atv:refpy="521">
+    <!-- Generated by IcoMoon.io -->
+    <defs/>
+    <metadata/>
+    <path fill="#647a8f" id="id_4_id_0" atv:refpx="128" atv:refpy="147.2" d="M255.968,0L256,294.4L0,147.199Z"/>
+    <line fill="#d5c12f" id="id_21" stroke="#200b0c" stroke-width="5" x1="598" x2="723" y1="53" y2="475"/>
+   </svg>
+  </g>
+  <g transform="matrix(0.0625,0,0,0.1087,0,0)">
+   <svg width="256" x="1472" y="4645.814" height="294.4" id="id_5" atv:refpx="98.001" atv:refpy="520.999">
+    <!-- Generated by IcoMoon.io -->
+    <defs/>
+    <metadata/>
+    <rect fill="#b5371a" height="49" id="id_27" stroke="#dced41" stroke-width="1" width="9" x="286" y="387"/>
+    <path fill="#647a8f" id="id_5_id_0" atv:refpx="128" atv:refpy="147.2" d="M255.968,0L256,294.4L0,147.199Z"/>
+    <polyline fill="#bb34cf" id="id_25" points="405,442 663,447 100,398 481,545 542,246 2,225 823,319 61,283 " stroke="#bf9d76" stroke-width="2"/>
+   </svg>
+  </g>
+ </g>
+ <g id="bttn_future" atv:refpx="937.5" atv:refpy="526.001" transform="matrix(-1,0,0,1,1028.9953,53)">
+  <g transform="matrix(0.0625,0,0,0.1087,0,0)">
+   <svg width="256" x="1199.925" y="4646.145" height="294.4" id="id_12" atv:refpx="83.001" atv:refpy="521">
+    <!-- Generated by IcoMoon.io -->
+    <defs/>
+    <metadata/>
+    <path fill="#647a8f" id="id_12_id_0" atv:refpx="128" atv:refpy="147.2" d="M255.968,0L256,294.4L0,147.199Z"/>
+   </svg>
+  </g>
+  <ellipse cx="435" cy="36" fill="#bb75f2" id="id_2" rx="303" ry="69" stroke="#db7d79" stroke-width="4"/>
+  <g transform="matrix(0.0625,0,0,0.1087,0,0)">
+   <svg width="256" x="1472" y="4645.814" height="294.4" id="id_13" atv:refpx="98.001" atv:refpy="520.999">
+    <!-- Generated by IcoMoon.io -->
+    <defs/>
+    <metadata/>
+    <rect fill="#e5cd1c" height="16" id="id_36" stroke="#8bd502" stroke-width="5" width="307" x="617" y="414"/>
+    <path fill="#647a8f" id="id_13_id_0" atv:refpx="128" atv:refpy="147.2" d="M255.968,0L256,294.4L0,147.199Z"/>
+    <line fill="#f3b995" id="id_23" stroke="#526ff2" stroke-width="2" x1="345" x2="962" y1="229" y2="498"/>
+    <ellipse cx="580" cy="485" fill="#2c6d1e" id="id_16" rx="469" ry="49" stroke="#94f5ca" stroke-width="1"/>
+   </svg>
+  </g>
+ </g>
+ <polygon fill="#0ae59b" id="id_17" points="134,399 180,42 223,170 370,533 821,362 139,319 515,242 604,267 156,346 301,429 " stroke="#5d29d2" stroke-width="2"/>
+ <image width="198" x="1491.31" y="1629.859" visibility="hidden" height="198" xlink:href="../../css/img/Preloader2.gif" id="loader" atv:refpx="482.066" atv:refpy="517.064" transform="matrix(0.3031,0,0,0.3031,0,0)"/>
+ <rect fill="#63629d" height="301" id="id_11" stroke="#ede15c" stroke-width="4" width="489" x="454" y="284"/>
+ <script xlink:href="../../webmi.js" type="text/ecmascript"/>
+ <script xlink:href="/js/jquery.min.js" type="text/ecmascript"/>
+ <script xlink:href="/js/stock/highstock.js" type="text/ecmascript"/>
+ <script xlink:href="/js/stock/highcharts-more.js" type="text/ecmascript"/>
+ <script xlink:href="/js/stock/modules/boost.js" type="text/ecmascript"/>
+ <script xlink:href="/js/stock/modules/data.js" type="text/ecmascript"/>
+ <script xlink:href="/js/stock/modules/exporting.js" type="text/ecmascript"/>
+ <script xlink:href="/js/stock/modules/no-data-to-display.js" type="text/ecmascript"/>
+ <script xlink:href="/scope.js" type="text/ecmascript"/>
+ <script xlink:href="/q/StdConstantsFunctions.js" type="text/ecmascript"/>
+ <script xlink:href="/q/DiagramFunctions.js" type="text/ecmascript"/>
+ <script xlink:href="/q/DiagramDatasets.js" type="text/ecmascript"/>
+ <script type="text/ecmascript"><![CDATA[webMI.proxy({"":[function(webMI,window,document,self){var $ = top.$;
+//setTimeout(function() { chart.reflow(); }, 1);
+var data = [];
+var labels = [];
+var dp_totalPower,
+	dp_voltage,
+	dp_frequency,
+	container,
+	chartOverview,
+	chartPower,
+	chartEnery;
+var timelapse = 300000;
+var bttn_past = document.getElementById("bttn_past"),
+	bttn_hour = document.getElementById("bttn_hour"),
+	bttn_day = document.getElementById("bttn_day"),
+	bttn_week = document.getElementById("bttn_week"),
+	TimePicker = document.getElementById("TimePicker"),
+	bttn_future = document.getElementById("bttn_future");
+var highchart;
+
+const ENUM_HOUR = 0;
+const ENUM_DAY = 1;
+const ENUM_WEEK = 2;
+const ENUM_MONTH = 3;
+
+var time_OneHour = 1000*3600;
+var time_OneDay = time_OneHour*24;
+var time_OneWeek = time_OneDay*7;
+var time_OneMonth = time_OneWeek*4;
+var timeSpan = time_OneHour;
+var startTime;
+
+
+// TODO: 
+// 1) store index results from getContent in onLoad function -- avoid requesting the TOC over and over again
+// 2) reference on click of "Load More" button -- disable "load more" button if no more data available
+
+// Datapoints connection -- these values will eventually be set using a trigger, and taken from the scope data. The var chartSpec here is shown as an example/default data structure. at a later date it will be updated using a trigger, which will include the correct data for the component being viewed
+var chartSpec; 
+
+var recorderSeriesList = [];
+var tocList = [];
+webMI.addOnload(function(a){
+	webMI.gfx.setVisible("loader", true);
+	console.log("I am requesting diagram data");
+
+	webMI.trigger.fire("ChartInfoRequest");
+});
+
+webMI.trigger.connect("SetChartInfo", function(f){
+
+	console.log("Diagram view has recieved the monitoring node!");
+	var node = f.value[0];
+	LocalTimeSystemTimeDiff = f.value[1];
+	BrowserTimeSystemTimeDiff = f.value[2];
+	var frontspec;
+
+	// get the corresponding chartdata for this node
+	// and extract the frontspec
+	for (var i=0; i<ChartData.length; i++){
+		if (ChartData[i].type == node.Type){
+			chartSpec = ChartData[i].tabs[0].spec;	
+			break;			
+		}
+	}
+
+	
+	// JQUERY TABS
+	tabs = document.getElementById("tabs");
+//	tabs.style.maxWidth = "1000px";
+//	tabs.style.maxHeight = "565px";
+//	tabs.style.minWidth = "857px";
+//	tabs.style.minHeight = "484px";
+	//tabs.style.position = "center";
+	/*  $(function() {
+		$(tabs).tabs();
+	  });
+	*/
+	
+	// HIGHCHARTS INTEGRATION
+	// OVERVIEW
+	var overview = document.getElementById("tabs");
+	overview.style.maxWidth = "100%";
+//	overview.style.textAlign = "center";
+	$(function () {
+        $(overview).highcharts('StockChart',{
+    	chart: {
+            type: 'spline',
+            zoomType: 'xy',
+			spacingBottom: 20,
+			spacingTop: 5,
+			spacingLeft: 20,
+			spacingRight: 20,
+			width: null,
+	        height: null,
+//			zoomType: 'xy',
+			alignTicks: true,
+			 loading: {
+            labelStyle: {
+                color: 'white'
+            },
+            style: {
+                backgroundColor: 'gray'
+            }
+			},
+			exporting:{
+				enabled: false,
+			},
+			plotOptions: {
+				},
+			animation: {
+				easing: 'easeOutBounce'
+				},
+			events: {
+				load: function () {
+		
+					highchart = this;
+					timeSpan = time_OneHour;			
+					startTime = Date.now() - BrowserTimeSystemTimeDiff - timeSpan;
+					// get historical data -- this will add data to each series -- must complete before loading chart!
+					recorderSeriesList = [];
+					for (var i=0; i<chartSpec.data.length; i++) {
+		
+						tocList.push({ toc: {}});
+						recorderSeriesList.push([]);
+						for (var j=0; j<chartSpec.data[i].series.length; j++){
+		
+							recorderSeriesList[recorderSeriesList.length -1].push(this.addSeries(chartSpec.data[i].series[j]));
+
+						}
+//						console.log("our series list", recorderSeriesList[i]);
+						//Scope.querylookup(chartSpec.data[i].recorder, curPLCSytsemTime - 48*60 * 1000 * 60, curPLCSytsemTime, addQueriedDataToSeries(chartSpec.data[i], recorderSeriesList, LocalTimeSystemTimeDiff));
+	
+						// use get content -- read is limited to 10000 data points, and we want to decide for ourselves how to iterate to get the desired data. get content gives us the needed information.
+						console.log("Looking up", getRecorderPrefix(node) + "_" + chartSpec.data[i].recorder);
+						Scope.getContent(
+					
+							getRecorderPrefix(node) + "_" + chartSpec.data[i].recorder, 
+							getContentAndAddSeries(
+								tocList[i],
+								chartSpec.data[i], 
+								recorderSeriesList[i], 
+								node,
+								LocalTimeSystemTimeDiff, 
+								startTime, 
+								startTime + timeSpan));
+
+
+					}
+				}
+			}
+		},
+		legend: {
+            enabled: true
+        },
+		rangeSelector : {
+			enabled : false
+		},
+		navigator: {
+			enabled: false,
+			height: 20
+		},
+		credits: {
+			enabled: false
+		},
+		title: {
+			text: 'Live Overview',
+			x: -20 //center
+		},
+		xAxis: {
+			type: 'datetime',
+			ordinal:false
+		},
+		yAxis: chartSpec.yaxes,
+		tooltip: {
+			xDateFormat: '%d/%m/%Y - %H:%M:%S',
+			shared: false
+		}
+		
+      }) // end chart creation
+    }); // end chart overview
+//setTimeout(function() { highchart.reflow(); }, 1);
+
+}); // end addOnload
+
+webMI.trigger.connect("setLoader", function(f){
+	var statusLoader = f.value;
+	if (statusLoader == false){
+	console.log("- - Hide loader - -");
+	webMI.gfx.setVisible("loader", false);
+	}
+});
+
+function RefreshDiagram(){
+
+	//TODO -- set highlight of hour / week / day buttons
+
+	switch (timeSpan){
+		case time_OneHour:
+			break;
+		case time_OneDay:
+			break;
+		case time_OneWeek:
+			break;		
+		default:
+			timeSpan = time_OneHour;
+	}
+
+//	console.log("REFRESHING DIAGRAM with ", startTime, startTime+timeSpan);
+	while(highchart.series.length > 0){
+	    highchart.series[0].remove(true);
+	}
+	recorderSeriesList = [];
+
+//	console.log("cleared everything out");
+	for (var i=0; i<chartSpec.data.length; i++) {
+
+		recorderSeriesList.push([]);
+		for (var j=0; j<chartSpec.data[i].series.length; j++){
+
+//			console.log("Config object contents:", chartSpec.data[i].series[j].data = []);
+			recorderSeriesList[recorderSeriesList.length -1].push(highchart.addSeries(chartSpec.data[i].series[j]));
+
+		}
+		addQueriedDataToSeries(
+			tocList[i].toc,
+			chartSpec.data[i], 
+			recorderSeriesList[i], 
+			LocalTimeSystemTimeDiff, 
+			startTime, 
+			startTime + timeSpan);
+	}
+
+}
+
+// Buttons
+webMI.addEvent("bttn_past", ["mouseover","touchstart"], function(e){
+	bttn_past.setAttribute('style', "cursor: pointer;");
+});
+webMI.addEvent("bttn_future", ["mouseover","touchstart"], function(e){
+	bttn_future.setAttribute('style', "cursor: pointer;");
+});
+webMI.addEvent("bttn_day", ["mouseover","touchstart"], function(e){
+	bttn_day.setAttribute('style', "cursor: pointer;");
+});
+webMI.addEvent("bttn_hour", ["mouseover","touchstart"], function(e){
+	bttn_hour.setAttribute('style', "cursor: pointer;");
+});
+webMI.addEvent("bttn_week", ["mouseover","touchstart"], function(e){
+	bttn_week.setAttribute('style', "cursor: pointer;");
+});
+webMI.addEvent("TimePicker", ["mouseover","touchstart"], function(e){
+	TimePicker.setAttribute('style', "cursor: pointer;");
+});
+
+webMI.addEvent("bttn_past", "click", function(e) {
+	startTime = startTime - timeSpan;
+	RefreshDiagram();
+});
+
+webMI.addEvent("bttn_future", "click", function(e) {
+	startTime = Math.min(startTime + timeSpan, Date.now() - BrowserTimeSystemTimeDiff - timeSpan);
+	RefreshDiagram();
+});
+
+webMI.addEvent("bttn_day", "click", function(e) {
+	if (timeSpan != time_OneDay){
+		timeSpan = time_OneDay;
+		startTime = Math.min(startTime, Date.now() - time_OneDay);
+		RefreshDiagram();
+	}
+});
+
+webMI.addEvent("bttn_hour", "click", function(e) {
+	if (timeSpan != time_OneHour){
+		timeSpan = time_OneHour;
+		RefreshDiagram();
+	}
+});
+
+webMI.addEvent("bttn_week", "click", function(e) {
+	if (timeSpan != time_OneWeek){
+		timeSpan = time_OneWeek;
+		RefreshDiagram();
+	}
+});
+
+webMI.trigger.connect("valuechanged", function(e){
+//	console.log("Date time picker update??", e);
+	if (e.value !== undefined){
+		startTime = e.value;
+		RefreshDiagram();
+	}
+});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"txt_taskname", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"id_7", "key":"FontFamily", "property":""});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"id_10", "key":"FontFamily", "property":""});
+},{"TimePicker":["1",{}],"id_12":["4",{}],"id_13":["4",{}],"id_4":["4",{}],"id_5":["4",{}]},{}],"1":[function(webMI,window,document,self){var _value = 0,
+	name = webMI.query.name;
+webMI.addEvent("button", ["click","touchend"], function(e) {
+
+	webMI.display.openWindow({
+		display:"00000009",
+		extern:false,
+		height:400,
+		menubar:false,
+		modal:true,
+		movable:false,
+		resizable:true,
+		scrollbars:false,
+		status:false,
+		title:'',
+		toolbar:false,
+		width:600,
+		query: {
+			value: _value,
+			popupId: name
+		}
+	});
+}, "button");
+
+
+function updateDisplay(write) {
+	var date = new Date(_value),
+		dateString = date.toLocaleDateString();
+
+	
+	webMI.gfx.setText('button_button_label', dateString);
+	webMI.trigger.fire("valuechanged", _value, "");
+
+	if (write && webMI.query.base && webMI.query.base != '') webMI.data.write([webMI.query.base], [_value]);
+}
+
+// initial update
+webMI.addOnload(function() {
+/*	
+	if (!webMI.query.base || webMI.query.base == '') updateDisplay();
+	else {
+		webMI.data.read(webMI.query.base, function(e) {
+			_value = e.value;
+			updateDisplay();
+		});
+		webMI.data.subscribe(webMI.query.base, function(e) {
+			_value = e.value;
+			updateDisplay();
+		});
+	}
+*/
+});
+
+webMI.trigger.connect('com.atvise.datepicker_' + name, function(e) {
+	_value = e.value;
+	updateDisplay(true);
+})
+
+// Reset frame and text scaling
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.ResetScaling", { callback: function(originalSize, renderedSize, scale, scaleInverse) {
+	webMI.gfx.setScaleX('button_button_label', scaleInverse.x);
+
+	webMI.gfx.setScaleX('button_id_2', scaleInverse.x);
+	webMI.gfx.setWidth('button_id_2', renderedSize.width);
+	webMI.gfx.setMoveX('button_id_2', -(renderedSize.width - originalSize.width) / 2);
+
+	webMI.gfx.setScaleX('button_button_stroke', scaleInverse.x);
+	webMI.gfx.setWidth('button_button_stroke', (originalSize.width * scale.x) - 1);
+	webMI.gfx.setMoveX('button_button_stroke', -(renderedSize.width - originalSize.width) / 2);
+}, originalWidth: 100, originalHeight: 31, innerNode: document.getElementById('button') });
+
+// TwoHand support
+var _active = true;
+function setActive(value) {
+	webMI.trigger.fire('com.atvise.setActive', value || _active, 'button');
+}
+//webMI.trigger.connect('com.bachmann.themechange', function() { setActive(_active) });
+webMI.trigger.connect('com.atvise.setActive', function(e) {
+	setActive(_active = e.value);
+});
+},{"button":["2",{"fillColor":{b:"backgroundColor",v:""},"fillColorInactive":{b:"fillInactive",v:""},"focusStrokeColor":{b:"strokeFocus",v:""},"fontColor":{v:"#647A8F"},"label":{v:"Pick Date"},"strokePressed":{b:"strokePressed",v:""}}]},{"backgroundColor":"#FFFFFF","fillInactive":"#FFFFFF","name":"pickerDate","strokeFocus":"#FFFFFF","strokePressed":"#FFFFFF"}],"4":[function(webMI,window,document,self){},{},{}],"2":[function(webMI,window,document,self){/* 
+
+Action Button
+
+Triggers a 'clicked' event
+
+*/
+
+var strokeNormal = "none";
+var strokePressed = webMI.query["strokePressed"];
+var focusStrokeColor = webMI.query["focusStrokeColor"];
+//var fillColor = webMI.query["fillColor"];
+var fillColorInactive = webMI.query["fillColorInactive"];
+var display = webMI.query["display"];
+var consistencyGroup = webMI.query["consistencyGroup"];
+var consistencyFunction = webMI.query["consistencyFunction"];
+
+if (consistencyGroup)
+	var consistencyHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Consistency Handler");
+
+var tabHandler = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tab Handler");
+var tabIndex = (webMI.query["tabIndex"] == undefined) ? "" : webMI.query["tabIndex"];
+var tooltip = (webMI.query["tooltip"] == undefined) ? "" : webMI.query["tooltip"];
+
+var right = (webMI.query["right"] == undefined) ? "" : webMI.query["right"];
+if (right.search(/SYSTEM\.SECURITY\.RIGHTS\./) != -1) {
+	right = right.substring(23,right.length); //remove "prefix" SYSTEM.SECURITY.RIGHTS.
+}
+
+var active = false;
+var hasRight = false;
+
+if (right != "") {
+	webMI.addEvent(webMI.data, "clientvariableschange", function(e) {
+		hasRight=false;
+		if (("username" in e) && (e.username != "")) {
+				hasRight = webMI.hasRight(right);
+		}
+		deActivate();
+	});
+}
+
+var activeValue = (webMI.query["activeValue"] == undefined) ? "" :webMI.query["activeValue"];
+var activeNode = (webMI.query["activeNode"] == undefined) ? "" : webMI.query["activeNode"];
+var nodeIsActive = false;
+
+if ((activeNode != "") && (String(activeValue) != "")) {
+	webMI.data.subscribe(activeNode, function(e) {
+		var nodeActiveValue = e.value;
+		if (typeof nodeActiveValue == "boolean") {
+			nodeIsActive = (String(nodeActiveValue) == activeValue);
+		} else if (typeof nodeActiveValue == "number") {
+			try {
+				var temp = parseFloat(activeValue);
+				nodeIsActive = (nodeActiveValue == temp);
+			} catch(e) {
+				nodeIsActive = false;
+			}
+		} else {
+			nodeIsActive = (nodeActiveValue == activeValue);
+		}
+		deActivate();
+	});
+} else {
+	deActivate();
+}
+
+function deActivate(forceDeActivate) {
+	if (typeof forceDeActivate !== "undefined" && forceDeActivate){
+		active = false;
+	} else if (right != "") {
+		if ((String(activeValue) != "") && (activeNode != "")) {
+			active=(nodeIsActive && hasRight);
+		} else {
+			active=hasRight;
+		}
+	} else {
+		if ((String(activeValue) != "") && (activeNode != "")) {
+			active=nodeIsActive;
+		} else {
+			active=true;
+		}
+	}
+	if (active) {
+		webMI.gfx.setFill("id_2", webMI.query["fillColor"]);
+	//	webMI.gfx.setVisible("button_stroke", null);
+	} else {
+		webMI.gfx.setFill("id_2", webMI.query["fillColorInactive"]); // fillColorInactive
+	//	webMI.gfx.setVisible("button_stroke", false);
+	}
+}
+
+function release() {
+	if (active) {
+		webMI.gfx.setFill("button_stroke", "none"); // "url(#linear_1)"
+//		webMI.gfx.setFill("button_bg", "none"); // added
+		webMI.gfx.setStroke("button_stroke", strokeNormal);
+	}
+}
+
+function focusTH(){
+	if (active) {
+		webMI.gfx.setStroke("button_stroke", webMI.query['focusStrokeColor']);
+	}
+}
+function applyTH(){
+	if (active){
+		webMI.trigger.fire("clicked", true, "");
+	}
+	if (consistencyGroup)
+		consistencyFunction == "write" ? consistencyHandler.write(consistencyGroup) : consistencyHandler.read(consistencyGroup);
+}
+function backTH(){}
+function arrowTH(dir){}
+function keyHandler(keyTH,param2){
+	if (keyTH == "focus"){
+		focusTH();
+	} else if (keyTH == "blur"){
+		release();
+	} else if (keyTH == "apply"){
+		//webMI.gfx.setFill("button_stroke", "url(#linear_2)");
+		applyTH();
+	} else if (keyTH == "releaseClick"){
+		//webMI.gfx.setFill("button_stroke", "url(#linear_1)");
+	} else if (keyTH == "back"){
+		backTH();
+	} else if (keyTH == "arrow"){
+		arrowTH(param2);
+	} else if (keyTH == "isActive"){
+		return active && param2(document.getElementById("button_clickarea").parentNode);
+	}
+}
+
+webMI.addEvent("button_clickarea", ["click","mousedown","touchstart"], function(e) {
+var id = "button_clickarea";
+var value = true;
+return function(value) {
+		if (active) {
+			webMI.gfx.setFill("button_stroke", "none"); // "url(#linear_2)"
+//			webMI.gfx.setFill("button_bg", window.theme.getValue('ControlActiveBackgroundColor')); // added
+			webMI.gfx.setStroke("button_stroke", webMI.query['focusStrokeColor']);
+		}
+} (value);
+});
+
+webMI.addEvent("button_clickarea", ["click","mouseup","touchend","touchcancel"], function(e) {
+var id = "button_clickarea";
+var value = true;
+return function(value) {
+		release();
+} (value);
+});
+
+webMI.addEvent("button_clickarea", ["mouseout", "touchleave"], function(e) {
+	var id = "button_clickarea";
+	var value = true;
+	return function(value) {
+		release();
+	} (value);
+});
+
+webMI.addEvent("button_clickarea", ('ontouchend' in window ? 'touchend' : 'click'), function(e) {
+	if (active){
+		tabHandler.setCurrentIndex(keyHandler, function(){
+			webMI.trigger.fire("clicked", true, "")
+		});
+		//webMI.trigger.fire("clicked", true, "");
+	}
+	if (consistencyGroup)
+		consistencyFunction == "write" ? consistencyHandler.write(consistencyGroup) : consistencyHandler.read(consistencyGroup);
+});
+
+webMI.addEvent("button_clickarea", ["touchend"], function(e) {
+	var pX = event.pageX,
+		pY = event.pageY;
+	e.preventDefault();
+});
+
+webMI.addEvent("button_clickarea", ["touchleave"], function() {
+	alert('leaving');
+})
+
+webMI.addEvent("button_clickarea", "dragstart", function(e) {
+	if (e.preventDefault) {
+		e.preventDefault();
+	}
+});
+webMI.addOnload(function() {
+	var doc = document.getElementById("button_clickarea").ownerDocument;
+	tabHandler.register(tabIndex,keyHandler,doc);
+});
+
+webMI.trigger.connect("com.atvise.setActive", function(e){
+	if (e.value){
+		deActivate();
+	}  else {
+		deActivate(true);
+	}
+});
+
+if (tooltip != ""){
+	webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Tooltip", {"auto":"true", "id":"button_clickarea", "text":tooltip});
+}
+
+/*webMI.trigger.connect('com.bachmann.themechange', function() {
+	webMI.gfx.setStroke('button_stroke', (webMI.gfx.getStroke('button_stroke') == 'none') ? 'none' : webMI.query['focusStrokeColor']);
+});*/
+
+webMI.trigger.connect('com.bachmann.themeapplied', function(e) {
+	webMI.gfx.setStroke('button_stroke', (webMI.gfx.getStroke('button_stroke') == 'none') ? 'none' : webMI.query['focusStrokeColor']);
+}, '_button_stroke');
+
+// Theme
+
+//change here the colors for the GUI Theme
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"Open Sans", "id":"button_label", "key":"FontFamily", "property":"fontFamily"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#ffffff", "id":"button_label", "key":"ControlTextColor", "property":"fontColor"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#3f434a", "id":"id_2", "key":"ControlBackgroundColor", "property":"fillColor"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#ffffff", "id":"button_symbol", "key":"ControlTextColor", "property":"symbolColor"});
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"stroke", "defaultValue":"#E3D700", "id":"_button_stroke", "key":"ControlTintColor", "property":"focusStrokeColor"});
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"fill", "defaultValue":"#8c8c8c", "key":"ControlInactiveBackgroundColor", "property":"fillColorInactive"});
+// hide stroke on init
+webMI.gfx.setStroke('button_stroke', 'none');
+
+// Two Hand support
+webMI.trigger.connect('com.bachmann.themechange', function(e) {
+	//deActivate(!active);
+})
+},{"button_symbol":["3",{"symbolColor":{b:"symbolColor"}}]},{"consistencyFunction":"write","fillColor":"#647a8f","fillColorInactive":"#647a8f","focusStrokeColor":"#647a8f","fontColor":"#FFFFFF","fontFamily":"Open Sans","fontSize":"16","label":"Basic","strokePressed":"#647a8f","symbol":"00000010","symbolColor":"#FFFFFF","visibilityLabel":"inherit","visibilitySymbol":"hidden"}],"3":[function(webMI,window,document,self){},{},{"symbolColor":"#000000"}]},window);]]></script>
+</svg>

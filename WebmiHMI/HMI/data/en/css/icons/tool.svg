@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<svg width="314.186" version="1.1" xmlns="http://www.w3.org/2000/svg" height="314.186" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 314.186 314.186" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+ <defs/>
+ <metadata>
+  <atv:gridconfig width="20" enabled="false" height="20" gridstyle="lines"/>
+  <atv:snapconfig width="10" enabled="false" height="10"/>
+ </metadata>
+ <path fill="#ffffff" id="id_0" atv:refpx="157.093" atv:refpy="157.093" stroke-width="1" d="M258.697,89.648L227.089,55.608L263.966,21.366L246.68,4.081L187.979,25.097L187.979,94.252L4.958,269.079C1.324,272.549 -6.557,280.08 10.877,298.333C28.314,316.585 36.194,309.054 39.828,305.583L223.338,130.292L297.528,130.292L314.186,71.591L296.831,54.235Z"/>
+</svg>

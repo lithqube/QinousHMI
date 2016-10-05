@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext" width="20" version="1.2" height="20" visibility="hidden" atv:oe="2BC6E3AA8396M2LEF9JCJ6I8N7P5A32F466AFCE4A9J191JBMDICQ3IBO5LGBDD84" xmlns="http://www.w3.org/2000/svg">
+ <defs/>
+ <metadata/>
+ <polyline fill="#fa1c4e" id="id_31" points="2,4 12,14 13,0 12,17 6,14 3,16 16,4 15,6 13,3 6,2 8,18 10,11 " stroke="#3c55c5" stroke-width="2"/>
+ <polygon fill="#62fd59" id="id_29" points="0,12 8,0 12,8 10,9 0,2 18,4 1,9 0,7 8,12 4,13 17,9 4,16 18,19 " stroke="#71cf11" stroke-width="3"/>
+ <rect fill="#388fc2" height="6" id="id_28" stroke="#ef0c90" stroke-width="1" width="3" x="17" y="11"/>
+ <polygon fill="#fd88ca" id="id_21" points="15,10 3,7 17,19 14,9 14,0 9,5 3,13 4,2 7,3 " stroke="#e2c4df" stroke-width="1"/>
+ <polygon fill="#ca2046" id="id_18" points="3,9 17,18 10,16 17,12 1,17 19,15 5,19 " stroke="#289cb5" stroke-width="2"/>
+ <g id="id_0">
+  <polyline fill="#2e4ebc" id="id_34" points="8,1 3,19 7,8 4,3 0,4 8,7 5,7 19,15 " stroke="#42405d" stroke-width="2"/>
+  <line fill="#b96498" id="id_32" stroke="#c51d86" stroke-width="3" x1="17" x2="19" y1="15" y2="12"/>
+  <ellipse cx="7" cy="15" fill="#dc6f33" id="id_25" rx="5" ry="1" stroke="#72380f" stroke-width="1"/>
+  <line fill="#7bd04e" id="id_23" stroke="#5b19bd" stroke-width="2" x1="13" x2="6" y1="9" y2="15"/>
+  <line fill="#544e55" id="id_22" stroke="#eec97f" stroke-width="3" x1="10" x2="3" y1="10" y2="6"/>
+  <polyline fill="#b37805" id="id_20" points="5,18 0,7 11,10 18,9 4,7 17,17 5,1 18,4 7,17 16,16 12,6 19,4 3,6 " stroke="#5f0114" stroke-width="3"/>
+  <path fill="#000000" fill-rule="evenodd" stroke="none" id="id_5" atv:refpx="22.043" stroke-width="1.027" atv:refpy="5.51" d="M19.518,9.967L19.49,10.573L11.278,10.573L11.086,9.933L11.816,9.555L12.483,8.889L12.92,8.043L13.076,7.071L12.92,6.097L12.483,5.253L11.816,4.586L10.971,4.149L9.998,3.992L9.025,4.149L8.18,4.586L7.513,5.253L7.076,6.097L6.919,7.071L7.076,8.043L7.513,8.889L8.18,9.555L8.909,9.933L8.717,10.573L0.504,10.573L0.477,9.967L0.516,9.1L0.631,8.256L0.818,7.436L1.073,6.645L1.394,5.886L1.777,5.162L2.219,4.477L2.716,3.834L3.266,3.236L3.864,2.686L4.507,2.189L5.193,1.747L5.917,1.364L6.676,1.043L7.467,0.787L8.286,0.6L9.131,0.486L9.998,0.447L10.864,0.486L11.709,0.6L12.528,0.787L13.319,1.043L14.078,1.364L14.803,1.747L15.488,2.189L16.131,2.686L16.729,3.236L17.279,3.834L17.776,4.477L18.218,5.162L18.601,5.886L18.922,6.645L19.177,7.436L19.364,8.256L19.479,9.1Z"/>
+  <ellipse cx="0" cy="3" fill="#6525cb" id="id_16" rx="6" ry="0" stroke="#eada1a" stroke-width="5"/>
+  <polyline fill="#210779" id="id_13" points="12,6 17,13 13,17 11,11 5,6 2,0 16,7 1,3 " stroke="#e11620" stroke-width="1"/>
+  <ellipse cx="0" cy="12" fill="#bfe06b" id="id_11" rx="4" ry="2" stroke="#15e9a8" stroke-width="3"/>
+  <ellipse cx="13" cy="1" fill="#dd931a" id="id_10" rx="8" ry="8" stroke="#24d57b" stroke-width="5"/>
+  <ellipse cx="14" cy="2" fill="#13aa0d" id="id_4" rx="4" ry="0" stroke="#00536c" stroke-width="2"/>
+  <circle cx="7" cy="9" fill="#5173bc" id="id_1" r="6" stroke="#607875" stroke-width="2"/>
+  <polygon fill="#d04d70" id="id_33" points="3,9 13,10 0,18 4,18 10,8 14,8 10,15 8,13 11,9 " stroke="#75cb80" stroke-width="1"/>
+  <rect fill="#72bab9" height="2" id="id_30" stroke="#3343db" stroke-width="1" width="3" x="15" y="11"/>
+  <ellipse cx="1" cy="0" fill="#2f2dd0" id="id_27" rx="0" ry="8" stroke="#587845" stroke-width="1"/>
+  <polygon fill="#348146" id="id_26" points="8,19 7,8 9,4 5,11 5,4 " stroke="#913e49" stroke-width="1"/>
+  <circle cx="16" cy="2" fill="#be7b68" id="id_24" r="4" stroke="#28f8d1" stroke-width="2"/>
+  <path fill="#000000" fill-rule="evenodd" stroke="none" id="id_6" atv:refpx="21.565" stroke-width="1.027" atv:refpy="24.821" d="M19.518,10.03L19.479,10.897L19.364,11.741L19.177,12.561L18.922,13.351L18.601,14.111L18.218,14.835L17.776,15.52L17.279,16.164L16.729,16.761L16.131,17.311L15.488,17.808L14.803,18.25L14.078,18.633L13.319,18.954L12.528,19.21L11.709,19.397L10.864,19.511L9.998,19.55L9.131,19.511L8.286,19.397L7.467,19.21L6.676,18.954L5.917,18.633L5.193,18.25L4.507,17.808L3.863,17.311L3.266,16.761L2.716,16.164L2.219,15.52L1.777,14.835L1.394,14.111L1.073,13.351L0.818,12.561L0.63,11.741L0.516,10.897L0.477,10.03L8.899,10.03L7.106,16.005L12.889,16.005L11.096,10.03Z"/>
+  <line fill="#641cd4" id="id_19" stroke="#f6c61d" stroke-width="4" x1="5" x2="3" y1="2" y2="14"/>
+  <polygon fill="#d08d1c" id="id_17" points="10,14 8,17 1,9 17,19 9,6 13,2 1,18 9,2 0,14 15,2 17,3 " stroke="#dca327" stroke-width="2"/>
+  <polyline fill="#d8cea0" id="id_9" points="16,8 1,19 6,10 12,8 11,2 16,11 4,2 14,18 15,6 " stroke="#56b7d3" stroke-width="1"/>
+  <ellipse cx="17" cy="17" fill="#f7ae9c" id="id_7" rx="6" ry="5" stroke="#935bac" stroke-width="5"/>
+  <line fill="#af02ab" id="id_2" stroke="#5e99be" stroke-width="5" x1="0" x2="16" y1="15" y2="14"/>
+ </g>
+ <script xlink:href="../../webmi.js" type="text/ecmascript"/>
+ <script type="text/ecmascript"><![CDATA[webMI.proxy({"":[function(webMI,window,document,self){},{},{"symbolColor":"#000000"}]},window);]]></script>
+</svg>

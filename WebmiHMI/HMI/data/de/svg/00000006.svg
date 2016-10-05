@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext" width="695" version="1.2" height="510" visibility="hidden" atv:oe="2BC6E3AA8376K2JED9HCH6G8L7N4O2GF264ADCC489H171HBKDGCO3GBM5JFPCR82" xmlns="http://www.w3.org/2000/svg">
+ <defs/>
+ <metadata/>
+ <circle cx="168" cy="23" fill="#385500" id="id_32" r="4" stroke="#d9cd91" stroke-width="5"/>
+ <line fill="#331967" id="id_29" stroke="#4e9af3" stroke-width="4" x1="573" x2="418" y1="431" y2="183"/>
+ <rect fill="#4db6fb" height="304" id="id_26" stroke="#3aa30a" stroke-width="2" width="13" x="612" y="195"/>
+ <polygon fill="#70f6b2" id="id_21" points="34,262 455,118 129,442 125,400 332,180 167,372 605,197 379,84 5,194 " stroke="#13b447" stroke-width="3"/>
+ <polyline fill="#77968f" id="id_13" points="601,471 6,278 575,55 516,305 543,453 380,126 19,269 455,241 " stroke="#f70d9a" stroke-width="4"/>
+ <rect fill="#b2571d" height="200" id="id_12" stroke="#117edb" stroke-width="2" width="54" x="22" y="295"/>
+ <g atv:table-height="510" id="grid" atv:refpx="348.084" atv:table-width="695" atv:refpy="258.814">
+  <polygon fill="#a9f378" id="id_31" points="218,403 633,18 311,344 610,27 334,402 538,179 221,382 339,130 406,266 130,408 313,60 221,374 447,459 " stroke="#bb13c5" stroke-width="4"/>
+  <polygon fill="#0b7119" id="id_30" points="444,86 531,235 79,332 60,186 115,504 413,491 " stroke="#9a1a0a" stroke-width="5"/>
+  <rect fill="#f59cc3" height="167" id="id_28" stroke="#09e0bc" stroke-width="4" width="281" x="413" y="14"/>
+  <polyline fill="#eb1ac8" id="id_27" points="91,414 271,311 288,383 345,420 511,7 324,164 4,134 519,452 521,487 " stroke="#1f34a1" stroke-width="1"/>
+  <ellipse cx="633" cy="266" fill="#239a5f" id="id_25" rx="12" ry="81" stroke="#a75579" stroke-width="1"/>
+  <circle cx="129" cy="476" fill="#83caac" id="id_24" r="181" stroke="#5dd058" stroke-width="3"/>
+  <rect fill="#a578a0" height="64" id="id_23" stroke="#555dc5" stroke-width="4" width="164" x="481" y="278"/>
+  <rect fill="#d2ada5" height="102" id="id_22" stroke="#023732" stroke-width="3" width="22" x="267" y="188"/>
+  <line fill="#61916f" id="id_20" stroke="#7b3d31" stroke-width="4" x1="2" x2="72" y1="121" y2="183"/>
+  <polygon fill="#6f6a13" id="id_19" points="72,15 81,466 189,467 553,14 103,54 569,286 " stroke="#50bb39" stroke-width="5"/>
+  <rect width="850" fll="#647A8F" class="osk-trigger" height="600" id="rect1" atv:refpx="400" atv:refpy="300"/>
+  <ellipse cx="610" cy="346" fill="#7a500e" id="id_18" rx="277" ry="26" stroke="#5d345f" stroke-width="5"/>
+  <ellipse cx="191" cy="231" fill="#7b6fbc" id="id_17" rx="181" ry="46" stroke="#4de26f" stroke-width="4"/>
+  <polyline fill="#60f8ea" id="id_16" points="343,346 274,484 595,213 505,251 238,105 360,507 15,212 36,28 449,492 493,344 228,178 547,255 " stroke="#ad64e0" stroke-width="1"/>
+  <circle cx="306" cy="499" fill="#a0f909" id="id_15" r="299" stroke="#d263d6" stroke-width="1"/>
+  <polyline fill="#6d95d2" id="id_14" points="527,67 115,166 508,258 138,120 560,418 209,475 601,82 259,153 682,390 " stroke="#533d51" stroke-width="4"/>
+  <circle cx="451" cy="413" fill="#92c671" id="id_11" r="172" stroke="#72242a" stroke-width="1"/>
+  <rect fill="#256a74" height="218" id="id_8" stroke="#d08c02" stroke-width="5" width="292" x="162" y="79"/>
+  <ellipse cx="552" cy="317" fill="#a69c1e" id="id_7" rx="12" ry="142" stroke="#40c860" stroke-width="3"/>
+  <circle cx="396" cy="51" fill="#fd08b1" id="id_4" r="127" stroke="#434b3c" stroke-width="5"/>
+  <line fill="#06ca72" id="id_2" stroke="#933432" stroke-width="2" x1="634" x2="152" y1="269" y2="119"/>
+ </g>
+ <script xlink:href="../../webmi.js" type="text/ecmascript"/>
+ <script xlink:href="/q/TableFunctions.js" type="text/ecmascript"/>
+ <script xlink:href="/q/StdConstantsFunctions.js" type="text/ecmascript"/>
+ <script type="text/ecmascript"><![CDATA[webMI.proxy({"":[function(webMI,window,document,self){var $ = top.$;
+var headers = [];
+var linefill = "#FFFFFF";
+var nodearray = [];
+var atviseTable;
+var paramList;
+var col_dp = 4;
+getRow = function(dp)
+{
+	var curData = atviseTable.dataProvider().source.data;
+	for (var i=0; i<curData.length; i++) {	
+		if(curData[i][1].dp == dp)
+			return i +1;
+	}
+}
+
+
+// setup blank table
+atviseTable = webMI.callExtension("SYSTEM.LIBRARY.ATVISE.QUICKDYNAMICS.Table", { "gElement": document.getElementById("grid"), "sortedByColumn":0, "autoResize":true, "height":510, "width":695});
+
+atviseTable.setConfiguration({rowHeight:35,sortingUp:true,autoResize:true, drawStatusBar:false});
+headers.push({name: "Parameter", width: 280, fontSize: fontSize});
+headers.push({name: "Value", width: 220, fontSize: fontSize});
+headers.push({name: "Type", width: 100, fontSize: fontSize});
+headers.push({name: "Set", width: 64, fontSize: fontSize});
+headers.push({name: "", width: 1, fontSize: fontSize});
+
+atviseTable.setHeaders(headers);
+
+// - - - - - - - - - - - -
+
+webMI.addOnload(function(f){
+	webMI.trigger.fire("RequestParameterList");		
+});
+
+// - - - - - - - - - - - -
+
+
+webMI.trigger.connect("SetParameterList", function(e){
+
+	paramList = e.value[0];
+	var task = e.value[1];
+	var prefix = e.value[2];
+
+//	console.log("Received parameter list: ", paramList);
+
+	//initialize table
+	for (var i=0; i<paramList.length; i++) {	
+//		console.log("=====================================Looking at : ", paramList[i]);
+		var datarow = [];
+		var fullyQualifiedDP = "/"+task+"/"+prefix+paramList[i].DP;
+
+		datarow[0] = {text: paramList[i].ParamName, fill:linefill, fontSize: fontcolumn};
+		datarow[1] = {text: "...", fill:linefill, dp:fullyQualifiedDP, fontSize: fontcolumn};
+		datarow[2] = {text: paramList[i].Type, fill:linefill, fontSize: fontcolumn};
+		var eventList = [{name: "click", fn: getWriteFunction(fullyQualifiedDP, paramList[i].Type)}];
+		datarow[3] = {text: "SET", fill:linefill, eventList: eventList, fontSize: fontcolumn};
+		//datarow[4] = {text: fullyQualifiedDP, fill:linefill};
+		nodearray[i] = datarow;	
+	}
+	atviseTable.setDataProvider({data: nodearray});
+
+	//Set Update Function
+	for (var i=0; i<paramList.length; i++) {
+		var fullyQualifiedDP = "/"+task+"/"+prefix+paramList[i].DP;
+		addSubscribe(2, getRow, fullyQualifiedDP, paramList[i].Type, atviseTable);
+	}
+});
+//on screen keyboard
+/*var table = document.getElementById("grid");
+	table.onScreenKeyboard({
+					rewireReturn : 'submit',
+					rewireTab : true
+				});
+*/
+
+webMI.callExtension("SYSTEM.LIBRARY.PROJECT.QUICKDYNAMICS.Theme", {"action":"font family", "defaultValue":"font family", "id":"grid", "key":"FontFamily", "property":""});
+},{},{}]},window);]]></script>
+</svg>
