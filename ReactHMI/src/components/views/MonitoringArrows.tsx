@@ -7,7 +7,7 @@
  */
 import * as React from "react";
 import * as classNames from "classnames";
-import Icon from "../Icon";
+import Icon from "../common/Icon";
 const svgArrow = require("!raw!../../resources/icons/power_arrow.svg");
 
 interface Props {
@@ -26,7 +26,7 @@ export default class MonitoringArrows extends React.PureComponent<Props, State> 
         const absPower = Math.abs(this.props.power);
         const numActiveArrows = Math.min(Math.ceil(absPower * numArrows), numArrows);
         const directionDown = this.props.power < 0;
-        let arrows: JSX.Element[] = [];
+        const arrows: JSX.Element[] = [];
         for (let i = 0; i < numArrows; i++) {
             const isActive = i < numActiveArrows;
             const className = classNames("arrow", { active: isActive});

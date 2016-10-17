@@ -5,7 +5,10 @@
 
 const pattern = /\{(\w*)\}/g;
 
-export default function localize(text: string, values?: any) {
+export default function localize(text: string, values?: [string, string]) {
+    if (!values) {
+        return text;
+    }
     return text.replace(pattern, function(match, key) {
         const value = values[key];
         return value !== undefined ? value : "";        

@@ -6,7 +6,8 @@ import { connect } from 'react-redux';
 import MonitoringNode from "./MonitoringNode";
 import MonitoringSystemNode from "./MonitoringSystemNode";
 import ComponentNode, { ComponentType } from "../../model/ComponentNode";
-import { setActiveNode } from "../../model/Actions";
+import Carousel from "../common/Carousel";
+import { setActiveNode } from "../../model/store/Actions";
 
 // Connect to Redux
 const mapStateToProps = (state) => ({
@@ -43,13 +44,14 @@ class Monitoring extends React.Component<Props, {}> {
         if (activeNode) {
             subComponents = activeNode.subComponents.map(node => this.elementForNode(node));
         }
+        const numPages = subComponents ? subComponents.length : 0;
         return <div className="monitoring">
             <div className="active-node">
                 {activeElement}
-            </div> 
-            <div className="child-nodes">
-                {subComponents}
             </div>
+            <Carousel pageSize={200} pageMargin={20} numPages={numPages}>
+                <div className="child-nodes">{subComponents}</div>
+            </Carousel>
         </div>;
     }
 }

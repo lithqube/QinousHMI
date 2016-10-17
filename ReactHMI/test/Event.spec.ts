@@ -11,7 +11,7 @@ describe("EventDP", function() {
 
     beforeEach(function() {
         task = new Task("test");
-        node = new ComponentNode(ComponentType.Battery, task, 1);
+        node = new ComponentNode(ComponentType.BCU, task, 1);
         types = [
             {
                 mask: 1,
@@ -38,7 +38,7 @@ describe("EventDP", function() {
 
     it("can build correct dp from relative dp", function() {
         const task = new Task("test");
-        const node = new ComponentNode(ComponentType.Battery, task, 1);
+        const node = new ComponentNode(ComponentType.BCU, task, 1);
         const eventDP = new EventDP(".someEventDP", node, []);
         const dataDP = node.dp.data;
         assert.equal(eventDP.dp, node.dp.data + ".someEventDP", "Absolute datapoint");

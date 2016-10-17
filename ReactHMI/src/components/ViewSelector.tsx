@@ -3,8 +3,8 @@
  */
 import * as React from "react";
 import { connect } from "react-redux";
-import { setActiveView } from "../model/Actions";
-import Icon from "./Icon";
+import { setActiveView } from "../model/store/Actions";
+import Icon from "./common/Icon";
 
 // Redux: Listen to activeView
 const mapStateToProps = (state) => ({

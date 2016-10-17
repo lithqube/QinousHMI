@@ -11,10 +11,15 @@ $monitoringBorder: 2px solid $colorGreyDark;
         flex: 0 0 auto;
         display: flex;
         flex-direction: column;
+        // we want to add a click handler to the whole node but specify 
+        // the details which part of it is clickable in CSS. In this case,
+        // we only want the icon to be clickable.
+        pointer-events: none; 
 
         // Contains icon, arrows, connected state
         .visualization {
             display: flex;
+            flex: 0 0 auto;
             align-items: center;
             flex-direction: column;
             width: 145px;
@@ -23,25 +28,31 @@ $monitoringBorder: 2px solid $colorGreyDark;
                 height: 90px;
                 background-color: rgb(218, 220, 221);
                 border: $monitoringBorder;
-                border-radius: 5px;      
+                border-radius: 5px;
+                pointer-events: auto; // Icon is clickable     
             }
 
             & > .icon svg {
+                width: 63%;
+                height: 65%;
                 fill: rgb(146, 155, 162);
             }
         }
 
         .title {
             text-transform: uppercase;
+            margin-bottom: 1px;
         }
     }
 
     .node.system {
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
 
     // The selected node
     .active-node {
+        padding-left: 2px; // Align with child-nodes
+
         .node {
             flex-direction: row;
         }
@@ -56,15 +67,24 @@ $monitoringBorder: 2px solid $colorGreyDark;
         }
     }
 
+    .carousel {
+        // In .child-nodes we add a small padding to keep the line graphics visible. This is necessary
+        // because the carousel encloses it and has overflow:hidden. As a consequence, the connection
+        // line coming from the active node will not connect to the line of the child-nodes. This
+        // margin-top corrects that by moving the carousel and the .child-nodes up.
+        margin-top: -3px;
+    }
+
     // The subcomponents of the selected node
     .child-nodes {
         display: flex;
         margin-bottom: 20px;
+        padding: 3px 2px; // Make space to show component borders at the edge of this div because of carousel's overflow:hidden
         
         .node {
             width: 200px;
             color: $colorGreyDark;
-            margin-right: 65px;
+            margin-right: 20px;
             cursor: pointer;
 
             &:last-child {
@@ -81,6 +101,10 @@ $monitoringBorder: 2px solid $colorGreyDark;
                     padding: 4px 0;
                     border-bottom: 1px solid $colorGreyDark;
                 }
+            }
+
+            &:hover .icon {
+                //border-color: black;
             }
         }
     }
@@ -110,7 +134,7 @@ $monitoringBorder: 2px solid $colorGreyDark;
     .horizontal-line {
         position: absolute;
         left: 0;
-        width: 265px;
+        width: 220px;
         height: 0;
         border-top: $monitoringBorder;
     }
@@ -138,7 +162,7 @@ $monitoringBorder: 2px solid $colorGreyDark;
 
         &.down {
             transform: rotate(180deg);
-            top: 21px; // TODO maybe align at bottom
+            top: 23px;
         }
 
         .arrow {

@@ -44,7 +44,7 @@ export default class LiveValue extends React.Component<Props, State> {
             this.setState({
                 hasError: error,
                 isLoading: false,
-                value: value
+                value: value !== undefined ? WebMI.resultAsNumber(value) : undefined
             });
         });
     }

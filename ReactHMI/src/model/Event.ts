@@ -1,3 +1,6 @@
+/**
+ * Defines model around Events.
+ */
 import ComponentNode from "./ComponentNode";
 
 /**

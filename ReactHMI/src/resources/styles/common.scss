@@ -1,6 +1,9 @@
 .icon {
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     svg {
         width: 100%;
@@ -10,4 +13,151 @@
 
 .live-value {
     display: inline-block;
+}
+
+.carousel {
+    position: relative;
+    overflow-x: hidden;
+
+    .content {
+        //transition: transform .5s;
+    }
+
+    .left, .right {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        width: 65px;
+        height: 100%;
+        //background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.95) 50%);
+        background-color: rgba(255, 255, 255, 1);
+        cursor: pointer;
+
+        .icon {
+            position: absolute;
+            width: 19px;
+            fill: rgb(146, 155, 162);
+        }
+
+        &:hover .icon {
+            fill: $colorQinousBlue;
+        }
+    }
+
+    .left {
+        left: 0;
+        box-shadow: 2px 0px 14px -5px rgba(0,0,0,0.35);
+        .icon {
+            transform: rotate(180deg);
+        }
+    }
+
+    .right {
+        right: 0;
+        box-shadow: -2px 0px 14px -5px rgba(0,0,0,0.35);
+        .icon {
+            right: 22px;
+        }
+    }
+}
+
+.modal {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.dialog {
+    width: 400px;
+    padding: 20px;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 2px;
+
+    .title {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .body {
+        margin-top: 23px;
+    }
+
+    .label {
+        margin-bottom: 4px;
+        margin-left: 1px;
+    }
+
+    .actions {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        input {
+            flex: 0 0 auto;
+            margin-right: 5px;
+            margin-bottom: 0;
+            width: 100px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    input {
+        margin-bottom: 18px;
+    }
+}
+
+
+.view-selector {
+  flex: 0 0 auto;
+  display: fixed;
+  width: 70px;
+
+  ol {
+    margin-top: 24px;
+  }
+  
+  li {
+    width: 62px;
+    height: 50px;
+    border-radius: 0 3px 3px 0;
+    background-color: $colorBlueGreyDark;
+    fill: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    cursor: pointer;
+
+    .icon {
+      flex: 0 0 auto;
+      width: 32px;
+      height: 32px;
+      margin-left: 17px;
+    }
+
+    &:hover {
+        background-color: $colorQinousBlue;
+    }
+
+    &.active {
+      cursor: default;
+      background-color: $colorQinousBlue;
+    }
+  }
+}
+
+.view-container {
+  flex: 1 1 auto;
+  overflow-y: scroll; // For scrolling horizontally the current design uses a carousel
+  padding: 23px 0 23px 23px;
+  z-index: 0;
 }

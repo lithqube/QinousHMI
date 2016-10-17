@@ -7,7 +7,7 @@ import { connect } from "react-redux";
 import { EventInfo } from "./../model/EventService";
 import { Level } from "./../model/Event";
 import sort from "./../common/sort";
-import Icon from "./Icon";
+import Icon from "./common/Icon";
 import * as classNames from "classnames";
 const svgAlert = require("!raw!../resources/icons/alert.svg");
 

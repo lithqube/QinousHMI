@@ -2,16 +2,16 @@ import * as mocha from "mocha";
 import { assert } from "chai";
 import { ComponentType, getGroupTypeForType, safelyDeserializeComponentType } from "./../src/model/ComponentNode";
  
-const tests =    [ComponentType.PV,      ComponentType.Consumer,      ComponentType.Battery,      ComponentType.Diesel];
-const expected = [ComponentType.PVGroup, ComponentType.ConsumerGroup, ComponentType.BatteryGroup, ComponentType.DieselGroup];
+const tests =    [ComponentType.PV,      ComponentType.Consumer,      ComponentType.BCU,      ComponentType.Diesel];
+const expected = [ComponentType.PVGroup, ComponentType.ConsumerGroup, ComponentType.BCUGroup, ComponentType.DieselGroup];
 const ungroupables = [
     ComponentType.PVGroup, 
     ComponentType.ConsumerGroup, 
-    ComponentType.BatteryGroup, 
+    ComponentType.BCUGroup, 
     ComponentType.DieselGroup, 
     ComponentType.Grid, 
     ComponentType.RawMeter, 
-    ComponentType.SamsungRack, 
+    ComponentType.BatteryString, 
     ComponentType.Climate, 
     ComponentType.System,
     ComponentType.Undefined

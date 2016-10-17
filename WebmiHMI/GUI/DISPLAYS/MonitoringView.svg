@@ -10,7 +10,7 @@
   <atv:argument value="false" name="isDefault"/>
   <atv:argument value="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Components.Sub.Slider" name="display"/>
  </svg>
- <svg width="470" x="490" y="20" height="220" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Components.Chart.StandardChart" id="container" atv:refpx="725" atv:refpy="130"/>
+ <svg width="472" x="490" y="20" height="222" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Components.Chart.StandardChart" id="container" atv:refpx="731.09" atv:refpy="132.191"/>
  <svg width="345" x="74" y="0" visibility="hidden" height="285" xlink:href="SYSTEM.LIBRARY.PROJECT.OBJECTDISPLAYS.QINOUS.Components.Focus.FocusComponent" id="id_focuscomponent" atv:refpx="219" atv:refpy="77"/>
  <script type="text/ecmascript" xlink:href="/js/jquery.min.js"/>
  <script type="text/ecmascript" xlink:href="/js/slick/slick.min.js"/>

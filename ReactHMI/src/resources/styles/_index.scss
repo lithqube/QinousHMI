@@ -1,8 +1,26 @@
-$colorQinousBlue: rgb(0, 172, 233); // From the logo, e.g. used in selection highlights
+@font-face {
+    font-family: 'Bryant';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/bryant_medium.woff2') format('woff2'),
+      url('../fonts/bryant_medium.woff') format('woff');
+}
 
-@import "app";
-@import "common";
-@import "loader";
-@import "events";
-@import "nav";
-@import "monitoring";
+@mixin fontDefault {
+  font-family: "Bryant";
+  font-size: 14px;
+  line-height: 18px;
+}
+
+$colorQinousBlue: rgb(0, 172, 233); // From the logo, e.g. used in selection highlights
+$colorBlueGreyLight: rgb(190, 199, 208); // Header
+$colorBlueGreyMedium: rgb(171, 180, 189); // Non-primary form buttons
+$colorBlueGreyDark: rgb(114, 136, 157); // Footer, Buttons, Primary form buttons
+
+@import "app";          // Basic app structure
+@import "inputs";       // Input elements (input fields, buttons)
+@import "common";       // Common components
+@import "header";       // Header (navigation, login)
+@import "footer";       // Footer (stats, events)
+@import "monitoring";   // View: Monitoring
+@import "protocol";     // View: Protocol

@@ -2,7 +2,7 @@ import * as React from "react";
 import * as classNames from "classnames";
 import ComponentNode, {ComponentType} from "../../model/ComponentNode";
 import iconForType from "../utils/iconForType";
-import Icon from "../Icon";
+import Icon from "../common/Icon";
 
 interface Props {
     node: ComponentNode;
@@ -22,7 +22,7 @@ export default class NavComponentNode extends React.PureComponent<Props, State> 
         const { node, activeNode } = this.props;
         const svg = iconForType(node.type);
         let selected = false;
-        if (node === activeNode || (activeNode && node.contains(activeNode))) {
+        if (node === activeNode || (node.parent && activeNode && node.contains(activeNode))) {
             selected = true;
         }
         const className = classNames("node", {selected: selected});

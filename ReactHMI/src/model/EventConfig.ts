@@ -1,5 +1,5 @@
 /**
- * All statically configured events.
+ * Holds all configurable things and special cases regarding events.
  */
 import { Level, EventType } from "./Event";
 

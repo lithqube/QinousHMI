@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<svg width="470" version="1.2" xmlns="http://www.w3.org/2000/svg" height="220" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
+<svg width="472" version="1.2" xmlns="http://www.w3.org/2000/svg" height="222" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:atv="http://webmi.atvise.com/2007/svgext">
  <defs/>
  <metadata>
   <atv:gridconfig width="5" enabled="true" height="5" gridstyle="lines"/>
   <atv:snapconfig width="5" enabled="true" height="5"/>
  </metadata>
- <foreignObject width="468" x="1" y="1" height="218" id="id_0">
-  <div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%" id="chart_container"/>
+ <foreignObject width="467" x="2.5" y="2.5" height="217" style="min-width:467px;max-width:586px;min-height:217px;max-height:272px" id="external_container">
+  <div xmlns="http://www.w3.org/1999/xhtml" style="width:586px; height:272px" id="chart_container"/>
  </foreignObject>
- <rect width="470" x="0" y="0" fill="none" rx="4.296" ry="4.409" height="220" stroke="#DADCDD" stroke-linejoin="round" id="id_1" stroke-linecap="round" atv:refpx="275.874" stroke-width="1" atv:refpy="115.613"/>
+ <rect width="470" x="1" y="1" fill="none" rx="4.296" ry="4.409" height="220" stroke="#DADCDD" stroke-linejoin="round" id="id_1" stroke-linecap="round" atv:refpx="276.874" stroke-width="1" atv:refpy="116.613"/>
  <script type="text/ecmascript" xlink:href="/scope.js"/>
  <script type="text/ecmascript" xlink:href="/js/stock/highstock.js"/>
  <script type="text/ecmascript" xlink:href="/q/StdConstantsFunctions.js"/>
@@ -18,7 +18,6 @@
 var data = [];
 var labels = [];
 var container = document.getElementById("chart_container");
-
 var highchart;
 var channelData = [];
 
@@ -30,7 +29,6 @@ webMI.trigger.connect("SetChartInfo", function(f){
 	LocalTimeSystemTimeDiff = f.value[1];
 	BrowserTimeSystemTimeDiff = f.value[2];
 	var frontspec;
-
 	// get the corresponding chartdata for this node
 	// and extract the frontspec
 	for (var i=0; i<ChartData.length; i++){
@@ -40,19 +38,19 @@ webMI.trigger.connect("SetChartInfo", function(f){
 		}
 	}
 
-	console.log("got a spec for the front page", frontspec, node);
+//	console.log("got a spec for the front page", frontspec, node);
 	//console.log("jquery element?:", container);
-	highchart = $(container).highcharts({
 
+	highchart = $(container).highcharts({
 		exporting: {
 			enabled: false
 		},
 		chart: {
 			type: 'spline',
 			spacingBottom: 10,
-			spacingTop: 2,
+			spacingTop: 8,
 			spacingLeft: 2,
-			spacingRight: 35,
+			spacingRight: 2,
 			width: null,
 			height: null,
 			zoomType: 'xy',
@@ -63,19 +61,16 @@ webMI.trigger.connect("SetChartInfo", function(f){
 				},
 			events: {
 				load: function () {
-
-				
+	
 					// build up necessary data and feed to the callbacks 
 					var timeSpan = 60 * 1000 * 60;
 					var startTime = Date.now() - BrowserTimeSystemTimeDiff - timeSpan;
-				
 				
 					// get historical data -- this will add data to each series -- must complete before loading chart!
 					var recorderSeriesList = [];
 					var tocList = [];
 				
 					for (var i=0; i<frontspec.data.length; i++) {
-				
 						tocList.push({ toc: {}});
 						recorderSeriesList.push([]);
 						for (var j=0; j<frontspec.data[i].series.length; j++){
@@ -107,12 +102,10 @@ webMI.trigger.connect("SetChartInfo", function(f){
 			enabled: false
 		},
 		navigator: {
-			enabled : false,
-			height: 10			
+			enabled : false
 		},
 		rangeSelector : {
-			enabled : false,
-			selected : 1
+			enabled : false
 		},
 		title : {
 			text: '',
@@ -144,8 +137,7 @@ webMI.trigger.connect("SetChartInfo", function(f){
 	}); // end chart
 
 	highchart = $(container).highcharts();
-			
-
+	
 }); // end onload
 
 webMI.trigger.fire("ChartInfoRequest");

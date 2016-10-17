@@ -1,34 +1,31 @@
 import * as React from "react";
+import { connect } from "react-redux";
 import Navigation from "./nav/Navigation";
 import FooterStats from "./FooterStats";
 import FooterEvents from "./FooterEvents";
 import ViewContainer from "./ViewContainer";
 import ViewSelector from "./ViewSelector";
+import Auth from "./Auth";
+import Home from "./Home";
+import { fetchComponentTree } from "../model/store/Actions";
+import store from "../model/store/Store";
+import "../model/UserService";
 
-// import strings from "./../locale/en";
-// import {LocalizedStrings} from "./../locale/LocalizedStrings";
-
-// Component types
 interface Props {}
 interface State {}
 
-// Component
-export default class App extends React.Component<Props, State> {
+class App extends React.Component<Props, State> {
 
-    // static childContextTypes = {
-    //     strings: React.PropTypes.object
-    // }
-
-    // getChildContext() {
-    //     return {
-    //         strings: strings
-    //     };
-    // }
+    componentDidMount() {
+        store.dispatch(fetchComponentTree());
+    }
 
     render() {
         return <div>
             <div className="header">
+                <Home/>
                 <Navigation/>
+                <Auth/>
             </div>
             <div className="main">
                 <ViewSelector/>
@@ -41,3 +38,5 @@ export default class App extends React.Component<Props, State> {
         </div>;
     }
 }
+
+export default connect()(App);

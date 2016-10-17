@@ -1,0 +1,61 @@
+select,
+textarea,
+input[type="text"],
+input[type="password"] {
+    @include fontDefault();
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+    height: 30px;
+    padding: 0 8px;
+    border: 1px solid transparent;
+    border-radius: 1px;
+    margin: 0;
+
+    &:focus, &:active {
+        outline: 0 none;
+        border: 1px solid $colorQinousBlue;
+    }
+
+    &[disabled] {
+        opacity: 0.5;
+    }
+}
+
+
+button,
+input[type="submit"],
+input[type="button"] {
+    @include fontDefault();
+    background: none;
+    border: 0;
+    background-color: $colorBlueGreyDark;
+    color: white;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 1px;
+
+    &:focus,
+    &:hover,
+    &:active,
+    &:active:hover {
+        outline: 0 none;
+        border: 0;
+        background-color: $colorQinousBlue;
+    }
+
+    &[disabled] {
+        cursor: default;
+        color: rgb(220, 220, 220);
+        background-color: rgb(171, 180, 189);
+        &:hover {
+            background-color: rgb(171, 180, 189);
+        }             
+    }
+}
+
+input[type="button"] {
+    // Non-submit buttons in forms are not primary buttons, make them a bit lighter.
+    background-color: #8d9fb0;
+}
+

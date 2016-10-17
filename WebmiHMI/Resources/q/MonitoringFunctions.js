@@ -218,7 +218,7 @@ basicDataCallback = function(comp_id, basicdata, isFocus){
 		
 		var id = getID("txt_summary");
 		// check this implementation set the text on different function (maybe)		
-		webMI.gfx.setText(comp_id+"_"+id, state_text + " / " + power.toFixed(1) + " kW / " + val_Reactive.toFixed(2) + " kvar");
+		webMI.gfx.setText(comp_id+"_"+id, state_text +" / "+power.toFixed(1)+" kW / "+val_Reactive.toFixed(2)+" kvar");
 		webMI.gfx.setVisible(comp_id+"_"+id, true);
 	
 // show MainsConnected

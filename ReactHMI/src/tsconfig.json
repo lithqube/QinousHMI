@@ -13,6 +13,7 @@
         "noUnusedParameters": false,
         "preserveConstEnums": false,
         "removeComments": true,
+        "forceConsistentCasingInFileNames": true,
         "lib": ["es5", "dom", "es2015"]
     }
 }

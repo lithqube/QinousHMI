@@ -1,26 +1,45 @@
+/**
+ * Holds all configurable things and special cases regarding components.
+ */
 import ComponentNode, { ComponentType } from "./ComponentNode";
 import { EventDP } from "./Event";
 import * as EventConfig from "./EventConfig";
 
+
 /**
  * Defines all commonly used datapoints for a ComponentNode.
  * 
- * This class includes all rules for common datapoints when it comes to different component types. 
- * Keep using this single class and its if-statements in order to see all the rules in one place.
+ * This class includes all rules for common datapoints when it comes to different component types.
+ * Keep using this single class and its if-statements to see all the rules in one place.
  * A more abstract solution (subclasses for different types or something similar) will make it more
- * difficult to get a quick overview over all special cases around datapoints. 
+ * difficult to get a quick overview over all special cases around datapoints.
+ * 
+ * In short: This is messy because all special cases for datapoints are in 1 place. We should keep it that way
+ * because it gives a good overview over the current "state of things".
  */
 export class CommonDP {
-    readonly data: string;
     readonly config: string;
+	readonly task: string;
     protected node: ComponentNode;
 
     constructor(node: ComponentNode) {
         this.node = node;
-        const taskDP = `/${node.task.name}/`;
-        this.data = taskDP + getDataDP(node.type, node.index);
-        this.config = taskDP + getConfigDP(node.type, node.index);
+        this.task = `/${node.task.name}/`;
+		this.config = this.task + getConfigDP(node.type, node.index);
     }
+
+	// TODO optimize this, called very often
+	// TODO should do the same thing for config... batterystrings don't have one though..
+	get data(): string {
+		if (this.node.type === ComponentType.BatteryString) {
+			if (!this.node.parent) {
+				// Provoke helpful error message if this dp is used with webMI
+				return "MISSING_DATADP_BECAUSE_BATTERY_STRING_HAS_NO_PARENT_NODE";
+			}
+			return this.node.parent.dp.data + getDataDP(this.node.type, this.node.index);
+		}
+		return this.task + getDataDP(this.node.type, this.node.index);
+	}
 
     get mainsConnected() {
         return `${this.data}.Overview.MainsConnected`;
@@ -34,21 +53,31 @@ export class CommonDP {
     }
 
     get reactivePower_kvar() {
-        if (this.node.type === ComponentType.Battery) {
+        if (this.node.type === ComponentType.BCU) {
             return `${this.data}.Converter.AC.ReactivePower_kvar`;
         }
         return `${this.data}.Live.ReactivePower_kvar`;
     }
 
     get nomConsCap_kW() {
-        if (this.node.type === ComponentType.Battery) {
+		if (this.node.type === ComponentType.BatteryString) {
+			if (!this.node.parent) {
+				// Provoke helpful error message if this dp is used with webMI
+				return "MISSING_CONFIGDP_BECAUSE_BATTERY_STRING_HAS_NO_PARENT_NODE";				
+			}
+			return `${this.node.parent.dp.config}.Properties.Battery.MaxContPowerPerString_kW`;
+		}
+        if (this.node.type === ComponentType.BCU) {
             return `${this.config}.Properties.Converter.Nominal.NomConsCap_kW`;
         }
         return `${this.config}.Properties.Capacity.NomConsCap_kW`;
     }
 
     get nomGenCap_kW() {
-        if (this.node.type === ComponentType.Battery) {
+		if (this.node.type === ComponentType.BatteryString) {
+			return this.nomConsCap_kW;
+		}
+        if (this.node.type === ComponentType.BCU) {
             return `${this.config}.Properties.Converter.Nominal.NomGenCap_kW`;
         }
         return `${this.config}.Properties.Capacity.NomGenCap_kW`;
@@ -65,18 +94,20 @@ export function getConfigDP(type: ComponentType, index: number): string {
 		// 	return undefined;// "ConsumerGroupC
 		case(ComponentType.Grid):
 			return ".GridCfg";
-		case(ComponentType.BatteryGroup):
+		case(ComponentType.BCUGroup):
 			return ".BatteryGroupCfg";
 		case(ComponentType.DieselGroup):
 			return ".DieselGroupCfg";
 		case(ComponentType.PV):
-			return ".PVCfg"+"["+index+"]";
+			return ".PVCfg["+index+"]";
 		case(ComponentType.Consumer):
-			return ".ConsumerCfg"+"["+index+"]";
-		case(ComponentType.Battery):
-			return ".BCUCfg"+"["+index+"]";
+			return ".ConsumerCfg["+index+"]";
+		case(ComponentType.BCU):
+			return ".BCUCfg["+index+"]";
 		case(ComponentType.Diesel):
-			return ".DieselCfg"+"["+index+"]";
+			return ".DieselCfg["+index+"]";
+		case(ComponentType.BatteryString):
+			return ".Battery";
         default:
             // Provoke helpful error message if (and only if) this dp is used later to reach an address.
             return `CONFIG_DP_FOR_${ComponentType[type]}_NOT_SET`;
@@ -93,25 +124,30 @@ function getDataDP(type: ComponentType, index: number): string {
 			return ".ConsumerGroupData";
 		case(ComponentType.Grid):
 			return ".GridData";
-		case(ComponentType.BatteryGroup):
+		case(ComponentType.BCUGroup):
 			return ".BatteryGroupData";
 		case(ComponentType.DieselGroup):
 			return ".DieselGroupData";
 		case(ComponentType.PV):
-			return ".PVData"+"["+index+"]";
+			return ".PVData["+index+"]";
 		case(ComponentType.Consumer):
-			return ".ConsumerData"+"["+index+"]";
-		case(ComponentType.Battery):
-			return ".BCUData"+"["+index+"]";
+			return ".ConsumerData["+index+"]";
+		case(ComponentType.BCU):
+			return ".BCUData["+index+"]";
 		case(ComponentType.Diesel):
-			return ".DieselData"+"["+index+"]";
-		case(ComponentType.SamsungRack):
-			return ".SamsungIO"+"["+index+"]";
+			return ".DieselData["+index+"]";
+		case(ComponentType.BatteryString):
+			return ".Battery.Strings["+index+"]";
         default:
             // Provoke helpful error message if (and only if) this dp is used later to reach an address.
             return `DATA_DP_FOR_${ComponentType[type]}_NOT_SET`;
 	}
 }
+
+// const m: Map<ComponentType, Assoc> = new Map([
+// 	[ComponentType.System, _ => ".SystemData"]
+// ]);
+
 
 export function getStandardEventDPs(node: ComponentNode): EventDP[] {
     switch(node.type) {
@@ -119,78 +155,13 @@ export function getStandardEventDPs(node: ComponentNode): EventDP[] {
             return [
                 new EventDP(".AlarmWord", node, EventConfig.SystemEvents)
             ];
-        case ComponentType.Battery:
+        case ComponentType.BCU:
             return [
                 new EventDP(".AlarmWord", node, EventConfig.BCUEvents)
             ]
         default:
             return [];
     }
-    
-	// var info = { DP_List: [], Masks: [] };
-	// switch(itemType){
-	// 	case(TYPE_SYSTEM):
-	// 		info.DP_List = [
-	// 			prefixString + '.AlarmWord',
-	// 		]
-	// 		info.Masks = [
-	// 			SystemAlarmWordMasks
-	// 		]			
-	// 		break;
-	// 	case(TYPE_PV_GROUP):
-	// 		break;
-	// 	case(TYPE_CONSUMER_GROUP):
-	// 		break;
-	// 	case(TYPE_GRID):
-	// 		break;
-	// 	case(TYPE_BATTERY_GROUP):
-	// 		break;
-	// 	case(TYPE_DIESEL_GROUP):
-	// 		break;
-	// 	case(TYPE_PV):
-	// 		break;
-	// 	case(TYPE_CONSUMER):
-	// 		break;
-	// 	case(TYPE_BATTERY):
-	// 		info.DP_List = [
-	// 			prefixString + '.AlarmWord'
-	// 			//prefixString + '.TempWarningWord',
-	// 			//prefixString + '.TempAlarmWord'
-	// 			//prefixString + '.EventSensors'
-	// 		]
-	// 		info.Masks = [
-	// 			BCUAlarmWordMasks
-	// 			//BCUTemperatureWarningMasks,
-	// 			//BCUTemperatureAlarmMasks
-	// 			//BCUEventSensorMasks
-	// 		]
-	// 		break;
-	// 	case(TYPE_DIESEL):
-	// 		break;
-	// 	case(TYPE_SAMSUNG_RACK): // todo: depends on type of samsung -- have a MegaE type and other
-	// 		info.DP_List = [
-	// 			prefixString + '.Alarms.Protection_1',
-	// 			prefixString + '.Alarms.Protection_2',
-	// 			prefixString + '.Alarms.Protection_3',
-	// 			prefixString + '.Alarms.Protection_4',
-	// 			prefixString + '.Alarms.Alarm_1',
-	// 			prefixString + '.Alarms.Alarm_2',
-	// 			prefixString + '.Alarms.Alarm_3',
-	// 			prefixString + '.Alarms.Alarm_4',
-	// 			/*prefixString + '.TripWord',
-	// 			prefixString + '.AlarmWord',
-	// 			prefixString + '.TrayFaultWord',
-	// 			prefixString + '.Status'*/
-	// 			]
-	// 		info.Masks = [
-	// 			/*SamsungTripWordMasks,
-	// 			SamsungAlarmWordMasks,
-	// 			SamsungTrayFaultWordMasks,
-	// 			SamsungStatusMasks*/
-	// 			]
-	// 		break;
-	// }	
-	// return info;
 }
 
 

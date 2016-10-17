@@ -1,7 +1,7 @@
 # Frontend
 
 This is the Qinous Frontend.
-It is written in [Typescript](http://www.typescriptlang.org/), uses [React](https://facebook.github.io/react/) as its view layer and [webpack](https://github.com/webpack/webpack) for creating production and development builds. See additional information on why and how we use these components below.
+It is written in [Typescript](http://www.typescriptlang.org/), uses [React](https://facebook.github.io/react/) with Redux and [webpack](https://github.com/webpack/webpack) for creating production and development builds. See additional information on why and how we use these components below.
 
 ## Install
 
@@ -67,15 +67,27 @@ Some examples: Wrapping Bachmann’s webMI.js is done using a raw importer (see 
 
 We don’t bundle CSS and font files together with the source code, though.
 
-## How we use React
+## Why we use React
 
-We use React as our view layer in order to build our UI as a collection of components with clearly defined inputs and outputs and lifecycle methods. Have a look at the examples [here](https://facebook.github.io/react/index.html) and make sure you read at least the introductory chapters of the [documentation](https://facebook.github.io/react/docs/why-react.html) and the [lifecycle methods](https://facebook.github.io/react/docs/component-specs.html).
+We use React as our view layer in order to build our UI as a collection of components with clearly defined inputs, outputs and lifecycle methods. Have a look at the examples [here](https://facebook.github.io/react/index.html) and make sure you read the introductory chapters of the [documentation](https://facebook.github.io/react/docs/why-react.html) and the [lifecycle methods](https://facebook.github.io/react/docs/component-specs.html).
 
-## How we use Redux
+## Why we use Redux
 
-We use Redux, make sure you understand the [basics](http://redux.js.org/docs/basics/DataFlow.html).
+We use Redux because it allows us to think about our application in the following way:
 
-We’re not using Redux to describe the entire state of the application, though. In most of our cases the additional boilerplate code required is not worth it. Most of our state can be seen as ephemeral or derived and is handled locally in the components. [(This is okay)](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367#.8nuyjscmc).
+- There is a single object (called *store*) that describes the state of the application. For example the component tree and the selected node are stored here. This is just a simple JS object in this style:
+```
+store = {
+   systemNode: rootNodeOfAComponentTree,
+   selectedNode: someSelectedNode
+}
+```
+
+
+- Changing the selected node for example then means updating the entry in this store. That’s all that we have to do if you click on an item in the navigation.
+- All interface components reflect this application state automatically. To follow the example above: User clicks on a navigation item. This in turn *dispatches* an *action* to update the application state in the *store*. After this everything else works automatically: The navigation component and the view component that shows details about the currently selected node are updated automatically because they’ve defined by us to ‘react’ to changes of this specific store entry. That’s what the binding library ’react-redux’ is taking care of.
+
+We’re not using Redux to describe the entire state of the application, though. In some cases the additional boilerplate code it introduces is not worth it.
 
 One example for that is a component called `LiveValue`. The application shows a lot of live data that is updated on-the-fly, so called subscriptions to data-points. We could route all of them through Redux but this would introduce quite a bit more code and doesn’t add any value to our use-case. Instead, it should be as simple as possible to display a constantly updated value of a data point. Just write:
 
@@ -91,6 +103,7 @@ Things we *do* store in Redux:
 - The currently selected node in the tree
 - Which view is active (Monitoring, Diagrams, Protocol, etc.)
 - A list of all active events
+- The current user
 
-These are examples of state that is fundamental to the app, is interesting to a number of components (e.g. list of alarms) or can be manipulated in different places (e.g. the active selected node). We use Redux here because it solves this problem well, integrates nicely with React components and doesn’t add a lot of dependency code. Right now all actions and the single reducer function are defined in `src/model/Actions.ts`.
+These are examples of state that is fundamental to the app, is interesting to a number of components (e.g. list of alarms) or can be manipulated in different places (e.g. the active selected node). We use Redux here because it solves this problem well, integrates nicely with React components and doesn’t add a lot of dependency code. Read up on the basics [here](http://redux.js.org/docs/basics/DataFlow.html).
 

@@ -31,8 +31,8 @@ class FooterStats extends React.PureComponent<Props, State> {
         nodes.forEach(node => {
             const title = node.name;//.substr(0, 6);
             stats.push(this.getStat(title, node.dp.power_kW, "kW"));
-            const isBattery = node.type === ComponentType.Battery || node.type === ComponentType.BatteryGroup;
-            if (isBattery) {
+            const isBCU = node.type === ComponentType.BCU || node.type === ComponentType.BCUGroup;
+            if (isBCU) {
                 stats.push(this.getStat("SOC", node.dp.data + ".Battery.AvailableSOC", "%"));
                 stats.push(this.getStat("SOE", node.dp.data + ".Battery.AvailableSOE", "kWh"));
             }
@@ -48,7 +48,8 @@ class FooterStats extends React.PureComponent<Props, State> {
                 this.getStat("Voltage", systemNode.dp.data + ".GridVoltage", "V"),
                 this.getStat("Freq", systemNode.dp.data + ".GridFrequency", "Hz")
             ];
-            stats = stats.concat(this.getDefaultStatsForNodes(systemNode.subComponents));
+            const components = systemNode.filter(node => node.parent === systemNode);
+            stats = stats.concat(this.getDefaultStatsForNodes(components));
         }
         return <div className="footer-stats">{stats}</div>;
     }

@@ -2,7 +2,7 @@ import * as React from "react";
 import { connect } from 'react-redux';
 import NavigationNode from "./NavigationNode";
 import ComponentNode from "../../model/ComponentNode";
-import { setActiveNode } from "../../model/Actions";
+import { setActiveNode } from "../../model/store/Actions";
 
 // Connect to Redux
 const mapStateToProps = (state) => ({
@@ -35,10 +35,12 @@ class Navigation extends React.Component<Props, {}> {
 
     render() {
         const { systemNode } = this.props;
-        const topLevelComponents = systemNode ? systemNode.subComponents : [];
-        const navEntries = topLevelComponents.map(this.createNavigationNode);
+        let navigableComponents: ComponentNode[] = [];
+        if (systemNode) {
+            navigableComponents = [ systemNode, ...systemNode.subComponents ];
+        }
+        const navEntries = navigableComponents.map(this.createNavigationNode);
         return <div className="nav">
-            <div className="home" title="Home" onClick={this.didClickHome}></div>
             {navEntries}
         </div>;
     }

@@ -1,0 +1,105 @@
+.footer-stats {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px 10px;
+    padding-left: 20px;
+
+    .stat {
+      flex: 0 0 auto;
+      margin-right: 15px;
+    }
+}
+
+.footer-events {
+    position: relative;
+
+    .symbol {
+        user-select: none;
+        display: flex;
+        align-items: center;
+        padding: 0 20px 0 30px;
+        height: 32px;
+        cursor: pointer;
+        fill: white;
+
+        &.no-events {
+            fill: rgba(255, 255, 255, 0.2);
+            cursor: default;
+        }
+
+        .icon {
+            margin-top: -1px; // Better alignment with count next to it
+            width: 20px;
+        }
+
+        .count {
+            margin-right: 8px;
+        }
+
+        .icon, .count {
+            user-select: none;
+            -webkit-user-select: none;
+            flex: 0 0 auto;
+        }
+    }
+
+    // Colors for alert icon based on Error.Level
+    .level {
+        &.none,
+        &.info {
+            fill: transparent;
+        }
+        &.warning {
+            fill: #fddb02;
+        }
+        &.error,
+        &.inhibit,
+        &.limit,
+        &.limitinhibit,
+        &.trip {
+            fill: #ff2c00;
+        }
+    }
+
+    .panel {
+        position: absolute;
+        right: 2px;
+        bottom: 34px;
+        padding: 18px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        background-color: rgba(74, 80, 85, 0.95);
+
+        // Arrow below panel pointing to alarm icon
+        &::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            right: 22px;
+            bottom: -6px;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 6px solid rgba(74,80,85,0.95);
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            padding: 3px 0;
+            white-space: nowrap;
+
+            .icon {
+                flex: 0 0 auto;
+                width: 17px;
+                height: 17px;
+                margin-right: 10px;
+            }
+        }
+
+        .title {
+            text-transform: uppercase;
+            margin-bottom: 9px;
+        }
+    }
+}

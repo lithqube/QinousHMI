@@ -5,16 +5,16 @@
  * HOW WE LOAD COMPONENTS
  * 
  * Loading a component tree can be divided into two aspects: On one side there is common data that defines
- * components (e.g. name, type, tree structure). On the other side there is additional data, maybe even additional
- * nodes that have to be loaded depending on specific rules (dynamic events based on node type, rack components
- * if there is a specific module name, etc.)
+ * components (e.g. name, type, tree structure). On the other side there is additional data or additional
+ * components that have to be loaded depending on specific rules (dynamic events based on node type, battery strings
+ * if there it is a bcu, etc.)
  * 
  * Thus, the loading mechanism has 2 steps:
  * 
  * 1. We first load the basic structure of the component tree without any special rule, as far as we can get.
  * 2. After that we have a basic tree. We now give so called "editing functions" the chance to go over this tree
  *    and make changes as they see fit. Have a look at the end of getComponentTree() below. You see that we call 
- *    the function "addBatterySensorEvents". This is an editing function that goes through each node of the tree
+ *    the function "addBatterySensorEvents". This is such an editing function that goes through each node of the tree
  *    and adds sensor event tracking to it if it is a battery node.
  * 
  * There are a number of advantages to this approach:
@@ -57,8 +57,9 @@ export function getComponentTree(task: Task = systemTask): Promise<ComponentNode
     // Execute editing functions
     .then(root => addBatterySensorEvents(root))
     .then(root => addBatteryTemperatureEvents(root))
+    .then(root => addBatteryStrings(root))
     // Catch any error and return the root anyway. Otherwise we'd fail completely.
-    .catch(anything => {
+    .catch(() => {
         return root;
     });
 }
@@ -82,8 +83,9 @@ function getVirtualComponents(task: Task): Promise<ComponentNode[]> {
             `${prefix}.Info.Name`
         ]).then(results => {
             const type = safelyDeserializeComponentType(results[0].value);
-            const node = new ComponentNode(type, task, results[1].value);
-            node.customName = results[2].value;
+            const index = WebMI.resultAsNumber(results[1].value);
+            const node = new ComponentNode(type, task, index);
+            node.customName = results[2].value as string;
             return node;
         }).catch(errors => {
             // Catch error by returning a component of undefined type. That way we still can
@@ -117,7 +119,7 @@ function getExternalTasks(parentTask: Task): Promise<Task[]> {
             `${prefix}.TaskName`,
             `${prefix}.ModuleName`,
         ]).then(results => {
-            return new Task(results[0].value, results[1].value, parentTask, index);
+            return new Task(results[0].value as string, results[1].value as string, parentTask, index);
         }).catch(errors => {
             console.info(`ComponentService can't read name or module name of '${prefix}', will ignore task.`);
             return new Task("");
@@ -146,7 +148,8 @@ function getAllExternalComponents(externalTask:Task): Promise<ComponentNode[]> {
             `${prefix}.Items[${index}].ExternalIndex`
         ]).then(results => {
             const type = safelyDeserializeComponentType(results[0].value);
-            return new ComponentNode(type, externalTask, results[1].value);
+            const index = WebMI.resultAsNumber(results[1].value);
+            return new ComponentNode(type, externalTask, index);
         }).catch(errors => {
             console.info("ComponentService can't read type or external index of a possible component defined in external task, will ignore it.")
             return new ComponentNode(ComponentType.Undefined, externalTask, -1);
@@ -162,7 +165,7 @@ function getComponentName(component: ComponentNode): Promise<ComponentNode> {
     return WebMI.readData([
         `${component.dp.config}.Operation.Info.Name`
     ]).then(results => {
-        component.customName = results[0].value;
+        component.customName = results[0].value.toString();
         return component;
     }).catch(errors => {
         console.info(`ComponentService can't read the custom name of '${component.dp.config}', will use default one.`);
@@ -196,9 +199,11 @@ function createSystemComponent(task: Task) {
     return new ComponentNode(ComponentType.System, task, -1);
 }
 
-
+// Component tree editing functions below
 // -------------------------------------------------------------------------------------------------------------
 // TODO put code below in dedicated file?
+
+// TODO error handling in editing functions!
 
 interface ComponentTreeEditor {
     /**
@@ -210,31 +215,28 @@ interface ComponentTreeEditor {
 }
 
 /**
- * ComponentTreeEditor: Load dynamic event type definitions for batteries. Changes will
- * be written into the provided component tree!
- * @param {ComponentNode} root - The node of the component tree where the search for battery nodes should start (e.g. root)
- * @return {Promise} returns a promise for the root node provided as the argument.
+ * Adds sensor events to all batteries of a tree.
  */
 function addBatterySensorEvents(root: ComponentNode): Promise<ComponentNode> {
     let promises: Promise<any>[];
     // Get all battery nodes
-    let batteryNodes = root.filter(node => node.type === ComponentType.Battery);
-    promises = batteryNodes.map(node => {
+    let batteries = root.filter(node => node.type === ComponentType.BCU);
+    promises = batteries.map(battery => {
         // Add new EventDP to each battery node
-        const eventDP = new EventDP(".EventSensors", node, []);
-        node.events.push(eventDP);
+        const eventDP = new EventDP(".EventSensors", battery, []);
+        battery.events.push(eventDP);
         // Configure the eventDP instance with event types read from the PLC
         const nodePromises = range(1, 16).map(index => {
-            const prefix = `${node.dp.config}.Properties.EventSensors[${index}]`;
+            const prefix = `${battery.dp.config}.Properties.EventSensors[${index}]`;
             return WebMI.readData([
                 prefix + ".Name",
                 prefix + ".ActiveEvent"
             ]).then(results => {
-                const name = results[0].value;
+                const name = results[0].value as string;
                 // Only add the event type definition if it has a name assigned. 
                 // Otherwise treat this as an unknown event.
                 if (name !== undefined && name !== "") {
-                    const plcEventLevel = parseInt(results[1].value, 10);
+                    const plcEventLevel = WebMI.resultAsNumber(results[1].value);;
                     eventDP.types.push({
                         mask: 2**(index-1),
                         name: name,
@@ -246,15 +248,17 @@ function addBatterySensorEvents(root: ComponentNode): Promise<ComponentNode> {
         // Return a promise that all indices of an event sensor config have been read.
         return Promise.all(nodePromises);
     });
-    // We don't care what exactly all the promises return (hence 'whatever'), we're only interested
+    // We don't care what exactly all the promises return, we're only interested
     // *when* all async processes are done and return the root node of the ComponentTree at the end of it.
-    return Promise.all(promises).then(whatever => root);
+    return Promise.all(promises).then(() => root);
 }
 
-
+/**
+ * Adds temperature events to all batteries of a tree.
+ */
 function addBatteryTemperatureEvents(root: ComponentNode): Promise<ComponentNode> {
     let promises: Promise<any>[];
-    let batteryNodes = root.filter(node => node.type === ComponentType.Battery);
+    let batteryNodes = root.filter(node => node.type === ComponentType.BCU);
     promises = batteryNodes.map(node => {
         // Add new EventDPs to each battery node
         const alarmEventDP = new EventDP(".TempAlarmWord", node, []);
@@ -268,45 +272,60 @@ function addBatteryTemperatureEvents(root: ComponentNode): Promise<ComponentNode
                 prefix + ".Name",
                 prefix + ".AlarmEvent"
             ]).then(results => {
-                const name = results[0].value;
-                const level = parseInt(results[1].value, 10);
+                const level = WebMI.resultAsNumber(results[1].value);
+                const maskUT = 2**(index-1);
+                const maskOT = 2**(index-1+8);
+                const name = results[0].value as string;
                 warningEventDP.types.push({
-                    mask: 2**(index-1),
-                    name: "UT:" + name,
+                    mask: maskUT,
+                    name: "UT: " + (name ? name : `Unknown (${maskUT})`),
                     level: Level.Warning
                 });
                 warningEventDP.types.push({
-                    mask: 2**index,
-                    name: "OT:" + name,
+                    mask: maskOT,
+                    name: "OT: " + (name ? name : `Unknown (${maskOT})`),
                     level: Level.Warning
                 });
                 alarmEventDP.types.push({
-                    mask: 2**(index-1),
-                    name: "UT:" + name,
+                    mask: maskUT,
+                    name: "UT: " + (name ? name : `Unknown (${maskUT})`),
                     level: Math.min(level, Level.Error)
                 });
                 alarmEventDP.types.push({
-                    mask: 2**index,
-                    name: "OT:" + name,
+                    mask: maskOT,
+                    name: "OT: " + (name ? name : `Unknown (${maskOT})`),
                     level: Math.min(level, Level.Error)
                 });
             });
         });
         return Promise.all(nodePromises);
     });
-    return Promise.all(promises).then(whatever => root);
+    return Promise.all(promises).then(() => root);
 }
 
+/**
+ * Adds battery string nodes to all batteries of a tree.
+ */
+function addBatteryStrings(root: ComponentNode): Promise<ComponentNode> {
+    const batteries = root.filter(node => node.type === ComponentType.BCU);
+    const promises = batteries.map(battery => {
+        return getBatteryStringsForBattery(battery).then(strings => {
+            strings.forEach(string => battery.addSubComponent(string));
+            return battery;
+        });
+    });
+    return Promise.all(promises).then(() => root);
+}
 
-// /**
-//  * Get the number of racks on a Samsung Battery.
-//  */
-// function getNumRacks(component: ComponentNode): Promise<number> {
-//     const dpRackCount = `/${component.task.name}/.SamsungCfg[${component.index}].Samsung.BatteryConfig.RackCount`;
-//     return WebMI.readData([dpRackCount]).then(results => {
-//         return parseInt(results[0].value, 10);
-//     }).catch(errors => {
-//         console.info(`ComponentService can't get number of racks at '${dpRackCount}', returning 0`);
-//         return 0;    
-//     });    
-// }
+/**
+ * Returns the battery strings for a given battery.
+ */
+function getBatteryStringsForBattery(battery: ComponentNode): Promise<ComponentNode[]> {
+    const stringCountDP = battery.dp.config + ".Properties.Battery.TotalStringCount";
+    return WebMI.readData([stringCountDP]).then(results => {
+        const numStrings = WebMI.resultAsNumber(results[0].value);
+        return range(1, numStrings).map(index => {
+            return new ComponentNode(ComponentType.BatteryString, battery.task, index);
+        });
+    });
+}
