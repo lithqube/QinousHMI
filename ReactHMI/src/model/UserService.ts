@@ -26,7 +26,7 @@ import { setUser, setAuthState } from "./store/Actions";
  * Calling WebMI.login() will still work though, if you must call in anyway and don't care about any of this.
  */
 let currentUser: User | undefined;
-WebMI.onClientVariableChange(variables => {
+WebMI.clientVariablesChange.subscribe(variables => {
     // No change in user
     if (currentUser && currentUser.name === variables.username) {
         return;

@@ -6,6 +6,8 @@
  * scope, so we return a reference to that as an export of this file.
  */
 
+import Notifier from "../common/Notifier";
+
 // Bachmann's webMI is very verbose, prevent any calls to console.log (.info and .error still allowed)
 const PREVENT_WEBMI_LOGGING = true;
 // Name of the property Bachmann's webMI uses to write itself to window scope, e.g. window.webMI
@@ -18,15 +20,20 @@ interface BMWebMI {
         unsubscribe: (subscriptionID: number) => void,
         login: (username: string, password: string, callback: (result: any) => void) => void,
         logout: (callback: (result: any) => void) => void,
-        addEventListener: (name: string, callback: (result: any) => void) => void
+        call : (functionName: string, args: any, callback: (result: any) => void) => void,
+        addEventListener: (name: string, callback: (result: any) => void) => void,
     }
+    addEvent: (id: any, name: string, callback: (result: any) => void) => void
 }
 
 // Set the reference to Bachmann's webMI to use it in this module. Checks first if there already
 // is a webMI which allows importing it via <script> or unit tests to use a mock, see test/WebMI.spec.ts.
-const webMI: BMWebMI = window[WEBMI_PROPERTY] ? window[WEBMI_PROPERTY] : importWebMI();
+if (!window[WEBMI_PROPERTY]) {
+    importWebMI();
+}
+const webMI: BMWebMI = window[WEBMI_PROPERTY];
 
-function importWebMI(): any {
+function importWebMI() {
     // Webpack will load webmi.js as a string, it won't be automatically interpreted as code on runtime.
     let rawWebMI = require("raw!./vendor/webmi.js");
     // Overwrite webmi.js to prevent calls to console.log
@@ -34,9 +41,8 @@ function importWebMI(): any {
         window["__webMINullLogger"] = function() {};
         rawWebMI = rawWebMI.replace(/console.log/g, "__webMINullLogger");
     }
-    // Interpret webmi.js
+    // Interpret webmi.js (writes itself to window)
     eval(rawWebMI);
-    return window[WEBMI_PROPERTY];
 }
 
 // Default error logger (uses console.error)
@@ -241,28 +247,60 @@ export function logout(): Promise<void> {
     });
 }
 
+/**
+ * Wraps webMI.data.call in a Promise. 
+ */
+export function call(functionName: string, args: any): Promise<any> {
+    return new Promise<any>(function(resolve, reject) {
+        webMI.data.call(functionName, args, ret => {
+            if (ret.error === undefined || ret.error === 0) {
+                console.log("call returns", ret);
+                resolve(ret.result);
+            }
+            else {
+                logError("webMI.data.call failed, function '%s', args %o, returned %o", functionName, args, ret);
+                reject({ error: ret.error, errorstring: ret.errorstring });
+            }
+        });
+    });
+}
+
+/**
+ * Notifier for "clientvariableschange"
+ * 
+ * E.g. `WebMI.clientVariablesChange.subscribe(variables => console.log(variables));`
+ */
+export const clientVariablesChange = new Notifier<ClientVariables>();
+
+/**
+ * Notifier for "statechange"
+ * 
+ * E.g. `WebMI.stateChange.subscribe(state => console.log(state));`
+ */
+export const stateChange = new Notifier<State>();
 
 
-// EXPERIMENTAL BELOW
-// ---------------------------------------------------------------------------------------------
-
-// TODO add removeListener
-
+// Type returned by webMI.data.addEventListener("clientvariableschanged")
 interface ClientVariables {
     username: string,
     right: string[]
 }
-type ClientVariablesCallback = (variables: ClientVariables) => void;
 
-const listeners: any = [];
-export function onClientVariableChange(callback: ClientVariablesCallback) {
-    listeners.push(callback);
+// Type returned by webMI.addEvent("statechange")
+export const enum State {
+    ConnectionFailure = -1
 }
 
+// Connect to 'clientvariableschange'
 if (webMI.data.addEventListener) {
-    webMI.data.addEventListener("clientvariableschange", function(e) {
-        //console.log("webMI: client vars", e);
-        listeners.forEach(listener => listener(e));
+    webMI.data.addEventListener("clientvariableschange", event => {
+        clientVariablesChange.notify(event);
     });
 }
 
+// Connect to 'statechange'
+if (webMI.addEvent) {
+    webMI.addEvent(webMI.data, "statechange", state => {
+        stateChange.notify(state);
+    });
+}

@@ -9,6 +9,7 @@ if (typeof Promise === 'undefined') {
 
 // Map
 require("core-js/fn/map");
+require("core-js/fn/set");
 
 // fetch()
 // require('whatwg-fetch');

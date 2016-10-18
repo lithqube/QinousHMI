@@ -44,9 +44,8 @@ div[data-reactroot] {
   align-items: center;
   justify-content: space-between;
   flex: 0 0 auto;
-  min-height: 20px;
+  min-height: 33px;
+  z-index: 1;
   background-color: $colorBlueGreyDark;
   color: white;
-  min-height: 33px;
 }
-

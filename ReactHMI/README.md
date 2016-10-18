@@ -1,7 +1,8 @@
 # Frontend
 
-This is the Qinous Frontend.
-It is written in [Typescript](http://www.typescriptlang.org/), uses [React](https://facebook.github.io/react/) with Redux and [webpack](https://github.com/webpack/webpack) for creating production and development builds. See additional information on why and how we use these components below.
+This is the Qinous Frontend. It can monitor and control a Qinous energy management system.
+
+It is written in Typescript, uses React as its view and Redux as its model layer. Development and production bundles are created using Webpack. Below you can find more information on why and how we use these dependencies.
 
 ## Install
 
@@ -13,7 +14,9 @@ Then, install all product and compile-time dependencies locally in the project f
 
 ## Build and deploy
 
-`npm run deploy` builds and deploys the project for production use. (The target is currently set in `config/deployment.js` but this will likely change.)
+`npm run deploy` builds the project and deploys it for production use. Files are minified and compressed, assets like icons that are below a given size are inlined either in the corresponding CSS- or JS-Files.
+
+The target is currently set in `config/deployment.js` but this will likely change.
 
 ## Build
 
@@ -23,7 +26,7 @@ Then, install all product and compile-time dependencies locally in the project f
 
 ## Test
 
-`npm run test` runs all unit tests. (TODO not yet run automatically on deployment)
+`npm run test` runs all unit tests. Right now, the unit tests are not run automatically when you build or deploy.
 
 ## Develop
 
@@ -61,11 +64,19 @@ Because of WebMI it’s not possible to run the application on a locally running
 
 ## How we use Webpack
 
-This application uses webpack's capability to require/import assets in the source code in order to bundle them together with the final application. 
+This application uses [webpack's](https://github.com/webpack/webpack) capability to require/import assets in the source code in order to bundle them together with the final application. 
 
 Some examples: Wrapping Bachmann’s webMI.js is done using a raw importer (see `model/WebMI.ts`) because it’s not designed to be used as a module. SVG-Icons are also imported as raw SVG and placed directly in HTML. That way we can easily color them using CSS. Keep these use-cases in mind when thinking about changing the bundling technology.
 
-We don’t bundle CSS and font files together with the source code, though.
+We don’t bundle CSS and font files together with the source code, though. They are both loaded as external resources.
+
+## Why we use Typescript
+
+[Typescript](http://www.typescriptlang.org/) allows us to use types in order to improve documentation and tooling, like for example refactoring. We use ‘strict null checks’ in order to catch or avoid `undefined` or `null` values. Keep it mind though, that Typescript only gives us type-safety on compile-time, not during runtime.
+
+We also use Typescript in order to be able to use new ES2015 features (or even newer ones) while still supporting older browsers by transpiling down to ES5. Be aware that we don’t *polyfill all the things* but only as few features as necessary. See `config/polyfills.js` for more details.
+
+Typescript also allows us to use React-specific JSX syntax for templates thus eliminating the need for Babel completely.
 
 ## Why we use React
 

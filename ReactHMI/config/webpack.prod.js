@@ -5,6 +5,7 @@ process.env.NODE_ENV = 'production';
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CompressionPlugin = require("compression-webpack-plugin");
 const autoprefixer = require('autoprefixer');
 const env = require('./env');
 
@@ -141,6 +142,17 @@ module.exports = {
     }),
 
     // Save CSS in dedicated file (don't bundle)
-    extractCSS
+    extractCSS,
+
+    // Use compression at the end
+    new CompressionPlugin({
+        asset: "[path].gz[query]",
+        algorithm: "gzip",
+        test: /\.js$|\.css$/,
+        threshold: 4096,
+        minRatio: 0.8
+    })
   ]
 };
+
+

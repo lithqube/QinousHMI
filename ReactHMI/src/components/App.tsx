@@ -5,27 +5,38 @@ import FooterStats from "./FooterStats";
 import FooterEvents from "./FooterEvents";
 import ViewContainer from "./ViewContainer";
 import ViewSelector from "./ViewSelector";
+import OfflineNotification from "./OfflineNotification";
 import Auth from "./Auth";
 import Home from "./Home";
-import { fetchComponentTree } from "../model/store/Actions";
+import { fetchComponentTree, AppState } from "../model/store/Actions";
 import store from "../model/store/Store";
 import "../model/UserService";
+import { startTrackingConnectionState, ConnectionState } from "../model/ConnectionService";
 
-interface Props {}
+interface Props {
+    connection: ConnectionState
+}
 interface State {}
 
 class App extends React.Component<Props, State> {
 
     componentDidMount() {
+        startTrackingConnectionState();
         store.dispatch(fetchComponentTree());
     }
 
     render() {
-        return <div>
+        const connection = this.props.connection;
+        const isOffline = connection !== ConnectionState.Online;
+        const className = isOffline ? "offline" : "";
+        const notification = isOffline ? <OfflineNotification connection={connection}/> : undefined;
+        const auth = isOffline ? undefined : <Auth/>
+        return <div className={className}>
+            {notification}
             <div className="header">
                 <Home/>
                 <Navigation/>
-                <Auth/>
+                {auth}
             </div>
             <div className="main">
                 <ViewSelector/>
@@ -39,4 +50,8 @@ class App extends React.Component<Props, State> {
     }
 }
 
-export default connect()(App);
+const mapStateToProps = (state: AppState) => ({
+    connection: state.connectionState,
+});
+
+export default connect(mapStateToProps)(App);

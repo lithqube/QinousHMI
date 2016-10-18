@@ -12,8 +12,8 @@ import { EventInfo } from "../EventService";
 import { User, AuthState } from "../UserService";
 import { getComponentTree } from "../ComponentService";
 import { subscribeEvents } from "../EventService";
+import { ConnectionState } from "../ConnectionService";
 import * as WebMI from "../WebMI";
-
 
 const SET_ACTIVE_VIEW = "setActiveView";
 const SET_ACTIVE_NODE = "setActiveNode";
@@ -38,6 +38,11 @@ export const setActiveEvents = (events: EventInfo[]) => ({
     type: SET_ACTIVE_EVENTS,
     events
 });
+
+export const setConnectionState = (state: ConnectionState) => ({
+    type: "SET_CONNECTION_STATE",
+    state
+})
 
 export function setAuthState(state: AuthState) {
     return {
@@ -93,26 +98,28 @@ export function fetchComponentTree() {
 }
 
 // Application state
-interface State {
+export interface AppState {
     systemNode?: ComponentNode;
     activeNode?: ComponentNode;
     activeView?: string; // TODO change this to dedicated type
     activeEvents?: EventInfo[];
     user?: User;
     authState?: AuthState
+    connectionState?: ConnectionState
 }
 
-function merge(state: State, partialState: State): State {
+function merge(state: AppState, partialState: AppState): AppState {
     return Object.assign({}, state, partialState);
 }
 
-const defaultState: State = {
+const defaultState: AppState = {
     activeView: "Monitoring",
-    authState: AuthState.Ready
+    authState: AuthState.Ready,
+    connectionState: ConnectionState.Online
 }
 
 // Reducer
-export const reducer = (state: State = defaultState, action) => {
+export const reducer = (state: AppState = defaultState, action) => {
     switch(action.type) {
         case "SET_SYSTEM_NODE":
             return merge(state, {
@@ -139,6 +146,10 @@ export const reducer = (state: State = defaultState, action) => {
             return merge(state, {
                 authState: action.state
             });
+        case "SET_CONNECTION_STATE":
+            return merge(state, {
+                connectionState: action.state
+            })
         default:
             return state;
     }

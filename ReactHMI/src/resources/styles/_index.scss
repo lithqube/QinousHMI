@@ -24,3 +24,5 @@ $colorBlueGreyDark: rgb(114, 136, 157); // Footer, Buttons, Primary form buttons
 @import "footer";       // Footer (stats, events)
 @import "monitoring";   // View: Monitoring
 @import "protocol";     // View: Protocol
+
+@import "alarm";        // Overriding rules in case of alarms

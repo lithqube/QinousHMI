@@ -26,14 +26,16 @@ interface State {}
 // Icons for each view
 const viewIcons = {
     "Monitoring" : require("!raw!../resources/icons/view_monitoring.svg"),
-    "Protocol" : require("!raw!../resources/icons/view_protocol.svg")
+    "Protocol" : require("!raw!../resources/icons/view_protocol.svg"),
+    "Diagram" : require("!raw!../resources/icons/view_diagram.svg") 
 }
 
 class ViewSelector extends React.PureComponent<Props, State> {
 
     protected availableViews = [
         "Monitoring",
-        "Protocol"
+        "Protocol",
+        "Diagram"
     ];
 
     didClickSelector(view: string) {

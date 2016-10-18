@@ -6,6 +6,7 @@ import * as React from "react";
 import { connect } from "react-redux";
 import Monitoring from "./views/Monitoring";
 import Protocol from "./views/Protocol";
+import Diagram from "./views/Diagram";
 
 const mapStateToProps = (state) => ({
     activeView: state.activeView
@@ -17,8 +18,9 @@ interface Props {
 
 const views = {
     "Monitoring": <Monitoring/>,
-    "Protocol": <Protocol/>
-}
+    "Protocol": <Protocol/>,
+    "Diagram": <Diagram/>
+};
 
 class ViewContainer extends React.PureComponent<Props, {}> {
 
