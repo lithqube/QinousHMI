@@ -2,11 +2,10 @@ import * as WebMI from "./WebMI";
 
 /**
  * QUESTIONS
- * - Some calls have the following structure: error, remaining, result. What's "remaining"? is this paging?
  * - TOC sometimes there is an idxstop and sometimes not. why?
  * - Is TOC fifo, e.g. right now 77 toc entries. this will always be in that range?
+ * - Did you use Highstock? Why not? It's not 100% obvious how to ideally use it with stock.
  */
-
 
 interface DataRecorder {
     recid: number;
@@ -27,7 +26,7 @@ interface Channel {
  * Maps between indices and timestamps
  * Time is relative to the sytem time of the PLC. This is in UTC, but it's possible that it is out of sync.
  */
-interface TOC {
+export interface TOCEntry {
     idxstart: number;
     idxstarttrig: number;
     idxstop: number;   
@@ -39,10 +38,10 @@ interface TOC {
     timestoptrig: number;
 }
 
-interface IndexRange {
-    idxstart: number;
-    idxend: number;
-}
+// interface IndexRange {
+//     idxstart: number;
+//     idxend: number;
+// }
 
 interface Sample {
     i: number; // index (starting at 1)
@@ -57,6 +56,63 @@ interface ReadResult {
     samples: Sample[];
 }
 
+const READ_BY_INDEX_MAX_BATCH_SIZE: number = 5000;
+
+
+class IndexRange {
+    constructor(readonly start: number, readonly end: number) {
+    }
+}
+
+/**
+ * A table of content.
+ */
+export class TOC {
+    readonly entries: TOCEntry[];
+    
+    constructor(entries: TOCEntry[]) {
+        this.entries = entries;
+        this.fixRanges();
+    }
+
+    getIndexRangeForTimeRange(timeStart: number, timeEnd: number): IndexRange {
+        const a = this.getIndexRangeForTime(timeStart);
+        const b = this.getIndexRangeForTime(timeEnd);
+        return new IndexRange(a.start, b.end);
+    }
+
+    getIndexRangeForTime(time: number): IndexRange {
+        // TODO do binary search       
+        let index = 0;
+        for (let i = 0, n = this.entries.length; i < n; i++) {
+            if (time < this.entries[i].timestart) {
+                const index = Math.max(0, i - 1);
+                const entry = this.entries[index];
+                return new IndexRange(entry.idxstart, entry.idxstop);
+            }
+        }
+        const lastEntry = this.entries[this.entries.length - 1];
+        return new IndexRange(lastEntry.idxstart, lastEntry.idxstop);
+    }
+
+    /**
+     * The last entry of the toc is the one where the recorder is currently
+     * still recording to. This toc will have a idxstop of 0, because scope
+     * won't let us know the actual last index.
+     */
+    protected fixRanges() {
+        const n = this.entries.length;
+        if (n === 0) {
+            return;
+        }
+        const lastEntry = this.entries[n - 1];
+        if (lastEntry.idxstop === 0) {
+            lastEntry.idxstop = lastEntry.idxstart + READ_BY_INDEX_MAX_BATCH_SIZE;
+        }
+    }
+
+
+}
 
 export function getDataRecorders(): Promise<DataRecorder[]> {
     return WebMI.call("m1scope_getrecorder", {});
@@ -68,12 +124,12 @@ export function getChannels(recorderName: string): Promise<Channel[]> {
     });
 }
 
-export function getTOC(recorderName: string): Promise<TOC[]> {
+export function getTOC(recorderName: string): Promise<TOC> {
     return WebMI.call("m1scope_getcontent", { 
         recname: recorderName,
-        idxstart: 0, // TODO what are these?
+        idxstart: 0,
         limit: 0
-    });
+    }).then(entries => new TOC(entries));
 }
 
 export function getIndices(recorderName: string, timestart: number, timeend: number): Promise<IndexRange> {
@@ -82,7 +138,7 @@ export function getIndices(recorderName: string, timestart: number, timeend: num
         timestart: timestart,
         timeend: timeend
     }).then(result => {
-        return <IndexRange>{ idxstart: result[0].idxstart, idxend: result[0].idxend };  
+        return new IndexRange(result[0].idxstart, result[0].idxend);  
     });    
 }
 
@@ -91,38 +147,20 @@ export function readByIndex(recorderName: string, channelNames: string[], startI
         recname: recorderName,
         idxstart: startIndex,
         idxstop: endIndex,
-        limit: 5000, 
+        limit: READ_BY_INDEX_MAX_BATCH_SIZE, 
         channel: channelNames
     }).then(result => result[0]); // because our api only allows 1 recorder
 }
 
-export function readByTimestamp(recorderName: string, channelNames: string[], startTime: number, endTime: number): Promise<ReadResult> {
-    return WebMI.call("m1scope_querytime", {
-        recname: recorderName,
-        timestart: startTime,
-        timeend: endTime,
-        limit: 5000, 
-        channel: channelNames
-    }).then(result => result[0]);
-}
-
-// Scope.readIndex = function(recorders, channels, startIndex, endIndex, dynamic, callbackFunction) {
-
-// 	var lastIndex = [];
-// 	var remaining = false;
-// 	var mode = "readIndex";
-
-// 	//--------------------
-// 	webMI.data.call("m1scope_queryfilter",{"recname": recorders,"idxstart" : startIndex,"idxstop" : endIndex,"limit" : 5000,"channel" : channels},function(e) {
-// 		//--------------------
-// 		var existingRecorders = checkInput(e.result,recorders);
-// 		var response = e.result;
-// 		var returnBuffer = new Array();
-// 		// iterate over all recorders
-// 		var buffer = createBuffer(mode, response, existingRecorders, returnBuffer, lastIndex, remaining, dynamic, recorders, endIndex);
-// 		callbackFunction(buffer.returnBuffer,buffer.remaining,buffer.lastIndex);
-// 	});
-// };
+// export function readByTimestamp(recorderName: string, channelNames: string[], startTime: number, endTime: number): Promise<ReadResult> {
+//     return WebMI.call("m1scope_querytime", {
+//         recname: recorderName,
+//         timestart: startTime,
+//         timeend: endTime,
+//         limit: 5000, 
+//         channel: channelNames
+//     }).then(result => result[0]);
+// }
 
 
 

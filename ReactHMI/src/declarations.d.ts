@@ -3,3 +3,7 @@
 declare var require: {
     (path: string): string
 }
+
+declare module "highcharts"
+declare module "highcharts/highcharts"
+declare module "highcharts/highstock"

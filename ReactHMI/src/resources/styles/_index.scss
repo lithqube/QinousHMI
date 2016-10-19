@@ -22,7 +22,8 @@ $colorBlueGreyDark: rgb(114, 136, 157); // Footer, Buttons, Primary form buttons
 @import "common";       // Common components
 @import "header";       // Header (navigation, login)
 @import "footer";       // Footer (stats, events)
-@import "monitoring";   // View: Monitoring
-@import "protocol";     // View: Protocol
+@import "view_monitoring";
+@import "view_protocol";
+@import "view_diagram";
 
 @import "alarm";        // Overriding rules in case of alarms

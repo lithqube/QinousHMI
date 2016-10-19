@@ -113,7 +113,7 @@ function merge(state: AppState, partialState: AppState): AppState {
 }
 
 const defaultState: AppState = {
-    activeView: "Monitoring",
+    activeView: "Diagram",
     authState: AuthState.Ready,
     connectionState: ConnectionState.Online
 }

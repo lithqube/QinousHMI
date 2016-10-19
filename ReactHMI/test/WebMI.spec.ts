@@ -1,14 +1,6 @@
 import * as mocha from "mocha";
 import { assert } from "chai";
-
-// Setup a mock of Bachmann's webMI before importing our wrapper at model/WebMI.
-// Bachmann's webMI writes itself to a globally available "window".
-global["window"] = { 
-    webMI: {
-        data : {}
-    } 
-}
-const mockedBachmannWebMI = global["window"].webMI;
+import { mockedWebMI } from "./mock/webMI";
 import * as WebMI from "../src/model/WebMI";
 
 // Disable any logging by WebMI wrapper
@@ -18,7 +10,7 @@ describe("WebMI Wrapper", function() {
     
     it("can read data", function() {
         // Mock data.read
-        mockedBachmannWebMI.data = {
+        mockedWebMI.data = {
             read(nodeIDs, callback) {
                 assert.deepEqual(nodeIDs, ["myDataPoint"], "datapoint argument for data.read");
                 const results = nodeIDs.map(id => ({
@@ -36,7 +28,7 @@ describe("WebMI Wrapper", function() {
     });
 
     it("can handle errors when reading data", function() {
-        mockedBachmannWebMI.data = {
+        mockedWebMI.data = {
             read(nodeIDs, callback) {
                 callback([{
                     errorstring: "AnError"
@@ -52,7 +44,7 @@ describe("WebMI Wrapper", function() {
     });
 
     it("can subscribe to a datapoint", function() {
-        mockedBachmannWebMI.data = {
+        mockedWebMI.data = {
             subscribe(nodeID, callback) {
                 callback({
                     value: 111
@@ -67,7 +59,7 @@ describe("WebMI Wrapper", function() {
     });
 
     it("can report errors on subscriptions", function() {
-        mockedBachmannWebMI.data = {
+        mockedWebMI.data = {
             subscribe(nodeID, callback) {
                 callback({
                     value: undefined
@@ -81,7 +73,7 @@ describe("WebMI Wrapper", function() {
     });
 
     it("can unsubscribe from a datapoint", function() {
-        mockedBachmannWebMI.data = {
+        mockedWebMI.data = {
             unsubscribe(id) {
                 assert.equal(id, 9, "value of subscription ID");
             },
@@ -91,7 +83,7 @@ describe("WebMI Wrapper", function() {
 
     it("can subscribe to a group of datapoints", function() {
         let expected = ["dp1", "dp2"];
-        mockedBachmannWebMI.data = {
+        mockedWebMI.data = {
             subscribe(nodeID, callback) {
                 const i = expected.indexOf(nodeID);
                 assert(i > -1, `did not expect ${nodeID}`);
@@ -105,7 +97,7 @@ describe("WebMI Wrapper", function() {
     it("can unsubscribe from a group of datapoints", function() {
         let uniqueID = 0;
         let expected = [1, 2];
-        mockedBachmannWebMI.data = {
+        mockedWebMI.data = {
             subscribe(nodeID, callback) {
                 return ++uniqueID;
             },
@@ -122,7 +114,7 @@ describe("WebMI Wrapper", function() {
 
     it("group subscription will call callback only if all values are set", function() {
         let callbacks: ((result: any)=> void)[] = [];
-        mockedBachmannWebMI.data = {
+        mockedWebMI.data = {
             subscribe(nodeID, callback) {
                 callbacks.push(callback);
             }
